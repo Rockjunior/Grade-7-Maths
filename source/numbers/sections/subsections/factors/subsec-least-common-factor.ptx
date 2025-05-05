@@ -1,0 +1,232 @@
+<subsection xml:id="subsec-Least-Common-Factor">
+    <title>Least Common Multiple </title>
+    <p>
+        The Least Common Multiple of two or more numbers is the smallest number that is divisible by two or more numbers without a reminder.
+        The Least Common Multiple (LCM) is also referred to as the Lowest Common Multiple (LCM) and Least Common Divisor (LCD).
+    </p>
+    <p>
+    Example:
+    </p>
+    <p>
+    Murunga and Onyimbo have busy schedules but want to meet regularly for a football game. Murunga have free time every <m>12</m> days and Onyimbo has free time every <m>18</m> days. To find when they will both be free on the same day to play, we solve using LCM.
+    </p>
+    <p>
+    Therefore, we list the multiples of Murunga's free days: <m>12,24,36,48,60,72,...</m> and Onyimbo's free days: <m>18,36,54,72,90,...</m>
+    </p>
+    <p>
+    The common  multiples are <m>36,72</m> and the smallest commom multiple is <m>36</m>.
+    </p>
+    <p>
+        Hence Muranga and Onyimbo will both be free on the <m>36</m> th day to play football game.
+    </p>
+    <!-- <activity>
+        <statement>
+            <p></p>
+            <p>
+            1. In groups of <m>5</m> students each, play a game such that if the first person gives a number the next person will add <m>2</m> to the number and the third person will add <m>3</m> to the number formed by the second person and so is the forth and fifth person.i.e if the first person chooses <m>6</m> then the next numbers would be <m>8,11,15,20</m>  .
+            </p>
+            <p>
+            2. Write down the multiples of each numbers i.e multiples of <m>6 = </m> <m>6,12,18,24,30,36,42,48,54...</m> and the multiples of <m>8 = </m> <m>8,16,24,32,40,48,56,64,...</m>
+            </p>
+            <p>
+            3. Look at the lists of multiples of numbers formed and find the smallest multiple that appears in both lists which is the LCM. FOR example the LCM of <m>6</m> and <m>8</m> is <m>24</m>.
+            </p>
+            <p>
+            4.Use the LCM to check if the number is divided by the original numbers i.e <me>24 \div 6 = 4 </me> and <me>24 \div 8 =3 </me> which are all whole numbers . Hence <m>24</m> is the LCM.
+            </p>
+            <p>
+            5. Share your work with other learners.
+            </p>
+        </statement>
+    </activity> -->
+    <activity>
+        <task>
+            <statement>
+                <p>
+                    Click on the first dropdown next to <c>Multiples of</c> and scroll to select the any number.
+                </p>
+                <p> 
+                    After selecting a number, <c>-</c> and <c>+</c> buttons will appear. Click the <c>+</c> button to add multiples of the selected number. To remove a listed multiple, click the <c>-</c> button. 
+                </p> 
+                <p> 
+                    Keep clicking the <c>+</c> button until you have added at least <m>10</m> multiples for the chosen number.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Click on the second dropdown next to <c>Multiples of</c> and scroll to select a different number from the one you selected on the first dropdown.
+                </p>
+                <p> 
+                    After selecting a number, <c>-</c> and <c>+</c> buttons will appear. Click the <c>+</c> button to add multiples of the selected number. To remove a listed multiple, click the <c>-</c> button. 
+                </p> 
+                <p> 
+                    Keep clicking the <c>+</c> button until you have added at least <m>10</m> multiples for the chosen number.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                   Select the checkbox next to <c>Common Multiples</c>.
+                </p>
+                <p>
+                     If none of the listed multiples are highlighted in blue, keep clicking the <c>+</c> button to generate more multiples. 
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Select the checkbox next to <c>Least Common Multiple</c>.
+                </p>
+                <p>
+                    In the top right corner, click the circular arrow icon to reset the activity. Then, select new numbers from the dropdowns and repeat the process.               
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Write down what you observed and share with other learner in class.
+                </p>
+                <figure>
+                    <caption></caption>
+                    <interactive xml:id="least-common-multiple-activity" geogebra="z6pjjhkh" width="100%" aspect="7:5" reset-icon="yes" material-width="900px"/>
+                </figure>
+            </statement>
+        </task>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Find the LCM of <m>5 \text{ and } 7</m>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                To find the LCM of <m>5 \text{ and } 7</m>, list the multiples of each number 
+                until at least one of the multiples appears on all lists
+            </p>
+            <p>
+                Multiples of <m>5:</m> are <m>5, 10, 15, 20, 25, 30, {\color{blue}35}, 40, 45,50,55,60,65,{\color{blue}70},75,...</m>
+            </p>
+            <p>
+                Multiples of <m>7:</m> are <m>7, 14, 21, 28, {\color{blue}35}, 42, 49,56,63,{\color{blue}70},77,84,91,98,...</m>
+            </p>
+            <p>
+                The common multiples are <m>{\color{blue}35},{\color{blue}70},...</m>
+            </p>
+            <p>
+                The least common multiple is <m>{\color{blue}35}</m>
+            </p>
+            <p>
+                Therefore, LCM of <m>5</m> and <m>7</m> is <m>35</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Grade 7 pupils was preparing for a party and used a ribbon to decorate their classroom. 
+                What is the shortest possible length of a ribbon that can be cut into equal pieces of <m>10</m> cm, <m>12</m> cm 
+                or <m>18</m> cm without a remainder?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                To determine the shortest possible length of the ribbon that can be cut
+                 into equal pieces of <m>10</m> cm, <m>12</m> cm, and <m>18</m> cm without a remainder, 
+                 we need to find the Least Common Multiple (LCM) of these three numbers.
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Write down your numbers in a top table row
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Starting with the lowest prime numbers, divide the row of numbers by a prime number 
+                            that is evenly divisible into at least one of your numbers and bring down the result into the next table row.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If any number in the row is not evenly divisible just bring down that number.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Continue dividing rows by prime numbers that divide evenly into at least one number
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            When the last row of results is all <m>1</m>'s you are done.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+                <tabular>
+                    <row bottom="medium">
+                        <cell right="medium"><m>{\color{blue}2}</m></cell>
+                        <cell right="medium"><m>{\color{red}10}</m></cell>
+                        <cell right="medium"><m>{\color{red}12}</m></cell>
+                        <cell right="medium"><m>{\color{red}18}</m></cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell right="medium"><m>{\color{blue}2}</m></cell>
+                        <cell right="medium"><m>5</m></cell>
+                        <cell right="medium"><m>6</m></cell>
+                        <cell right="medium"><m>9</m></cell>
+                    </row>
+                    <row bottom="medium"> 
+                        <cell right="medium"><m>{\color{blue}3}</m></cell>
+                        <cell right="medium"><m>5</m></cell>
+                        <cell right="medium"><m>3</m></cell>
+                        <cell right="medium"><m>9</m></cell>
+                    </row>
+                    <row bottom="medium"> 
+                        <cell right="medium"><m>{\color{blue}3}</m></cell>
+                        <cell right="medium"><m>5</m></cell>
+                        <cell right="medium"><m>1</m></cell>
+                        <cell right="medium"><m>3</m></cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell right="medium"><m>{\color{blue}5}</m></cell>
+                        <cell right="medium"><m>5</m></cell>
+                        <cell right="medium"><m>1</m></cell>
+                        <cell right="medium"><m>1</m></cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell right="medium"></cell>
+                        <cell right="medium"><m>1</m></cell>
+                        <cell right="medium"><m>1</m></cell>
+                        <cell right="medium"><m>1</m></cell>
+                    </row>
+                </tabular>
+            <p>
+                Find the product of the prime numbers in the first column to get the LCM:
+            </p>
+            <p>
+                <m>{\color{blue}2} \times {\color{blue}2} \times {\color{blue}3} \times {\color{blue}3} \times {\color{blue}5} = 180</m>
+            </p>
+            <p>
+                The LCM of <m>10, 12 \text{ and } 18</m> is <m>180.</m>
+            </p>
+            <p>
+                Therefore, the shortest possible length of the ribbon should be <m>180</m> cm long.
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                Exercise for LCM goes here
+            </p>
+        </statement>
+    </exercise>
+</subsection>

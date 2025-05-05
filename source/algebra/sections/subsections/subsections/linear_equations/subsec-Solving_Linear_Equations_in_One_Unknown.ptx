@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-Solving_Linear_Equations_in_One_Unknown">
+      <title>Solving Linear Equations in One Unknown.</title>
+
+        <activity>
+          <title>Work in Groups</title>
+
+          <p>
+            <ol>
+
+            <li>
+                <p>
+                  On one side of a beam balance, place five matchboxes of the same weight.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                On the other side, place two matchboxes.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                To the side with two matchboxes, gradually add grains of sand until the beam balances.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                From both sides, remove two matchboxes and observe whether the beam balances.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Represent the mass of the added sand with a letter and form an equation involving the letter.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Discuss and share your results with other groups.
+              </p>
+            </li>
+
+          </ol>
+          </p>
+        </activity>
+
+        <p>
+          <me>
+            {\color{blue} \text{Learning Point.}}
+          </me>          
+        </p>
+          
+        <p>
+        <ol>
+
+          <li>
+            <p>
+              <me>{\color{green} \text{Subtracting a number from both sides of the equation.}}</me>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <me>{\color{green} \text{Adding a number to both sides of the equation.}}</me>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <me>{\color{green} \text{Dividing both sides of the equation by a number.}}</me>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <me>{\color{green} \text{Multiplying both sides of the equation by a number.}}</me>
+            </p>
+          </li>
+
+        </ol>
+        </p>
+
+        <example>
+
+        <statement>
+
+          <p>
+            Solve the following equation:
+          </p>
+
+          <p>
+            <me>x + 4 = 7</me>
+          </p>
+          
+        </statement>
+
+        <solution>
+
+          <p>
+            Subtract <m>4</m> from both sides.
+          </p>
+          
+          <sidebyside>
+            
+            <image source="./linear_inequality_sum.png" width="50%">
+              <shortdescription>(for accessibility)</shortdescription>
+            </image>
+
+            <p>
+              <me>\, \, \rightarrow</me>
+            </p>
+
+            <image source="./linear_inequality_sum_2.png" width="50%">
+              <shortdescription>(for accessibility)</shortdescription>
+            </image>
+
+          </sidebyside>
+
+          <sidebyside>
+
+              <p>
+              By substracting <m>5</m> from both sides you balance the beam balance which is represents the following equation. <m>x + 4 - 4 = 7 - 4</m>
+            </p>
+
+            <p>
+              <me>\, \,\rightarrow</me>
+            </p>
+
+            <p>
+              Therefore,  <me>x = 3</me>
+            </p>
+
+          </sidebyside>
+          
+        </solution>
+          
+        </example>
+
+        <example>
+
+          <statement>
+            <p>
+              Solve <me>5x - 3 = 17</me>
+            </p>
+          </statement>
+
+          <solution>
+            <p>
+              Add <m>3</m> to both sides so that we elimina,
+            </p>
+
+            <p>
+              <me>5x - 3 + 3 = 17 + 3</me>
+            </p>
+            
+            <p>
+              <me>5 x = 20</me>
+            </p>
+
+            <p>
+              Divide both sides by <m>5</m>
+            </p>
+
+            <p>
+              <me>\frac{5x}{5} = \frac{20}{5}</me>
+            </p>
+
+            <p>
+              <me>x = 4</me>
+            </p>
+          </solution>
+        </example>
+
+        <example>
+
+          <statement>
+            <p>
+              Solve <me>\frac{1}{4}h = 3</me>
+            </p>
+          </statement>
+
+          <solution>
+            <p>
+              Multiply both sides by 4
+            </p>
+
+            <p>
+              <me>\frac{1}{4}h \times 4 = 3 \times 4 </me>
+            </p>
+
+            <p>
+              The <m>4</m> on the left side of the equation cancels out and we are left with <me>h = 12</me>
+            </p>
+
+            <p>
+              
+            </p>
+
+            <p>
+              <me>\frac{4h}{4} = 12</me>
+            </p>
+            
+            <p>
+              <me>h = 12</me>
+            </p>
+          </solution>
+
+        </example>
+
+        <exercise>
+
+          <statement>
+            <p>
+              Exercise Here.
+            </p>
+          </statement>
+
+        </exercise>
+    </subsection>

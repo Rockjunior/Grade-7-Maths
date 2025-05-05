@@ -1,0 +1,50 @@
+        <subsection xml:id="subsec-Rlating-exterior-angles-and-the-numer-of-sides-of-a-polygon">
+            <title>Relating exterior angles and the numer of sides of a polygon</title>
+            <p>
+                <term>Exterior angles</term> are the angles between a polygon and the extended line from the next side.
+            </p>
+            <p>
+                Given the parallelogram below, the exterior angles are;
+
+            </p>
+            <p>
+                <m>\angle p, \angle l, \angle s \text{ and } \angle u</m>
+            </p>
+            
+             <figure>
+                <caption>Angles in a straight line</caption>
+                <interactive xml:id="geogebra-Exterior-angles" platform="geogebra" width="90%" aspect="4:3">
+                <slate xml:id="geogebra-exterior-angles" surface="geogebra" material="kychybqc" aspect="4:3">
+                enableShiftDragZoom(true);
+                showResetIcon(true);
+                </slate>
+                </interactive>
+            </figure>
+
+            <p>
+                Sum of exterior angles of a polygon is always equal to <m>360^\circ.</m>
+            </p>
+
+            <p>
+                Exterior angle + its corresponding interior angle <m>=180^\circ.</m> i.e.
+            </p>
+            <p>
+                <me>p + q = 180^\circ</me>
+                <me>r + l = 180^\circ</me>
+                <me>u + w = 180^\circ</me>
+                <me>s + t = 180^\circ</me>
+            </p>
+
+            <p>
+                <term>Learning point</term>
+            </p>
+
+            <p>
+                To get the size of exterior angle of a regular polygon, divide <m>360^\circ</m> by the number of sides of the polygon.
+            </p>
+             <p>
+                Size of exterior angle <m> = \frac{360^\circ}{n}</m>.
+            </p>
+
+   
+        </subsection>

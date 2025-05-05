@@ -1,0 +1,161 @@
+  <subsection xml:id="subsec-area-of-a-rhombus">
+    <title>Area of a rhombus</title>
+    <p>
+      A rhombus is a type of quadrilateral that is a special kind of parallelogram. The key characteristics of a rhombus are:
+    </p>
+    <p>
+      <ol>
+        <li>
+          <p>
+            Opposite sides are parallel.
+          </p>
+        </li>
+        <li>
+          <p>
+            All sides have equal length.
+          </p>
+        </li>
+        <li>
+          <p>
+            Opposite angles are equa and adjacent angles are supplementary (they add up to <m>180°</m>).
+          </p>
+        </li>
+        <li>
+          <p>
+            The diagonals of a rhombus bisect each other at right angles (90°), meaning they intersect at 
+            a right angle and divide each other into two equal parts.
+          </p>
+        </li>
+      </ol>
+    </p>
+    <p>
+      The formula for the area <m>A</m> of a rhombus can be given in two common ways:
+    </p>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Using the diagonals: <me>A=\frac{1}{2}\times d_1 \times d_2</me>
+          </p>
+          <p>
+            where:
+          </p>
+          <p>
+            <m>d_1 </m>and <m>d_2</m> are the lengths of the two diagonals.
+          </p>
+        </li>
+        <li>
+          <p>
+            Using the base and height: <me>A= \text{base} \times \text{height}</me>
+          </p>
+          <p>
+            Where the base is the length of any side (since all sides are equal) and the 
+            height is the perpendicular distance between opposite sides.
+          </p>
+        </li>
+      </ul>
+    </p>
+    <activity>
+    
+      <figure>
+        <caption>Perimeter of different plane figures.</caption>
+        <interactive xml:id="geogebra-rhombus" platform="geogebra" width="150%" aspect="1:1">
+        <slate xml:id="rhombus-figures" surface="geogebra" material="wpuwtbwp" aspect="1:1" />
+        </interactive>
+     </figure>
+    </activity>
+
+
+    <example>
+      <statement>
+        <p>
+          Calculate the area of the figure given it's 
+          diagonals are <m>6cm</m> and <m>8cm</m>.
+        </p>
+        <image source="/Rhombus.png" width="40%">
+          <shortdescription>Rhombus</shortdescription>
+        </image>
+      </statement>
+      <solution>
+        <p>
+          Area of a rhombus <m>= \frac{1}{2}</m> short diagonals <m>\times</m> long diagonal.
+        </p>
+        <p>
+          <md>
+            <mrow> A=\amp \frac{1}{2}d_1 d_2</mrow>
+            <mrow> A=\amp \frac{1}{2} (6 \times 8)cm^2 </mrow>
+            <mrow> A=\amp 24 cm^2 </mrow>
+          </md>
+        </p>
+      </solution>
+
+    </example>
+   
+    <example>
+      <statement>
+        <p>
+          Calculate the area of each rhombus.
+        </p>
+        <sidebyside>
+           
+          <image width="40%">
+          <latex-image label="Rhombus-1">
+            \begin{tikzpicture}
+              \draw [thick,fill=yellow](0,0) coordinate (A)-- (4,4) coordinate (B)-- (8,4) coordinate (C)--(4,0) 
+              coordinate (D)-- (0,0) coordinate (A);
+              \node at (4,5){(a)};
+              \node at (4.5,2){4m};
+              \node at (2,-0.7){5m};
+              \draw [dashed,fill=black] (4,4) --(4,0);
+              \draw(3.5,0) coordinate (A)-- (3.5,0.5) coordinate (B)-- (4,0.5) coordinate (C)--  (4,0) 
+              coordinate(D)-- (3.5,0) coordinate (A);
+            \end{tikzpicture}
+          </latex-image>
+            
+          </image>
+
+          <image width="40%">
+            <latex-image label="Rhombus-2">
+              \begin{tikzpicture}
+                \draw [thick,fill=white](0,0) coordinate (A)-- (4,4) coordinate (B)-- (8,4) 
+                coordinate (C)--(4,0) coordinate (D)-- (0,0) coordinate (A);
+                \node at (4,5){(b)};
+                \node at (6,4.3){9cm};
+                \node at (4.5,2){7cm};
+                \draw [dashed,fill=black] (4,0) --(4,4);
+                \draw(4,3.5) coordinate (A)-- (4,4) coordinate (B)-- (4.5,4) coordinate (C)-- 
+                 (4.5,3.5) coordinate(D)-- (4,3.5) coordinate (A);
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </sidebyside>
+      </statement>
+      <solution>
+        <p>
+          (a)
+        </p>
+        <p>
+          Area of a rhombus by the base and height: <m>A= \text{base} \times \text{height}{}</m>.
+        </p>
+        <p>
+          <md>
+            <mrow> A= \amp \text{base} \times \text{height}</mrow>
+            <mrow> =\amp 5m \times 4m </mrow>
+            <mrow>= \amp 20m^2 </mrow>
+          </md>
+        </p>
+        <p>
+          (b)
+        </p>
+        <p>
+          <md>
+            <mrow> A= \amp \text{base} \times \text{height} </mrow>
+            <mrow> =\amp 9cm \times 7cm  </mrow>
+            <mrow> = \amp 63cm^2 </mrow>
+          </md>
+        </p>
+      </solution>
+    </example>
+    
+    
+  </subsection>

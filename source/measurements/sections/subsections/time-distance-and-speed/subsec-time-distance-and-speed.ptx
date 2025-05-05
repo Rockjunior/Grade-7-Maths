@@ -1,0 +1,87 @@
+  <subsection xml:id="subsec-time-distance-and-speed">
+    <title>Time,Distance and speed</title>
+  <p>
+    Why time, distance and speed.
+  </p>
+  <sidebyside>
+    <p>
+      <ul>
+        <li>
+          <p>
+            We use time, distance and speed in our daily life.
+          </p>
+        </li>
+        <li>
+          <p>
+            Time helps us to plan our day-to-day activities.Knowing distance helps 
+            us to plan when emberking on a journey. Speed helps us to determine 
+            how long we would take to cover a certain distance.
+          </p>
+        </li>
+      </ul>
+    </p>
+    <image source="/Time.png" width="50%">
+      <shortdescription>Time</shortdescription>
+    </image>
+  </sidebyside>
+  <p>
+    Note:
+  </p>
+  <sidebyside>
+    <image source="/explanation.png" width="40%">
+      <shortdescription>time</shortdescription>
+    </image>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Time is measured in seconds, minuites 
+            and hours.
+          </p>
+          <p>
+            Therefore, <m>hours</m>, <m>minutes</m> and 
+            <m>seconds</m> are the units of measurering time.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </sidebyside>
+  <example>
+    <statement>
+      <p>
+        What is the time on the clock face below?
+      </p>
+      <image source="/Exampl-1.png" width="40%">
+      <shortdescription></shortdescription>
+      </image>
+    </statement>
+    <solution>
+      <p>
+        The hour hand points at <m>10</m>. The minute 
+        hand point at <m>2</m>.
+      </p>
+      <p>
+        The time is <m>10:10</m>
+      </p>
+    </solution>
+  </example>
+  <example>
+    <statement>
+      <p>
+        Moraa recorded the time she spent during a morning 
+        run exercise.
+      </p>
+      <image source="/example-two.png" width="40%">
+        <shortdescription>Exe2</shortdescription>
+      </image>
+      <p>
+        For how long did he run?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Moraa ran for <m>2\, hour \,14 \,minuites \, 22 \, seconds</m>.
+      </p>
+    </solution>
+  </example>
+  </subsection>

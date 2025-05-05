@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Fractions</title>
+    <introduction>
+        <p>
+            Fractions play a key role in our daily lives. For example, Onyimbo, a father of four children, bought an orange for Ksh 50 and wanted to 
+            share it equally among his children. To ensure fairness, he first cut the orange into two equal halves. 
+            Then, he divided each half into two more equal parts, resulting in four equal pieces. Each child received one piece,
+            showing how fractions help in dividing things equally.
+        </p>
+        <sidebyside widths="25% 25% 25%">
+            <image>
+                <shortdescription>Circle</shortdescription>
+                <latex-image>
+                    \begin{tikzpicture}
+                            \fill[orange] (0,0) circle(2cm);
+                            \node at (0,0) {\large $1$};
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+
+            <image>
+                <shortdescription>Circle</shortdescription>
+                <latex-image>
+                    \begin{tikzpicture}
+                        \fill[orange] (-2,0) arc[start angle=180, end angle=360, radius=2cm] -- (0,0) -- cycle;
+                        \fill[orange] (0,0) -- (2,0) arc[start angle=0, end angle=180, radius=2cm] -- cycle;
+                        \draw[white, line width=2mm] (0,-2) -- (0,2);
+                        \node at (1,0) {\large $\frac{1}{2}$}; 
+                        \node at (-1,0) {\large $\frac{1}{2}$}; 
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+            <image>
+                <shortdescription></shortdescription>
+                <latex-image>
+                    \begin{tikzpicture}
+                        \fill[orange] (-2,0) arc[start angle=180, end angle=270, radius=2cm] -- (0,0) -- cycle;
+                        \fill[orange] (-2,0) arc[start angle=180, end angle=90, radius=2cm] -- (0,0) -- cycle;
+                        \fill[orange] (0,0) -- (2,0) arc[start angle=0, end angle=90, radius=2cm] -- cycle;
+                        \fill[orange] (0,0) -- (0,-2) arc[start angle=270, end angle=360, radius=2cm] -- cycle;
+                        \draw[white, line width=2mm] (0,-2) -- (0,2);
+                        \draw[white, line width=2mm] (-2,0) -- (2,0);
+                        \node at (-1,-1) {\large $\frac{1}{4}$}; 
+                        \node at (-1,1) {\large $\frac{1}{4}$};  
+                        \node at (1,1) {\large $\frac{1}{4}$};  
+                        \node at (1,-1) {\large $\frac{1}{4}$};  
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+        </sidebyside>
+    </introduction>
+    <xi:include href="subsections/fractions/subsec-arranging-fractions-in-ascending-order.ptx" />
+    <xi:include href="subsections/fractions/subsec-arranging-fractions-in-descending-order.ptx" />
+    <xi:include href="subsections/fractions/subsec-adding-proper-fractions.ptx" />
+    <xi:include href="subsections/fractions/subsec-adding-mixed-fractions.ptx" />
+    <xi:include href="subsections/fractions/subsec-subtracting-proper-fractions.ptx" />
+    <xi:include href="subsections/fractions/subsec-subtracting-mixed-fractions.ptx" />
+    <xi:include href="subsections/fractions/subsec-multiplying-a-fraction-by-a-whole-number.ptx" />
+    <xi:include href="subsections/fractions/subsec-multiplying-a-fraction-by-a-fraction.ptx" />
+    <xi:include href="subsections/fractions/subsec-multiplying-a-fraction-by-a-mixed-number.ptx" />
+    <xi:include href="subsections/fractions/subsec-reciprocal-of-fractions.ptx" />
+    <xi:include href="subsections/fractions/subsec-division-of-a-fraction-by-a-whole-number.ptx" />
+    <xi:include href="subsections/fractions/subsec-division-of-a-fraction-by-a-fraction.ptx" />
+    <xi:include href="subsections/fractions/subsec-division-of-a-fraction-by-a-mixed-number.ptx" />
+    <xi:include href="subsections/fractions/subsec-division-of-a-whole-number-by-a-fraction.ptx" />
+    <xi:include href="subsections/fractions/subsec-number-sequence-involving-fractions.ptx" />
+    <xi:include href="subsections/fractions/subsec-creating-number-sequences-involving-fractions.ptx" />
+</section>

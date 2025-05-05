@@ -1,0 +1,94 @@
+<subsection xml:id="subsec-complementary-and-supplimentary-angles">
+    <title>Complementary and supplimentary angles</title>
+
+    <p>
+        Angles that add together to make a straight line are called supplementary angles. 
+        If you know one supplementary angle you can subtract it from 180° to find a missing angle.
+    </p>
+
+    <activity>
+        <statement>
+
+            <p>
+                Here is an activity for you to explore on supplementary and complementary angles. 
+            </p>
+
+            <figure>
+                <caption>Supplimentary and complementary angles(Created with GeoGebra®,[Geogebra Content Team])</caption>
+                <interactive xml:id="geogebra-complementary-and-supplementary-angles-1" platform="geogebra" width="100%" aspect="4:3">
+                <slate xml:id="complementary-and-supplementary-angles-1" surface="geogebra" material="aew6mqbw" aspect="4:3">
+                    enableShiftDragZoom(true);
+                    showResetIcon(true);
+                </slate>
+                </interactive>
+            </figure>
+
+        </statement>
+
+        <hint>
+            <p>
+                Add the two angles
+            </p>
+        </hint>
+    </activity>
+
+
+    <activity>
+        <p>
+            Here is an activity for you to explore on supplementary angles formed by a parallel lines and a transversal. 
+        </p>
+
+        <figure>
+            <caption>Supplimentary angles(Created with GeoGebra®,[Geogebra Content Team])</caption>
+            <interactive xml:id="geogebra-complementary-and-supplementary-angles-2" platform="geogebra" width="100%" aspect="4:3">
+            <slate xml:id="complementary-and-supplementary-angles-2" surface="geogebra" material="wmbfsbgp" aspect="4:3">
+                enableShiftDragZoom(true);
+                showResetIcon(true);
+            </slate>
+            </interactive>
+        </figure>
+
+        
+        <!-- <figure>
+            <caption>Supplimentary angles</caption>
+            <interactive xml:id="complementary-and-supplementary-angles-2" geogebra="wmbfsbgp" width="90%" aspect="9:5"/>
+                
+        </figure> -->
+            
+    </activity>
+        
+    <exercise>
+
+        <statement>
+            <p> 
+                Here is another interactive activity to help you discover the properties of complementary and supplimentary angles.
+            </p>
+
+                <figure>
+                    <caption>Complementary and supplimentary angles(Created with GeoGebra®,[Geogebra Content Team])</caption>
+                    <interactive xml:id="complementary-and-supplementary-angles" platform="geogebra" width="100%" aspect="4:3">
+                    <slate xml:id="geogebra-Complementary-and-supplementary-angles" surface="geogebra" material="qrnfc2fp" aspect="4:3">
+                    enableShiftDragZoom(true);
+                    showResetIcon(true);
+                    </slate>
+                    </interactive>
+                </figure>
+
+                
+                <!-- <figure>
+                    <caption>complementary and supplimentary angles</caption>
+                    <interactive xml:id="complementary-and-supplementary-angles" geogebra="um8wkqty" width="90%" aspect="9:5"/>
+                        
+                </figure> -->
+                
+
+                <p>
+                    What do you notice from this activity?
+                </p>
+
+        </statement>
+                            
+    </exercise> 
+
+
+</subsection>

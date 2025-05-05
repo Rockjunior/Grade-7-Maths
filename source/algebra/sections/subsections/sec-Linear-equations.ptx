@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-Linear-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Linear Equations</title>
+
+    <introduction>
+
+      <p>
+        <term>Introduction to Linear Equations.</term>
+      </p>
+
+      <p>
+        Have you ever tried to balance a scale? 
+        If you add weight to one side, you must do the same to the other side to keep it balanced. 
+        This idea is the foundation of <em><term>linear equations.</term></em> 
+      </p>
+
+      <p>
+        <term>What is a Linear Equation?</term>
+      </p>
+
+      <p>
+        A <term>linear equation</term> is an equation where the highest power of the variable is 1. It has a simple form, such as:
+      </p>
+
+      <p>
+        <me>2x + 3 = 7</me>
+      </p>
+
+      <p>
+        Here, <m>x</m> is the unknown number, called a variable. To find <m>x</m>, we solve the equation step by step:
+      </p>
+
+      <p>
+        <me>2x = 7 − 3</me>
+      </p>
+
+      <p>
+        <me>2x = 4</me>
+      </p>
+
+      <p>
+        <me>x = \frac{2}{4}</me>
+      </p>
+
+      <p>
+        <me> x ​= 2</me>
+      </p>
+
+      <p>
+        This means the value of <m>x</m> that makes the equation true is <m>2.</m>
+      </p>
+
+      <p>
+        <term>Why are Linear Equations Important?</term>
+      </p>
+
+      <p>
+        Linear equations help us solve real-world problems, such as:
+
+        <ul>
+
+          <li>
+            <p>
+              <term>Calculating expenses:</term> If a book costs <m>b</m> dollars and you buy <m>4</m> books, the total cost is <m>4b</m>. If the total cost is <m>$40</m>, you can find the price of one book by solving <m>4b = 40</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <term>Finding unknown ages:</term> If a person's age is <m>x</m>, and their younger sibling is <m>3</m> years younger, we can write this as <m>x - 3.</m>
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <term>Distance and speed calculations:</term> If a car travels at <m>s</m> km per hour for <m>t</m> hours, the distance covered is <m>s \times t</m> km.
+            </p>
+          </li>
+
+        </ul>
+      </p>
+
+      <p>
+        You are going to learn how to:
+
+        <ul>
+
+          <li>
+            <p>
+              <term>Understand equations</term> – Recognizing how equations express equality.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <term>Solve for unknowns</term> – Finding the value of variables step by step.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <term>Use real-life applications</term> – Applying equations to everyday situations.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <term>Graph linear equations</term> – Representing equations on a coordinate plane.
+            </p>
+          </li>
+
+        </ul>
+      </p>
+
+      <p>
+        Linear equations are like puzzles waiting to be solved. 
+        With practice, you will see how they can make problem-solving easier and fun.
+      </p>
+
+    </introduction>
+
+    <xi:include href="subsections/linear_equations/subsec-Forming_Equations_in_one_Unknown.ptx" />
+
+    <xi:include href="subsections/linear_equations/subsec-Solving_Linear_Equations_in_One_Unknown.ptx" />
+
+    <xi:include href="subsections/linear_equations/subsec-Application_of_Linear_Equations_in_One_Unknown.ptx" />
+
+</section>

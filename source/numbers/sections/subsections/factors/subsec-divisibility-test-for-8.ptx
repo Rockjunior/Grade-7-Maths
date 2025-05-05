@@ -1,0 +1,83 @@
+ <subsection xml:id="subsec-Divisibility-test-for-8">
+    <title>Divisibility test for 8</title>
+    <p>
+        A number is divisible by <m>8</m> if the number formed by the digits in the ones, tens and hundreds place value is divisible by <m>8.</m>
+    </p>
+    <activity>
+        <statement>
+            <p></p>
+            <p>
+            1. Working in small groups with your classmates, use shoe sizes to generate numbers and write them down.
+            </p>
+            <p>
+            2. Combine two shoe sizes to create new numbers.
+            </p>
+            <p>
+            3. Look at the last three digits of the numbers formed and check if these last three digits are divisible by <m>8</m> by dividing it by <m>8</m>. If it is divisible by <m>8</m> it should divide the number without leaving a remainder.
+            </p>
+            <p>
+            4. Write down whether each combined number is divisible by <m>8</m> or not.
+            </p>
+        </statement>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Which of the following numbers are divisible by 8?
+            </p>
+            <p>
+                <m>16\,232</m>, <m>56\,468</m>, <m>124\,472</m>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>16\,232</m>
+                        </p>
+                        <p>
+                            <m>232 \div 8 = 29</m>
+                        </p>
+                        <p>
+                            <m>16\,232</m> is divisible by <m>8.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>56\,468</m>
+                        </p>
+                        <p>
+                            <m>468 \div 8 = 58 \text{ remainder } 4</m>
+                        </p>
+                        <p>
+                            <m>56\,468</m> is not divisible by <m>8.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>124\,472</m>
+                        </p>
+                        <p>
+                            <m>472 \div 8 = 59</m>
+                        </p>
+                        <p>
+                            <m>124\,472</m> is divisible by <m>8.</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+
+            <p>
+                <m>16\,232</m> and <m>124\,472</m> are divisible by <m>8</m> because the numbers formed by the digits in the ones, tens and hundreds place value are divisible by <m>8</m>.
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                Exercise for divisibility test for 8 goes here.
+            </p>
+        </statement>
+    </exercise>
+</subsection>

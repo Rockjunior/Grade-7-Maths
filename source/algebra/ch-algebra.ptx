@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-algebra" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Algebra</title>
+
+  <introduction>
+
+    <p> 
+      <term>Introduction to Algebra</term>
+    </p>
+
+    <p> 
+      Have you ever tried to solve a puzzle where you have to find a missing piece? 
+      Algebra is like a mathematical puzzle where we use symbols, usually letters, to represent unknown numbers. 
+      It helps us express patterns, solve problems, and understand relationships between numbers.
+    </p>
+
+    <p>
+      <term>What is Algebra?</term>
+    </p>
+    
+    <p>
+      Algebra is a branch of mathematics that uses letters and symbols to represent numbers and operations. 
+      Instead of writing only numbers, we use variables like x, y, or z to stand for unknown values. 
+      For example, in the equation:
+    </p>
+
+    <p>
+      <me>x + 5 = 12</me>        
+    </p>
+
+    <p>
+      The letter x is a variable, meaning it can change. In this case, we can find its value by solving the equation:
+    </p>
+
+    <p>
+      <me>x = 12 − 5</me>
+    </p>
+
+    <p>
+      <me>x = 7</me>
+    </p>
+
+    <p>
+      <term>Why is Algebra Important?</term>
+    </p>
+
+    <p>
+      Algebra is useful in many real-life situations, such as:
+
+      <ul>
+        <li>
+          <p>
+            <term>Shopping:</term> If a shirt costs $p$ dollars and you buy 3 shirts, the total cost is 3p dollars.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <term>Traveling:</term> If a car moves at a speed of <m>s</m> km per hour, the distance traveled in <m>t</m> hours is <m>s \times t</m> km.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <term>Problem-solving:</term> Many scientific and technical fields, such as engineering, computer science, and medicine, use algebra to make calculations and predictions.
+          </p>
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      You're going to learn about;
+
+      <ul>
+
+        <li>
+          <p>
+            <term>Variables and Expressions</term> – Understanding how letters can represent numbers.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <term>Equations and Inequalities</term> – Learning how to find unknown values.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <term>Simplifying Expressions</term> – Using mathematical rules to make problems easier to solve.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            <term>Patterns and Relationships</term> – Identifying number sequences and trends.
+          </p>
+        </li>
+
+      </ul>
+    </p>
+
+    <p>
+      Algebra is like a powerful tool that helps us solve problems in a smart and logical way. 
+    </p>
+
+    <p>
+        Watch the video below to understand more about <term>algebra</term>. 
+    </p>
+      
+      <video xml:id="yt-list-vars" youtube="H4g0GZsgq0I" width="60%" margins="5% 35%"/>
+  
+    <p> <em>Introduction </em></p>
+      <p>
+        Algebra is a branch of math where we use letters (like <m>a</m>, <m>b</m>, <m>x</m>, <m>y</m>... ) to stand for numbers that we don't know yet.
+      </p>
+      <p>
+        These letters are called variables.
+      </p>
+        <p>
+        <term>Why Learn Algebra?</term>
+      </p>
+      <p>
+        The goal in algebra is to find out what number the letter (variable) represents by solving a problem or equation.
+      </p>
+
+      <figure>
+        <caption>Watch this.</caption>
+        <video youtube="H4g0GZsgq0I"/>
+      </figure>
+  </introduction>
+
+    <!-- include sections -->
+    <xi:include href="sections/subsections/sec-Algebraic-expressions.ptx" />
+
+    <!-- include sections -->
+    <xi:include href="sections/subsections/sec-Linear-equations.ptx" />
+
+    <!-- include sections -->
+    <xi:include href="sections/subsections/sec-Linear-inequalities.ptx" />
+</chapter>

@@ -1,0 +1,147 @@
+<subsection xml:id="subsec-Constructing-angle-60-30-15">
+        <title>Geometrical construction of <m>60^\circ, 30^\circ, 15^\circ, 7.5^\circ</m></title>
+
+        <subsubsection xml:id="subsubsec-60">
+            <title>constructing <m>60^\circ</m></title>
+            <activity>
+               <figure>
+                    <caption></caption>
+                    <interactive xml:id="geogebra-angle-60" geogebra="z5mzq6vz" width="100%" aspect="9:5" reset-icon="yes" />
+               </figure>
+
+               <figure>
+                    <caption></caption>
+                    <interactive xml:id="geogebra-angle-60-1" geogebra="sa4uv9pg" width="100%" aspect="10:7" reset-icon="yes" />
+               </figure>
+            </activity>
+            <activity>
+                <statement>
+                    <p>
+                        Work in pairs
+                    </p>
+
+                    <p>
+                        What you need: A ruler, a protractor and a pair of compasses.
+                    </p>
+
+                    <p>
+                        Explore
+                    </p>
+
+                    <p>
+                        1.Draw a straight line and mark a point <m>O</m> on it as shown below.
+                    </p>
+
+                    <image source="/l4.png" width="40%">
+                        <shortdescription></shortdescription>
+                    </image>
+
+                    <p>
+                    2. With <m>O</m> as center draw an arc of any radius to cut the line at <m>A</m>.With the same radius and <m>A</m> as center draw an arc to cut the previous arc at <m>B</m>.
+                    </p>
+
+                    <image source="/l5.png" width="40%">
+                        <shortdescription></shortdescription>
+                    </image>
+
+                    <p>
+                    3. Join <m>OB</m>. Measure angle <m>AOB</m>. Which angle have you constructed?
+                    </p>
+
+                    <image source="/l6.png" width="40%">
+                        <shortdescription></shortdescription>
+                    </image>
+
+                    <p>
+                    Expected observation.
+                    </p>
+
+                    <p>
+                        We get the required angle 
+                    </p>
+
+                    <p>
+                        <me>\angle AOB = 60^\circ</me>
+                    </p>
+                </statement>
+             </activity>
+
+             <example>
+                <figure>
+                    <caption></caption>
+                    <interactive xml:id="geogebra-angle-60-2" geogebra="v59rdbd7" width="100%" aspect="9:5" reset-icon="yes" />
+                 </figure>
+             </example>
+
+             <example>
+                <figure>
+                    <caption></caption>
+                    <interactive xml:id="geogebra-angle-60-3" geogebra="nrjepwry" width="100%" aspect="9:5" reset-icon="yes" />
+                </figure>
+             </example>
+        </subsubsection>
+        
+        <subsubsection xml:id="subsubsec-Constructing-angle-30">
+            <title>Constructing <m>30^\circ</m></title>
+
+                <figure>
+                        <caption></caption>
+                        <interactive xml:id="geogebra-angles-30" geogebra="meqbydqc" width="100%" aspect="9:5" reset-icon="yes" />
+                </figure>
+            <activity>
+                <p>
+                    Work in pairs
+                </p>
+
+                <p>
+                    What you need: A ruler, a protractor and a pair of compasses.
+                </p>
+
+                <p>
+                    Explore.
+                </p>
+
+                <p>
+                    1.Construct <m>60^\circ</m> (as shown in the above activity).
+                </p>
+
+                <image source="/l6.png" width="40%">
+                    <shortdescription></shortdescription>
+                </image>
+
+                <p>
+                    2.With <m>A</m> as center, draw an arc of radius more than half of <m>AB</m> in the interior of <m>\angle AOB</m>. With the same radius and with <m>B</m> as center draw an arc to cut the previous one at <m>C</m>.
+                </p>
+
+                <p>
+                    3.Join OC. Measure <m>\angle AOC</m>.
+                </p>
+
+                    <image source="/l7.png" width="40%">
+                        <shortdescription></shortdescription>
+                    </image>
+
+                <p>
+                Expected observation.
+                </p>
+
+                <p>
+                    We get the required angle 
+                </p>
+
+                <p>
+                    <me>\angle AOC = 30^\circ</me>
+                </p>
+          
+            </activity>      
+   </subsubsection>
+
+    <subsubsection xml:id="subsubsec-constucting-angle-15">
+        <title>Constucting angle <m>15^\circ</m></title>
+                <figure>
+                    <caption></caption>
+                    <interactive xml:id="geogebra-angles-15" geogebra="wpvpj9tg" width="100%" aspect="9:5" reset-icon="yes" />
+                </figure>
+        
+    </subsubsection>
+    </subsection>

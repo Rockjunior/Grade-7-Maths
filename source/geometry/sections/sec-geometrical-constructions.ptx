@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-Geometrical-constructions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Geometrical constructions</title>
+        <introduction>
+            <p>
+                Geometrical construction is the process of creating geometric shapes, figures, or diagrams using basic tools, like a compass, ruler and protractor. The goal is to draw precise shapes without measurements, relying on rules of geometry. Examples of geometric constructions include drawing a line segment, bisecting an angle, or constructing a perpendicular e.t.c
+            </p>
+        </introduction>
+       <xi:include href="subsections/geometrical-construction/subsec-measuring-angles.ptx" />
+       <xi:include href="subsections/geometrical-construction/subsec-bisecting-angles.ptx" />
+       <xi:include href="subsections/geometrical-construction/subsec-constucting-angle-90-45-22.ptx"/>
+       <xi:include href="subsections/geometrical-construction/subsec-Constructing-angle-60-30-15.ptx"/>
+       <xi:include href="subsections/geometrical-construction/subsec-Constructing-angle-120.ptx"/>
+       <xi:include href="subsections/geometrical-construction/subsec-Constructing-triangles.ptx"/>
+       <xi:include href="subsections/geometrical-construction/subsec-Constructing-of-circle.ptx"/>
+  
+</section>

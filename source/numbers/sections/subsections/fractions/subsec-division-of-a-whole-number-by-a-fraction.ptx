@@ -1,0 +1,184 @@
+<subsection xml:id="subsec-Division-of-a-whole-number-by-a-fraction">
+        <title>Division of a whole number by a fraction</title>
+        <p>
+            When dividing a whole number by a fraction, we are finding how many groups of the fraction can fit in the whole number. 
+            To make this easier, instead of dividing, we multiply the whole number by the reciprocal of the fraction.
+            For example, if we divide <m>4</m> by <m>\frac{1}{2}</m>, 
+            we multiply <m>4</m> by <m>\frac{2}{1}</m> (the reciprocal of <m>\frac{1}{2}</m>), which is <m>4 \times \frac{2}{1} = 8</m>. 
+        </p>
+        <activity>
+            <introduction>
+                <p>
+                    
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Drag the <c>Whole Number</c> slider to select the whole number being divided.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Drag the <c>Denominator</c> slider to set the denominator of the fraction divisor. 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Discuss your observaation with learners in class.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Repeat the process using a different whole number and a new denominator for the fraction.
+                    </p>
+                    <figure>
+                        <caption></caption>
+                        <interactive xml:id="division-of-a-fraction-by-a-whole-activity" geogebra="bs588zhK" width="100%"  aspect="4:3" reset-icon="yes"/>
+                    </figure>
+                </statement>
+            </task>
+        </activity>
+        <!-- <activity>
+            <introduction>
+                <p>
+                    
+                </p>
+                <p>
+                    Mr. Obiero is a meat seller in Namanga center who always ensures food safety and 
+                    hygiene when handling and selling meat. Four teachers from Seku Primary School
+                     contributed money together to buy <m>\frac{1}{2}</m> kg of meat from him.
+                    Mr. Obiero now needs to divide the meat equally so that each teacher receives a fair share.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        What fraction of the meat will each teacher receive if they share it equally?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Share your answer with other learners in your class.
+                    </p>
+                </statement>
+            </task>
+        </activity> -->
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>7 \div \frac{2}{3} </m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Convert the whole number to a fraction. To do this, make the whole number the numerator of a fraction. Make the denominator <m>1</m>. 
+                                
+                            </p>
+                            <p>
+                                <m>7 = \frac{7}{1}</m>
+                            </p>
+                            <p>
+                                Find the reciprocal of the divisor, that is <m>\frac{2}{3}</m>. 
+                            </p>
+                            <p>
+                                To find the reciprocal of a fraction, reverse the numerator and denominator.
+                                The reciprocal of <m>\frac{{\color{red}2}}{{\color{blue}3}}</m> is <m>\frac{{\color{blue}3}}{{\color{red}2}}.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Multiply <m>\frac{7}{1}</m> by <m>\frac{3}{2}</m>.
+                            </p>
+                            <p>
+                                To multiply fractions, first multiply the numerators together. Then, multiply the denominators together.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow> \frac{{\color{green}7}}{1} \times \frac{{\color{green}3}}{2} =  \frac{{\color{green}7} \times {\color{green}3}}{1 \times 2} \amp = \frac{21}{2} </mrow>
+                                    <mrow> \amp </mrow>
+                                    <mrow> \amp = \frac{21}{2} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Evaluate: <m>48 \div 4 \frac{1}{3}</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Convert the mixed number <m>4 \frac{1}{3}</m> to an improper fraction.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow> {\color{red}4} \frac{{\color{blue}1}}{{\color{green}3}} \amp = \frac{({\color{red}4} \times {\color{green}3}) + {\color{blue}1}}{{\color{green}3}} </mrow>
+                                    <mrow></mrow>
+                                    <mrow> \amp = \frac{12 + 1}{3}</mrow>
+                                    <mrow></mrow>
+                                    <mrow> \amp = \frac{13}{3} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Find the reciprocal of <m>\frac{13}{3}</m> by interchanging the numerator and denominator.
+                            </p>
+                            <p>
+                                The reciprocal of <m>\frac{{\color{red}13}}{{\color{blue}3}}</m> is <m>\frac{{\color{blue}3}}{{\color{red}13}}</m>
+                            </p>
+                            <p>
+                                Convert the whole number to a fraction. <m>48 = \frac{48}{1}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Now, multiply <m>\frac{48}{1}</m> by <m>\frac{3}{13}.</m>
+                            </p>
+                            <p>
+                                <m> \frac{48}{1} \times \frac{3}{13}</m>
+                            </p>
+                            <p>
+                                To multiply fractions, first multiply the numerators together. Then, multiply the denominators together.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow> \frac{{\color{blue}48}}{1} \times \frac{{\color{blue}3}}{13} =  \frac{{\color{blue}48} \times {\color{blue}3}}{1 \times 13} \amp = \frac{144}{13} </mrow>
+                                    <mrow> \amp </mrow>
+                                    <mrow> \amp = \frac{144}{13} </mrow>
+                                    <mrow></mrow>
+                                    <mrow> \amp = 11 \frac{1}{13} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for Division of a whole number by a fraction goes in here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>

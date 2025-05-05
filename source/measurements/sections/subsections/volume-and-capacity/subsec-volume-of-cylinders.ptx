@@ -1,0 +1,106 @@
+<subsection xml:id="subsec-volume-of-cylinders">
+  <title>Volume of cylinders</title>
+  <activity>
+    <statement>
+      <sidebyside>
+      <p>
+        <ol>
+          <li>
+            <p>
+              Arrange a pile of similar coins or round objects to form a cylinder as shown alongside.
+            </p>
+          </li>
+          <li>
+            <p>
+              Measure the diameter of the coin at the top.
+            </p>
+          </li>
+          <li>
+            <p>
+              Find the area of the coin{cross sectional area of the cylinder.}
+            </p>
+          </li>
+          <li>
+            <p>
+              Using a ruler, measure the height of the pile.
+            </p>
+          </li>
+          <li>
+            <p>
+              Multiply the height of the pile by the cross sectional area.
+            </p>
+          </li>
+          <li>
+            <p>
+              Share your answer with other learners.
+            </p>
+          </li>
+        </ol>
+      </p>
+      <image source="/coin.png">
+        <shortdescription>(for accessibility)</shortdescription>
+      </image>
+    </sidebyside>
+    </statement>
+  </activity>
+  <exploration>
+  <statement>
+    <p>
+      What is meant by cross section?
+    </p>
+    <image source="/cross-sec-cyl.png">
+      <shortdescription></shortdescription>
+    </image>
+    <p>
+      
+    </p>
+    <p>
+      <m>  \text {Cross- sectional area } \textbf{A = π × r² = πr²}.</m> 
+    </p>
+    <p>
+      <m> \text{volume of a cylinder} \textbf{ V =cross sectional area × height = πr²h}.</m>
+      
+    </p>
+  </statement>
+  </exploration>
+  <p>
+    In the figure provided below adjust the height and radius of the cylinder by dragging the blue circle.
+
+  </p>
+  <figure>
+  <caption>Volume of a cylinder.</caption>
+  <interactive xml:id="geogebra-cylinder" platform="geogebra" width="100%" aspect="1:1">
+   <slate xml:id="cylinder" surface="geogebra" material="cbd7sfrv" aspect="1:1" />
+  </interactive>
+</figure>
+  <example>
+  <statement>
+    <sidebyside>
+      <p>
+        Find the volume of the cylinder alongside given d = <m>28\text{cm}</m> and h = <m>50\text {cm}</m>
+      </p>
+      <image source="/cyl.png">
+        <shortdescription></shortdescription>
+      </image>
+    </sidebyside>
+  </statement>
+  <hint>
+    <p>
+      volume = <m>\pi \text {r}^2 \text {h}</m>
+    </p>
+    <p>
+      Where d = <m> \frac {1}{2}</m>r
+    </p>
+  </hint>
+    <solution>
+      <p>
+        <md>
+          <mrow> \text {Volume of a cylinder} =\amp \pi r^2 </mrow>
+          <mrow> =\amp \frac {22}{7} \times {14}{2}\text {cm}\times 14 \text {cm}\times 20 \text {cm} </mrow>
+          <mrow> =\amp \frac{22}{7} \times 3920 \text {cm}^2 </mrow>
+          <mrow> =\amp 12,320 \text {cm}^3</mrow>
+        </md>
+      </p>
+    </solution>
+  </example>
+</subsection>

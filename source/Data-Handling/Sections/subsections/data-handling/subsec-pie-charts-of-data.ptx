@@ -1,0 +1,224 @@
+<subsection xml:id="subsec-Pie-charts-of-data">
+        <title>Pie charts of data</title>
+        <p>
+            A pie chart is a type of graph representing data in a circular form, with each slice of the circle representing a fraction or proportionate part of the whole. All slices of the pie add up to make the whole equaling 100 percent and 360 degrees.
+        </p>
+        <activity>
+            <p>
+                work in groups
+            </p>
+            <p>
+                (i) Consider the table below
+            </p>
+            <table>
+                <title></title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                  <row halign="left" header="yes">
+                        <cell>Mode of Transport</cell>
+                        <cell>Bus</cell>
+                        <cell>Bicycle</cell>
+                        <cell>On foot</cell>
+                        <cell>Car</cell>
+                   </row>
+                   <row>
+                        <cell>Number of students</cell>
+                        <cell>200</cell>
+                        <cell>100</cell>
+                        <cell>80</cell>
+                        <cell>20</cell>
+                    </row>
+                </tabular>
+            </table>
+            <p>
+               (ii) Draw a circle of suitable radius.
+           </p>
+           <p>
+               (iii) Divide the circle into sectors to represent the information.
+           </p>
+           <p>
+            (iv) Compare and discuss with other groups.
+           </p>
+        </activity>
+        <p>
+            Learning point
+        </p>
+        <p>
+            <ul>
+            <li>
+                <p>
+                    Frequency is represented by the size of a sector in a pie chart.
+                </p>
+            </li>
+        </ul>
+        </p>
+        <example>
+          <statement>
+            <p>
+                The Table below shows different types of animals kept by a farmer.
+            </p>
+            <table>
+                <title></title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                   <row halign="left" header="yes">
+                        <cell>Animals</cell>
+                        <cell>Cows</cell>
+                        <cell>Goats</cell>
+                        <cell>Sheep</cell>
+                        <cell>Pigs</cell>
+                    </row>
+                    <row>
+                        <cell>Number of animals</cell>
+                        <cell>12</cell>
+                        <cell>24</cell>
+                        <cell>18</cell>
+                        <cell>6</cell>
+                   </row>
+                </tabular>
+            </table>
+            <p>
+                Draw a pie chart to represent this information
+            </p>
+          </statement>
+            <solution>
+                <p>
+                    The total angle at the centre of a circle is <m>360^\circ</m>. The central angles of sectors representing the animals are fractions of <m>360^\circ</m>.
+                    The total number of animals in the farm is 12+24+18+6 = 60.
+                </p>
+                <table>
+                    <title></title>
+                    <tabular left="medium" right="medium" top="medium" bottom="medium">
+                        <row halign="left" header="yes">
+                            <cell>Animal</cell>
+                            <cell>No. of animals</cell>
+                            <cell>Fraction</cell>
+                            <cell>Fraction of 360 degrees</cell>
+                        </row>
+                        <row>
+                            <cell>Cows</cell>
+                            <cell><m>12</m></cell>
+                            <cell><m>\frac{1}{5}</m></cell>
+                            <cell><m>\frac{1}{5}\times360^\circ = 72^\circ </m></cell>
+                        </row>
+                        <row>
+                            <cell>Goats</cell>
+                            <cell><m>24</m></cell>
+                            <cell><m>\frac{2}{5}</m></cell>
+                            <cell><m>\frac{2}{5}\times360^\circ = 144^\circ</m></cell>
+                        </row>
+                        <row>
+                            <cell>Sheep</cell>
+                            <cell><m>18</m></cell>
+                            <cell><m>\frac{3}{10}</m></cell>
+                            <cell><m>\frac{3}{10}\times360^\circ = 108^\circ</m></cell>
+                        </row>
+                        <row>
+                            <cell>Pigs</cell>
+                            <cell><m>6</m></cell>
+                            <cell><m>\frac{1}{10}</m></cell>
+                            <cell><m>\frac{1}{10}\times360^\circ = 36^\circ</m></cell>
+                        </row>
+                    </tabular>
+                </table>
+                <image>
+                    <latex-image>
+                        \begin{tikzpicture}
+                           % Define the radius of the pie chart
+                           \def\pieRadius{3cm}
+
+                           % Segment 1: Goats (144 degrees)
+                           \fill[purple!60] (0,0) -- (0:\pieRadius) arc[start angle=0, end angle=144, radius=\pieRadius] -- cycle;
+                           \node[text width=3cm, align=center] at (72:2.2cm) {\textbf{Goats}\\144°};
+
+                           % Segment 2: Sheep (108 degrees)
+                           \fill[orange!60] (0,0) -- (144:\pieRadius) arc[start angle=144, end angle=252, radius=\pieRadius] -- cycle;
+                           \node[text width=3cm, align=center] at (198:2.2cm) {\textbf{Sheep}\\108°};
+
+                           % Segment 3: Pigs (36 degrees)
+                           \fill[green!60] (0,0) -- (252:\pieRadius) arc[start angle=252, end angle=288, radius=\pieRadius] -- cycle;
+                           \node[text width=3cm, align=center] at (270:2cm) {\textbf{Pigs}\\36°};
+
+                           % Segment 4: Cows (72 degrees)
+                           \fill[pink!60] (0,0) -- (288:\pieRadius) arc[start angle=288, end angle=360, radius=\pieRadius] -- cycle;
+                           \node[text width=3cm, align=center] at (324:2.2cm) {\textbf{Cows}\\72°};
+
+                           % Optional: Add a title below the pie chart
+                           \node[below] at (0,-3.8) {\Large Pie Chart of Livestock Types};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </solution>
+        </example>
+        <example>
+          <statement>
+            <p>
+                Murunga is a fruit farmer. The table below shows the number of fruit trees on Murunga's farm.
+            </p>
+            <table>
+                <title>Pie chart to represent the number of trees</title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="center" header="yes">
+                        <cell>Fruit trees</cell>
+                        <cell>Oranges</cell>
+                        <cell>Lemons</cell>
+                        <cell>Apples</cell>
+                        <cell>Pawpaws</cell>
+                    </row>
+                    <row halign="center" header="yes">
+                        <cell>Number of trees</cell>
+                        <cell>600</cell>
+                        <cell>300</cell>
+                        <cell>150</cell>
+                        <cell>150</cell>
+                    </row>
+                </tabular>
+            </table>
+            <p>
+                Draw a pie chart to represent the number of trees.
+            </p>
+            <image>
+                <latex-image>
+                    \begin{tikzpicture}
+                       % Define the radius of the pie chart
+                       \def\pieRadius{3cm}
+
+                       % Segment 1: Oranges (180 degrees)
+                       \fill[green!60] (0,0) -- (0:\pieRadius) arc[start angle=0, end angle=180, radius=\pieRadius] -- cycle;
+                       \node[text width=2cm, align=center] at (90:1.5cm) {\textbf{Oranges}\\180°};
+
+                       % Segment 2: Lemons (90 degrees)
+                       \fill[blue!60] (0,0) -- (180:\pieRadius) arc[start angle=180, end angle=270, radius=\pieRadius] -- cycle;
+                       \node[text width=2cm, align=center] at (225:1.5cm) {\textbf{Lemons}\\90°};
+
+                       % Segment 3: Apples (45 degrees)
+                       \fill[yellow!60] (0,0) -- (270:\pieRadius) arc[start angle=270, end angle=315, radius=\pieRadius] -- cycle;
+                       \node[text width=2cm, align=center] at (292.5:1.5cm) {\textbf{Apples}\\45°};
+
+                       % Segment 4: Pawpaws (45 degrees)
+                       \fill[purple!60] (0,0) -- (315:\pieRadius) arc[start angle=315, end angle=360, radius=\pieRadius] -- cycle;
+                       \node[text width=2cm, align=center] at (337.5:1.5cm) {\textbf{Pawpaws}\\45°};
+
+                       % Optional: Add a title below the pie chart
+                       \node[below] at (0,-3.8) {\Large Pie Chart representing types of fruits};
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+          </statement>
+            <solution>
+                <p>
+                    Total number of trees is <m>600</m>+<m>300</m>+<m>150</m>+<m>150</m>=<m>1200</m>
+                </p>
+                <p>
+                    Oranges <m>\frac{600}{1200}\times 360^\circ = 180^\circ</m>
+                </p>
+                <p>
+                    Apples <m>\frac{150}{1200}\times 360^\circ = 45^\circ</m>
+                </p>
+                <p>
+                    Pawpaws <m>\frac{150}{1200}\times 360^\circ = 45^\circ</m>
+                </p>
+                <p>
+                    Lemons <m>\frac{300}{1200}\times 360^\circ = 90^\circ</m>
+                </p>
+            </solution>
+        </example>
+    </subsection>

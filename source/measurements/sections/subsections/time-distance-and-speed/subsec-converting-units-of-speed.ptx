@@ -1,0 +1,165 @@
+  <subsection xml:id="subsec-converting-units-of-speed">
+    <title>Converting units of speed.</title>
+    <introduction>
+      <p>
+      Speed can be converted from kilometre per hour<m>(km/h)</m> to 
+      metres per second<m>(m/s)</m> and also metres per second<m>(m/s)</m> to 
+      kilometre per hour<m>(km/h)</m>.
+    </p>
+    <figure>
+  <caption>Perimeter of different plane figures.</caption>
+  <interactive xml:id="geogebra-kmph-geogebra" platform="geogebra" width="150%" aspect="1:1">
+    <slate xml:id="msps-geogebra" surface="geogebra" material="rpsmqdrp" aspect="1:1" />
+  </interactive>
+</figure>
+    </introduction>
+    
+
+
+    <subsubsection xml:id="subsubsec-Converting-speed-in-kilometre-per-hour-to-metres-per-second">
+      <title>Converting speed in kilometre per hour<m>(km/h)</m> to metres per second<m>(m/s)</m>.</title>
+      <p>
+        <m>{\color{green} \text{Work in groups}}</m>
+      </p>
+      <p>
+        Read the story below.
+      </p>
+      <p>
+        Juma is a school driver. He drives carfully and observes all the traffic rules.
+        One day, he took learners for on educatianal trip. He drove at a speed of <m>60\,km/hr</m>.
+      </p>
+      <p>
+        <ol>
+          <li>
+            <p>
+              Why is it important to observe traffic rules?
+            </p>
+          </li>
+          <li>How many kilometres did the bus cover in <m>1</m> hour?</li>
+          <li>What was the speed of the bus in <m>m/s</m>?</li>
+          <li>Share your work with other learners in class.</li>
+            
+        </ol>
+      </p>
+      <p>
+        <m>{\color{blue} \text{Learning point.}}</m>
+      </p>
+      <p>
+        To convert speed speed in kilometre per hour to metres per second, you 
+        convert the distance to metres and one hour to seconds, then devide.
+      </p>
+
+      <example>
+        <statement>
+          <p>
+            A car travelled a distance of <m>180\,km</m> in <m>2</m> hours. 
+            What was the speed of the car in <m>m/s</m>?
+          </p>
+        </statement>
+        <solution>
+          <sidebyside>
+            <p>
+              <md>
+                <mrow>\text{If} \, 1\,km= \amp 1\,000\,m </mrow>
+                <mrow> 180\,km=\amp 180 \times 1\,000\,m </mrow>
+                <mrow> =\amp {\color{green} 180\,000\,m}</mrow>
+                <mrow> \text{If} \,1\,hour=\amp 3\,600 \, seconds </mrow>
+                <mrow> 2\, hours=\amp 2 \times  3\,600 \, seconds </mrow>
+                <mrow> =\amp {\color{green} 7\,200\, seconds } </mrow>
+                <mrow> \text{Speed} =\amp \frac{Distance\,covered}{time\,taken} </mrow>
+                <mrow> =\amp (\frac{{\color{green} 180\,000}}{{\color{green} 7\,200}})\,m/s </mrow>
+                <mrow> =\amp {\color{blue} 25\,m/s}</mrow>
+              </md>
+            </p>
+            <tabular halign="left" top="medium" left="medium" right="medium" >
+              <row>
+                <cell>a) Convert the distance from kilometres to metre.</cell>
+              </row>
+              <row>
+                <cell>b) Convert the time from hours to second.</cell>
+              </row>
+              <row bottom="medium">
+                <cell>c) Devide the distance in metres by the time in seconds.</cell>
+              </row>
+            </tabular>
+          </sidebyside>
+        </solution>
+      </example>
+      
+    </subsubsection>
+    
+
+    <subsubsection xml:id="subsubsec-Converting-speed-in-metres-per-second-to-kilometres-per-hour">
+      <title>Converting speed in metres per second<m>(m/s)</m> to kilometres per hour<m>km/h</m></title>
+      <p>
+        <m>{\color{green} \text{Work in groups}}</m>
+      </p>
+      <sidebyside>
+        
+        <p>
+          <ol>
+            <li>
+              <p>
+                The picture alongside shows an ambulence. The ambulence transported 
+                a sick person to Matibabu Hospital, <m>72\,000\,m</m> away.The journey took <m>40</m> minutes. 
+                Calculate the speed of the ambulence in metres per second.
+              </p>
+              
+            </li>
+            <li>Work out the distance, in kilometres, that the ambulence 
+            coveredin one second.</li>
+            <li>How many kilometres did the ambulence  cover in one hour?</li>
+            <li>What was the speed of the ambulence in kilometres per hour?</li>
+            <li>Share your work with other learners in class. </li>
+
+          </ol>
+        </p>
+        <image source="/Hospital.png" >
+          <shortdescription></shortdescription>
+        </image>
+      </sidebyside>
+      <p>
+        <m>{\color{blue} \text{Learning point.}}</m>
+      </p>
+      <p>
+        To convert speed in metres per second to kilometres per hour, you 
+        convert the distance to kilometres and the one second to hours, then divide.
+      </p>
+
+      <example>
+        <statement>
+          <p>
+            In a swimming competition, the fastest swimmer took <m>25</m> second 
+            to complete a <m>62.5\, m</m> race. Calculate the speed of the swimmer in kilometres per hour 
+          </p>
+        </statement>
+        <solution>
+          <p>
+            First,
+          </p>
+          <p>
+            Convert <m>62.5\, m</m> to kilometres.
+          </p>
+          <p>
+            Convert <m>25\, s</m> to hours.
+          </p>
+          <p>
+            <md>
+              <mrow> \text{If} \,1\,000=\amp 1\,km</mrow>
+              <mrow> 62.5\,m=\amp \frac{62.5}{1\,000}\,km </mrow>
+              <mrow> =\amp \frac{1}{16}\,km</mrow>
+              <mrow> \text{If}\,3\,600\,s=\amp 1\,h </mrow>
+              <mrow> 25\,s =\amp \frac{25}{3\,600}\,h  </mrow>
+              <mrow>\text{Speed} = \amp \text{distance} \div \text{time} </mrow>
+              <mrow> =\amp \frac{1}{16}\,km \div \frac{25}{3\,600}\,h </mrow>
+              <mrow> =\amp \frac{1}{16}\,km \times \frac{3\,600}{25}\,h</mrow>
+              <mrow> =\amp {\color{blue} 9\,km/h} </mrow>
+            </md>
+          </p>
+        </solution>
+      </example>
+      
+    </subsubsection>
+    
+    
+  </subsection>

@@ -1,0 +1,154 @@
+<subsection xml:id="subsec-Reading-and-writing-numbers-in-symbols">
+      <title>Reading and writing numbers in symbols</title>
+      <activity>
+      <p>
+        
+      </p>
+       <p>
+        (a) Consider the number 651 358 189.
+       </p> 
+       <p>
+        (b) Make a place value chart as shown below.
+        </p>
+        <tabular bottom="medium" right="medium" left="medium" top="medium"> 
+                    <row header="yes">
+                        <cell>Group</cell>
+                        <cell colspan="3">Millions</cell>
+                        <cell colspan="3">Thousands</cell>
+                        <cell colspan="3">Units</cell>
+                    </row>
+                    <row>
+                        <cell>Place value</cell>
+                        <cell>Hm</cell>
+                        <cell>Tm</cell>
+                        <cell>M</cell>
+                        <cell>HTh</cell>
+                        <cell>TTh</cell>
+                        <cell>Th</cell>
+                        <cell>H</cell>
+                        <cell>T</cell>
+                        <cell>O</cell>
+                    </row>
+                    <row>
+                        <cell>Digit</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                </tabular>
+                <p>
+                   (c) Insert the digits in the number <m>651\, 358\, 189</m> in their respective places in the place value chart.
+                </p>
+                  <p>
+                    (d) 
+                    <ol>
+                      <li>
+                        <p>
+                          Read the number <m>651</m> in the group of millions i.e six hundred and fifty one million.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Read the number <m>358</m> in the group of thousands i.e three hundred and fifty eight thousand.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Read <m>189</m> in the group of hundreds and units i.e one hundred and eighty nine.
+                        </p>
+                      </li>
+                    </ol>  
+                  </p>
+                  <p>
+                      (e) Read the numbers in (d) continuously.
+                  </p>
+                  <p>
+                     (f) Discuss and share how to read <m>651\, 358\, 189</m> with other groups.
+                  </p>
+      </activity>
+             <example>
+              <statement>
+                <p>
+                  Read and write five million, two hundred and thirty seven thousand, eight hundred and forty one in symbols.
+                </p>
+              </statement>
+
+              <solution>
+
+                <tabular>
+                  <row>
+                    <cell halign="left"><m>\text{ Five million }</m></cell>
+                    <cell><m>=</m></cell>
+                    <cell><m>5\,000\,000</m></cell>
+                  </row>
+                  <row>
+                    <cell><m>\text{Two hundred and thirty seven thousand}</m></cell>
+                    <cell><m>=</m></cell>
+                    <cell><m>237\,000</m></cell>
+                  </row>
+                  <row>
+                    <cell><m>\text{Eight hundred and forty one}</m></cell>
+                    <cell><m>=</m></cell>
+                    <cell><m>841</m></cell>
+                  </row>
+                   <row>
+                    <cell><m>\text{Add the numbers}:5\,000,000 + 237\,000 + 841</m></cell>
+                    <cell><m>=</m></cell>
+                    <cell><m>5\,237\,841</m></cell>
+                  </row>
+                </tabular>
+              </solution>
+             </example>
+             <example>
+              <statement>
+                <p>
+               Write the number one hundred and twenty four million, seven hundred and fifty five thousand, two hundred and twelve in symbols.   
+                </p>
+              </statement>
+              <solution>
+                <tabular bottom="medium" top="medium" left="medium" right="medium">
+                  <row header="yes">
+                    <cell>In words</cell>
+                    <cell> In symbols</cell>
+                  </row>
+                  <row>
+                    <cell>One hundred million</cell>
+                    <cell><m>100\,000\,000</m></cell>
+                  </row>
+                  <row>
+                    <cell>Twenty four million</cell>
+                    <cell><m>24\,000\,000</m></cell>
+                  </row>
+                  <row>
+                    <cell>Seven hundred thousand</cell>
+                    <cell><m>700\,000</m></cell>
+                  </row>
+                  <row>
+                    <cell>Fifty five thousand</cell>
+                    <cell><m>55\,000</m></cell>
+                  </row>
+                  <row>
+                    <cell>Two hundred</cell>
+                    <cell><m>200</m></cell>
+                  </row>
+                  <row>
+                    <cell>Twelve</cell>
+                    <cell><m>12</m></cell>
+                  </row>
+                  <row>
+                    <cell></cell>
+                    <cell><m>124\,755\,212</m></cell>
+                  </row>
+                </tabular>
+                <p>
+                  Hence the given number in symbols is written as <m>124\,755\,212</m>.
+                </p>
+              </solution>
+             </example>
+         </subsection>

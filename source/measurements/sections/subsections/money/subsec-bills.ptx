@@ -1,0 +1,243 @@
+  <subsection xml:id="subsec-bills">
+    <title>Bills</title>
+    <introduction>
+      <p>
+        A bill shows the various items sold, their 
+        quantities, the price per unit item and cost.
+      </p>
+      <p>
+        It acts as a proof of the payment made or 
+        received during a business transaction.
+      </p>
+      <p>
+        There are different types of bills such as; <m> {\color{green} \text{Eectricity bills, telephone bills, 
+        water bills, house bills, hotel bills, among others.}}</m>
+      </p>
+      <p>
+        <m> {\color{black} \text{Components of a bill} }</m>
+      </p>
+      <p>
+        <ol>
+          <li>
+            <p>
+              A bill always has the <m> {\color{green} \text{Name of the shop }}</m> mentioned on top.
+            </p>
+          </li>
+          <li><m> {\color{green}\text{A unique number }}</m> is given to each of the bills. 
+          it is called <m> {\color{green} \text{bill number }}</m> or the <m> {\color{green} \text{serial number }}</m> of a bill. 
+          It help us find that particular bill easily. <m> {\color{black} \text{No two bill of the same 
+          shop will have the same bill number.} }</m></li>
+          <li>The date mentioned on the bill is called the <m> {\color{green} \text{Date of purchase. }}</m></li>
+          <li>The <m> {\color{green} \text{list of items }}</m> purchased are always given under 
+          the item column.</li>
+          <li><m> {\color{green} \text{Quantity }}</m> is the total number of each item bought. 
+          Quantity can either be in <m> {\color{green} \text{numbers}}</m> or <m> {\color{green} \text{weights.}}</m> For example 
+          , one notebook or <m>1</m> kilogram of rice. In this case, the notebook 
+          is quantified in numbers, and rice is quantified in weights.</li>
+          <li>The <m> {\color{green} \text{cost }}</m> of each item or the rate 
+          of each item is the <m> {\color{green} \text{original price }}</m> of each item.</li>
+          <li><m> {\color{green} \text{Amount }}</m> to be paid for each item is 
+          quantity multiplied by the rate of each item.</li>
+          <li>The <m> {\color{green} \text{total amount }}</m> to be paid for the entire purchase is 
+          the <m> {\color{green} \text{addition of amounts to be paid }}</m> for each of the items.</li>
+        </ol>
+      </p>
+    </introduction>
+
+
+
+
+
+
+    <subsubsection xml:id="subsubsec-Interpreting-bills">
+      <title>Interpreting bills.</title>
+      <p>
+        Work in groups
+      </p>
+      <p>
+        <ol>
+          <li>
+            <p>
+              Look at the tables below.
+            </p> 
+            <image source="/Bills.png">
+              <shortdescription>Bills.</shortdescription>
+            </image>
+          </li>
+          <li>What can you see in the tables above?</li>
+          <li>What is a bill?</li>
+          <li>What are the components of a bill?</li>
+          <li>Use a digital device to search for other types of bills.</li>
+          <li>Share your findings with other learners in class.</li>
+        </ol>
+      </p>
+      <p>
+        <m> {\color{blue} \text{Learning point. }}</m>
+      </p>
+      <p>
+        <ul>
+          <li>
+            <p>
+              A bill is a list that contains details of 
+              goods and services, their prices and the total cost.
+            </p>
+          </li>
+          <li>Some of the components of a bill include; the date, the amount of money 
+          and the items purchased or services paid for. </li>
+        </ul>
+      </p>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <m> {\color{blue} \text{Parental engagement activity }}</m>
+            </p>
+            <p>
+              With the help of your parent or quardian, interpret different bills at home.
+            </p>
+          </li>
+        </ul>
+      </p>
+      
+      
+    </subsubsection>
+    
+
+
+    <subsubsection xml:id="subsubsec-Preparing-bills">
+      <title>Preparing bills</title>
+      <activity>
+        <p>
+         Work in groups
+        </p>
+        <p>
+          Read the story below.
+        </p>
+        <p>
+          <ul>
+            <li>
+              <p>
+                Gillian bought the following items from a kiosk:
+              </p>
+              <p><m>2\,kg</m> of sugar at <m>sh\,120</m> per kilogram</p>
+              <p><m>2</m> loaves of bread at <m>sh\, 50</m> per loaf</p>
+              <p><m>5</m> packets of milk at <m>sh\, 50</m> per packet</p>
+              <p><m>3</m> packets of salt at <m>sh\, 20</m> per packet.</p>
+              <p>She paid for the items using a thousand shillings note.</p>
+            </li>
+          </ul>
+        </p>
+        <p>
+          <ol>
+            <li>
+              <p>
+                Prepare Gillian's bill.
+              </p>
+            </li>
+            <li>How much did she pay for the items?</li>
+            <li>How much balance did she get?</li>
+            <li>Share your work with other learners in class.</li>
+          </ol>
+        </p>
+      </activity>
+
+      <p>
+        <m> {\color{blue} \text{Learning point }}</m>
+      </p>
+      <p>
+        <ul >
+          <li>
+            <p>
+              In preparing a bill,
+            </p>
+            <p>the symbol <m> {\color{blue} @ }</m> is used to mean per unit. For example, <m>
+              2</m> loaves of bread @<m>sh\,50</m> means that the cost of each 
+              bread is <m>sh\,50</m>.</p>
+            <p><m>'for'</m> means the total cost for all items bought.</p>
+          </li>
+        </ul>
+      </p>
+
+      <example>
+        <statement>
+          <p>
+            Morara bought the following items from a retail shop: <m>1</m> litre of cooking oil 
+            at <m>sh\, 200</m> per litre, <m>2\, kg</m> of sugar @ <m>sh\,130</m>, 
+            <m>3</m> packets of milk @ <m>sh\,50</m> and five matchboxes at <m>sh\,10</m> each.
+        
+          </p>
+          <p>
+            a) Prepare Morara's bill for the item bought
+          </p>
+          <p>
+            b) If he paid for the items using a one thousand shillings note. 
+            how much balance did he get?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m> {\color{blue} \text{a) The bill for the item he bought.}}</m> 
+          </p>
+          <tabular halign="left"  top="medium" right="medium" left="medium" >
+            <row header="yes" bottom="medium">
+              <cell>Items</cell>
+              <cell><m>Sh</m></cell>
+              <cell><m>Cts</m></cell>
+            </row>
+            <row>
+              <cell><m>1</m> litre of cooking oil at <m>sh\, 200</m> per litre</cell>
+              <cell><m>200</m></cell>
+              <cell><m>00</m></cell>
+            </row>
+            <row>
+              <cell><m>2\, kg</m> of sugar @ <m>sh\,130</m></cell>
+              <cell><m>260</m></cell>
+              <cell><m>00</m></cell>
+            </row>
+            <row>
+              <cell><m>3</m> packets of milk @ <m>sh\,50</m></cell>
+              <cell><m>150</m></cell>
+              <cell><m>00</m></cell>
+            </row>
+            <row bottom="medium">
+              <cell><m>5</m> matchboxes at <m>sh\,10</m></cell>
+              <cell><m>50</m></cell>
+              <cell><m>00</m></cell>
+            </row>
+            <row bottom="medium">
+              <cell>Total</cell>
+              <cell><m>660</m></cell>
+              <cell><m>00</m></cell>
+            </row>
+          </tabular>
+          <p>
+            b) If he uses <m>sh\,1000</m>
+          </p>
+          <p>
+            <md>
+              <mrow> \text{Balance} =\amp sh\, 1000- sh\, 660 </mrow>
+              <mrow>= \amp sh\,340 </mrow>
+            </md>
+          </p>
+          <p>
+            The balnce he got was <m> {\color{blue} sh\, 340}</m> .
+          </p>
+        </solution>
+
+      </example>
+      <p>
+        Watch the link below for more information about the bill.
+      </p>
+      <p>
+        <url href="https://youtu.be/x8a62xMzN64" />
+      </p>
+      
+    </subsubsection>
+
+
+
+
+
+
+
+  </subsection>

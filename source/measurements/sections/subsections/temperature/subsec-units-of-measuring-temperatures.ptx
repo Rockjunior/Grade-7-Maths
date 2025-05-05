@@ -1,0 +1,176 @@
+   <subsection xml:id="subsec-units-of-measuring-temperatures">
+      <title>Units of measuring temperatures.</title>
+      <activity>
+        <statement>
+          <p>
+            Hezron Samson, A grade 7 student visited a health facility centre and came across the equipment shown below.
+          </p>
+          <image width="=59%">
+          <latex-image>
+            \begin{tikzpicture}
+              % Thermometer body
+              \draw[thick] (0,0) rectangle (12,0.5);
+              % Scale marks and labels (Celsius)
+              \foreach \x in {0,1,...,11} {
+              \draw[thick=blue] (\x,0.5) -- (\x,0.7);
+              \node[above] at (\x,0.7) {\small \pgfmathparse{55-\x*5}\pgfmathresult};  }
+              \node[above right] at (12,0.7) {°C};
+              % Scale marks and labels (Kelvin)
+              \foreach \x in {0,1,...,11} {
+              \draw[thick=blue] (\x,0) -- (\x,-0.2);
+              \node[below] at (\x,-0.2) {\small \pgfmathparse{328-\x*5}\pgfmathresult}; }
+              \node[below right] at (12,-0.2) {K};
+              % Temperature indicator (Adjustable)
+              \fill[purple] (8,0) rectangle (12,0.5); % Adjust "8" to change the filled region
+              \draw[thick] (12,0.25) circle (0.4); % Bulb at the end
+              \fill[purple] (12,0.25) circle (0.4);   % Fill the bulb
+            \end{tikzpicture}
+          </latex-image>
+          </image>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  What is the <m>\textbf{name}</m>  of the equipment? 
+                </p>
+              </li>
+              <li>
+                <p>
+                  State <m>\textbf{two functions}</m>  of the equipment.
+                </p>
+              </li>
+              <li>
+                <p>
+                  List <m>\textbf{five areas}</m> where it can be used.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Identify the symbol<m>{\color{blue}(°C)} </m>in the instrument above. What does the symbol <m>{\color{blue}(°C)} </m> stand for?
+                </p>
+              </li>
+              <li>
+                <p>
+                  Identify the symbol<m>{\color{blue}(K)} </m> in the instrument. What does the symbol <m>{\color{blue}(K)} </m> represent?
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+      </activity>
+      <explanation>
+        <p>
+          <ol>
+            <li>
+              <p>
+                Temperature is measured using a <m>{\color{blue}\text {thermometer}}.</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                The most common scales used are the <m>{\color{blue}\text {Celcious scale}(^\circ C )}.</m> and the <m>{\color{blue}\text {Kelvin (K) scale}}.</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                The boiling point of water at sea level is <m>{\color{blue}\text {100} ^\circ C}</m>  or <m>{\color{blue}\text {373 Kelvin}}.</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                The freezing point of water at sea level is <m>{\color{blue}\text {0} ^\circ C}</m>  or <m>{\color{blue}\text {273 Kelvin}}.</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                The normal temperature of a human body is about <m>{\color{blue}\text {37} ^\circ C}</m>  or <m>{\color{blue}\text {310 Kelvin}}</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </explanation>
+      <activity>
+  <title>Clickable <q>interactive</q> Activity</title>
+  <statement>
+    <sidebyside>
+      <p>
+        You will need; A sufuria , a thermometer, gas(source of heat) and water.
+        <ol>
+          <li>
+            <p>
+              Measure the initial temperature of water using a thermometer, and record in the table alongside.
+            </p>
+          </li>
+          <li>
+            <p>
+              Put the water in a sufuria to heat.
+            </p>
+          </li>
+          <li>
+            <p>
+              Record the temperature of the water after every minute as it heats.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </sidebyside>
+    <sidebyside>
+      <table>
+        <title></title>
+        <tabular halign="center" left=" medium" right="medium" bottom="medium" top="medium">
+          <row left="medium" header="yes">
+            <cell >Time</cell>
+            <cell>
+            <line>Before</line>
+              <line>Heating</line>
+              </cell>
+            <cell>
+            <line>After </line>
+              <line>1 minute</line></cell>
+            <cell>
+            <line>After </line>
+              <line>2 minutes</line></cell>
+            <cell>
+            <line>After </line>
+              <line>3 minutes</line></cell>
+            <cell>
+            <line>After </line>
+              <line>4 minutes</line></cell>
+          </row>
+          <row left="medium">
+            <cell>
+            <line>Time in </line>
+              <line>degrees celsius</line>
+                <line><m>(^\circ C)</m></line></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row left="medium">
+            <cell>
+            <line>Time in </line>
+              <line>Kelvins <m>(K) </m></line>
+                </cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </table>
+      </sidebyside>
+    <p>
+      <m>{\color{blue}\text{Identify (by clicking) all units of measuring temperatures that are correct.}}</m></p>
+  </statement>
+    <areas>
+      <p>
+        <q>The temperature before water boiling was<area><m>(37^\circ C)</m></area> which is equal to<m>(308) </m> Kelvins. The highest temperature  by boiling is<area><m>(100) ^\circ C</m></area> which is equal to <area correct="yes"><m>(383)</m>Kelvins</area> whose difference{highest temperature recorded  <m> - </m>lowest temperature recorded} in 
+        kelvins is equivalent to <area correct="no"><m>(100) \text{kelvins} </m></area></q>
+     </p>
+  </areas>
+ </activity>
+    </subsection>
+ 

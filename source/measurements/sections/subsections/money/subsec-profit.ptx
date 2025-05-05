@@ -1,0 +1,358 @@
+  <subsection xml:id="subsec-profit">
+    <title>Profit</title>
+    <introduction>
+    <p>
+      Businesses can make profits or losses. To understand the concepts of
+      profit and loss, we will define some terms.
+    </p>
+    <p>
+      <ol>
+        <li>
+          <p>
+            Cost price (<m>C.P</m>) or Buying price (<m>B.P</m>). This is the price at which the business
+            man/woman buys an item.
+          </p>
+        </li>
+        <li>Selling price (S.P). This is the price at which a business man sells
+        an item. </li>
+      </ol>
+    </p>
+    <p>
+      If the selling price is greater than the buying price, the business makes
+      profit.
+    </p>
+    <p>
+      Therefore,
+    </p>
+    <p>
+      <m>Profit =Selling\,price (S.P)−Buying \,price(C.P)</m>.
+    </p>
+
+    <activity>
+      <p>
+        <m>{\color{Magenta}1.\text{ Work as a class. }}</m>
+      </p>
+      <p>
+        <ol>
+          <li>
+            <p>
+              Role-play shopping activities using the classroom shop.
+            </p>
+          </li>
+          <li>One learner to be the seller while 
+          the rest be the buyers.</li>
+          <li>Take turns for each learner to role-play 
+          as the shopkeeper.</li>
+          <li>Buy and sell items from the clasroom 
+          shop using paper money.</li>
+          <li>Work out the profit made on the sale 
+          of each item.</li>
+        </ol>
+      </p>
+
+    </activity>
+    <activity>
+      <p>
+        <m>{\color{Magenta}2. \text{ Work as a class. }}</m>
+      </p>
+      <p>
+        <ol>
+          <li>
+            <p>
+              Ekadeli owns a shop in Lusweti town. The table below 
+              shows the buying price and selling price in her shop.
+            </p>
+            <tabular halign="left" bottom="medium" top="medium" left="medium" right="medium">
+              <row header="yes">
+                <cell>Items</cell>
+                <cell>Buying Price (<m>BP</m>)</cell>
+                <cell>Selling Price  (<m>SP</m>)</cell>
+                <cell>Profit <m>= (SP-BP)</m></cell>
+              </row>
+              <row>
+                <cell>Tea leavs</cell>
+                <cell><m>Sh\, 100</m></cell>
+                <cell><m>Sh\, 120</m></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell><m>1\,kg</m> of rice</cell>
+                <cell><m>Sh\, 120</m></cell>
+                <cell><m>Sh\, 150</m></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell><m>1\,kg</m> of sugar</cell>
+                <cell><m>Sh\, 110</m></cell>
+                <cell><m>Sh\, 125</m></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell><m>200</m> pages exercise book</cell>
+                <cell><m>Sh\, 80</m></cell>
+                <cell><m>Sh\, 100</m></cell>
+                <cell></cell>
+              </row>
+            </tabular>
+          </li>
+          <li> Compare the buying and the selling price 
+          of each item. Which one is higher?</li>
+          <li>Complete the table by working out the profit.</li>
+          <li>Share your work with other learners in your class.</li>
+        </ol>
+      </p>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <m>{\color{Magenta}\text{ Learning point}}</m>
+            </p>
+            <p>
+              Profit is made when the selling price is heigher than the buying 
+              price.
+            </p>
+            <p>
+              <md>
+                <mrow>\text{Profit}= \amp \text{Selling price} - \text{Buying price }</mrow>
+                <mrow>\text{Selling price} =\amp \text{Buying price }+ \text{Profit}</mrow>
+                <mrow> \text{Buying price }=\amp  \text{Selling price} -\text{Profit}</mrow>
+              </md>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </activity>
+    <example>
+      <statement>
+        <p>
+          Okoth bought a book for <m>Sh.\, 200.</m> He later sold 
+          the book for <m>Sh.\, 250.</m> How much 
+          profit did she make?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          From the question,
+        </p>
+        <p>
+          Buying price <m>=Sh.\,220</m>
+        </p>
+        <p>
+          Selling price <m>=Sh.\,250</m>
+        </p>
+        <p>
+          <md>
+            <mrow> \text{Profit}=\amp \text{Selling price}- \text{Buying price}</mrow>
+            <mrow>= \amp Sh. \,250 -Sh.\, 220 </mrow>
+            <mrow> =\amp Sh.\, 30 </mrow>
+
+          </md>
+        </p>
+        <p>
+          Okoth  made a profit of <m>Sh.\, 30 </m>.
+        </p>
+      </solution>
+    </example>
+    <example>
+      <statement>
+        <p>
+          Odhiambo bought a goat for <m>Sh.\, 6\, 500</m>. He later 
+          sold the goat, making a profit of <m>Sh.\, 1\,200</m>. 
+          What was the selling price of the goat?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Buying price <m>= Sh.\, 6\, 500</m>
+        </p>
+        <p>
+          profit <m>= Sh.\, 1\,200</m>
+        </p>
+        <p>
+          <md>
+            <mrow>\text{Selling price} = \amp \text{Buying price}+\text{Profit} </mrow>
+            <mrow> =\amp Sh.\, 6\,500+ Sh.\, 1\,200 </mrow>
+            <mrow> =\amp Sh.\, 7\,700 </mrow>
+          </md>
+        </p>
+        <p>
+          Selling price of the goat is <m>Sh.\, 7\,700</m>
+        </p>
+      </solution>
+    </example>
+    </introduction>
+
+    <subsubsection xml:id="subsec-Percentage-profit">
+      <title>Percentage profit.</title>
+      <p>
+        Percentage profit acrues when the selling price is heigher than the buying 
+        price.
+      </p>
+      <p>
+        It is expressed as a persentage (<m>\%</m>).
+      </p>
+      <p>
+        After the calculation of the profit, the salse person is requred to find the 
+        percentage profit that was established during the buying and selling of a perticular comodity or good.
+      </p>
+      <activity>
+        <p>
+          <m>{\color{Magenta}\text{ Work in groups}}</m>
+        </p>
+        <p>
+          <ol>
+            <li>
+              <p>
+                Draw a table similar to the one shown below.
+              </p>
+              <tabular halign="left" bottom="medium" top="medium" left="medium" right="medium">
+                <row header="yes">
+                  <cell></cell>
+                  <cell>Buying price (BP)</cell>
+                  <cell>Selling price(SP)</cell>
+                  <cell>Profit(P)</cell>
+                  <cell>Percentage profit <m>=\frac{P}{BP} \times 100\%</m></cell>
+                </row>
+                <row>
+                  <cell>a)</cell>
+                  <cell><m>Sh. \,800</m></cell>
+                  <cell><m>Sh. \,1\,000</m></cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell>b)</cell>
+                  <cell><m>Sh. \,300</m></cell>
+                  <cell><m>Sh. \,500</m></cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell>c)</cell>
+                  <cell><m>Sh. \,625</m></cell>
+                  <cell><m>Sh. \,650</m></cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell>d)</cell>
+                  <cell><m>Sh. \,1\,200</m></cell>
+                  <cell><m>Sh. \,1\,300</m></cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+              </tabular>
+            </li>
+            <li>Work out the difference between the selling price and the 
+            buying price. Fill in the profit column.</li>
+            <li>Work out the percentage profit.</li>
+            <li>Share your work with other leaners in your cclass.</li>
+          </ol>
+        </p>
+        <p>
+          <m>{\color{black}\text{Learning point }}</m>
+          <me>\text{Perenytage profit}= \frac{Profit}{Buying \, price} \times 100\%</me>
+        </p>
+
+      </activity>
+
+      <example>
+        <statement>
+          <p>
+            Ekadeli bought a shirt for <m>sh.\, 1\,500</m>. He later sold the 
+            shirt for <m>sh.\, 1\,800</m>. What percentage profit did Ekadeli make?
+          </p>
+        </statement>
+        <hint>
+          <p>
+            1. Identify the profit first.
+          </p>
+          <p>
+            2. Use the profit to get the percentage profit(<m>\%</m>).
+          </p>
+        </hint>
+        <solution>
+          <p>
+            The buying price <m>= sh.\,1\,500</m>
+          </p>
+          <p>
+            The selling price <m>= sh.\,1\,800</m>
+          </p>
+          <p>
+            <md>
+              <mrow>\text{Profit} =\amp \text{selling price}- \text{Buying price}</mrow>
+              <mrow> =\amp sh.\,1\,800-sh.\, 1\,500 </mrow>
+              <mrow> =\amp sh.\,300</mrow>
+            </md>
+          </p>
+          <p>
+            <md>
+              <mrow>\text{Percentage profit } =\amp \frac{\text{Profit}}{\text{Buying price}} \times 100\% </mrow>
+              <mrow> =\amp(\frac{300}{1\,500} \times 100)\% </mrow>
+              <mrow> =\amp (\frac{30\,000}{1\,500})\%</mrow>
+              <mrow>= \amp 20\%</mrow>
+            </md>
+          </p>
+          <p>
+            She made a percentage profit of <m>20\%</m>.
+          </p>
+        </solution>
+      </example>
+      <example>
+        <statement>
+          <p>
+            Mwai bought a book for <m>sh. 500</m>. He later sold the book 
+            making a <m>10\%</m> profit. How much did he sell the book?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>{\color{blue}\text{Method 1}}</m>
+          </p>
+          <p>
+           The buying price <m>=sh\,500</m> 
+          </p>
+          <p>
+            Perentage profit <m>=10\%</m>
+          </p>
+          <p>
+            Note that, Buying price is equivalent to <m>100\%</m>.
+          </p>
+          <p>
+            Therefor the profit is gotten as,
+          </p>
+          <p>
+            <md>
+              <mrow> =\amp \frac{10}{100} \times sh. \,500 </mrow>
+              <mrow> =\amp  sh. \, 50</mrow>
+            </md>
+          </p>
+          <p>
+            <md>
+              <mrow> \text{Selling price }=\amp \text{Buyting price } + profit </mrow>
+              <mrow> =\amp sh. \, 500 + sh.\, 50 </mrow>
+              <mrow> =\amp sh.\, 550 </mrow>
+            </md>
+          </p>
+          <p>
+            <m>{\color{black}\text{Method 2}}</m>
+          </p>
+          <p>
+            <md>
+              <mrow> \text{Buying price}(100\%)=\amp  sh. \,500</mrow>
+              <mrow> \text{Percentage profit}=\amp 10\% </mrow>
+              <mrow> \text{Selling price}(in \, percentage)=\amp 100\%+10\% </mrow>
+              <mrow> =\amp110\% </mrow>
+              <mrow> Selling\,price =\amp \frac{110}{100} \times sh. \, 500</mrow>
+              <mrow>= \amp sh. 550</mrow>
+            </md>
+          </p>
+          <p>
+            The selling price of the book was <m>sh.\, 550</m>.
+          </p>
+        </solution>
+    
+      </example>
+    
+  </subsubsection>
+  </subsection>

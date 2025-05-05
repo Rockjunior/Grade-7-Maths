@@ -1,0 +1,61 @@
+<subsection xml:id="subsec-Multiplying-a-fraction-by-a-fraction">
+        <title>Multiplying a proper fraction by a proper fraction</title>
+        <activity>
+            <introduction>
+                <p>
+
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Drag the slider <c>Slide to explore</c> to the right direction and observe what happens to the squares.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Click <c>NEW FRACTIONS</c> button on the bottom right hand side to regenerate new fractions and follow step <m>\textbf{(a)}</m> again.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Discuss with your fellow learners on your observation in this activity.
+                    </p>
+                    <figure>
+                        <caption></caption>
+                        <interactive xml:id="multiplying-of-a-fraction-by-a-fraction-activity" geogebra="aqxh9hch" width="100%" aspect="12:9" reset-icon="yes" />
+                    </figure>
+                </statement>
+            </task>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>\frac{5}{9} \times \frac{2}{3}</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    To multiply two fractions, multiply numerators and denominators separately and simplify the resulting fraction to its simplest form.
+                </p>
+                <p>
+                    <md>
+                        <mrow>\frac{5}{9} \times \frac{2}{3} \amp = \frac{5 \times 2}{9 \times 3}</mrow>
+                        <mrow></mrow>
+                        <mrow> \amp = \frac{10}{27} </mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Multiplying a fraction by a fraction goes in here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>

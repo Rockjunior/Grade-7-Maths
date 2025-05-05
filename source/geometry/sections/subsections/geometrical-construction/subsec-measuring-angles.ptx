@@ -1,0 +1,101 @@
+ <subsection xml:id="subsec-Measuring-angles">
+            <title>Measuring angles</title>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Measuring angles is a significant topic in geometry. An angle can be measured using a protractor. An angle is measured in degrees, hence its called degree measure. One complete revolution is equal to <m>360^\circ</m>, hence it is divided into <m>360</m> parts. Each part of the revolution is a degree. If we know how to measure angle, then it will be very easy to construct an angle using a protractor.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                A protractor is a semi-circular tool used to draw and measure angles. It is marked with degrees from <m>0^\circ</m> to <m>180^\circ</m>. It can be directly used to measure any angle from <m>0^\circ</m> to <m>360^\circ</m> . The markings are made in two ways, <m>0^\circ</m> to <m>180^\circ</m>  from right to left and vice versa.
+                            </p>
+                        </li>
+                    </ul>  
+                </p>
+                <activity>
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                    Click on the New Angle button.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Using the protractor, measure the size of the angle.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Enter the value and click on Check.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Repeat the process several times to ensure that you understand how to use a protractor.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <figure>
+                        <caption></caption>
+                        <interactive xml:id="geogebra-determining-angle-measure" geogebra="n3hdkqpr" width="100%" aspect="9:7" reset-icon="yes" />
+                    </figure>
+                </activity>
+
+                <activity>
+                    <p>
+                        Suppose we have an angle to measure say, <m>\angle ABC</m>. Follow the steps given below to measure the angle.
+                    </p>
+
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                    Put the protractor above the line <m>BC</m> such that the midpoint of protractor is at point <m>B</m>.
+                                </p>                          
+                            </li>
+
+                            <li>
+                                <p>
+                                    Adjust the protractor in such a way that <m>BC</m> is parallel to the straight-edge of the protractor.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    The protractor has two scales marked from <m>0^\circ</m> to <m>180^\circ</m> on both the ends. Take the reading where <m>BC</m> coincides with the <m>0^\circ</m>.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Now from <m>0^\circ</m>, check the line <m>BA</m> coincides with the curved edges of the protractor. This reading gives us the measure of angle <m>ABC</m>.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    
+                    <image source="/measure.png">
+                        <shortdescription></shortdescription>
+                    </image>
+                </activity>
+                <example>
+                    <figure>
+                        <caption></caption>
+                        <interactive xml:id="geogebra-determining-angle-" geogebra="wkgtn6nu" width="100%" aspect="10:8" reset-icon="yes" />
+                    </figure>
+                </example>
+                <exercise>
+                    <figure>
+                        <caption></caption>
+                        <interactive xml:id="geogebra-measuring-angles" geogebra="kaeuyeqb" width="100%" aspect="9:5" reset-icon="yes" />
+                    </figure>
+                </exercise>
+        </subsection>

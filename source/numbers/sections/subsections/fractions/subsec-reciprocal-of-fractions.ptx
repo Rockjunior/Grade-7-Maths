@@ -1,0 +1,148 @@
+<subsection xml:id="subsec-Reciprocal-of-fractions">
+    <title>Reciprocal of fractions</title>
+    <p>
+        The reciprocal of a fraction is obtained by interchanging the numerator and the denominator. 
+        The product of a fraction and its reciprocal is <m>1.</m>
+    </p>
+    <p>
+        In general, the reciprocal of a fraction <m>\frac{a}{b}</m> is written as <m>\frac{b}{a}</m> where <m>(a,b \text{ are whole numbers})</m>.
+        For example, the reciprocal of <m>\frac{2}{3}</m> is <m>\frac{3}{2}.</m>
+    </p>
+    <p>
+        We can also find the reciprocal of fraction by dividing 1 by the fraction.
+    </p>
+    <activity>
+        <introduction>
+            <p>
+                <alert>Work in groups</alert>
+            </p>
+        </introduction>
+        <task>  
+            <statement>  
+                <p>  
+                    Form groups of at least five learners.  
+                </p>  
+            </statement>  
+        </task>  
+        <task>  
+            <statement>  
+                <p>  
+                    Cut out <m>10</m> small pieces of paper, each labeled with a unique number from <m>1</m> to <m>10</m>.  
+                </p>  
+            </statement>  
+        </task>  
+        <task>  
+            <statement>  
+                <p>  
+                    Fold the papers so the numbers are hidden. One learner in the group should shuffle them.  
+                </p>  
+            </statement>  
+        </task>  
+        <task>  
+            <statement>  
+                <p>  
+                    This is a two-player game where players take turns picking a folded paper until all are taken.  
+                </p>  
+            </statement>  
+        </task>  
+        <task>  
+            <statement>  
+                <p>  
+                    The first player randomly picks a paper, reveals the number written on it, and keep it aside.
+                </p>  
+            </statement>  
+        </task>  
+        <task>  
+            <statement>  
+                <p>  
+                    The second player does the same, picking a paper, revealing the number, and keep it aside.
+                </p>  
+            </statement>  
+        </task>  
+        <task>  
+            <statement>  
+                <p>  
+                    Write a fraction using the first player’s number as the numerator and the second player’s number as the denominator.  
+                </p>  
+            </statement>  
+        </task>  
+        <task>  
+            <statement>  
+                <p>  
+                    Now, write another fraction by swapping the positions use the second player’s number as the numerator and the first player’s number as the denominator.  
+                </p>  
+            </statement>  
+        </task>  
+        <task>  
+            <statement>  
+                <p>  
+                    Multiply the two fractions and observe the result.  
+                </p>  
+            </statement>  
+        </task>  
+        <task>  
+            <statement>  
+                <p>  
+                    Discuss with your classmates what you notice about the fractions and their product.  
+                </p>  
+            </statement>  
+        </task>  
+    </activity>
+    <example>
+        <statement>
+            <p>
+                What is the reciprocal of <m>\frac{17}{39}</m>?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                To get the reciprocal of <m>\frac{17}{39}</m>, we swap the numerator and the denominator.
+            </p>
+            <p>
+                <m>\frac{{\color{red}17}}{{\color{blue}39}} \text{ to get } \frac{{\color{blue}39}}{{\color{red}17}}</m>
+            </p>
+            <p>
+                Therefore, the reciprocal of <m>\frac{{\color{red}17}}{{\color{blue}39}} \text{ is } \frac{{\color{blue}39}}{{\color{red}17}}.</m>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                What is the reciprocal of <m>3 \frac{2}{7}</m>?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            Convert <m>3 \frac{2}{7}</m> into an improper fraction.
+                        </p>
+                        <p>
+                            <m>{\color{red}3} \frac{{\color{blue}2}}{{\color{green}7}} = \frac{({\color{green}7} \times {\color{red}3})+{\color{blue}2}}{{\color{green}7}} = \frac{23}{7}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Swap the numerator and the denominator.
+                        </p>
+                        <p>
+                            <m>\frac{{\color{red}23}}{{\color{blue}7}} \text{ to get } \frac{{\color{blue}7}}{{\color{red}23}}</m>
+                        </p>
+                        <p>
+                            Therefore, the reciprocal of <m>3 \frac{2}{7} \text{ is } \frac{7}{23}.</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                Exercise for Reciprocal of fractions goes here.
+            </p>
+        </statement>
+    </exercise>
+</subsection>

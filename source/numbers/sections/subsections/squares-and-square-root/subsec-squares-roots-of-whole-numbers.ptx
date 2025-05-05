@@ -1,0 +1,140 @@
+<subsection xml:id="subsec-Squares-roots-of-whole-numbers">
+        <title>Squares roots of whole numbers</title>
+        <p>
+            The square root of a number is the inverse operation of squaring a number. 
+            The square of a number is the value that is obtained when we multiply the number by itself, 
+            while the square root of a number is obtained by finding a number that when squared gives the original number.
+        </p>
+        <p>
+            We represent the square root of a number using this symbol <m>\sqrt{}</m>. 
+            For example, square root of 4, we represent it as <m>\sqrt{4}.</m>
+        </p>
+        <p>
+            To find the square root of a number, we just see by squaring which number would give the original number.
+            It is very easy to find the square root of a number that is a perfect square. 
+            Perfect squares are those positive numbers that can be expressed as the product of a number by itself.
+        </p>
+        <activity>
+            <introduction>
+                <p>
+                    <alert>Work in groups</alert>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Draw the following grid pattern in your exercise books or on graph paper, as the one shown below.
+                    </p>
+                    <sidebyside widths="25% 25% 25%">
+                        <figure xml:id="3-by-3-square-grid">
+                            <caption>Grid 1</caption>
+                            <image>
+                                <shortdescription>
+                                    The image displays a three by three grid composed of square sections.
+                                </shortdescription>
+                                <latex-image label="three-by-three-square-grid">
+                                    \begin{tikzpicture}
+                                        \foreach \x in {0,1,2,3} {
+                                            \draw[thick,blue] (\x,0) -- (\x,3);
+                                        }
+                                        \foreach \y in {0,1,2,3} {
+                                            \draw[thick,blue] (0,\y) -- (3,\y);
+                                        }
+                                    \end{tikzpicture}
+                                </latex-image>
+                            </image>
+                        </figure>
+                        <figure xml:id="4-by-4-square-grid">
+                            <caption>Grid 2</caption>
+                            <image>
+                                <shortdescription>
+                                    The image displays a four by four grid composed of square sections.
+                                </shortdescription>
+                                <latex-image label="four-by-four-square-grid">
+                                    \begin{tikzpicture}
+                                        \foreach \x in {0,1,2,3,4} {
+                                            \draw[thick,blue] (\x,0) -- (\x,4);
+                                        }
+                                        \foreach \y in {0,1,2,3,4} {
+                                            \draw[thick,blue] (0,\y) -- (4,\y);
+                                        }
+                                    \end{tikzpicture}
+                                </latex-image>
+                            </image>
+                        </figure>
+                        <figure xml:id="5-by-5-square-grid">
+                            <caption>Grid 3</caption>
+                            <image>
+                                <shortdescription>
+                                    The image displays a five by five grid composed of square sections.
+                                </shortdescription>
+                                <latex-image label="five-by-five-square-grid">
+                                    \begin{tikzpicture}
+                                        \foreach \x in {0,1,2,3,4,5} {
+                                            \draw[thick,blue] (\x,0) -- (\x,5);
+                                        }
+                                        \foreach \y in {0,1,2,3,4,5} {
+                                            \draw[thick,blue] (0,\y) -- (5,\y);
+                                        }
+                                    \end{tikzpicture}
+                                </latex-image>
+                            </image>
+                        </figure>
+                    </sidebyside>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Count all the small squares in each grid.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Count all squares along one side of each grid to identify its side length.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Analyze the relationship between the side length and the total number of squares in the grid. What pattern do you observe?
+                    </p>
+                </statement>
+            </task>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Find the square root of <m>256</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Express <m>256</m> as a product of its prime factors and pair up similar factors together.
+                    <md>
+                        <mrow> 256 \amp = {\color{Green} 2} \times {\color{Green} 2} \times {\color{blue} 2} \times {\color{blue} 2} \times {\color{red} 2} \times {\color{red} 2} \times 2 \times 2</mrow>
+                        <mrow></mrow>
+                        <mrow> \sqrt{324} \amp = \sqrt{{\color{Green} 2} \times {\color{Green} 2} \times {\color{blue} 2} \times {\color{blue} 2} \times {\color{red} 2} \times {\color{red} 2} \times 2 \times 2} </mrow>
+                    </md>
+                    select one factor from each pair and multiply the selected factors. 
+                </p>
+                <p>
+                    <md>
+                        <mrow> \amp = {\color{Green} 2} \times {\color{blue} 2} \times {\color{red} 2}  \times 2</mrow>
+                        <mrow> \amp = 16 </mrow>
+                    </md>
+                </p>
+            </solution>
+
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for squares roots of whole numbers goes here
+                </p>
+            </statement>
+        </exercise>
+    </subsection>

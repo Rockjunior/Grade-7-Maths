@@ -1,0 +1,30 @@
+<subsection xml:id="subsec-Relating-interrior-angles-to-the-number-of-sides-of-a-polygon">
+            <title>Relating interrior angles to the number of sides of a polygon</title>
+            <p>                          
+                <ul>
+                    <li>
+                        <p>
+                            If a polygon has n sides, the number of triangles is <m>n-2</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The sum of the interior angles in a polygon = number of triangles <m>\times 180^\circ</m>                                                                
+                        </p>
+
+                        <p>
+                            <me>180^\circ\times (n-2) </me>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            To get the size of one interior angle in a regular polygon, divide the sum of the interior angles by the number of sides.
+                        </p>
+                        <p>
+                            <me>\frac{90^\circ\times (2n-4)}{n}=\frac{180^\circ\times (n-2)}{n} </me>
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            
+</subsection>

@@ -1,0 +1,167 @@
+  <subsection xml:id="subsec-comparing-temperatures">
+    <title>Comparing temperatures</title> 
+     <activity>
+        <p>
+          Why do we say it’s ‘as cold as ice’ but never ‘as hot as fire’? Maybe because no one wants to compare themselves to burnt toast!
+        </p>
+          <p>
+            Make observation in the following pictures and tell me something about temperature.
+          </p>
+          <sidebyside>
+            <figure xml:id="yespic">
+              <caption>A</caption>
+              <image source="/schoolboy.png">
+              <shortdescription>(Temperature)</shortdescription>
+            </image>
+            </figure>
+            <figure xml:id="nopic">
+              <caption>B</caption>
+              <image source="/winter.png">
+                <shortdescription>(Temperature-1)</shortdescription>
+              </image>
+            </figure>
+          </sidebyside>
+     </activity>
+     <activity label="multiple-choice-not-randomized">
+  <title>Multiple-Choice, Not Randomized, One Answer</title>
+  <idx>Warm,hot or colder.</idx>
+  <statement>
+    <p>
+      Magdalene is cooking porridge, the temperature of the porridge is likely to be? 
+    </p>
+  </statement>
+  <choices>
+  <choice>
+  <statement>
+    <p>
+      Cold
+    </p>
+  </statement>
+  <feedback>
+    <p>
+      Hot
+    </p>
+  </feedback>
+  </choice>
+  <choice correct="yes">
+  <statement>
+    <p>
+      Hot
+    </p>
+  </statement>
+  <feedback>
+    <p>
+       Hot due to exposure to heat.
+    </p>
+  </feedback>
+  </choice>
+  <choice>
+  <statement>
+    <p>
+      Warm
+    </p>
+  </statement>
+  <feedback>
+    <p>
+      Warm conditions may not cook an item.
+    </p>
+  </feedback>
+  </choice>
+  </choices>
+</activity>
+
+    <exercise label="demo-unit">
+      <title>True/False</title>
+      <idx>Temperature</idx>
+      <statement correct="no">
+        <p>
+          If the statement correct choose true and if its wrong choose false. 
+          <m>{\color{blue}\text{Boiling water is colder.}}</m>
+        </p>
+         
+      </statement>
+      <feedback>
+        <p>
+          False! Cold water is hotter.
+        </p>
+      </feedback>
+      <hint>
+        <p>
+          When anything is exposed to heat it becomes hot.
+        </p>
+      </hint>
+    </exercise>
+    <exercise label="temp-test">
+      <!-- <title>True/False</title> -->
+      <idx>Temperature.</idx>
+      <statement correct="yes">
+        <p>
+          If the statement correct choose true and if its wrong choose false. 
+          <m>{\color{blue}\text{Wet clothes are colder.}}</m>
+        </p>
+         
+      </statement>
+      <feedback>
+        <p>
+          True!
+        </p>
+      </feedback>
+      <hint>
+        <p>
+          When anything is placed in cool temperatures it becomes colder.
+        </p>
+      </hint>
+    </exercise>
+    <activity label="temp-t">
+      <!-- <title>True/False</title> -->
+      <idx>Temperature.</idx>
+      <statement correct="no">
+        <p>
+          <ol>
+            <li>
+              <p>
+                If the statement correct choose true and if its wrong choose false. 
+                 <m>{\color{blue}\text{When it is raining it is usually hotter than a sunny day.}}</m>
+              </p>
+            </li>
+          </ol>
+        </p>       
+      </statement>
+      <feedback>
+        <p>
+          False!A sunny day is hotter than a rainy day.
+        </p>
+      </feedback>
+      <hint>
+        <p>
+          Whenever it rains the temperatures becomes cool than when it's sunny..
+        </p>
+      </hint>
+    </activity>    
+    <activity label="temp-te">
+      <!-- <title>True/False</title> -->
+      <idx>Temperature.</idx>
+      <statement correct="yes">
+        <p>
+          <ol>
+            <li>
+              <p>
+                If the statement correct choose true and if its wrong choose false. 
+                 <m>{\color{blue}\text{Water in a refrigerator is colder than boiling milk.}}</m>
+              </p>
+            </li>
+          </ol>
+        </p>       
+      </statement>
+      <feedback>
+        <p>
+          True!
+        </p>
+      </feedback>
+      <hint>
+        <p>
+          Whenever an item is exposed to cool temperatures it becomes cool tand when boiling any substance it becomes hotter.
+        </p>
+      </hint>
+    </activity>  
+  </subsection>   

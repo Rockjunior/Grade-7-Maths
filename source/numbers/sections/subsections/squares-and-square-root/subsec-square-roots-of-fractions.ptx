@@ -1,0 +1,209 @@
+<subsection xml:id="subsec-Square-roots-of-fractions">
+    <title>Square roots of fractions</title>
+    <p>
+        Now that we understand how to find the square of a fraction, 
+        as discussed in <xref ref="subsec-Squares-of-fractions"/>, 
+        let's explore how to calculate the square root of a given fraction. 
+        To do this, we simply find the square roots of the numerator and the denominator separately.
+        The last step will be dividing the square root of the numerator by the square root of the denominator.
+    </p>
+    <activity>
+        <introduction>
+            <p>
+                <alert>Work in groups</alert>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Draw the following grids as shown below.
+                </p>
+                <sidebyside widths="25% 25% 25%"> 
+                    <figure xml:id="2-by-2-fraction-square">
+                        <caption>Grid 1</caption>
+                        <image> 
+                            <shortdescription>
+                                This image shows a two by two grid square with one small squares colored
+                            </shortdescription> 
+                            <latex-image label="two-by-two-fraction-square"> 
+                                \begin{tikzpicture}[scale=0.8] 
+                                    \fill[green!30] (0,0) rectangle (1,1); 
+                                    \draw[thick,blue] (0,0) rectangle (2,2); 
+                                    \draw[thin,gray] (0,0) grid (2,2);
+                                \end{tikzpicture} 
+                            </latex-image>
+                        </image> 
+                    </figure>
+                    <figure xml:id="4-by-fraction-square">
+                        <caption>Grid 2</caption>
+                        <image> 
+                            <shortdescription>
+                                This image shows a four by four grid square with nine small squares colored
+                            </shortdescription> 
+                            <latex-image label="four-by-four-fraction-square"> 
+                                \begin{tikzpicture}[scale=0.8] 
+                                    \fill[green!30] (0,0) rectangle (3,3);
+                                    \draw[thick,blue] (0,0) rectangle (4,4); 
+                                    \draw[thin,gray] (0,0) grid (4,4);
+                                \end{tikzpicture} 
+                            </latex-image>
+                        </image> 
+                    </figure>
+                    <figure xml:id="3-by-3-fraction-square">
+                        <caption>Grid 3</caption>
+                        <image>
+                            <shortdescription>
+                                This image shows a three by three grid with four small squares colored
+                            </shortdescription> 
+                            <latex-image label="three-by-three-fraction-square"> 
+                                \begin{tikzpicture}[scale=0.8] 
+                                    \fill[green!30] (0,0) rectangle (2,2); 
+                                    \draw[thick,blue] (0,0) rectangle (3,3); 
+                                    \draw[thin,gray] (0,0) grid (3,3); 
+                                \end{tikzpicture} 
+                            </latex-image> 
+                        </image>
+                    </figure>
+                </sidebyside>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Count and record the total number of small squares in each shaded region of the grid.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Count and record the total number of small squares in each grid.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Form a fraction using the total number of shaded squares as the numerator and the total number of squares in the grid as the denominator.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Identify the side length of each square grid and count the number of small squares along one side.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Identify the side length of the shaded region and count the number of small squares along one side.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Form a fraction using the total number of squares gotten from step <m>\textbf{(e)}</m> as the numerator and total number of squares gotten from step <m>\textbf{(f)}</m> as the denominator.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Compare the two fractions obtained in step <m>\textbf{(d)}</m> and <m>\textbf{(g)}</m>. What relationship do you observe between them?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Share your group discussion work, with other learners in class
+                </p>
+            </statement>
+        </task>
+    </activity>
+    <p>
+        To find the square root of a fraction, work out the square root of the numerator and square root of the denominator separately.
+    </p>
+    <example>
+        <statement>
+            <p>
+                Find the square root of <m>\frac{36}{400}</m>.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                To find the square root of <m>\frac{36}{400}</m>, take the square root of numerator and denominator separately.
+            </p>
+            <p>
+                <me>
+                    \sqrt{\frac{36}{400}} = \frac{\sqrt{36}}{\sqrt{400}}
+                </me>
+            </p>
+            <p>
+                Express the numerator and denominator in terms of its prime factor pairs.
+            </p>
+            <p>
+                <me>
+                    \frac{\sqrt{36}}{\sqrt{400}} = \frac{\sqrt{{\color{blue}2} \times {\color{blue}2} \times {\color{red} 3} \times {\color{red}3}}}{\sqrt{{\color{blue}2} \times {\color{blue}2} \times {\color{red}2} \times {\color{red}2} \times 5 \times 5}}
+                </me>
+            </p>
+            <p>
+                Take one factor from each pair, and multiply.
+            </p>
+            <p>
+                <md>
+                    <mrow> \frac{{\color{blue}2}}{{\color{blue}2} \times {\color{red}2} \times 5} \amp = \frac{6}{20}</mrow>
+                    <mrow></mrow>
+                    <mrow> \amp = \frac{6}{20} </mrow>
+                </md>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Work out: <m>\sqrt{28\frac{4}{9}}</m>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                To find the <m>\sqrt{28\frac{4}{9}}</m>, first convert <m>28\frac{4}{9}</m> into improper fraction.
+            </p>
+            <p>
+                <me>
+                    28 \frac{4}{9} = \frac{(9 \times 28)+4}{9} = \frac{256}{9}
+                </me>
+            </p>
+            <p>
+                Now, <m>\sqrt{28\frac{4}{9}} = \sqrt{\frac{256}{9}} = \frac{\sqrt{256}}{\sqrt{9}}</m>
+            </p>
+            <p>
+                Express the numerator and denominator in terms of its prime factor pairs.
+            </p><p>
+                <me>
+                    \frac{\sqrt{256}}{\sqrt{9}} = \frac{\sqrt{{\color{blue} 2} \times {\color{blue} 2} \times {\color{red} 2} \times {\color{red} 2} \times {\color{green} 2} \times {\color{green} 2} \times 2 \times 2 }}{\sqrt{{\color{blue}3} \times {\color{blue}3}}}
+                </me>
+            </p>
+            <p>
+                Take one factor from each pair, and multiply.
+            </p>
+            <p>
+                <md>
+                    <mrow> \frac{{\color{blue} 2} \times {\color{red} 2} \times {\color{green} 2} \times 2}{{\color{blue}3} }  \amp  = \frac{16}{3}</mrow>
+                    <mrow></mrow>
+                    <mrow> \amp = \frac{16}{3}</mrow>
+                </md>
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                Exercise for square roots of fraction goes here
+            </p>
+        </statement>
+    </exercise>
+</subsection>

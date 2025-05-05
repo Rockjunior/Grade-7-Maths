@@ -1,0 +1,170 @@
+<subsection xml:id="subsec-Angles-in-a-parallelogram">
+    <title>Angles in a parallelogram</title>
+
+    <p>
+        A parallelogram is a geometrical shape whose sides are parallel to each other. 
+        It is a type of polygon having four sides (also called quadrilateral), where the pair of parallel sides are equal in length.
+            The Sum of adjacent angles of a parallelogram is equal to 180 degrees
+    </p>
+    
+    <p>
+        <term>Properties of a parallelogram</term>
+    </p>
+
+    <p>
+        <ul>
+            <li>
+                <p>
+                    The opposite sides of a parallelogram are equal in length. 
+                </p>
+            </li>
+            <li>
+                <p>
+                    The opposite angles are equal in measure.
+                    <me>\angle p = \angle r</me>
+                    <me>\angle q = \angle s</me>
+                    
+                </p>
+            </li>
+            <li>
+                <p>
+                    Also, the interior angles on the same side of the transversal are supplementary.
+                    <me>\angle p + \angle q = 180^\circ </me>
+                    <me>\angle q + \angle r = 180^\circ </me>
+                    <me>\angle r + \angle s = 180^\circ </me>
+                    <me>\angle s + \angle p = 180^\circ </me>
+                </p>
+            </li>
+            <li>
+                <p>
+                    The Sum of all the interior angles equals <m>360^\circ</m> 
+                </p>
+            </li>
+        </ul>
+       
+    </p>
+
+    <image width="100%">
+    <shortdescription></shortdescription>
+        <latex-image>
+            \begin{tikzpicture}
+                \usetikzlibrary{quotes,angles}
+                \draw[thick,blue](2,4) coordinate (A)-- (0,0) coordinate (B)-- (6,0) coordinate (C)--(8,4)coordinate(D)--(2,4)coordinate(A);
+                \node at (-0.2,0){A};
+                \node at (6.2,0){B};
+                \node at (8.2,4){C};
+                \node at (1.8,4){D};
+                \pic["$p$", draw,-&gt;,red, angle radius=1cm] {angle=B--A--D};
+                \pic["$s$", draw,-&gt;,blue, angle radius=1cm] {angle=A--D--C};
+                \pic["$r$", draw,-&gt;,green, angle radius=1cm] {angle=D--C--B};
+                \pic["$q$", draw,-&gt;,purple, angle radius=1cm] {angle=C--B--A};
+
+                
+            \end{tikzpicture}
+        </latex-image>
+    </image>
+
+    <activity>
+        <p>
+            Here is an activity for you to do on drawing a parallelogram.
+                Click on the link for further instructions on construction of a parallelogram in GeoGebra.
+        </p>
+        <p>
+            <url href="https://www.geogebra.org/m/XUv5mXTm#material/wfjw6sqb" />
+            
+        </p>
+    </activity>
+
+    <example>
+
+        <statement>
+            <p>
+                In the figure below, work out the sizes of angles marked <m>x</m>, <m>y</m> and <m>z</m>.
+            </p>
+
+            <image width="100%">
+                <shortdescription>Parallelogram</shortdescription>
+                <latex-image label="parallelogram">
+                    \begin{tikzpicture}
+                        \usetikzlibrary{quotes,angles}
+                        \draw(2,4) coordinate (D)-- (0,0) coordinate (A)-- (6,0) coordinate (B)--(8,4)coordinate(C)--(2,4)coordinate(D);
+                        <!-- \node at (-0.2,0){A};
+                        \node at (6.2,0){B};
+                        \node at (8.2,4){C};
+                        \node at (1.8,4){D}; -->
+                        \pic["$z$", draw,-&gt;,black, angle radius=1cm] {angle=B--A--D};
+                        \pic["$108$", draw,-&gt;,black, angle radius=1cm] {angle=A--D--C};
+                        \pic["$x$", draw,-&gt;,black, angle radius=1cm] {angle=D--C--B};
+                        \pic["$y$", draw,-&gt;,black, angle radius=1cm] {angle=C--B--A};
+
+                        
+                        \end{tikzpicture}
+                </latex-image>
+            </image>
+                
+        </statement>    
+
+        <solution>
+            <p>
+                Angles marked <m>z</m> and <m>180^\circ</m> are co-interior angles.
+            </p>
+
+            <p>
+                Therefore:
+            </p>
+            <p>
+                Angle marked <m>z = 180^\circ </m>
+            </p>
+            <p>
+                <me>
+                    x=72^\circ
+                </me>
+                
+            </p>
+            <p>
+                Angles marked <m>x</m> and <m>180^\circ</m> are co-interior angles.Therefore:
+            </p>
+            <p>
+                <me>
+                    \text{Angle marked } x = 180^\circ-108^\circ
+                </me>
+                
+            </p>
+            <p>
+                <me>
+                    x=72^\circ
+                </me>
+                
+            </p>
+            <p>
+                    Angle marked <m>x</m> and <m>y</m> are co-interior angles.Therefore:
+            </p>
+            <p>
+                <me>
+                    x + y = 180^\circ
+                </me>
+                
+            </p>
+            <p>
+                <me>
+                    y = 180^\circ - x
+                </me>
+                
+            </p>
+            <p>
+                <me>
+                    y = 180^\circ - 72^\circ
+                </me>
+                
+            </p>
+            <p>
+                <me>
+                        y = 108^\circ
+                </me>
+                
+            </p>
+
+        </solution>
+
+    </example>
+</subsection>

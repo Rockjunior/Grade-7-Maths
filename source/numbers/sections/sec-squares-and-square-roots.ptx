@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-squares-and-square-roots" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Squares and square roots</title>
+    <introduction>
+        <p>
+             Squares and square roots are fundamental concepts in mathematics, with many applications in our daily lives.
+        </p>
+        <p>
+            Consider a surveyor tasked with determining the side length of a square
+            garden with an area of <m>400</m> m<m>^2</m>. Since all sides of a square are equal, the surveyor
+            needs to find a number that, when multiplied by itself, results in <m>400</m>. This is where the concept of square roots comes into play.
+        </p>
+        <p>
+            To find the side length of the garden, the surveyor needs to determine the square root of <m>400</m>.
+            In this case, the square root of <m>400</m> is <m>20</m> since <m>20 \times 20 = 400</m>, meaning each side of the garden is <m>20</m> m long.
+        </p>
+        <p>
+            We can represent this mathematically as follows:
+        </p>
+        <!-- <p>
+            To illustrate, consider the number <m>3</m>: The square of <m>3</m>, written as <m>3^2</m>, is <m>9</m>. 
+            This means multiplying <m>3</m> by itself <m>(3 \times 3 = 9)</m>. Conversely, the square root of <m>9</m> denoted as <m>\sqrt{9}</m> is <m>3</m>. 
+            This operation finds the number that, when multiplied by itself, gives 9.
+            We see that square and square roots are both opposite concept in nature to each other. 
+        </p>  -->
+        <!-- <p>
+            This concepts are applied in fields such as geometry when calculating the area of squares or determning the length of diagonal.
+        </p> -->
+                <!-- <p> -->
+                    <sidebyside widths="20% 50%">
+                        <figure xml:id="square-figure">
+                            <caption>A square garden</caption>
+                            <image width="15%">
+                                <shortdescription>A square with side length a</shortdescription>
+                                <latex-image>
+                                    \begin{tikzpicture}
+                                    \draw[thick,blue] (0,0) -- (3,0) -- (3,3) -- (0,3) -- cycle;
+                                        \node[below] at (1.5,0) {$a$};
+                                        \node[left] at (0,1.5) {$a$};
+                                    \end{tikzpicture}
+                                </latex-image>
+                            </image>
+                        </figure>
+                        <p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        Area of a square = side length <m>\times</m> side length
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>a^2 = a \times a</m> , where <m>a</m> represents the side length of the square.
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </sidebyside>
+    </introduction>
+    <xi:include href="subsections/squares-and-square-root/subsec-squares-of-whole-numbers.ptx" />
+    <xi:include href="subsections/squares-and-square-root/subsec-squares-of-fractions.ptx" />
+    <xi:include href="subsections/squares-and-square-root/subsec-squares-of-decimals.ptx" />
+    <xi:include href="subsections/squares-and-square-root/subsec-squares-roots-of-whole-numbers.ptx" />
+    <xi:include href="subsections/squares-and-square-root/subsec-square-roots-of-fractions.ptx" />
+    <xi:include href="subsections/squares-and-square-root/subsec-square-roots-of-decimals.ptx" />
+</section>

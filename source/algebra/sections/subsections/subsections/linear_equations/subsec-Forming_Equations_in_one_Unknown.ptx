@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-Forming_Equations_in_one_Unknown">
+      <title>Forming Equations in One Unknown</title>
+
+        <activity>
+          <p>
+            <ol>
+            <li>
+              <p>
+                Place a weight measure of <m>3 kg </m> on one side of weight measure of <m>1 kg </m> on the other side.
+              </p>
+            </li>
+            <li>
+              <p>
+                Gradually add a mass to the 1 kg mass until the beam balances.
+              </p>
+            </li>
+            <li>
+              <p>
+                Represent the added mass with a letter and relate the weights on the two sides of the beam balance.
+              </p>
+            </li>
+            <li>
+              <p>
+                Discuss and share with other groups.
+              </p>
+            </li>
+            </ol>
+          </p>
+        </activity>
+
+        <p>
+          <me>
+            {\color{blue} \text{Learning Point.}}
+          </me>          
+        </p>
+
+        <p>
+          <me>{\color{green} \text{Equating the masses on both sides leads to the formation of an equation.}}</me>
+        </p>
+
+        <example>
+
+          <statement>
+            <p>
+              Walibora bought a shirt and a pair of shorts. The cost of the pair of shorts was <m>150</m> shillings less than that of the shirt. If the two items cost <m>950</m> shillings. Write an equation representing the information using letter <m>x</m> as the cost of a shirt.
+            </p>
+          </statement>
+
+          <solution>
+
+            <p>
+              The cost of one pair of shorts is <me>= x - 150</me>
+            </p>
+
+            <p>
+              The cost of a shirt and a pair of shorts can be represented using the expression shown below:
+            </p>
+
+            <p>
+              <me> x + (x - 150) = 950</me>
+            </p>
+
+            <p>
+              Simplifying the equation, we get:
+            </p>
+
+            <p>
+              <me>2x - 150 = 950</me>
+            </p>
+
+            <p>
+              Thus the equation <me>2x - 150 = 950.</me>
+            </p>
+
+            <p>
+              Represents the cost of a shirt and a pair of shorts.
+            </p>
+
+          </solution>
+
+        </example>
+
+        <exercise>
+          <statement>
+            <p>
+              Exercise Here.
+            </p>
+          </statement>
+        </exercise>
+      
+    </subsection>

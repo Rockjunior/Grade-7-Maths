@@ -1,0 +1,179 @@
+<subsection xml:id="subsec-relationship-between-cubic-centimetres-cubic-metres-and-litres">
+  <title>Relationship between cubic centimetres(cm³), cubic metres(m³) and Litres</title>
+  <activity>
+    <statement>
+      <sidebyside>
+        <p>
+          <ul>
+            <li>
+              <p>
+                <m>\textbf {You need:} </m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>{\color{Cyan} a).\text{A container. b)A basin.}}</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>{\color{Cyan}\text{ c) Water. d)A wood saw.}}</m>
+              </p>
+            </li>
+            <li>
+              <p>
+               <m>{\color{Cyan}\text {e)A piece of wood. f) A nail.}}</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>{\color{cyan} \text {h)A measuring cylinder calibrated in litres.}}</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                Make a model of a cube or (cut a cubic piece of wood) measuring <m>10 \text {cm by }10 \text {cm by }10 \text {cm}</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the volume of the cube?
+                </p>
+            </li>    
+          </ul>
+        </p>
+        <image source="/cyl-box.png">
+          <shortdescription></shortdescription>
+        </image>
+      </sidebyside>
+      <p>
+        <ul>
+            <li>
+              <p>
+                 Fill in the container with water and place it in the basin.
+              </p>
+            </li>
+            <li>
+              <p>
+                Hammer a nail on the cube.
+              </p>
+            </li>
+            <li>
+              <p>
+                Slowly immerse the cube into the water in the container until it is completely covered bt the water.
+              </p>
+            </li>
+          <li>
+            <p>
+              Pour the water that spilled into the water in a measuring cylinder and record the volume of the water.
+            </p>
+          </li>
+          <li>
+            <p>
+              <md>
+                <mrow> \textbf {a. What is the volume of the water that spilled?} </mrow>
+                <mrow> \textbf {b.What is the volume of the cube?}</mrow>
+              </md>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </statement>
+  </activity>
+  <exploration>
+    <statement>
+      <p>
+        <m>{\color{magenta} \text{Learning point.}}</m>
+      </p>
+      <p>
+        <m>{\color{cyan}\textbf {Conversion from  cubic centimetres to Litres  }}</m>
+      </p>
+      <p>
+        From our activity above, The volume of water spilled should be <m>1</m> litre.
+        The amount of water spilled in the basin is equivalent to the volume of the cube.
+        <md>
+          <mrow> 10 \text{cm} \times 10 \text{cm} \times 10 \text {cm} =\amp  1000\text {cm}^3</mrow>
+          <mrow> 1000\text {cm}^3 =\amp 1 \text{Litre}</mrow>
+          <mrow> 1 \text{Litre} = \amp 1000\text {cm}^3  </mrow>
+       </md>
+      </p>
+    </statement>
+  </exploration>
+  <activity>
+    <statement>
+      <sidebyside>
+        <p>
+        <ol>
+          <li>
+            <p>
+              Learners from Kigali primary school used a 10 litre jerrycan to fill a <m>1 \text{m}</m> cube container with water.
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the volume of a  <m>1 \text{m}</m> cube container?
+            </p>
+          </li>
+          <li>
+            <p>
+              How many  <m>10 \text{Litres}</m> container filled the  <m>1 \text{m}</m> cube?
+            </p>
+          </li>
+          <li>
+            <p>
+               Share your findings with other class members.
+            </p>
+          </li >
+        </ol>
+      </p>
+      <image source="/cubecapacity.png">
+      </image>
+      </sidebyside>
+    </statement>
+  </activity>
+  <exploration>
+    <statement>
+      <p>
+        <m>{\color{green}\text {A hundred 10 Litres containers were used to fill the 1 m cube container.}}</m>
+      </p>
+      <p>
+        <md>
+          <mrow>100 \times 10 \text{litres} = \amp 1000 \text {Litres} </mrow>
+          <mrow>1000 \text {Litres} = \amp 1\ text{m}^3 </mrow>
+          <mrow>1 \text {m}^3 = \amp 1000 \text {Litres} </mrow>
+        </md>
+      </p>
+      <p>
+        Fill in the tables below to show relationship between <m>\text {cm}^3</m>, <m>\text {m}^3</m> and  <m>\text {Litres}</m> .
+      </p>
+      <table>
+        <title>Relating <m>\text {cm}^3</m>, <m>\text {m}^3</m> and <m>\text {Litres.}</m>  </title>
+        <tabular top="medium" left="medium" right="medium" halign="center" bottom="medium">
+          <row>
+            <cell> <m>\text {m}^3</m> </cell>
+            <cell> <m>\text {Litres}</m> </cell>
+            <cell> <m>\text {cm}^3</m> </cell>
+          </row>
+          <row>
+            <cell>1  <m>\text {m}^3</m> </cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </table>
+      <table>
+        <title>Relating <m>\text {cm}^3</m> and <m>\text {Litres.}</m> </title>
+        <tabular halign="center" top="medium" bottom="medium" right="medium" left="medium">
+          <row>
+            <cell><m>\text {Litres}</m></cell>
+            <cell> <m>\text {cm}^3</m></cell>
+          </row>
+          <row>
+            <cell><m>1 \text {litres}</m></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+  </exploration>
+</subsection>

@@ -1,0 +1,104 @@
+<subsection xml:id="subsec-Total-Value-of-digits-in-a-number">
+        <title>Total Value of digits in a number</title>
+        <p> 
+          The total value of a digit in a number is the product of the digit and its place value.
+        </p> 
+       <activity>
+       <p>
+        
+       </p>
+          <p>
+            <ol marker="1.">
+              <li>
+                <p>
+                  Make cards with numbers as shown below.
+                </p>
+                <image source="CARD.png">
+                  <shortdescription></shortdescription>
+                </image>
+              </li>
+              <li>
+                <p>
+                  Form a 9-digit number using the cards.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Stick each card on a place value chart as shown below.
+                </p>
+                <image source="placevalue.png">
+                  <shortdescription></shortdescription>
+                </image>
+              </li>
+              <li>
+                <p>
+                  Find the total value of each digit.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Share your work with other learners in your class.
+                </p>
+              </li>
+            </ol>
+          </p>
+          <!-- <p>
+              1. Make number cards similar to the ones shown below.
+          </p>
+            
+          <p> 
+              2.Form a 9-digit number using the cards.
+          </p>
+            <p>
+                  3.Stick each card on a place value chart as shown below.
+          </p>
+          <p> 
+                  4.Find the total value of each digit.
+              </p>
+              <p> 
+                  5.Share your work with other learners in your class.
+              </p> -->
+       </activity> 
+
+       <example>
+          <statement>
+              <p>
+                What is the total value of each digit in the number 501 560 320?
+              </p>
+            </statement>
+            <solution>
+              <p>
+                The total value of a digit = digit x place value
+              </p>
+              <p>
+                Use a place value chart as shown below to find the total value of the digits in the number <m>501 560 320</m>
+              </p>
+              <image source="total.png"></image>
+          
+            </solution>
+       </example>
+
+       <example>
+          <statement>
+              <p> 
+                  In 2005, 249 738 201 tree seedlings were planted in the country. What is the total value of digit 4 in the number of tree seedlings planted?
+              </p>
+          </statement>
+          <solution>
+            <p>
+              The place value of digit 4 is tens of millions.
+            </p>
+            <p>
+              The total value of digit 4 is 4 x 10 000 000
+            </p>
+              <p>
+                The total value of digit 4 is 40 000 000.
+              </p>
+            </solution>
+          </example>
+       <exercise>
+        <p>
+          find it on webwork
+        </p>
+       </exercise>
+      </subsection>

@@ -1,0 +1,143 @@
+<subsection xml:id="subsec-volume-of-cubes">
+  <title>Volume of cubes.</title>
+  <activity>
+    <statement>
+      <p>
+        <ul>
+          <li>
+            <p>
+              Grade 7 learners intended to purchase a gift for their mathematics teacher. 
+            </p>
+          </li>
+          <li>
+            <p>
+              Make a cubic gift box like the one shown below and measure the length, width and height to get it's volume.
+            </p>
+          </li>
+          <li>
+            <p>
+              Thereafter, sketch the cube in your exercise book and work out the volume and convert the volume from 
+              <m>cm^3</m> to <m>m^3.</m>
+            </p>
+          </li>
+        </ul>
+      </p>
+      <sidebyside>
+        <image source="/GIFT.png" width="20%">
+          <shortdescription>(gift)</shortdescription>
+        </image>
+        <image width="20%">
+        <latex-image >
+          \begin{tikzpicture}
+            \coordinate (A) at (0,0);
+            \coordinate (B) at (3,0);
+            \coordinate (C) at (3,3);
+            \coordinate (D) at (0,3);
+            \coordinate (E) at (1,1);
+            \coordinate (F) at (4,1);
+            \coordinate (G) at (4,4);
+            \coordinate (H) at (1,4);
+            % Draw the front face
+            \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+
+            % Fill base square with blue color
+            \fill[blue!30] (A) -- (B) -- (F) -- (E) -- cycle;
+            % Draw the front face
+            \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+
+            % Draw the back face
+            \draw[thick] (E) -- (F) -- (G) -- (H) -- cycle;
+
+            % Connect front and back faces
+            \draw[thick] (A) -- (E);
+            \draw[thick] (B) -- (F);
+            \draw[thick] (C) -- (G);
+            \draw[thick] (D) -- (H);
+
+            % Label Base
+            \draw[&lt;-&gt;, red, thick] (A) ++(0,-0.3) -- ++(3,0) node[midway, below, font=\bfseries, red] {Base};
+
+            % Label Height
+            \draw[&lt;-&gt;, blue, thick] (F) ++(0.3,0) -- ++(0,3) node[midway, right, font=\bfseries, blue] {Height};
+
+            % Label Width
+            \draw[&lt;-&gt;, green!70!black, thick] (B) ++(0.2,0) -- ++(1,1) node[midway, below right, font=\bfseries, green!70!black] {Width};
+          \end{tikzpicture}
+        </latex-image>
+        </image>
+      </sidebyside>
+      <p>
+        What is the area of the coloured face?
+      </p>
+      <p>
+        Therefore find the area of the cube.
+      </p>
+    </statement>
+  </activity>
+  <example>
+    <statement>
+      <p>
+        Find the volume of the figure below.
+      </p>
+      <image width="70%">
+      <latex-image>
+        \begin{tikzpicture}
+          Define dimensions
+          \coordinate (A) at (0,0);
+          \coordinate (B) at (3,0);
+          \coordinate (C) at (3,3);
+          \coordinate (D) at (0,3);
+          \coordinate (E) at (1,1);
+          \coordinate (F) at (4,1);
+          \coordinate (G) at (4,4);
+          \coordinate (H) at (1,4);
+          % Draw the front face
+          \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+
+          % Fill base square with blue color
+          \fill[blue!30] (A) -- (B) -- (F) -- (E) -- cycle;
+          % Draw the front face
+          \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+
+          % Draw the back face
+          \draw[thick] (E) -- (F) -- (G) -- (H) -- cycle;
+
+          % Connect front and back faces
+          \draw[thick] (A) -- (E);
+          \draw[thick] (B) -- (F);
+          \draw[thick] (C) -- (G);
+          \draw[thick] (D) -- (H);
+
+          % Label Base
+          \draw[&lt;-&gt;, red, thick] (A) ++(0,-0.3) -- ++(3,0) node[midway, below, font=\bfseries, red] {3m};
+
+          % Label Height
+          \draw[&lt;-&gt;, blue, thick] (F) ++(0.3,0) -- ++(0,3) node[midway, right, font=\bfseries, blue] {3m};
+
+          % Label Width
+          \draw[&lt;-&gt;, green!70!black, thick] (B) ++(0.2,0) -- ++(1,1) node[midway, below right, font=\bfseries, green!70!black] {3m};
+          \end{tikzpicture}
+        </latex-image>
+        </image>
+      </statement>
+      <hint>
+        <p>
+          Volume of a cube = <m>l \times l \times l = l^3</m>
+        </p>
+      </hint>
+      <solution>
+        <p>
+          <md>
+            <mrow> \text{Volume of a cube} = \amp {l} \times {l} \times {l} </mrow>
+            <mrow> =\amp {l} ^3</mrow>
+            <mrow> =\amp 3\text {m} \times 3\text{m} \times 3 \text{m}</mrow>
+            <mrow> =\amp 3^3\text({m}^3) </mrow>
+            <mrow> =\amp9\text{m}^3 </mrow>
+          </md>
+        </p>
+        <p>
+          <m> {\color{Magenta}\text{Volume of the cube} = 9 \text{m}^3}</m>
+        </p>
+      </solution>
+    </example>
+  </subsection>

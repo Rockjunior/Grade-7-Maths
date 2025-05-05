@@ -1,0 +1,228 @@
+  <subsection xml:id="subsec-conversion-of-units-of-length">
+    <title>conversion of units of length</title>
+    
+  <activity>
+    <statement>
+        <p>
+        <m>{\color{magenta}text bf{Converting units of length.}}</m>
+      </p>
+      <sidebyside>
+      <p>
+        Washika wants to go up the stairs. The staircases are labelled centimetres <m>\text{(cm) }</m>, decimetres <m>\text{ (dm) }</m>,
+        metres <m>\text{ (m) }</m>, Decametres <m>\text{ (Dm) }</m> and Hectometres <m>\text{ (Hm) }</m>
+         Every step he makes is equivalent to ten times the previous step from the picture above.
+        
+      </p>
+      <ol>
+        <li>How many decimetres are there in a metre?</li>
+        <li>How many decimetres are there in a Decametre?</li>
+        <li>How many metres are there in a Hectometre?</li>
+      </ol>
+
+      <image source="/staircase.png" width="100%">
+        <shortdescription>length conversion</shortdescription>
+      </image>
+      </sidebyside>
+      
+        <p>
+           <m>\text bf{ Conversion of length}.</m>
+        </p>
+        <p>
+           <ul>
+            <li>
+              <p>
+                 <m> {\color{Magenta} \text {To perfom the operations involving length, measurements must be of the same units. }}</m>
+              </p>
+            </li>
+           </ul>
+        </p>
+       <sidebyside>
+             <p>
+            <ol>
+                <li>
+                    <p>
+                        Collect a number of sticks and cut them according to the exact height of the staircase in your environment.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Measure the sticks to uniform length in my case it's <m>10\text{ cm }</m> long.
+                    </p>
+                    <p>
+                        I have <m>7</m> what about you? 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        We will also measure the width of our staircases the same way we did to the length and we shall get the total length and the total width. 
+                    </p>
+                </li>
+            
+                <li>
+                    <p>
+                        Fill in the table below to test mastery of skills learnt from the activity...
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <image>
+        <latex-image>
+          \begin{tikzpicture}
+            \draw[thick,fill=pink](0,2) --(2,2) --(2,4) --(4,4) --(4,6) --(6,6) --(6,8) --(8,8) --(8,10) --(10,10) --(10,12) --(12,12) --(12,0) --(0,0) --(0,2);
+            \draw[-&gt;,thick,fill=blue](-0.3,0) --(-0.3,2);
+            \draw[-&gt;,thick,fill=blue](1.7,2) --(1.7,4);
+            \draw[-&gt;,thick,fill=blue](3.7,4) --(3.7,6);
+            \draw[-&gt;,thick,fill=blue](5.7,6) --(5.7,8);
+            \draw[-&gt;,thick,fill=blue](7.7,8) --(7.7,10);
+            \draw[-&gt;,thick,fill=blue](9.7,10) --(9.7,12);
+            \draw[-&gt;,thick,fill=blue](0.0,1.8) --(2,1.8);
+            \draw[-&gt;,thick,fill=blue](2.0,3.8) --(4,3.8);
+            \draw[-&gt;,thick,fill=blue](4.0,5.8) --(6,5.8);
+            \draw[-&gt;,thick,fill=blue](6.0,7.8) --(8,7.8);
+            \draw[-&gt;,thick,fill=blue](8.0,9.8) --(10,9.8);
+            \draw[-&gt;,thick,fill=blue](10.0,11.8) --(11.95,11.8);
+            \draw[-&gt;,thick,fill=blue](0,-0.2) --(12,-0.2);
+            \draw[-&gt;,thick,fill=blue](12.2,0) --(12.2,12);
+            \node at(0.8,2.3){cm};
+            \node at(2.8,4.3){dm};
+            \node at(4.8,6.3){m};
+            \node at(6.8,8.3){Dm};
+            \node at(8.8,10.3){Hm};
+            \node at(10.8,12.3){km};
+            \node at(0.3,1){10};
+            \node at(2.3,3){10};
+            \node at(4.3,5){10};
+            \node at(6.3,7){10};
+            \node at(8.3,9){10};
+            \node at(10.3,11){10};
+          \end{tikzpicture}
+        </latex-image>
+        </image>
+        </sidebyside>
+     
+        <table>
+          <title></title>
+          <tabular  halign="center" top="medium" left="medium" bottom="medium" right="medium">
+            <row > 
+              <cell> ______mm = 1cm</cell>
+            </row>
+            <row>
+              <cell> ______cm = 1dm</cell>
+            </row>
+            <row>
+              <cell>______dm = 1m</cell>
+            </row>
+          </tabular>
+        </table>
+
+        <table>
+          <title>Learning point.</title>
+          <tabular halign="center" top="medium" left="medium" bottom="medium" right="medium">
+            <row>
+              <cell>10mm  = 1cm</cell>
+            </row>
+            <row>
+              <cell>10cm  = 1dm</cell>
+            </row>
+            <row>
+              <cell>10dm  = 1m</cell>
+            </row>
+            <row>
+              <cell>10m  = 1Dm</cell>
+            </row>
+            <row>
+              <cell>10Dm = 1Hm</cell>
+            </row>
+            <row>
+              <cell>10Hm  = 1km</cell>
+            </row>
+          </tabular>
+        </table>
+
+       <p>
+          <m>  {\color{Magenta} \text {The standard unit for measuring length internationally is Metres.}}</m>
+        </p>
+        <p>
+          a. We multiply a unit by <m>10</m> to convert it to the next in descending order.
+          <m>{\color{Magenta} \text{ Km } \xrightarrow[] {\times 10} \text{ Hm } \xrightarrow[] {\times 10} \text{ Dm } \xrightarrow[]{\times 10} \text{ m } \xrightarrow[]{\times 10} \text{ dm } \xrightarrow[]{\times 10}\text{ cm }}</m>
+        </p>
+        <p>
+          b. We divide a unit by <m>10</m> to convert it to the next in ascending order.
+          <m>{\color{Magenta} \text{ Km } \xleftarrow[]{\div10} \text{ Hm } \xleftarrow[]{\div10} \text{ Dm } \xleftarrow[]{\div 10}\text{ m } \xleftarrow[]{\div 10}\text{ dm } \xleftarrow[]{\div 10}\text{ cm }}</m>
+        </p>
+
+        <p>
+          Interact with the exrcise below.
+          <m>{\color{blue}\text{Drag the blue box across to your right and back}}</m> and observe conversion of different units of measuring length from <m>{\color{blue}\text{Km to mm.}}</m>>
+          You can also click on the dropown arow written <dblbrackets><m>mathbf{metres}</m></dblbrackets> and change the units as you prefer.
+          The <m>\mathbf{\text {randomizing tab} can also help you generate a new number.}</m>
+         <m> {\color{magenta}\text{Enjoy as you play around with the mathematical figures!}}</m>
+        </p>
+  <figure>
+  <caption>Converting various units of measuring length.</caption>
+  <interactive xml:id="geogebra-length" platform="geogebra" width="100%" aspect="1:1">
+    <slate xml:id="length" surface="geogebra" material="dry7qeja" aspect="1:1" />
+  </interactive>
+</figure>
+
+    </statement>
+</activity>
+<example>
+<statement>
+    <p>
+       Moraa walks from home to school taking <m>40\text{ m } </m>. Convert Moraa's distance in <m>\text{km}</m>.
+    </p>
+</statement>
+<solution>
+    <p>
+      Since,
+    </p>
+    <p>
+      <m>1000 \text{ m } =1\text{ km }</m>
+    </p>
+    <p>
+      <md>
+        <mrow> 40 \text{ m }=\amp \frac{40 \cancel {m}}{1\,000\cancel{m}} \times 1\text{ km }</mrow>
+        <mrow> =\amp 0.04 \text{ km } </mrow>
+        
+      </md>
+    </p>
+    <p>
+      Moraa walks <m> 0.04 \text{ km }</m> from  home to school.
+    </p>
+</solution>
+</example>
+<example>
+  <statement>
+    <p>
+      The path from the gate to the office in 
+      Myra school is <m>40 \text{m}  450 \text{cm}</m>. What is the distance 
+      in centimetres?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Distance is <m>40 \, \text{m} \, 450\, \text{cm}</m>. 
+    </p>
+    <p>
+      The conversion is, 
+    </p>
+    <p>
+      <m>100\,\text{cm}= 1\,\text{m}</m>
+    </p>
+    <p>
+      Therefore,
+    </p>
+    <p>
+      <md>
+        <mrow> 40 \, \text{m} \, 450\, \text{cm}=\amp (40 \times 100)\,\text{cm}+ 450\,\text{cm}</mrow>
+        <mrow> =\amp4\,000\,\text{cm} +450\,\text{cm} </mrow>
+        <mrow> = \amp 4\,450 \text{cm} </mrow>
+      </md>
+    </p>
+    <p>
+      The path from the gate to the school is <m>4\,450 \text{cm} </m>.
+    </p>
+  </solution>
+</example>
+</subsection>

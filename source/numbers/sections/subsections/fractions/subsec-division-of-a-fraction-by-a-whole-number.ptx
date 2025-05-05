@@ -1,0 +1,107 @@
+<subsection xml:id="subsec-Division-of-a-fraction-by-a-whole-number">
+        <title>Division of a fraction by a whole number</title>
+        <activity>
+            <introduction>
+                <p>
+                    
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Use the blue slider labeled <c>Numerator</c> to set the top number of the fraction.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the blue slider labeled <c>Denominator</c> to set the top number of the fraction.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the red slider labeled <c>Divisor</c> to select the whole number by which the fraction will be divided.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Click the <c>Calculate</c> button to see the visualization result of the fraction division.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Observe how dividing a fraction by a whole number affects the fraction.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Click the <c>Reset</c> button to clear the settings and start a new calculation.
+                    </p>
+                    <p>
+                        Try different numerators, denominators, and divisors to explore different cases.
+                    </p>
+                     <figure>
+                        <caption></caption>
+                        <interactive xml:id="division-of-a-fraction-by-a-whole-number-activity" geogebra="FZUSpVhQ" width="100%"  aspect="4:3" reset-icon="yes" material-width="535px"/>
+                    </figure>
+                </statement>
+            </task>
+        </activity>
+        <p>
+            When dividing a fraction by a whole number, multiply the fraction by the reciprocal of the whole.
+        </p>
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>\frac{4}{15} \div 10 </m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                First, we have to find the reciprocal of the divisor.
+                            </p>
+                            <p>
+                                In this case, our divisor is <m>10</m>, which is a whole number and we can express <m>10</m> as <m>\frac{10}{1}.</m>
+                            </p>
+                            <p>
+                                Then, find the reciprocal of <m>\frac{{\color{red}10}}{{\color{blue}1}}</m> by swapping the numerator and denominator to get  <m>\frac{{\color{blue}1}}{{\color{red}10}}.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Multiply <m>\frac{4}{15}</m> by <m>\frac{1}{10}</m> and simplify the result.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>\frac{4}{15} \times \frac{1}{10} \amp = \frac{4 \times 1}{15 \times 10}</mrow>
+                                    <mrow></mrow>
+                                    <mrow> \amp = \frac{4}{150} </mrow>
+                                    <mrow></mrow>
+                                    <mrow> \amp = \frac{2}{75}</mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for Division of a fraction by a whole number
+                </p>
+            </statement>
+        </exercise>
+    </subsection>

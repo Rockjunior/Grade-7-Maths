@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <subsection xml:id="subsec-Illustrating_simple_linear_inequality_on_a_number_line">
+      <title>Illustrating simple linear inequality on a number line</title>
+
+      <p>
+        <term>Number Line.</term>
+      </p>
+
+      <p>
+        A <em><term>number line</term></em> is a straight horizontal line used to represent numbers. It helps us visualize numbers, compare values, and understand inequalities easily.
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <p>
+              A number line extends infinitely in both directions.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              It has a zero <m>(0)</m> in the center, with positive numbers to the right and negative numbers to the left.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              The numbers increase as we move to the right and decrease as we move to the left.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              The numbers are evenly spaced on the line.
+            </p>
+          </li>
+        </ul>
+      </p>
+
+      <p>
+        Take a look at the numberline below:
+      </p>
+
+      <image>
+        <shortdescription>Number Line Illustrastion.</shortdescription>
+        <latex-image>
+          \begin{tikzpicture}
+            % Draw number line starting at 0
+            \draw[&lt;-&gt;](0,0) -- (8.5,0);
+
+            % Draw ticks and labels for numbers from 0 to 8
+            \foreach \x in {0,1,...,8} {
+                \draw (\x,0.1) -- (\x,-0.1);
+                \node[below] at (\x,-0.1) {\x}; 
+            }
+
+            % Draw curved arrows for jumps
+            \draw[red,-&gt;] (5,0.1) to[bend right=60] (4,0.1);
+            \draw[red,-&gt;] (4,0.2) to[bend right=60] (3,0.1);
+            \draw[red,-&gt;] (3,0.2) to[bend right=60] (2,0.1);
+
+            % Start label
+            \draw[] (5,0) -- (5,0.5);
+            \node[above] at (5,0.55) {\textbf{start}};
+
+            % Stop label
+            \draw[] (2,0) -- (2,0.5);
+            \node[above] at (2,0.55) {\textbf{stop}};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <activity>
+
+        <p>
+          <term>Work in Groups.</term>
+        </p>
+
+        <p>
+
+          <ol>
+
+            <li>
+              
+              <p>
+                Consider <em>x &gt; 2.</em>
+              </p>
+                
+            </li>
+
+            <li>
+              
+              <p>
+                Draw a number line.
+              </p>
+
+            </li>
+
+            <li>
+              <p>
+                Identify some of the numbers that satisfy the inequality.
+              </p>
+            </li>
+
+            <li>
+
+              <p>
+                Confirm whether the numbers are to the left or right of digit 2.
+              </p>
+            
+            </li>
+
+            <li>
+              
+              <p>
+                Circle digit 2.
+              </p>
+
+            </li>
+
+            <li>
+
+              <p>
+                From the circle, draw an arrow facing the direction with numbers which satisfy the inequality.
+              </p>
+            
+            </li>
+
+            <li>
+              
+              <p>
+                Discuss and share with others.
+              </p>
+            
+            </li>
+
+          </ol>
+
+        </p>
+        
+      </activity>
+
+      <p>
+        <md>
+          <mrow> \amp {\color{blue} \text{Learning Points.}} </mrow>
+        </md>
+      </p>
+
+      <p>
+        
+        <ol>
+
+          <li>
+
+            <p>
+              <m>{\color{green} \text{For inequalities with symbols} (\lt) \text{or} (\gt), \text{the boundary digits are circled in the representations.}}</m>
+            </p>
+
+          </li>
+
+          <li>
+
+            <p>
+              <m>{\color{green} \text{For inequalities with symbols (\le) \text{or} (\ge), the circles are shaded.}}</m>
+            </p>
+
+          </li>
+
+        </ol>
+
+      </p>
+
+      <p>
+        <m>{\color{green} \text{We can illustrate inequalities on a number line by understanding the inequality symbols.}}</m>
+      </p>
+
+      <p>
+        <m>{\color{green} \text{An "open point" is used to represent a number that is not included in the inequality.}}</m>
+      </p>
+
+      <p>
+        <m>{\color{green} \text{Take a look at the illustration below;}}</m>
+      </p>
+
+      <p>
+        <m>{\color{green} \text{Illustrate on a number line.} (x &gt; 6)}</m>
+      </p>
+
+      <image>
+        <shortdescription>Open point numberline</shortdescription>
+        <latex-image>
+          \begin{tikzpicture}
+            % Draw number line
+            \draw[thick, ->] (4,0) -- (10,0);
+            
+            % Draw open circle above x=6 with an arrow
+            \draw (6,0.5) circle (3pt);
+            \draw[thick, ->] (6.2,0.5) -- (9,0.5);
+            
+            % Draw arrow to the right on the number line
+            \draw[thick] (6.1,0) -- (10,0);
+            
+            % Label points
+            \node[below] at (6,0) {6};
+            \foreach \x in {5,7,8,9} {
+                \node[below] at (\x,0) {\x};
+            }
+            
+          \end{tikzpicture}
+        </latex-image>
+        
+      </image>
+
+      <p>
+        <m>{\color{green} \text{An "open point" has been used since} 6 \text{in not part of the solution of the inequality.}}</m>
+      </p>
+
+      <p>
+        <m>{\color{green} \text{A "closed point" is used to represent a number that is included in the inequality.}}</m>
+      </p>
+
+      <p>
+        <m>{\color{green} \text{Take a look at the illustration below;}}</m>
+      </p>
+
+      <p>
+        <me>{\color{green} (x \ge 4)}</me>        
+      </p>
+
+      <image>
+        <shortdescription>closed point inequality</shortdescription>
+        <latex-image>
+            \begin{tikzpicture}
+            % Draw number line
+            \draw[thick, ->] (1,0) -- (10,0);
+            
+            % Draw closed circle above x=6 with an arrow
+            \filldraw (4,0.5) circle (3pt);
+            \draw[thick, ->] (4.2,0.5) -- (9,0.5);
+            
+            % Draw arrow to the right on the number line
+            \draw[thick] (4.1,0) -- (10,0);
+            
+            % Label points
+            \node[below] at (4,0) {4};
+            \foreach \x in {1,2,3,5,6,7,8,9} {
+                \node[below] at (\x,0) {\x};
+            }
+            
+          \end{tikzpicture}
+        </latex-image>
+        
+      </image>
+
+      <p>
+        <m>{\color{green} \text{A closed point has been used since} (4) \text{is part of the solution of the inequality.}}</m>
+      </p>
+
+      <example>
+
+          <statement>
+
+            <p>
+              Illustrate <m>x &gt; 2</m> on a number line.
+            </p>
+
+          </statement>
+
+          <solution>
+            
+            <p>
+              Circle at digit <m>2</m> and draw a line pointing towards numbers greater than <m>2</m>.
+            </p>
+
+            <image>
+              <shortdescription>Open point numberline</shortdescription>
+              <latex-image>
+                \begin{tikzpicture}
+                  % Draw number line
+                  \draw[thick, ->] (-1,0) -- (10,0);
+                  
+                  % Draw open circle above x=2 with an arrow
+                  \draw (2,0.5) circle (3pt);
+                  \draw[thick, ->] (2.2,0.5) -- (9,0.5);
+                  
+                  % Draw arrow to the right on the number line
+                  \draw[thick] (2.1,0) -- (10,0);
+                  
+                  % Label points
+                  \node[below] at (2,0) {2};
+                  \foreach \x in {1,3,4,5,6,7,8,9} {
+                      \node[below] at (\x,0) {\x};
+                  }
+                  
+                \end{tikzpicture}
+              </latex-image>
+              
+            </image>
+
+          </solution>
+
+      </example>
+
+      <example>
+
+        <statement>
+
+            <p>
+              Illustrate <m>x \ge 8</m> on a number line
+            </p>
+
+        </statement>
+            
+        <solution>
+
+          <p>
+              Draw a circle at digit <m>8</m> and shade it then draw a line towards digits greater than <m>8</m>.
+          </p>
+
+          <image>
+            <shortdescription>closed point inequality</shortdescription>
+            <latex-image>
+                \begin{tikzpicture}
+                % Draw number line
+                \draw[thick, ->] (5,0) -- (15,0);
+                
+                % Draw closed circle above x=6 with an arrow
+                \filldraw (8,0.5) circle (3pt);
+                \draw[thick, ->] (8.2,0.5) -- (14,0.5);
+                
+                % Draw arrow to the right on the number line
+                \draw[thick] (8.1,0) -- (15,0);
+                
+                % Label points
+                \node[below] at (8,0) {8};
+                \foreach \x in {5,6,7,9,10,11,12,13,14} {
+                    \node[below] at (\x,0) {\x};
+                }
+                
+              \end{tikzpicture}
+            </latex-image>
+            
+          </image>
+
+        </solution>
+
+      </example>
+
+      <exercise>
+
+        <p>
+          Exercise here.
+        </p>
+
+      </exercise>
+
+    </subsection>

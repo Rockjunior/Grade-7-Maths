@@ -1,0 +1,200 @@
+<subsection xml:id="subsec-circumfrence-of-circles">
+  <title>Circumference of circles</title>
+  <activity>
+    <sidebyside>
+    <ol>
+      <li>
+        <p>
+          We need a ruler, a string, a set square, a tapemeasure and a circular object.
+        </p>
+      </li>
+      <li>
+        <p>
+          Measure the circumference of each circular object using a tapemeasure  as shown alongside, 
+          Or a string if you don't have a tapemeasure and record your answer.
+        </p>
+      </li>
+      <li>
+        <p>
+          Use a ruler to measure the length of the string that is equal to the string that is equal to the circumference.
+        </p>
+      </li>
+      <li>
+        <p>
+          Measure the diameter of each circular object as shown below. The distance <m>d</m> is the diameter of each object.
+        </p>
+      </li>
+    </ol>
+    <image source="/circumfrence.png">
+      <!-- <shortdescription>measuring circumfrence</shortdescription> -->
+    </image>
+    </sidebyside>
+    <image source="/set sq.png">
+      <!-- <shortdescription>(measuring diameter)</shortdescription> -->
+    </image>
+    <p>
+      5.Draw and fill in the table like the one shown below.
+    </p>
+    <table>
+      <title></title>
+      <tabular halign="left" top="medium" bottom="medium" left="medium" right="medium">
+        <row header="yes">
+          <cell>Number of Item(s)</cell>
+          <cell>Object</cell>
+          <cell> Circumference (C)</cell>
+          <cell>Diameter (d)</cell>
+          <cell>Circumference <m>\div</m> diameter <m>(\frac{C}{d})</m></cell>
+          
+        </row>
+        <row >
+          <cell>1</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>2</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>3</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>4</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+      </tabular>
+    </table>
+    <p>
+      6. What do you notice about the values of <m>(\frac{C}{d})</m>?
+    </p>
+    <p>
+      Connect.
+    </p>
+    <p>
+      <ul>
+        <li>
+          <p>
+            The circumference is the distance round a circle.
+          </p>
+        </li>
+        <li>
+          <p>
+            When you divide the circumference by the diameter of any circular object, the number you get is 
+            approximately <m>3.14</m> correct to two decimal places.
+            <me>
+              \frac{Circumference}{diameter} = 3.14
+            </me>            
+          </p>
+          <p>
+            Circumference <m>= 3.14 \times\text {diameter}</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            The number <m>3.14</m> is called <m>\textbf {pi}</m> and is represented by the symbol <m>\pi</m>. As a fraction, <m>\pi = \frac {22}{7}</m>.
+            Therefore, circumference <m> = \pi d</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            Two radii are equal to the diameter. Hence <m>d = 2r</m>            
+          </p>
+          <p>
+            Circumference 
+            <md>
+              <mrow>= \amp  \pi \times d</mrow>
+              <mrow>= \amp \pi \times 2r</mrow>
+              <mrow>= \amp 2\pi r </mrow>
+            </md>
+          </p>
+        </li>
+      </ul>
+    </p>
+  </activity>
+
+
+  <example>
+    <statement>
+      <p>
+        The diameter of a circle is <m>21\, cm</m>. Find its circumference.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Circumference <m>= \pi D</m> where <m>D</m> is the diameter of a circle.
+      </p>
+      <p>
+        Therefore,
+      </p>
+      <p>
+        <md>
+          <mrow> \text{Circumference} =\amp (\frac{22}{7} \times 21)cm </mrow>
+          <mrow> =\amp 66\, cm </mrow>
+          
+        </md>
+      </p>
+      <p>
+        The circumference<m>= {\color{blue} 66\,cm}</m>
+      </p>
+    </solution>
+  </example>
+  <figure>
+  <caption>Perimeter of different plane figures.</caption>
+  <interactive xml:id="geogebra-circle-geogebra" platform="geogebra" width="150%" aspect="1:1">
+    <slate xml:id="circumference-geogebra" surface="geogebra" material="za3dvn3e" aspect="1:1" />
+  </interactive>
+</figure>
+  <example>
+    <statement>
+      <p>
+        Work out the circumference.
+      </p>
+      <image width="50%">
+      <latex-image>
+        \begin{tikzpicture}
+          % Draw a colorful circle with gradient
+          \shade[ball color=white] (0,0) circle(7cm);
+
+          % Add an outline for the circle
+          \draw[line width=2pt, color=black] (0,0) circle(7cm);
+
+          % Add a radial gradient effect
+          \shade[inner color=white, outer color=white] (0,0) circle(6.9cm);
+
+          % Label the diameter
+          \draw[dashed, thick] (-7,0) -- (7,0);
+          \node at (0,-0.5) {\textbf{\fontsize{20}{14}\selectfont 14 cm}};
+
+          % Add endpoints for the diameter
+          \filldraw[blue] (-7,0) circle(3pt);
+          \filldraw[blue] (7,0) circle(3pt);
+        \end{tikzpicture}
+      </latex-image>
+        
+        
+      </image>
+    </statement>
+    <solution>
+      <p>
+        <md>
+          <mrow> \text{Circumference }=\amp \pi D </mrow>
+          <mrow> =\amp \frac{22}{7} \times 14\,cm</mrow>
+          <mrow> =\amp \frac{308}{7}\,cm </mrow>
+          <mrow> =\amp 44\, cm</mrow>
+        </md>
+      </p>
+    </solution>
+  </example>
+</subsection>

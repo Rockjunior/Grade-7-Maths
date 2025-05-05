@@ -1,0 +1,115 @@
+ <subsection xml:id="subsec-Natural-numbers">
+    <title>Natural numbers</title>
+     
+      <subsubsection xml:id="subsubsec-Even-numbers">
+        <title>  Even numbers</title>
+        
+     <p>
+      Even numbers are numbers that are divisible by <m>2</m>.The digits in the ones place value are <m>0,2,4,6 </m> or <m> 8 </m>.
+     </p>
+     <activity>
+      <statement>
+        <p>
+          
+        </p>
+        <p>
+            1.Think of a number between <m>10</m> and <m>100</m> and write down any <m>5</m> numbers.
+        </p>
+        <p>
+          2.Which of the numbers you wrote down are divisible by two?
+        </p>
+        <p>
+          3.Which digit is in the ones place value of each number that is divisible by two?
+        </p>
+        <p>
+          4.What do we call the numbers that are divisible by <m>2</m>?
+        </p>
+        <p>
+          5.Share your work with other learners.
+        </p>
+      </statement>
+     </activity>
+     <example>
+      <statement>
+        <p>
+          Which of the following are even numbers?
+        </p>
+        <p>
+          <m>127,3\,860,4\,249,58\,242,714\,931,96,3\,295\,418,5\,174</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>3\,860,58\,242,96,3\,295\,418 </m> and <m>5\,174</m> are even numbers since they are divisible by <m>2</m>. Also their digits in the ones place value are <m>0,2,4,6</m> <m>\text{or}</m> <m>8</m>.
+        </p>
+      </solution>
+     </example>
+       <exercise>
+        <statement>
+          <p>
+            check it on web work
+          </p>
+        </statement>
+       </exercise>
+       </subsubsection>
+  
+<subsubsection xml:id="subsec-Odd-numbers">
+  <title>Odd numbers</title>
+  <p>
+     Odd numbers are numbers that cannot be divided by two without leaving a remainder. The digit in the ones place value of an odd number is <m>1,3,5,7</m> or <m>9</m>.
+  </p>
+    <activity>
+      <statement>
+        <p>
+          
+        </p>
+        <p>
+          1. Outside the classroom, learners to stand in a circle and be assigned a number starting from <m>1 </m> to the last person.
+        </p>
+        <p>
+          2. The student assigned number <m> 1</m> to stay standing and the student with number <m> 2</m> will sit down first. 
+        </p>
+        <p>
+           3. After number <m> 2</m> sits, skip the next student at number <m> 3</m> and ask the student with number <m> 4 </m> to sit down.
+              Fellow learners to shout out the next number to sit down.
+        </p>
+        <p>
+          4. Continue with this pattern where each student who sits down will skip the next student and have the student after them sit down.
+             So after number <m>4</m> sits, number <m>6</m> will sit, then number <m>8</m>, and so on.
+        </p>
+        <p>
+            5. Once all even-numbered students have sat down, the students still standing will shout out their numbers one by one.
+        </p>
+        <p>
+            6. What are the last digits of the numbers the standing students shouted out?
+        </p>
+        <p>
+            7. What do we call numbers that are not divisible by <m>2</m>?
+        </p>
+
+      </statement>
+    </activity>
+    <example>
+      <statement>
+        <p>
+          Which of the following are odd numbers?
+        </p>
+        <p>
+          <m>22,57,124,769,1\,250,6\,545,17\,846,46\,541</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>57,769,6\,545,46\,541</m> are odd numbers since their digits in the ones place value are not divisible by two.
+        </p>
+      </solution>
+    </example>
+    <exercise>
+      <statement>
+        <p>
+          done on webwork
+        </p>
+      </statement>
+    </exercise>
+</subsubsection>
+</subsection>

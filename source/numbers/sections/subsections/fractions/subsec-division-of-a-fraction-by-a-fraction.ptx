@@ -1,0 +1,82 @@
+ <subsection xml:id="subsec-Division-of-a-fraction-by-a-fraction">
+        <title>Division of a proper fraction by a proper fraction</title>
+        <p>
+            Division of proper fractions is similar to multiplication. We change division sign to multiplication sign and we 
+            multiply the first proper fraction by the reciprocal of the second proper fraction.
+        </p>
+        <activity>
+            <statement>
+                <p>
+                    <alert>Work in groups</alert>
+                </p>
+                <p>
+                   1. Cut out a circular shape and divide the circle into <m>8</m> equal parts using a ruler and pencil. Shade the parts to match the coloring in the provided example.
+                </p>
+                <image width="25%">
+                        <shortdescription></shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \draw (0,0) circle (1cm);
+                                \draw (-1,0) -- (1,0);
+                                \fill[green] (0,0) -- (1,0) arc[start angle=360, end angle=270, radius=1cm] -- cycle;
+                                \fill[green] (0,0) -- (0,1) arc[start angle=90, end angle=135, radius=1cm] -- cycle;
+                                \node at (-0.3,0.6) {\large $a$};  
+                                \node at (0.5,-0.5) {\large $b$};  
+                                \draw (0,1) -- (0,-1);
+                                \draw (-0.71,0.71) -- (0.71,-0.71);
+                                \draw (-0.71,-0.71) -- (0.71,0.71);
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                <p>
+                   2. What fraction of the whole does the shaded part <alert>a</alert> and <alert>b</alert> represent?
+                </p>
+                <p>
+                  3.  How many times does the smaller part <alert>a</alert> fit into the larger part <alert>b</alert>?
+                </p>
+                <p>
+                   4.  Share your work with other learners in class.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>\frac{1}{7} \div \frac{1}{4}</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Find the reciprocal of the divisor.
+                            </p>
+                            <p>
+                                The reciprocal of <m>\frac{{\color{red}1}}{{\color{blue}4}} </m> is <m>\frac{{\color{blue}4}}{{\color{red}1}}.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Multiply <m>\frac{1}{7} \text { by } \frac{4}{1}.</m>
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>\frac{{\color{red}1}}{{\color{blue}7}} \times \frac{{\color{red}4}}{{\color{blue}1}} \amp = \frac{{\color{red}1} \times {\color{red}4}}{{\color{blue}7} \times {\color{blue}1}}</mrow>
+                                    <mrow> </mrow>
+                                    <mrow> \amp = \frac{4}{7}</mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for division of a fraction by a fraction goes here
+                </p>
+            </statement>
+        </exercise>
+    </subsection>

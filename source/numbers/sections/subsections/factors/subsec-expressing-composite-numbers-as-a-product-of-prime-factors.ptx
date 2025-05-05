@@ -1,0 +1,373 @@
+<subsection xml:id="subsec-Expressing-composite-numbers-as-a-product-of-prime-factors">
+    <title>Expressing composite numbers as a product of prime factors</title>
+    <introduction>
+        <p>
+            Composite numbers are numbers that has more than two factors,meaning it can be divided 
+            evenly by numbers other than <m>1</m> and itself.
+        </p>
+        <p>
+            Process of breaking a composite number is prime factorization and prime factorization expresses 
+            the number as the product of prime numbers.
+        </p>
+    </introduction>
+    <!-- factors subsubsection -->
+    <subsubsection xml:id="subsubsec-Factors-of-composite-numbers">
+        <title>Factors of composite numbers</title>
+        <p>
+            Factors are numbers that can divide a given number without leaving a remainder.
+            Factors are also called divisors.
+        </p>
+        <p>
+            Tumaini school is planning a sports day and Kamau needs to organize students into equal-sized teams.
+            There are <m>24</m> students in his class. Kamau needs factors of <m>24</m> to divide the students 
+            into equal teams so that no one is left out.
+        </p>
+        <p>
+            Since the factors of <m>24</m> are <m>1,2,3,4,6,8,12</m> and <m>24</m>. 
+            It gives Kamau possible ways to divide the students into equally.
+        </p>
+        <example>
+            <statement>
+                <p>
+                    List all the factors of each of the following numbers.
+                </p>
+                <p>
+                    <ol marker="a)" cols="2">
+                        <li>
+                            <p>
+                                <m>40</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>84</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                <m>40</m>
+                            </p>
+                            <p>
+                                To determine the factors of <m>40</m>, 
+                                we need to identify all numbers between <m>1</m> and <m>40</m> that
+                                divide <m>40</m> exactly, leaving no remainder.
+                            </p>
+                            <p>
+                                We check the divisibility of each number step by step:
+                            </p>
+                            <p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <m>1</m> divides <m>40</m> exactly: <m>40 \div 1 = 40</m>. 
+                                            Therefore, <m>1</m> is a factor of <m>40</m>.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>2</m> divides <m>40</m> exactly: <m>40 \div 2 = 20</m>.
+                                            Therefore, <m>2</m> is a factor of <m>40</m>.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>3</m> does not divide <m>40</m> exactly: <m>40 \div 3 = 13</m> with a remainder of <m>1</m>.
+                                            Therefore, <m>3</m> is not a factor of <m>40</m>.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>4</m> divides <m>40</m> exactly: <m>40 \div 4 = 10</m>. 
+                                            Therefore, <m>4</m> is a factor of <m>40</m>.
+                                        </p>
+                                    </li>
+                                </ul>  
+                            </p>
+
+                            <p>
+                                We continue this process for other numbers to check if they divide <m>40</m> without leaving a remainder.
+                            </p>
+
+                            <p>
+                                After completing the checks, we find that <m>1, 2, 4, 5, 8, 10, 20,</m> and <m>40</m> all divide <m>40</m> exactly.
+                            </p>
+
+                            <p>
+                                Therefore, the factors of <m>40</m> are <m>1, 2, 4, 5, 8, 10, 20,</m> and <m>40</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>84</m>
+                            </p>
+                            <p>
+                                Another way to find the factors of a number is by identifying pairs of numbers that, when multiplied together, produce that number. 
+                                If <m>a \times b = c</m>, then both <m>a</m> and <m>b</m> are factors of <m>c</m>.
+                            </p>
+
+                            <p>
+                                To determine the factors of <m>84</m>, we find all pairs of numbers whose product equals <m>84</m>:
+                            </p>
+                            <p>
+                                <ul>
+                                    <li><p><m>1 \times 84 = 84</m></p></li>
+                                    <li><p><m>2 \times 42 = 84</m></p></li>
+                                    <li><p><m>3 \times 28 = 84</m></p></li>
+                                    <li><p><m>4 \times 21 = 84</m></p></li>
+                                    <li><p><m>6 \times 14 = 84</m></p></li>
+                                    <li><p><m>7 \times 12 = 84</m></p></li>
+                                </ul>
+                            </p>
+                            <p>
+                                Since we have identified all factor pairs of <m>84</m>, we can list its factors as follows:
+                            </p>
+                            <p>
+                                The factors of <m>84</m> are <m>1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42,</m> and <m>84</m>.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for Factors goes here.
+                </p>
+            </statement>
+        </exercise>
+    </subsubsection>
+
+    <!-- prime factors subsubsection -->
+    <subsubsection xml:id="subsubsec-Prime-factors">
+        <title>Prime factors</title>
+        <p>
+            Let's start by defining what are prime numbers. 
+            Prime numbers are positive whole numbers 
+            that are greater than 1, that cannot be formed by multiplying two smaller numbers. Examples of prime numbers are <m>2,3,5,7,11,...</m>
+        </p>
+        <p>
+            A prime factor is a prime number that can divide a given number without a remainder.
+        </p>
+        <p>
+            Example in real life:
+        </p>
+        <p>
+            Okuse, an architect want to design a strong and beautiful classroom. To make sure the classroom is stable, Okuse use blocks of the strongest materials. Now, think of prime numbers as the strongest building block in mathematics such that if we want to know what the number <m>60</m> is made of we break it down into it's prime factors.
+        </p>
+        <p>
+            Start with <m>60 = 2 \times 30</m>
+        </p>
+        <p>
+            <m>30 = 2 \times 15</m>
+        </p>
+        <p>
+            <m>15 = 3 \times 5</m>
+        </p>
+        <p>
+            Therefore,  prime factors of <m>60</m> are <m>2 \times 2 \times 3 \times 5</m>
+        </p>
+        <activity>
+            <introduction>
+                <p>
+                    
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                       Observe the groupings carefully and determine the total number of groupings as well as the number of circles or dots in each group.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Click on the blank boxes provided. 
+                        Type in the correct factors that multiply to give the number shown.
+                        Ensure at least one of the numbers entered is a prime factor.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Once you have entered the factors, click the <c>CHECK</c> button to verify your response.
+                    </p>
+                    <p>
+                        If your factors are correct, a confirmation message will appear or
+                        another prompt will appear for continuation if you haven't exhausted all the prime factors.
+                    </p>
+                    <p>
+                        If your factors are incorrect, reanalyze the groupings and enter the new factors again.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What did you notice about the clusters of dots?
+                    </p>
+                    <p>
+                        How did you use the dots to help find the factors?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        After completing successfully in finding the factors of the given number ,
+                        click the <c>NEW PROBLEM</c> button to attempt another visualization.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        
+                    </p>
+                    <figure>
+                        <caption></caption>
+                        <interactive xml:id="prime-factors-activity" geogebra="mbysxpbv" width="100%" aspect="13:9" reset-icon="yes" material-width="900px"/>
+                    </figure>
+                </statement>
+            </task>
+        </activity>
+        <!-- <activity>
+            <statement>
+                <p></p>
+                <p>
+                1. As a class, count the number of chairs in all the rows and measure one side of the classroom in metres.
+                </p>
+                <p>
+                2. Write down the total number of chairs in a row then the measurement of the side of a class in meters.
+                </p>
+                <p>
+                3. Use factor trees to perform prime factorization on the two numbers. i.e prime factors of <m>36 = 2^2 \times 3^2</m>
+                </p>
+                <p>
+                4. Write the prime factorization as a product of powers and share your work with fellow learners.
+                </p>
+            </statement>
+        </activity> -->
+        <example>
+            <statement>
+                <p>
+                    Express <m>48</m> as a product of its prime factors.
+                </p>
+            </statement>
+            <solution>
+                <p> 
+                    To break down <m>48</m> into its prime factors, we need to find which prime numbers multiply together to give us <m>48</m>.
+                </p>
+                <p>
+                    <alert>Remember:</alert> Always start with the smallest prime number (which is <m>2</m>). 
+                    If the number isn’t divisible by <m>2</m>, move to the next prime number 
+                    (<m>3</m>, then <m>5</m>, and so on) until you can’t divide further.
+                </p>
+                 <p> 
+                    We start with the smallest prime number, which is <m>2</m>. 
+                    Let's divide <m>48</m> by <m>2</m>: <m>48 \div 2 = 24</m>.
+                     Since it divides exactly, <m>2</m> is our first prime factor. 
+
+                 </p>
+                <p> 
+                    Next, we take <m>24</m> and divide it by <m>2</m> again: <m>24 \div 2 = 12</m>. 
+                    It divides exactly, so <m>2</m> is our second prime factor. 
+                </p> 
+                <p> 
+                    Now, we take <m>12</m> and divide it by <m>2</m> once more: <m>12 \div 2 = 6</m>. It divides exactly, so <m>2</m> is our third prime factor. 
+                </p>
+                <p> 
+                    Next, we take <m>6</m> and divide it by <m>2</m> again: <m>6 \div 2 = 3</m>. It divides exactly, so <m>2</m> is our fourth prime factor.
+                 </p>
+                <p> 
+                    Finally, we have <m>3</m>, which is already a prime number and cannot be divided further.
+                 </p>
+                <p> 
+                    So, the prime factors of <m>48</m> are: <m>48 = 2 \times 2 \times 2 \times 2 \times 3</m>. 
+                </p>
+                    <tabular>
+                        <row  bottom="medium"> 
+                            <cell right="medium"><m>{\color{blue}2}</m></cell>
+                            <cell right="medium"><m>48</m></cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell right="medium"><m>{\color{blue}2}</m></cell>
+                            <cell right="medium">24</cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell right="medium"><m>{\color{blue}2}</m></cell>
+                            <cell right="medium">12</cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell right="medium"><m>{\color{blue}2}</m></cell>
+                            <cell right="medium">6</cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell right="medium"><m>{\color{blue}2}</m></cell>
+                            <cell right="medium">3</cell>
+                        </row>
+                        <row>
+                            <cell right="medium"><m>{\color{blue}3}</m></cell>
+                            <cell right="medium">1</cell>
+                        </row>
+                    </tabular>
+                <p>
+                    <m>48 = 2 \times 2 \times 2 \times 2 \times 3</m>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Express <m>88</m> as a product of its prime factors.
+                </p>
+            </statement>
+            <solution>
+                <p> 
+                    To find the prime factors of <m>88</m>, we will use a factor tree. 
+                    A factor tree helps us break down a composite number into its prime factors step by step. 
+                </p> 
+                <p> 
+                    Here’s how the factor tree for <m>88</m> looks:
+                </p>
+                <image width="25%">
+                    <shortdescription></shortdescription>
+                    <latex-image label="factors-of-88">
+                        \begin{tikzpicture}[level distance=1.5cm,
+                            level 1/.style={sibling distance=2cm},
+                            level 2/.style={sibling distance=1cm},
+                            circled/.style={draw, circle}]
+                            \node {88}
+                                child {node[circled] {2}}
+                                child {node {44}
+                                child {node[circled] {2}}
+                                child {node {22}
+                                    child {node[circled] {2}}
+                                    child {node[circled] {11}}}};
+                    \end{tikzpicture}
+                    </latex-image>
+                </image>
+                <p> 
+                    We start by breaking <m>88</m> into <m>2</m> and <m>44</m>. 
+                    Then, <m>44</m> is broken into <m>2</m> and <m>22</m>, and
+                    finally, <m>22</m> is broken into <m>2</m> and <m>11</m>.
+                    Since <m>11</m> is a prime number, we stop here. 
+                </p> 
+                <p>
+                    We can't factor any more, so we have found the prime factors.
+                </p>
+                <p>
+                    Therefore, the product of prime factors of <m>88</m> is : <m>88 = 2 \times 2 \times 2 \times 11 </m>
+                </p>
+            </solution>
+        </example>
+    </subsubsection>
+</subsection>

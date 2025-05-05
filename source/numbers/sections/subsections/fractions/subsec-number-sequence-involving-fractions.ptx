@@ -1,0 +1,137 @@
+<subsection xml:id="subsec-Number-sequence-involving-fractions">
+        <title>Number sequence involving fractions</title>
+        <activity>
+            <introduction>
+            <p>
+                <alert>Work in groups</alert>
+            </p>
+            </introduction>
+            
+            <task>
+            <statement>
+            <p>
+                Look at the sticks below. Each stick has blue circles and green circle.
+            </p>
+            <image width="60%">
+                <latex-image label="circles-on-sticks">
+                    \begin{tikzpicture}
+                        \foreach \x [count=\i] in {3,5,7,8,10,12} {
+                            % Draw sticks
+                            \draw[line width=4pt] (\i*2,0) -- (\i*2,8);
+                            % Draw blue circles (denominators)
+                            \foreach \y in {1,...,\numexpr\x-1} {
+                                \fill[blue] (\i*2,\y*0.6) circle (6pt);
+                            }
+                            % Draw green circle (numerator)
+                            \fill[green] (\i*2,\x*0.6) circle (6pt);
+                        }
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+            </statement>
+            </task>
+            <task>
+            <statement>
+            <p>
+                Count the number of green circles in each stick.
+            </p>
+            </statement>
+            </task>
+            <task>
+            <statement>
+            <p>
+                Count the number of blue circles in each stick.
+            </p>
+            </statement>
+            </task>
+            <task>
+            <statement>
+            <p>
+                Express the number of green circles as numerator of the fraction and the number of blue circles as the denominator of the fraction in each stick.
+            </p>
+            </statement>
+            </task>
+            <task>
+            <statement>
+            <p>
+                Analyze the pattern in the fractions you have formed and discuss any relationships or trends you observe.
+            </p>
+            </statement>
+            </task>
+
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Find the next fraction in the sequence.
+                </p>
+                <p>
+                    <m>\frac{4}{36},\frac{9}{49},\frac{16}{64},\frac{25}{81},\frac{36}{100},</m><mdash/>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Identify the pattern
+                            </p>
+                            <p>
+                                Observing the denominators, we see that they are squares of consecutive numbers:
+                            </p>
+                            <p>
+                                <m> 36 = {\color{blue} 6}^{\color{red}2}, \quad 49 = {\color{blue} 7}^{\color{red}2}, \quad 64 = {\color{blue} 8}^{\color{red}2}, \quad 81 = {\color{blue} 9}^{\color{red}2}, \quad 100 = {\color{blue} 10}^{\color{red}2} </m>
+                            </p>
+                            <p>
+                                Thus, the denominators follow the sequence: <m>6^{\color{red}2},\,\, 7^{\color{red}2},\,\, 8^{\color{red}2},\,\, 9^{\color{red}2},\,\,10^{\color{red}2}</m>
+                            </p>
+                            <p>
+                                Observing the numerators, we see that they are squares of consecutive numbers:
+                            </p>
+                            <p>
+                                <m> 4= {\color{blue} 2}^{\color{red}2}, \quad 9 = {\color{blue} 3}^{\color{red}2}, \quad 16 = {\color{blue} 4}^{\color{red}2}, \quad 25 = {\color{blue} 5}^{\color{red}2}, \quad 36 = {\color{blue} 6}^{\color{red}2} </m>
+                            </p>
+                            <p>
+                                Thus, the numerators follow the sequence: <m>2^{\color{red}2},\,\, 3^{\color{red}2},\,\, 4^{\color{red}2},\,\, 5^{\color{red}2},\,\,6^{\color{red}2}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                 We find the next numerator
+                            </p>
+                            <p>
+                                Since the numerators follow the squares of consecutive natural numbers, the next numerator will be <m>7</m> and <m>7^2 = {\color{red}7} \times {\color{red}7} = 49</m>
+                            </p>
+                            <p>
+                                So, the next numerator will be <m>49.</m>
+                            </p>
+                            <p>
+                                We find the next denominator
+                            </p>
+                            <p>
+                                Since the denominators follow the squares of consecutive natural numbers, the next number will be <m>11</m> and <m>11^2 = {\color{red}11} \times {\color{red}11} = 121</m> 
+                            </p>
+                            <p>
+                                So, the next denominator will be <m>121.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Therefore, the next fraction will have a numerator of <m>49</m>  and a denominator of <m>121</m>: <m>\frac{49}{121}</m>
+                            </p>
+                            <p>
+                                The sequence is <m>\frac{4}{36},\, \frac{9}{49},\, \frac{16}{64},\,\frac{25}{81},\,\frac{36}{100},\, \frac{49}{121}.</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise on Number sequence involving fractions goes in here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>

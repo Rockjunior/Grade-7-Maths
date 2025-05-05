@@ -1,0 +1,353 @@
+ <subsection xml:id="subsec-area-of-a-circle">
+    <title>Area of a circle</title>
+    <p>
+      A circle is a closed two-dimensional 
+      figure in which the set of all the points in the plane is 
+      equidistant from a given point called “centre”.
+    </p>
+    <p>
+      The diameter of the circle divides it into two equal parts.
+    </p>
+    <image width="40%">
+    <latex-image>
+      \begin{tikzpicture}
+        % Draw the circle with a very thick pink outline
+        \draw[very thick, black] (0,0) circle (2cm);
+
+        % Draw the diameter
+        \draw[thick, magenta] (-2,0) -- (2,0);
+        
+        % Mark the center
+        \fill[magenta] (0,0) circle (2pt);
+
+        % Label the diameter
+        \node at (0,0.3) {\textbf{Diameter (d)}};
+      \end{tikzpicture}
+    </latex-image>
+      
+      
+    </image>
+    <p>
+      <m>{\color{black}\textbf{Circle Formula.}}</m>
+    </p>
+    <p>
+      Area of a circle is the amount of 
+      space occupied by the circle.
+    </p>
+
+    <sidebyside>
+      <p>
+      The circle formula to find the area is given by <m>\text{Area of a circle}= \pi r^2</m> where, 
+      <m>r</m> is the radius of 
+      the 
+      circle and <m>\pi=\frac{22}{7} \,\text{or} \, 3.142 </m>.
+    </p>
+    <image width="50%">
+    <latex-image >
+      \begin{tikzpicture}
+        % Draw the circle
+        \filldraw[fill=yellow, draw=purple, thick] (0,0) circle (3);
+        
+        % Draw the radius
+        \draw[thick, magenta] (0,0) -- (3,0);
+        
+        % Draw the center point
+        \filldraw[magenta] (0,0) circle (3pt);
+        
+        % Label the radius
+        \node[anchor=south, black] at (1,0) {\large $r$};
+        
+        % Label the area formula
+        \node[anchor=north west, scale=1.2] at (-1,-1) {\textbf{Area = $\pi \times r^2$}};
+      \end{tikzpicture}
+    </latex-image>
+    </image>
+    </sidebyside>
+
+    <activity>
+      <p>
+        <m>{\color{black}\textbf{Work in groups}}</m>
+      </p>
+      <p>
+        <ol>
+          <li>
+            <p>
+              You will need a pair of scissors, a pair of compusses and a manila paper.
+            </p>
+          </li>
+          <li>
+            <p>
+              Using the pair of campasses, draw a circle whose radius is <m>7\,cm</m>.
+            </p>
+            <p>
+              What is the circumference of the circle?
+            </p>
+          </li>
+          <li>
+            <p>
+              Divide the circle into <m>16</m> equal sectors. Colour half of the sectors as shown below.
+            </p>
+            <image width="50%">
+            <latex-image>
+               \begin{tikzpicture}
+                % Draw the circle with a very thick blue border
+                \draw[very thick,fill= blue] (0,0) circle (3);
+                
+                % Draw the sectors (12 sectors, each 30 degrees apart) with very thick blue lines
+                \foreach \i in {0,30,...,330} {
+                    \draw[ ultra thick, blue] (0,0) -- (\i:3);
+                }
+                
+                % Color half of the sectors (every alternate sector)
+                \foreach \i in {0,60,120,180,240,300} {
+                    \fill[green] (0,0) -- (\i:3) arc (\i:\i+30:3) -- cycle;
+                }
+
+              \end{tikzpicture}
+            </latex-image>
+              
+            </image>
+          </li>
+          <li>
+            <p>
+              Cut out the sector and paste them on a manila paper as shown below.
+            </p>
+            <image source="/circle.png" width="50%">
+              <shortdescription></shortdescription>
+            </image>
+
+          </li>
+          <li>What kind of a shape is formed?</li>
+          <li>What is the area of the shape formed?</li>
+          <li>How does the length of the rectangle compare to the circumference of the circle?</li>
+          <li>How does the width of the rectangle compare to the radius of the circle ?</li>
+          <li>Share your work with other learners in class.</li>
+        </ol>
+      </p>
+      
+
+    </activity>
+    <activity>
+      <p>
+        Interact with the app below for a few minutes. 
+        Then answer the questions that follow. 
+      </p>
+      <p>
+        <ol>
+          <li>
+            <figure>
+              <caption>Area of a circle.</caption>
+              <interactive xml:id="geogebra-circle2" platform="geogebra" width="130%" aspect="1:1">
+              <slate xml:id="circle2" surface="geogebra" material="e75r5bbv" aspect="1:1" />
+              </interactive>
+            </figure>
+
+            <p>
+              What do you notice? What do you see? What do you wonder?
+            </p>
+            <p>
+              How can we use what we see here to 
+              try to find the area of a circle? 
+            </p>
+          </li>
+        </ol>
+      </p>
+
+      <p>
+        Determine the dimensions of a circle using the 
+        the formula for the area of a circle and a given area value.
+      </p>
+
+      <figure>
+        <caption>Area of a circle.</caption>
+        <interactive xml:id="geogebra-circle3" platform="geogebra" width="130%" aspect="1:1">
+        <slate xml:id="circle3" surface="geogebra" material="h7n26sjd" aspect="1:1" />
+        </interactive>
+      </figure>
+
+      
+      <p>
+        link 👉🏻<url href="https://youtu.be/f_Yo033w5yM"></url>
+      </p>
+    </activity>
+    <p>
+      <m>{\textbf{Learning point}}</m>
+    </p>
+    <p>
+      The figure formed resembles a rectangle.
+    </p>
+    <p>
+      The length of the rectangle is almost equal to <m>\frac{1}{2}</m> 
+      thecircumference of the circle, while the width is almost equal to 
+      to the radius of the circle.
+    </p>
+
+    <image source="/Circle.png" width="50%">
+      <shortdescription>explanation</shortdescription>
+    </image>
+    <p>
+      <md>
+        <mrow>\text{The area of the rectangle } =\amp \text{Length} \times \text{Width} </mrow>
+         <mrow>= \amp \frac{1}{2}\, \text{circumference} \times \text{ radius}</mrow>
+      </md>
+    </p>
+    <p>
+      The circumference of a circle is <m>2 \pi r</m>. This means that 
+      the length of the rectangle. is <me>\frac{1}{2} \times 2 \pi r=\pi r</me>
+    </p>
+    <p>
+      <md>
+        <mrow> \text{The area of the circle }=\amp \pi r \times r </mrow>
+        <mrow> =\amp {\color{blue} \pi r^2} </mrow>
+      </md>
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Fill in the table bellow. <m>(\text{Take} \pi = \frac{22}{7})</m>
+        </p>
+        <tabular halign="center"  top="medium" left="medium" bottom="medium" right="medium">
+          <row header="yes" bottom="medium">
+            <cell>Circle</cell>
+            <cell>Diameter</cell>
+            <cell>Radius</cell>
+            <cell>Area</cell>
+            
+          </row>
+          <row>
+            <cell>a)</cell>
+            <cell></cell>
+            <cell>49cm</cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>b)</cell>
+            <cell>7cm</cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>c)</cell>
+            <cell>21cm</cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>d)</cell>
+            <cell></cell>
+            <cell>35cm</cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </statement>
+      <solution>
+        <p>
+          The solution is as below:
+        </p>
+        <tabular halign="center"  top="medium" left="medium" bottom="medium" right="medium">
+            <row header="yes" bottom="medium">
+              <cell>Circle</cell>
+              <cell>Diameter</cell>
+              <cell>Radius</cell>
+              <cell>Area</cell>
+              
+            </row>
+            <row>
+              <cell>a)</cell>
+              <cell><m>49 \times 2=98cm </m></cell>
+              <cell>49cm</cell>
+              <cell><m>\frac{22}{7} \times 49^2cm^2=7546cm^2</m></cell>
+            </row>
+            <row>
+              <cell>b)</cell>
+              <cell>7cm</cell>
+              <cell><m>\frac{7}{2}=3.5cm</m></cell>
+              <cell><m>\frac{22}{7} \times 3.5^2cm^2=39.28cm^2</m></cell>
+            </row>
+            <row>
+              <cell>c)</cell>
+              <cell>21cm</cell>
+              <cell><m>\frac{21}{2}=10.5cm</m></cell>
+              <cell><m>\frac{22}{7} \times 10.5^2cm^2=3465cm^2</m></cell>
+            </row>
+            <row>
+              <cell>d)</cell>
+              <cell><m>35 \times 2=70cm</m></cell>
+              <cell>35cm</cell>
+              <cell><m>\frac{22}{7} \times 35^2cm^2=3850cm^2</m></cell>
+            </row>
+         </tabular>
+        
+      </solution>
+
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Find the area of the circle below.
+        </p>
+        <image width="50%">
+        <latex-image>
+          \begin{tikzpicture}
+            \draw[very thick,fill=white](0,0) circle(5);
+            \draw[ultra thick,fill=black](0,0) -- (5,0);
+            \filldraw[black] (0,0) circle (3pt);
+            \node [very thick]at (1.7,0.5){\Huge $14cm$};
+            
+          \end{tikzpicture}
+        </latex-image>
+          
+        </image>
+      </statement>
+      <solution>
+        <p>
+          <md>
+            <mrow> \text{Area of a circle}=\amp \pi r^2 </mrow>
+            <mrow> =\amp\frac{22}{7} \times r \times r </mrow>
+            <mrow> =\amp \frac{22}{7} \times 14 \times 14 cm^2 </mrow>
+            <mrow> =\amp \frac{22}{7} \times 196 cm^2</mrow>
+            <mrow> =\amp 616 cm^2</mrow>
+          </md>
+        </p>
+      </solution>
+
+    </example>
+
+
+
+    <example>
+      <statement>
+        <p>
+          Calculate the area of a circle whose diameter is <m>10 cm</m> 
+          <m>(\text{take} \pi=3.142)</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <md>
+            <mrow>\text{radius} =\amp \frac{\text{diameter}}{2}</mrow>
+            <mrow> r= \amp \frac{10cm}{2}</mrow>
+            <mrow> = \amp 5cm</mrow>
+          </md>
+        </p>
+        <p>
+          Therefore,
+        </p>
+        <p>
+          <md>
+            <mrow> \text{Area of a circle}=\amp 3.142 \times r \times r </mrow>
+            <mrow> =\amp 3.142 \times5cm \times 5cm </mrow>
+            <mrow> =\amp 78.5cm^2</mrow>
+          </md>
+        </p>
+      </solution>
+    </example>
+
+
+
+
+
+    
+  </subsection>

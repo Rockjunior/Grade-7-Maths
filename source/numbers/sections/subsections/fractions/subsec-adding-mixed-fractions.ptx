@@ -1,0 +1,81 @@
+<subsection xml:id="subsec-Adding-mixed-fractions">
+    <title>Adding mixed fractions</title>
+    <p>
+        A mixed fraction is a combination of a whole number and a fraction. 
+        To add two mixed fractions, we first change them into improper fractions.
+        Before adding these improper fractions, we need to make sure they have the same denominator.
+        When fractions have the same denominators we add the numerators and put the result over the common denominator.
+    </p>
+    <activity>
+        <statement>
+            <p>
+                <alert>Work in groups</alert>
+            </p>
+            <p>
+                Juma's family was expecting visitors that evening. In preparation, Juma's mother bought <m>1 \frac{1}{2}</m> kg of meat.
+                Later, his father bought an additional <m>2 \frac{1}{4}</m> kg of meat to ensure there was enough for everyone. How much meat did they have altogether?
+            </p>
+            <p>
+                Share your work with other learners in the class.
+            </p>
+        </statement>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Work out: <m>7 \frac{2}{5} + 3 \frac{1}{4}</m>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Convert the mixed fractions into improper fractions.
+            </p>
+            <sidebyside>
+                <p>
+                    <m>7 \frac{2}{5} = \frac{(5 \times 7)+2}{5} = \frac{37}{5}</m>
+                </p>
+                <p>
+                    <m>3 \frac{1}{4} = \frac{(4 \times 3)+1}{4} = \frac{13}{4}</m>
+                </p>
+            </sidebyside>
+            <p>
+                The denominators are different, so we have to find the Least Common Multiple (LCM) of the denominators, i.e., LCM of <m>5</m> and <m>4 =</m> <m>20</m>.
+            </p>
+            <p>
+                With the help of the LCM, we will write their respective equivalent fractions so that they become like fractions. 
+            </p>
+            <p>
+                Multiply the numerator and denominator of <m>\frac{37}{5}</m>  by <m>4</m> to get <m>\frac{148}{20}</m>, 
+                and also multiply the numerator and denominator of <m>\frac{13}{4}</m> by <m>5</m> to get <m>\frac{65}{20}</m>.
+            </p>
+            <p>
+                Now, we have both the fractions with the same denominators, that is, they have been converted to like fractions.
+                So, we can add them, i.e,
+            </p>
+            <p>
+                <md>
+                    <mrow>\frac{148}{20} + \frac{65}{20} \amp = \frac{148 + 65}{20} </mrow>
+                    <mrow></mrow>
+                    <mrow> \amp = \frac{213}{20} </mrow>
+                </md>
+            </p>
+            <p>
+                Convert the improper fraction <m>\frac{213}{20}</m> to a mixed fraction as,
+            </p>
+            <p>
+                <md>
+                    <mrow>\frac{213}{20}  \amp = 10 \frac{13}{20}</mrow>
+                    <mrow></mrow>
+                    <mrow> \amp = 10 \frac{13}{20} </mrow>
+                </md>
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                Exercise for adding mixed fractions goes here.
+            </p>
+        </statement>
+    </exercise>
+</subsection>

@@ -1,0 +1,297 @@
+  <subsection xml:id="subsec-loss">
+    <title>Loss.</title>
+   
+    <introduction>
+        <p>
+          If the selling price is lower than the buying price, the business makes a
+          loss.
+        </p>
+        <p>
+          Therefore, <me>Loss= Buying\,\,price - Selling \,\, price</me>
+        </p>
+        <activity>
+          <p>
+            <m>{\color{black}\text{Work in groups}}</m>
+          </p>
+          <p>
+            <ol>
+              <li>
+                <p>
+                  Look at the table below.
+                </p>
+                <tabular halign="center" bottom="medium" right="medium" left="medium" top="medium">
+                  <row header="yes">
+                    <cell>Buying price (<m>BP</m>)</cell>
+                    <cell>Selling price (<m>SP</m>)</cell>
+                    <cell>Loss(<m>BP-SP</m>)</cell>
+                  </row>
+                  <row header="yes">
+                    <cell><m>Sh.\,100</m></cell>
+                    <cell><m>Sh.\,83</m></cell>
+                    <cell></cell>
+                    
+                  </row>
+                  <row header="yes">
+                    <cell><m>Sh.\,55</m></cell>
+                    <cell><m>Sh.\,42</m></cell>
+                    <cell></cell>
+                    
+                  </row>
+                  <row header="yes">
+                    <cell><m>Sh.\,158</m></cell>
+                    <cell><m>Sh.\,140</m></cell>
+                    <cell></cell>
+                  </row>
+                  <row header="yes">
+                    <cell><m>Sh.\,275</m></cell>
+                    <cell><m>Sh.\,220</m></cell>
+                    <cell></cell>
+                  </row>
+                </tabular>
+              </li>
+              <li>Compare the buying and the selling price 
+              in each row. Which one is higher?</li>
+              <li>Complete the table above by working out the difference 
+              between the buying price and the selling price.</li>
+              <li>Discuss what could make the trader sell his or her goods at 
+              a lower price than the buying price. </li>
+              <li>Share your answers with other learners in class.</li>
+            </ol>
+          </p>
+          <p>
+            <m>{\color{blue}\text{Learning point}}</m>
+          </p>
+          <p>
+            <md>
+              <mrow> \text{Loss} =\amp \text{Buying price}- \text{Selling price}</mrow>
+              <mrow> \text{Buying price}= \amp \text{Loss} + \text{Selling price}</mrow>
+              <mrow> \text{Selling price}=\amp \text{Buying price} -\text{Loss} </mrow>
+            </md>
+          </p>
+        </activity>
+            <example>
+              <statement>
+                <p>
+                  Kastro bought a bicycle for <m>sh. \, 8\,000</m>. H leter sold 
+                  it for <m>sh. \, 6\, 500 </m>. How much loss did he make?
+                </p>
+              </statement>
+              <solution>
+                <p>
+                  Buying price of the bicycle  <m>= sh. \, 8\, 000</m>.
+                </p>
+                <p>
+                  Selling price  <m>= sh. \, 6\, 500</m>.
+                </p>
+                <p>
+                  <md>
+                    <mrow> Loss=\amp Buying\,price - Selling \, price </mrow>
+                    <mrow> =\amp sh. \, 8\, 000 - sh. \, 6\, 500</mrow>
+                    <mrow> =\amp sh. 1\,500 </mrow>
+                  </md>
+                </p>
+                <p>
+                  The loss he made was <m>sh. 1\,500</m>.
+                </p>
+              </solution>
+            </example>
+
+            <example>
+              <statement>
+                <p>
+                  Martha bought a Mathematics text book 
+                  for <m>sh. 750</m>. She later sold the textbook making a loss of <m>sh. 150</m>. 
+                  How much did she sell the textbook?
+                </p>
+              </statement>
+              <solution>
+                <p>
+                  The buying price <m>=sh. 750</m>
+                </p>
+                <p>
+                  The loss made <m>=sh. 150</m>
+                </p>
+                <p>
+                  <md>
+                    <mrow> \text{selling price }=\amp \text{Buying price } - \text{Loss} </mrow>
+                    <mrow> =\amp sh. 750-sh. 150</mrow>
+                    <mrow> =\amp {\color{blue}\text{sh. 600}}</mrow>
+                  </md>
+                </p>
+                <p>
+                  The textook was sold for <m>{\color{blue}\text{sh.600}}</m>.
+                </p>
+              </solution>
+            </example>
+    </introduction>
+    <subsubsection xml:id="subsubsec-Percentage-loss">
+      <title>Percentage loss.</title>
+      <p>
+        Percentage loss acrues when the salse person make a loss and may deside 
+        to convert the loss into percentage loss.
+      </p>
+      <p>
+        Percentage loss is that loss divided by the buying price then multiplyed by 
+        <m>100\%</m>.
+      </p>
+      <p>
+        <m>{\color{green}\text{Check the activity below for more illustration}}</m>.
+      </p>
+      <activity>
+        <p>
+          <ol>
+            <li>
+              <p>
+                Draw the table similar to the one
+              </p>
+              <tabular halign="left" bottom="medium" top="medium" left="medium" right="medium">
+                <row header="yes">
+                  <cell></cell>
+                  <cell>Buying price (BP)</cell>
+                  <cell>Selling price(SP)</cell>
+                  <cell>Loss(L)</cell>
+                  <cell>Percentage loss <m>=\frac{L}{BP} \times 100\%</m></cell>
+                </row>
+                <row>
+                  <cell>a)</cell>
+                  <cell><m>Sh. \,250</m></cell>
+                  <cell><m>Sh. \,200</m></cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell>b)</cell>
+                  <cell><m>Sh. \,800</m></cell>
+                  <cell><m>Sh. \,680</m></cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell>c)</cell>
+                  <cell><m>Sh. \,1\,000</m></cell>
+                  <cell><m>Sh. \,750</m></cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell>d)</cell>
+                  <cell><m>Sh. \,600</m></cell>
+                  <cell><m>Sh. \,450</m></cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+              </tabular>
+            </li>
+            <li>Work out the difference between the buying price and the 
+            selling price. Fill in the loss column.</li>
+            <li>Work out the percentage loss.</li>
+            <li>Share your work with other learners in class.</li>
+          </ol>
+        </p>
+        <p>
+         <m>{\color{blue}\text{Learning point}}</m>
+        </p>
+        <p>
+          <me>\text{Percentage loss}= \frac{Loss}{Buying \, price} \times 100\%</me>
+        </p>
+      </activity>
+      <example>
+        <statement>
+          <p>
+            Jerald bought a matress for <m>sh. \, 8\,000</m>. She later sold 
+            the matress for <m>sh. \, 7\,000</m>. What percentage loss did she make?
+          </p>
+        </statement>
+        <hint>
+          <p>
+            1. find the loss he made when selling the matress.
+          </p>
+          <p>
+            2. Use the loss to identify the percentage loss.
+          </p>
+        </hint>
+        <solution>
+          <p>
+            Item bought and sold is <em>matress</em>.
+          </p>
+          <p>
+            The buying price is <m>sh. \,8\,000</m>.
+          </p>
+          <p>
+            The selling price is <m>sh. \,7\,000</m>.
+          </p>
+          <p>
+            <md>
+              <mrow> \text{Loss}=\amp \text{Buying price}-\text{Selling price} </mrow>
+              <mrow> =\amp sh. \,8\,000 -sh. \,7\,000</mrow>
+              <mrow> =\amp {\color{blue}\text{sh.1 000}}</mrow>
+              <mrow> \text{Percentage loss}=\amp \frac{Loss}{Buying\, price} \times 100\% </mrow>
+              <mrow> =\amp (\frac{1\,000}{8\,000} \times 100)\% </mrow>
+              <mrow> =\amp 12\frac{1}{2} \% </mrow>
+            </md>
+          </p>
+          <p>
+            The percentage loss she made was <m>{\color{blue}12\frac{1}{2}\%}</m>.
+          </p>
+        </solution>
+      </example>
+      <example>
+        <statement>
+          <p>
+            Harriet bought a dress for <m>sh. \, 1 \,500</m>. She sold the 
+            dress making a percentage loss of <m>25\%</m>. How much did she sell 
+            the dress?
+
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>{\color{blue}\text{Method 1}}</m>
+          </p>
+          <p>
+            The dress was bought for <m>sh. \, 1\,500</m>
+          </p>
+          <p>
+            Making a loss interms of percentage as <m>25\%</m>.
+          </p>
+          <p>
+            Therefore we can obtain loss as,
+          </p>
+          <p>
+            <md>
+              <mrow> Loss=\amp \frac{25}{100} \times sh. \, 1\, 500 </mrow>
+              <mrow> =\amp {\color{blue} sh.\, 375}</mrow>
+            </md>
+          </p>
+          <p>
+            Therefore selling price can be obtained having gotten the loss as <m>sh.\, 375</m>
+          </p>
+          <p>
+            <md>
+              <mrow> \text{Selling price}=\amp \text{Buying price }-\text{Loss}</mrow>
+              <mrow> =\amp  sh. \, 1\, 500 - sh.\, 375</mrow>
+              <mrow> =\amp sh. \, 1\,125</mrow>
+            </md>
+          </p>
+          <p>
+            <m>{\color{blue}\text{Method 2}}</m>
+          </p>
+          <p>
+            <md>
+              <mrow>\text{Buying price}(100\%)= \amp sh. \, 1\, 500   </mrow>
+              <mrow> \text{Percentage loss}=\amp 25\%</mrow>
+              <mrow> \text{Selling price}(in\, \%)=\amp 100\%-25\% </mrow>
+              <mrow> =\amp 75\% </mrow>
+              <mrow> \text{Selling price}=\amp \frac{75}{100} \times sh. \, 1\, 500  </mrow>
+              <mrow> =\amp sh. \, 1\,125 </mrow>
+              </md>
+          </p>
+          <p>
+            The selling price of the dress was <m>{\color{green} sh.\, 1\,125}</m>
+          </p>
+        </solution>
+      </example>
+      
+    </subsubsection>
+    
+  </subsection>

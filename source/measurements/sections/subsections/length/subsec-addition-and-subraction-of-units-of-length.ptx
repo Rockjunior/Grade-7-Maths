@@ -1,0 +1,228 @@
+  <subsection xml:id="subsec-Addition-and-Subraction-of-units-of-length">
+    <title>Addition and Subraction of units of length</title>
+    <activity>
+    
+      <statement>
+        <sidebyside>
+          <p>
+          <ul>
+            <li>
+              <p>
+                Work in groups using a 30cm ruler.
+              </p>
+            </li>
+            <li>
+              <p>
+                Measure the width of your classroom window.
+              </p>
+            </li>
+            <li>
+              <p>
+                Measure the distance from door to the furthest corner of your classsroom.
+              </p>
+            </li>
+            <li>
+              <p>
+                What do you notice about the width of the windows and the door?
+              </p>
+            </li>
+            <li>
+              <p>
+                They are smaller than the wall measurement.
+              </p>
+            </li>
+            <li>
+              <p>
+                Take the total length of all walls and subtract the width of windows and classroom door and note down.
+              </p>
+            </li>
+          </ul>
+        </p>
+        <image source="/ruler.png">
+          <shortdescription>(Measuring length)</shortdescription>
+        </image>
+        </sidebyside>
+        
+      </statement>
+    </activity>
+    <example>
+      <statement>
+        <p>
+          Work out<m>8\text{ dm }</m> <m> 5\text{ cm }</m> +<m>7\text{ dm }</m> <m>6\text{ cm }</m>
+        </p>
+      </statement>
+      <hint>
+        <p>
+          Allign the same units  vertically.
+        </p>
+      </hint>
+      <solution>
+          <!-- <table>
+            <title></title> -->
+            <tabular>
+              <row>
+                <cell></cell>
+                <cell>Dm</cell>
+                <cell>cm</cell>
+              </row>
+               <row>
+                <cell>+</cell>
+                <cell>8</cell>
+                <cell>5</cell>
+              </row>
+              <row bottom="medium">
+                <cell></cell>
+                <cell>7</cell>
+                <cell>6</cell>
+              </row>
+              <row bottom="medium">
+                <cell></cell>
+                <cell>16</cell>
+                <cell>1</cell>
+              </row>
+            </tabular>
+          <!-- </table> -->
+      </solution>
+    </example>
+    <example>
+      <statement>
+        <p>
+          Add <m>9\text{ Hm }</m> <m>5\text{ Dm }</m> <m>4\text{ m }</m> <m>4\text{ dm }</m> to <m>1\text{ Hm }</m> <m>6\text{ Dm }</m> <m>5\text{ m }</m> <m>6\text{ dm }</m>
+        </p>
+        <!-- <table>
+          <title></title> -->
+          <tabular>
+            <row>
+              <cell></cell>
+              <cell>Hm</cell>
+              <cell>Dm</cell>
+              <cell>m</cell>
+              <cell>dm</cell>
+            </row>
+            <row>
+              <cell></cell>
+              <cell>1</cell>
+              <cell>6</cell>
+              <cell>5</cell>
+              <cell>6</cell>
+            </row>
+            <row bottom="medium">
+              <cell>+</cell>
+              <cell>9</cell>
+              <cell>5</cell>
+              <cell>4</cell>
+              <cell>4</cell>
+            </row>
+            <row bottom="medium">
+              <cell></cell>
+              <cell>11</cell>
+              <cell>2</cell>
+              <cell>0</cell>
+              <cell>0</cell>
+            </row>
+         </tabular>
+        <!-- </table> -->
+      </statement>
+    </example>
+    <activity>
+      <statement>
+        <p>
+          <ul>
+            <li>
+              <p>
+                 Measure and cut off a string of length <m>1\text{ m }</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                From the string cut off a string of length <m>60\text{ cm }</m>.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </statement>
+    </activity>
+    <example>
+      <statement>
+        <p>
+          Subtract <m>3\text{ m }</m> <m> 15\text{ cm }</m> from <m>5\text{ dm }</m> <m>25\text{ cm }</m>
+        </p>
+      </statement>
+      <hint>
+        <p>
+          Allign the same units  vertically starting from the second then the first one.
+        </p>
+      </hint>
+      <solution>
+          <!-- <table>
+            <title></title> -->
+            <tabular>
+              <row>
+                <cell></cell>
+                <cell>m</cell>
+                <cell>cm</cell>
+              </row>
+               <row>
+                <cell></cell>
+                <cell>5</cell>
+                <cell>25</cell>
+              </row>
+              <row bottom="medium">
+                <cell>-</cell>
+                <cell>3</cell>
+                <cell>15</cell>
+              </row>
+              <row bottom="medium">
+                <cell></cell>
+                <cell>2</cell>
+                <cell>10</cell>
+              </row>
+            </tabular>
+          <!-- </table> -->
+      </solution>
+    </example>
+    <example>
+      <statement>
+        <p>
+          work out <m>6 { Hm } </m> <m>5 { Dm }</m> <m>3\text{ m }</m> <m>4 \text{ dm }</m>- <m>4\text{ Hm }</m> <m>6 \text{ Dm }</m> <m>5 \text{ m }</m> <m>3 { cm }</m>
+        </p>
+        <!-- <table>
+          <title></title> -->
+          <tabular>
+            <row>
+              <cell></cell>
+              <cell>Hm</cell>
+              <cell>Dm</cell>
+              <cell>m</cell>
+              <cell>dm</cell>
+              <cell>cm</cell>
+            </row>
+            <row>
+              <cell></cell>
+              <cell>6</cell>
+              <cell>5</cell>
+              <cell>3</cell>
+              <cell>4</cell>
+              <cell>3</cell>
+            </row>
+            <row bottom="medium">
+              <cell>-</cell>
+              <cell>4</cell>
+              <cell>6</cell>
+              <cell>2</cell>
+              <cell>5</cell>
+              <cell>3</cell>
+            </row>
+            <row bottom="medium">
+              <cell></cell>
+              <cell>1</cell>
+              <cell>9</cell>
+              <cell>0</cell>
+              <cell>9</cell>
+              <cell>0</cell>
+            </row>
+         </tabular>
+        <!-- </table> -->
+      </statement>
+      </example>
+  </subsection>

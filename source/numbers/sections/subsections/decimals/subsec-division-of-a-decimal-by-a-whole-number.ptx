@@ -1,0 +1,129 @@
+<subsection xml:id="subsec-Division-of-a-decimal-by-a-whole-number">
+        <title>Division of a decimal by a whole number</title>
+        <p>
+            Moraa has 5.6 kg of sugar and wants to pack it equally into 4 small bags. Moraa can use division of decimal by a whole number to find out how many kilograms of sugar go into each bag.
+        </p>
+        <activity>
+            <statement>
+                <p>
+            
+                </p>
+                <p>
+                The figure below represents Kazani Primary School's compound which is rectangular in shape.
+                </p>
+                
+                     <image width="40%">
+                    <shortdescription>Rectangle image</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                                <!-- \draw[thick] (0,0) rectangle (4,2); -->
+                                \draw[thick = blue] (0,0) -- (4,0)--(4,2)--(0,2) -- (0,0);
+                                \draw[&lt;-&gt;] (0,-0.3) -- (4,-0.3) node[midway, below] {7 m};
+                                \node at (2,1) {$A = 1.12 m^2$};
+                                \draw[&lt;-&gt;] (-0.3,0) -- (-0.3,2) node[midway, left] { ?m};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+                <p>
+                    1. What is the width of the compound if the length is <m>7 m </m> and the area is <m>1.12 m^2</m> ? (You may use a calculator to work out if you have or use the long division method)
+                </p>
+                <p>
+                   2. Discuss how you can divide a decimal number by a whole number.
+                </p>
+                <p>
+
+                    3. Share your work with other learners.
+
+                    3. Share your work with other learners in the classroom .
+
+                </p>
+                
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>3.75 \div 8</m>
+                </p>
+            </statement>
+            <solution>
+                <!-- <sidebyside>
+                    <p>
+                        <md>
+                            <mrow>3.75 \div 5 \amp  = \frac{375}{100} \div 5</mrow>
+                            <mrow></mrow>
+                            <mrow> \amp = \frac{375}{100} \times \frac{1}{5}</mrow>
+                            <mrow> \amp </mrow>
+                            <mrow>\amp \qquad 75</mrow>
+                            <mrow> \amp = \frac{\cancel{375}}{\cancel{500}}</mrow>
+                            <mrow>\amp \qquad 100</mrow>
+                            <mrow> \amp </mrow>
+                            <mrow> \amp = 0.75 </mrow>
+                        </md>
+                    </p>
+                    <p>
+                        <ol marker="a)">
+                            <li>
+                                <p>
+                                 Here we make <m>3.75</m> a fraction.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Then we multiply <m>\frac{375}{100}</m> by the reciprocal of <m>\frac{1}{5}</m>.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\frac{375}{500}</m> is then simplified to <m>\frac{75}{100}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    This is a result of converting <m>\frac{75}{100}</m> into a decimal.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </sidebyside> -->
+                <tabular>
+                    <row>
+                        <cell><m>3.75 \div 8 = \frac{375}{100} \div 8</m></cell>
+                        <cell>Here we make <m>3.75</m> a fraction.</cell>
+                    </row>
+                    <row>
+                        <cell> <m>= \frac{375}{100} \times \frac{1}{8}</m></cell>
+                        <cell>Then we multiply <m>\frac{375}{100}</m> by the reciprocal of <m>\frac{8}{1}</m></cell>
+                    </row>
+                    <row>
+                        <cell><m>= \frac{\cancel{375}}{\cancel{800}} = \frac{15}{32}</m></cell>
+                        <cell>Dividing <m>\frac{375}{800}</m> by <m>25</m>, it is then simplified to <m>\frac{15}{32}</m></cell>
+                    </row>
+                    <row>
+                        <cell><m>= 0.46875</m></cell>
+                        <cell>This is a result of converting <m>\frac{15}{32}</m> into a decimal</cell>
+                        <cell> Writing <m> 0.46875</m> into <m>2</m> decimal places gives <m>0.47</m> </cell>
+                    </row>
+                </tabular>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for Division of a decimal by a whole number goes in here.
+                </p>
+            </statement>
+        </exercise>
+        <!-- <example>
+            <statement>
+                <image>
+                    <shortdescription></shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \draw[thick] (0,0) arc[start angle=0, end angle=180, radius=3cm];
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </statement>
+        </example> -->
+    </subsection>

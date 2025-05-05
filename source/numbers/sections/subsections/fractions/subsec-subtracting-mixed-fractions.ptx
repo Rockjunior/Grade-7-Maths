@@ -1,0 +1,115 @@
+<subsection xml:id="subsec-Subtracting-mixed-fractions">
+        <title>Subtracting mixed fractions</title>
+        <activity>
+            <introduction>
+                <p>
+                    <alert>Work in groups</alert>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Make the fraction cards like the one shown below.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Pick any fraction card and subtract the fractions.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Share your work with other learners in your class.
+                    </p>
+                    <image source="mixed-fractions-number-card.png">
+                        <shortdescription>Number cards containing operation between twp mixed numbers</shortdescription>
+                    </image>
+                </statement>
+            </task>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>12 \frac{2}{3} - 7 \frac{3}{5} = </m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Convert the mixed fractions into improper fractions.
+                            </p>
+                            <p>
+                                To convert a mixed number to an improper fraction, the whole number is multiplied by the 
+                                denominator and the result is added to the numerator of the proper fraction by retaining the denominator.
+                            </p>
+                            <sidebyside>
+                                <p>
+                                    <md>
+                                        <mrow>12 \frac{2}{3} \amp = \frac{(3 \times 12) + 2}{3} </mrow>
+                                        <mrow></mrow>
+                                        <mrow> \amp = \frac{38}{3} </mrow>
+                                    </md>
+                                </p>
+                                <p>
+                                    <md>
+                                        <mrow> 7 \frac{3}{5} \amp = \frac{(5 \times 7) + 3}{5} </mrow>
+                                        <mrow></mrow>
+                                        <mrow> \amp = \frac{38}{5} </mrow>
+                                    </md>
+                                </p>
+                            </sidebyside>
+                            <p>
+                                Subtract the improper fractions
+                            </p>
+                            <p>
+                                <me>
+                                    \frac{38}{3} - \frac{38}{5}
+                                </me>
+                            </p>
+                            <p>
+                                Since the denominators are different, we need to make the denominators same by taking the LCM and multiplying the suitables fractions for both.
+                            </p>
+                            <p>
+                                The LCM of <m>3</m> and <m>5</m> is <m>15</m>.
+                            </p>
+                            <p>
+                                So, <m> \frac{38}{3} \times \frac{{\color{red}5}}{{\color{red}5}} = \frac{190}{15}</m> and 
+                                <m> \frac{38}{5} \times \frac{{\color{red}3}}{{\color{red}3}} = \frac{114}{15}</m>
+                            </p>
+                            <p>
+                                Now, we have common denominators and we proceed to subtract numerators.
+                            </p>
+                            <p>
+                                <me>
+                                    \frac{190}{15} - \frac{114}{15} = \frac{76}{15}
+                                </me>
+                            </p>
+                            <p>
+                                Convert the improper fraction <m>\frac{76}{15}</m> to a mixed number.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow> \frac{76}{15} \amp = 5 \frac{1}{15} </mrow>
+                                    <mrow></mrow>
+                                    <mrow> \amp = 5 \frac{1}{15} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for subtacting mixed fractions.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-section-Area" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Area</title>
+  <introduction>
+    <p>
+      Why area?
+    </p>
+    <p>
+      Area is the region bounded by the shape of an object.
+    </p>
+    <p>
+      We  calculate areas of different objects eg. triangle, rectangle, squre,circle, and many more.
+    </p>
+
+  </introduction>
+
+
+  <xi:include href="subsections/area/subsec-square-metres-acres-and-hectares.ptx" />
+
+  <xi:include href="subsections/area/subsec-area-of-a-rectangle.ptx" />
+
+  <xi:include href="subsections/area/subsec-area-of-a-parallelogram.ptx" />
+
+  <xi:include href="subsections/area/subsec-area-of-a-rhombus.ptx" />
+
+  <xi:include href="subsections/area/subsec-area-of-trapeziam.ptx" />
+
+  <xi:include href="subsections/area/subsec-area-of-a-circle.ptx" />
+
+  <xi:include href="subsections/area/subsec-area-of-a-semicircle.ptx" />
+
+  <xi:include href="subsections/area/subsec-area-of-borders-and-combined-shapes.ptx" />
+
+ 
+
+
+</section>

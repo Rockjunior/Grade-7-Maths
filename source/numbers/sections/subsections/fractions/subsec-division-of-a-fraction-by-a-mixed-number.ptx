@@ -1,0 +1,86 @@
+<subsection xml:id="subsec-Division-of-a-fraction-by-a-mixed-number">
+        <title>Division of a fraction by a mixed number</title>
+        <activity>
+            <introduction>
+                <p>
+                    
+                </p>
+                <p>
+                    Amina is a baker in Umoja Market. She has <m>7 \frac{1}{2}</m> kilograms of flour to bake muffins.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        How many muffins can she bake if each muffin requires <m>1 \frac{1}{4}</m> kilograms of flour?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Share your work with other learners in your class.
+                    </p>
+                </statement>
+            </task>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>\frac{4}{7} \div 9 \frac{1}{5} = </m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Convert <m>9 \frac{1}{5}</m> into an improper fraction.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>{\color{red} 9} \frac{{\color{green} 1}}{{\color{blue} 5}} \amp = \frac{({\color{red} 9} \times {\color{blue} 5})+{\color{green} 1}}{{\color{blue} 5}} </mrow>
+                                    <mrow></mrow>
+                                    <mrow> \amp = \frac{45 + 1}{5} </mrow>
+                                    <mrow></mrow>
+                                    <mrow> \amp = \frac{46}{5}</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Find the reciprocal of <m>\frac{46}{5}</m> by interchanging the numerator and denominator.
+                            </p>
+                            <p>
+                                The reciprocal of <m>\frac{{\color{red} 46}}{{\color{blue}5}}</m> is <m>\frac{{\color{blue}5}}{{\color{red} 46}}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Multiply <m>\frac{4}{7}</m> by <m>\frac{5}{46}.</m>
+                            </p>
+                            <p>
+                                <m>\frac{{\color{blue}4}}{{\color{red}7}} \times \frac{{\color{blue}5}}{{\color{red}46}} = \frac{{\color{blue}4} \times {\color{blue}5}}{{\color{red}7} \times {\color{red}46}}</m>
+                            </p>
+                            <p>
+                                 <m>\qquad \qquad= \frac{20}{322}</m>
+                            </p>
+                            <p>
+                                Simplify the fraction:
+                            </p>
+                            <p>
+                                <m>\qquad \qquad= \frac{10}{161}</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for Division of a fraction by a mixed number goes in here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>

@@ -1,0 +1,555 @@
+  <subsection xml:id="subsec-mobile-money-services">
+    <title>Mobile money services</title>
+    <introduction>
+        <p>
+        <m>{\color{blue} \text{Mobile money}}</m> is an electronic wallet service. This is available in many countries and allows users to store, 
+        send, and receive money using their mobile phone.
+      </p>
+      <p>
+        The safe and easy electronic payments make Mobile money a popular alternative to bank accounts.
+        It can be used on both smartphones and basic feature phones.
+      </p>
+      <p>
+        Most mobile money services allow users to purchase items in shops or online, pay bills, school fees, and top-up mobile airtime. 
+        Cash withdrawals can also be carried out at authorised agents.
+      </p>
+      <p>
+        To pay a bill or send money to another person, 
+        the user selects the relevant service from their phone’s mobile money menu. 
+        Paying with mobile money is just like sending a text message – it’s simple and easy.
+      </p>
+      <activity>
+        <p>
+          <m>{\color{green} \text{Work in groups.}}</m>
+        </p>
+        <p>
+          <ol>
+            <li>
+              <p>
+                Read the story below.
+              </p>
+              <sidebyside>
+                <p>
+                  Mr Owen owns a shop in Tawala town. He has a paybill number 
+                  which the customers use to pay for the goods they purchase fom his shop. 
+                  Sometimes, Mr Owen allows customers to pay the goods by sending the money 
+                  directly to his mobile phone account. Once the money is sent, Mr Owen confirms whether he has 
+                  received the money or not before the customer leaves. Many people like buying goods from his shop 
+                  because of the convenient method of payment.
+                  Mr Owen saves money in a mobile savings account. The money 
+                  saved earns some interest annually. He withdraws the money only when he wants to use it. Mr Owen, sometimes, borrows 
+                  money from his mobile account and pays with an interest within a given period of time. Mr Owen loves mobile 
+                  money services becuse they create efficiency in his workplace. 
+                  
+                </p>
+                <image source="/Shop.png" >
+                  <shortdescription>Owen shop</shortdescription>
+                </image>
+                
+              </sidebyside>
+            </li>
+            <li>
+              <p>
+                Identify the mobile money services mentioned in the story above
+              </p>
+            </li>
+            <li>
+              <p>
+                Share your answers with other groups in class.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </activity>
+      <activity>
+        <p>
+          <m>{\color{blue} \text{Worhk in pairs.}}</m>
+        </p>
+        <p>
+          <ol>
+            <li>
+              <p>
+                Copy the word puzzle below and shade mobile money services with five different colours.
+              </p>
+              <image>
+              <latex-image>
+                \begin{tikzpicture}
+                  % Define the letters in the grid
+                  \def\grid{%
+                      {b,o,r,r,o,w,c,s,a,r},%
+                      {e,w,i,t,h,d,r,a,w,e},%
+                      {f,t,c,a,r,e,e,v,s,c},%
+                      {r,s,h,k,e,p,d,i,y,e},%
+                      {i,e,p,e,n,o,i,n,p,i},%
+                      {e,n,j,n,u,s,t,g,z,v},%
+                      {d,d,e,l,a,i,w,s,k,e},%
+                      {s,t,a,t,e,t,i,m,e,o}%
+                  }
+
+                  % Draw the grid (scaled up)
+                  \foreach \i in {0,...,7} {
+                      \foreach \j in {0,...,9} {
+                          \draw[red, thick] (\j,7-\i) rectangle (\j+1,8-\i);
+                      }
+                  }
+
+                  % Fill the grid with letters (scaled up)
+                  \foreach \i [count=\y] in \grid {
+                      \foreach \j [count=\x] in \i {
+                          \node[scale=1.5] at (\x-1+0.5, 8-\y+0.5) {\j};  % Bigger letters
+                      }
+                  }
+
+                  % Draw a rectangle to cover the word "withdraw" on the second row (from column 2 to column 9)
+                  \draw[fill=blue, opacity=0.7] (1, 6) rectangle (9, 7);
+                \end{tikzpicture}
+              </latex-image>
+                
+              </image>
+            </li>
+            <li>
+              <p>
+                Share your work with other learners in class.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </activity>
+      <p>
+        <m>{\color{green} \text{Learning point}}</m>
+      </p>
+      <p>
+        Mobile money services allow people to use their mobile phones as a 
+        bank account. One can <m>{\color{blue} \text{deposit, withdraw or transfer}}</m> 
+        money with their handsets. People can also <m>{\color{blue} \text{save}}</m> money and 
+        <m>{\color{blue} \text{borrow}}</m> from mobile lenders. Mobile money transfer 
+        is fast, easy and secure.
+      </p>
+    </introduction>
+
+
+
+
+    <subsubsection xml:id="subsubsec-Mobile-money-transaction-1">
+      <title>Mobile money transaction 1</title>
+      <activity>
+        <p>
+          Work in groups.
+        </p>
+        <p>
+          <ol>
+            <li>
+              <p>
+                Look at the table below.
+              </p>
+              <table>
+                <title> <m> {\color{blue} \text{Uwezo Mobile Money}}</m></title>
+                <tabular halign="center" top="medium" right="medium" left="medium">
+                <row bottom="medium" header="yes">
+                  <cell>Transaction range <m>(sh)</m></cell>
+                  <cell>Transfer cost <m>(sh)</m></cell>
+                  <cell>Withdrawal cost <m>(sh)</m></cell>
+                </row>
+                <row>
+                  <cell><m>1 \,- \, 50</m></cell>
+                  <cell>Free</cell>
+                  <cell>Free</cell>
+                </row>
+                <row>
+                  <cell><m>51 \,- \, 100</m></cell>
+                  <cell><m>10</m></cell>
+                  <cell><m>10</m></cell>
+                </row>
+                <row>
+                  <cell><m>101 \,- \, 500</m></cell>
+                  <cell><m>20</m></cell>
+                  <cell><m>28</m></cell>
+                </row>
+                <row>
+                  <cell><m>501 \,- \, 1\,000</m></cell>
+                  <cell><m>24</m></cell>
+                  <cell><m>35</m></cell>
+                </row>
+                <row>
+                  <cell><m>1\,001 \,- \, 1\,500</m></cell>
+                  <cell><m>27</m></cell>
+                  <cell><m>38</m></cell>
+                </row>
+                <row>
+                  <cell><m>1\,501\,- \, 2\,500</m></cell>
+                  <cell><m>30</m></cell>
+                  <cell><m>40</m></cell>
+                </row>
+                <row>
+                  <cell><m>2\,501 \,- \, 3\,500</m></cell>
+                  <cell><m>33</m></cell>
+                  <cell><m>44</m></cell>
+                </row>
+                <row>
+                  <cell><m>3\,501 \,- \, 5\,000</m></cell>
+                  <cell><m>38</m></cell>
+                  <cell><m>47</m></cell>
+                </row>
+                <row bottom="medium">
+                  <cell> Above <m> 5\,000</m></cell>
+                  <cell><m>40</m></cell>
+                  <cell><m>50</m></cell>
+                </row>
+                </tabular>
+              </table>
+              
+                
+              
+            </li>
+            <li>
+              <p>
+                Discus the Charges for the different money transactions in the table 
+                above.
+              </p>
+            </li>
+            <li>
+              <p>
+                How much does it cost to send the following amount of money through 
+                Uwezo Mobile Money?
+              </p>
+              <p>
+                <m>\text{a)} \,sh\,170 \qquad \text{b)} \,sh\,1\,200</m>
+              </p>
+              <p>
+                <m>\text{c)} \,sh\,2\,550 \qquad \text{d)} \,sh\,3\,700</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                How much does it cost to withdraw the following amounts through 
+                Uwezo Mobile Money?
+              </p>
+              <p>
+                <m>\text{a)} \,sh\,300 \qquad \text{b)} \,sh\,500</m>
+              </p>
+              <p>
+                <m>\text{c)} \,sh\,2\,200 \qquad \text{d)} \,sh\,3\,000</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                Share your work with other learners in class.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </activity>
+
+      <example>
+        <statement>
+          <p>
+            Use the mobile money transaction below to 
+            answer the Question that follow.
+          </p>
+          <table>
+            <title> <m> {\color{blue} \text{Mali Mobile Money}}</m></title>
+            <tabular halign="center" top="medium" right="medium" left="medium">
+              <row  bottom="medium" header="yes">
+                <cell>Transaction range <m>(sh)</m></cell>
+                <cell>Transfer cost <m>(sh)</m></cell>
+                <cell>Withdrawal cost <m>(sh)</m></cell>
+              </row>
+              <row>
+                <cell><m>1 \,- \, 50</m></cell>
+                <cell>5</cell>
+                <cell>Free</cell>
+              </row>
+              <row>
+                <cell><m>51 \,- \, 100</m></cell>
+                <cell><m>10</m></cell>
+                <cell><m>15</m></cell>
+              </row>
+              <row>
+                <cell><m>101 \,- \, 200</m></cell>
+                <cell><m>13</m></cell>
+                <cell><m>17</m></cell>
+              </row>
+              <row>
+                <cell><m>201 \,- \, 300</m></cell>
+                <cell><m>17</m></cell>
+                <cell><m>20</m></cell>
+              </row>
+              <row>
+                <cell><m>301 \,- \, 500</m></cell>
+                <cell><m>20</m></cell>
+                <cell><m>25</m></cell>
+              </row>
+              <row>
+                <cell><m>501 \,- \, 1\,000</m></cell>
+                <cell><m>27</m></cell>
+                <cell><m>30</m></cell>
+              </row>
+              <row>
+                <cell><m>1\,001\,- \, 2\,500</m></cell>
+                <cell><m>30</m></cell>
+                <cell><m>33</m></cell>
+              </row>
+              <row>
+                <cell><m>2\,501 \,- \, 3\,500</m></cell>
+                <cell><m>35</m></cell>
+                <cell><m>40</m></cell>
+              </row>
+              <row bottom="medium">
+                <cell> Above <m> 3\,500</m></cell>
+                <cell><m>40</m></cell>
+                <cell><m>50</m></cell>
+              </row>
+                
+            </tabular>
+          </table> 
+
+          <p>
+            <ol>
+              <li>
+                <p> 
+                  How much does it cost to withdraw the following 
+                  amounts of money?
+                </p>
+                <p>
+                  <m>\text{a)} \, sh\, 1\,200 \qquad \text{b)} \, sh\, 1\,000 \qquad \text{c)} \, sh\, 2\,550 </m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  Wanyonyi wanted to transfer <m>sh\,3\,000</m> to his sister and 
+                  <m>sh\,2\,000</m> to his brother. What is the minimum amount of money that 
+                  should be in his Mali Mobile account?
+                </p>
+              </li>
+            </ol>
+          </p>
+
+        </statement>
+        <solution>
+          <p>
+            <ol>
+              <li>
+                <p>
+                  a) <m>sh\, 1\,200</m> is in the range of <m>sh\, 1\,001\,-\,2\,500.</m> The  withdrawal cost is <m> {\color{blue} sh\,30}</m>.
+                </p>
+                <p>
+                  b) <m>sh\, 1\,000</m> is in the range of <m>sh\, 501\,-\,1\,000.</m> The  withdrawal cost is <m> {\color{blue} sh\,27}</m>.
+                </p>
+                <p>
+                  c) <m>sh\, 2\,550</m> is in the range of <m>sh\, 2\,501\,-\,3\,500.</m> The  withdrawal cost is <m> {\color{blue} sh\,35}</m>.
+                </p>
+                
+                
+              </li>
+              <li>
+                <p>
+                  To send <m>sh\, 3\,000</m> a transaction fee of <m>sh\,40</m> is paid.
+                </p>
+                <p>
+                  To send <m>sh\, 2\,000</m> a transaction fee of <m>sh\,33</m> is paid.
+                </p>
+                <p>
+                  <md>
+                    <mrow> \text{Total amount of money required}=\amp sh\, 3\,000+sh\,40+sh\,2\,000+sh\,33</mrow>
+                    <mrow> =\amp Sh\,5\,073</mrow>
+                    
+                  </md>
+                </p>
+              </li>
+            </ol>
+          </p>
+        </solution>
+
+         
+      </example>
+
+      
+      
+    </subsubsection>
+    
+
+    <subsubsection xml:id="subsubsec-Mobile-money-transaction-2">
+      <title>Mobile money transaction 2</title>
+      <p>
+        <m> {\color{green} \text{Work in groups.}}</m>
+      </p>
+      <p>
+        <ol>
+          <li>
+            <p>
+              Look at the table below, Discuss it.
+            </p>
+            <table>
+              <title> <m> {\color{blue} \text{Bora cash lending app}}</m></title>
+              <tabular halign="center" bottom="medium" top="medium" left="medium" right="medium">
+                <row header="yes">
+                  <cell>Loan limit range</cell>
+                  <cell>Interest charged</cell>
+                </row>
+                <row>
+                  <cell><m>sh\,1\,000\,-\,sh\,5\,000</m></cell>
+                  <cell><m>1\,\%</m></cell>
+                </row>
+                <row>
+                  <cell><m>sh\,5\,001\,-\,sh\,8\,000</m></cell>
+                  <cell><m>2\,\%</m></cell>
+                </row>
+                <row>
+                  <cell><m>sh\,8\,001\,-\,sh\,10\,000</m></cell>
+                  <cell><m>3\,\%</m></cell>
+                </row>
+                <row>
+                  <cell><m>sh\,10\,001\,-\,sh\,15\,000</m></cell>
+                  <cell><m>4\,\%</m></cell>
+                </row>
+                <row>
+                  <cell><m>sh\,15\,001\,-\,sh\,20\,000</m></cell>
+                  <cell><m>5\,\%</m></cell>
+                </row>
+                <row>
+                  <cell><m>sh\,20\,001\,-\,sh\,30\,000</m></cell>
+                  <cell><m>6\,\%</m></cell>
+                </row>
+                <row>
+                  <cell><m>sh\,30\,001\,-\,sh\,40\,000</m></cell>
+                  <cell><m>7\,\%</m></cell>
+                </row>
+                <row>
+                  <cell><m>sh\,40\,001\,-\,sh\,50\,000</m></cell>
+                  <cell><m>8\,\%</m></cell>
+                </row>
+                <row>
+                  <cell>Loan limit is <m>sh\,50\,000</m></cell>
+                  <cell><m></m></cell>
+                </row>
+              </tabular>
+            </table>
+          </li>
+          <li>
+            <p>
+              How much interest is charged on the following loans?
+            </p>
+            <p>
+              <m>\text{a)} \, sh\, 4\,000 \qquad \text{b)} \, sh\, 17\,500 \qquad \text{c)} \, sh\, 22\,200 </m>
+            </p>
+            <p>
+              How much would one pay in total for taking a loan worth?
+            </p>
+            <p>
+              <m>\text{a)} \, sh\, 10\,000 \qquad \text{b)} \, sh\, 17\,000 \qquad \text{c)} \, sh\, 34\,000 </m>
+            </p>
+            
+          </li>
+          <li>
+            <p>
+              Discuss why people take loans. Do you have an experience of a close person 
+              to you who takes loans. Talk about it.
+            </p>
+          </li>
+          <li>
+            <p>
+              Share your work with other learners in class.
+            </p>
+          </li>
+          
+        </ol>
+      </p>
+      <example>
+        <statement>
+          <p>
+            Use the table below to answer the questions that follow.
+          </p>
+          <tabular halign="left" top="medium" left="medium" right="medium">
+            <row bottom="medium" header="yes">
+              <cell>Money deposit</cell>
+              <cell>Percentage <m>(\%)</m> interest earned per year</cell>
+            </row>
+            <row>
+              <cell><m>sh\,1\,000\,-\,sh\,4\,999</m></cell>
+              <cell><m>2\,\%</m></cell>
+            </row>
+            <row>
+              <cell><m>sh\,5\,000\,-\,sh\,9\,999</m></cell>
+              <cell><m>3\,\%</m></cell>
+            </row>
+            <row>
+              <cell><m>sh\,10\,000\,-\,sh\,14\,999</m></cell>
+              <cell><m>4\,\%</m></cell>
+            </row>
+            <row>
+              <cell><m>sh\,15\,000\,-\,sh\,19\,999</m></cell>
+              <cell><m>5\,\%</m></cell>
+            </row>
+            <row bottom="medium">
+              <cell> Above <m>sh\,19\,999</m></cell>
+              <cell><m>6\,\%</m></cell>
+            </row>
+          </tabular>
+          <p>
+            <ol>
+              <li>
+                <p>
+                  How much interest is earned by saving the following amount 
+                  of money?
+                </p>
+                <p>
+                  <m>\text{a)} \, sh\, 4\,500 \qquad \text{b)} \, sh\, 16\,000 </m>
+                </p>
+                
+              </li>
+              <li>
+                <p>
+                  What will be the total amount of money at the end of the year when one saves 
+                  <m>sh\,17\,500</m>?
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <ol>
+              <li>
+                <p>
+                  a) <m>sh\, 4\,500</m> is in the range <m>sh\, 1\,000\,-\,4\,999</m>. It earns an iterest of <m>2\%</m> per year.
+                </p>
+                <p>
+                  <md>
+                    <mrow>\text{Interest} =\amp 2\% \, \text{of} \, sh\, 4\,500</mrow>
+                    <mrow> =\amp \frac{2}{100} \times sh\, 4\,500  </mrow>
+                    <mrow> =\amp  {\color{blue} sh\,90}</mrow>
+                  </md>
+                </p>
+                <p>
+                  b) <m>sh\, 16\,000</m> is in the range <m>sh\, 15\,000\,-\,19\,999</m>. It earns an iterest of <m>5\%</m> per year.
+                </p>
+                <p>
+                  <md>
+                    <mrow>\text{Interest} =\amp 5\% \, \text{of} \, sh\, 16\,000</mrow>
+                    <mrow> =\amp \frac{5}{100} \times sh\, 16\,000  </mrow>
+                    <mrow> =\amp  {\color{blue} sh\,800}</mrow>
+                  </md>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <md>
+                    <mrow>\text{Interest} =\amp 5\% \text{of} \, sh\, 17\,500 </mrow>
+                    <mrow> =\amp \frac{5}{100} \times sh\, 17\,500 </mrow>
+                    <mrow> =\amp {\color{green} sh\, 875} </mrow>
+                    <mrow> \text{Total amount of money} =\amp \text{Money deposited} + \text{Interest} </mrow>
+                    <mrow> =\amp sh\, 17\,500+ {\color{green} sh\, 875} </mrow>
+                    <mrow> = \amp {\color{blue} sh\, 18\,375} </mrow>
+                  </md>
+                </p>
+              </li>
+
+
+            </ol>
+          </p>
+        </solution>
+      </example>
+      
+    </subsubsection>
+    
+  </subsection>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <subsection xml:id="subsec-Illustrating_compound_inequalities_on_a_number_line">
+      <title>Illustrating compound inequalities on a number line</title>
+
+      <activity>
+        <title><term>Work in Groups</term></title>
+
+        <p>
+          
+          <ol>
+
+          <li>
+
+            <p>
+              Consider <me>5&lt;x&lt;12.</me>
+            </p>
+
+          </li>
+
+          <li>
+
+            <p>
+              Write down the two simple inequalities from the compound inequality.
+            </p>
+
+          </li>
+
+          <li>
+
+            <p>
+              Draw a number line.
+            </p>
+
+          </li>
+
+          <li>
+
+            <p>
+              Illustrate the two inequalities on the same number line.
+            </p>
+
+          </li>
+
+          <li>
+
+            <p>
+              Discuss and share with other groups.
+            </p>
+
+          </li>
+
+        </ol>
+
+        </p>
+
+      </activity>
+
+      <p>
+        <term>Learning Point.</term>
+      </p>
+
+      <p>
+        Part of a number line that satisfies two linear inequalities is the illustration of a given compound inequality.
+      </p>
+
+      <example>
+
+        <statement>
+
+          <p>
+            Illustrate the compound inequality <m>4 &lt; y &lt; 8</m> on a number line.
+          </p>
+
+        </statement>
+
+        <solution>
+
+          <p>
+            The compound inequality <m>4 &lt; y &lt; 8</m> can be split into two simple inequalities: <m>y &gt; 4</m> and <m>y &lt; 8</m>. To illustrate this on a number line, draw open circles at <m>4</m> and <m>8</m>.
+          </p>
+
+        <image>
+          <shortdescription>numberline with shaded region in between</shortdescription>
+
+        <latex-image>
+          \begin{tikzpicture}
+            % Draw number line with arrows on both ends
+            \draw[thick, ->] (1,0) -- (9,0);
+            
+            % Draw tick marks on the number line
+            \foreach \x in {2,3,4,5,6,7,8} {
+                \draw[thick] (\x,0.1) -- (\x,-0.1);
+            }
+            
+            % Draw open circles on x=2 and x=8 (on the number line)
+            \draw (2,0) circle (5pt);
+            \draw (8,0) circle (5pt);
+            
+            % Draw shaded region between 2 and 8 on the number line
+            \draw[thick] (2,0) -- (8,0);
+            \fill[black, opacity=0.7] (2,-0.1) rectangle (8,0.1);
+            
+            % Label points
+            \foreach \x in {2,3,4,5,6,7,8} {
+                \node[below] at (\x,0) {\x};
+            }
+            
+          \end{tikzpicture}
+        </latex-image>
+          
+        </image>
+
+        </solution>
+
+      </example>
+
+      <exercise>
+
+        <p>
+          Exercise here.
+        </p>
+
+      </exercise>
+
+      <activity>
+        <title><term>Work in Groups</term></title>
+        
+        <p>
+
+          <ol>
+            
+            <li>
+
+              <p>
+                Consider <m>3 \le x \le 9</m>.
+              </p>
+
+            </li>
+
+            <li>
+
+              <p>
+                Write down the two simple inequalities from the compound inequality.
+              </p>
+
+            </li>
+
+            <li>
+
+              <p>
+                Draw a number line.
+              </p>
+
+            </li>
+
+            <li>
+
+              <p>
+                Illustrate the two inequalities on the same number line.
+              </p>
+
+            </li>
+
+            <li>
+
+              <p>
+                Discuss and share with other groups.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </p>
+
+      </activity>
+
+      <p>
+        <md>
+          <mrow> \amp {\color{blue} \text{Learning Point.}} </mrow>
+        </md>
+      </p>
+
+      <p>
+        <m>{\color{green} \text{To represent a compound inequality on a number line, illustrate the regions that satisfy each inequality and highlight the overlapping section.}}</m>
+      </p>
+
+      <example>
+
+        <statement>
+
+          <p>
+            Illustrate the compound inequality <m>8 \le x \le 12</m> on a number line.
+          </p>
+
+        </statement>
+
+        <solution>
+
+          <p>
+            The compound inequality <m>8 \le x \le 12</m> can be split into two simple inequalities: <m>x \ge 8</m> and <m>x \le 12</m>, draw closed points and then shade the region between them..
+          </p>
+
+          <image>
+            <shortdescription>Number line</shortdescription>
+            <latex-image>
+              \begin{tikzpicture}
+                % Draw number line with tick marks
+                \draw[thick, ->] (5,0) -- (14.5,0);
+                
+                % Draw tick marks on the number line
+                \foreach \x in {6,7,8,9,10,11,12,13,14} {
+                    \draw[thick] (\x,0.1) -- (\x,-0.1);
+                }
+                
+                % Draw closed circles on x=8 and x=12
+                \filldraw (8,0) circle (5pt);
+                \filldraw (12,0) circle (5pt);
+                
+                % Draw shaded region between 8 and 12 on the number line
+                \draw[thick] (8,0) -- (12,0);
+                \fill[black, opacity=0.7] (8,-0.05) rectangle (12,0.1);
+                
+                % Label points
+                \foreach \x in {6,7,8,9,10,11,12,13,14} {
+                    \node[below] at (\x,0) {\x};
+                }
+                
+              \end{tikzpicture}
+
+            </latex-image>
+          </image>
+
+        </solution>
+
+      </example>
+
+      <exercise>
+
+        <statement>
+
+          <p>
+            Exercise here.
+          </p>
+
+        </statement>
+
+      </exercise>
+
+    </subsection>

@@ -1,0 +1,137 @@
+<subsection xml:id="subsec-Solving-angles-of-polygons">
+    <title>Solving angles of polygons</title>
+
+        <example>
+        <statement>
+            
+            <p>
+                Find the sum of interior angles of this polygon
+            </p>
+
+            <image width="50%">
+                <shortdescription>Complex polygon</shortdescription>
+                <latex-image>
+                    \begin{tikzpicture}
+                        \draw[thick,purple] (0,0)--(2,2)--(1,2)--(1.5,3)--(-1,3)--(-2,2)--(0,0);
+                    \end{tikzpicture}
+                </latex-image>
+            </image>   
+                
+        </statement>
+
+            
+            <solution>
+                <p>
+                   The polygon has <m>6</m> sides.
+                    Since all the sides are not equal, this is an irregular hexagon.
+                </p>
+                <p>
+                   To work out the number of triangles in the hexagon, we subtract <m>2</m> from the number of sides of the hexagon  
+                </p>
+                <p>
+                    <me>6 - 2 = 4</me>
+                </p>
+                <p>
+                    Therefore, the sum of its interior angles can be found by <m>4 \times 180^\circ = 720^\circ</m>
+                </p>
+                <p>
+                    The sum of interior angles in a hexagon is <m>720^\circ</m>
+                </p>
+            </solution>
+                
+            
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    A regular polygon has six sides.determine:
+                </p>
+                <tabular>
+                    <row>
+                        <cell>(a) The size of each interior angle </cell>
+                        <cell> (b) The size of each exterior angle.</cell>
+                    </row>
+                </tabular>
+                
+            </statement>
+         <solution>
+            <p>
+                (a) sum of interior angles is <me>
+                    (2n-4)\times 90^\circ=(2 \times 6-4)\times 90^\circ  </me>   
+            </p>
+
+            <p>
+                <me>=(12-4)\times 90^\circ    </me>
+           </p>
+
+           <p>
+                <me>
+                   = 8 \times 90^\circ
+                </me>
+           </p>
+
+           <p>
+                <me>
+                 =720^\circ   
+                </me>  
+           </p>
+
+           <p>
+            size of each interior angle <me>
+               = \frac{720^\circ}{6}  </me> 
+           </p>
+
+           <p>
+                <me>
+                   = 120^\circ
+                </me>
+          </p>
+
+          <p>
+            (b).Size of each exterior angle is <me>
+               = \frac{360^\circ}{n}=\frac{360}{6}
+            </me> 
+          </p>
+
+          <p>
+                <me>
+                   = 60^\circ
+                </me>
+            
+          </p>
+
+         </solution>
+        </example>
+
+
+        <example>
+            <statement>
+                <p>
+                    The sum of the interior angles of a regular polygon is <m>540^\circ.</m> Deterimine the number of sides of the polygon.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>(2n-4) \times 90^\circ = 540^\circ</m>
+                </p>
+
+                <p>
+                    <m>180n-360^\circ=540^\circ</m>
+                </p>
+
+                <p>
+                    <m>180n-360^\circ+360^\circ=540^\circ+360^\circ</m>
+                </p>
+
+                <p>
+                    <me>180n=900^\circ</me>
+                </p>
+
+                <p>
+                    <me>n=5</me>
+                </p>
+            </solution>
+        </example>
+
+</subsection>

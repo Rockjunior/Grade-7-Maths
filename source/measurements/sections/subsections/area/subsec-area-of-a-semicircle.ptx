@@ -1,0 +1,59 @@
+  <subsection xml:id="subsec-area-of-a-semicircle">
+    <title>Area of a semicircle</title>
+    <p>
+      A semicircle is a circle divided into two equal parts.
+    </p>
+    <p>
+      Since we now know the area of a circle, the area of 
+      a semicircle is the area of a circle divided by two as shown bellow;
+    </p>
+    <p>
+      <m>\text{Area of semicircle}=\frac{1}{2} \times \pi r^2</m>.
+    </p>
+
+
+
+    <example>
+      <statement>
+        <p>
+          Find the area of the semicircle given below.
+        </p>
+        <image width="40%">
+        <latex-image>
+          \begin{tikzpicture}
+          \draw[very thick,fill=magenta](0,0)  arc[start angle=0,end angle=180,radius=5cm];
+          \draw [thick,fill=black](0,0) --(-10,0);
+          \filldraw[black] (-5,0) circle (3pt);
+
+          \node at (-5,0.5){\Huge $28cm$};
+          
+          \end{tikzpicture}
+        </latex-image>
+          
+        </image>
+      </statement>
+      <solution>
+        <p>
+          <md>
+            <mrow> \text{radius} =\amp \frac{\text{diameter}}{2} </mrow>
+            <mrow> r=\amp \frac{28}{2}cm </mrow>
+            <mrow> r=\amp 14cm </mrow>
+          </md>
+        </p>
+        <p>
+          <md>
+            <mrow> \text{Area of semicircle}=\amp \frac{1}{2} \pi \times r^2 </mrow>
+            <mrow> =\amp \frac{1}{2} \pi \times r \times r</mrow>
+            <mrow> =\amp\frac{1}{2}\times\frac{22}{7} \times 14^2cm^2 </mrow>
+            <mrow> =\amp \frac{1}{2} \times\frac{22}{7} \times 196 cm^2</mrow>
+            <mrow> =\amp\frac{1}{2} \times 616cm^2 </mrow>
+            <mrow> =\amp 308cm^2</mrow>
+          </md>
+          
+        </p>
+      </solution>
+
+    </example>
+
+    
+  </subsection>

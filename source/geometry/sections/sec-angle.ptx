@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-Angles" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Angles</title>
+
+        <subsection xml:id="subsec-Introduction">
+        <title>Introduction</title>
+            <definition xml:id="def-definition-of-an-angle">
+            <idx><h>Angle</h></idx>
+                <statement>
+                    <p>
+                        The word angle comes from the latin word <em>angulus</em>, meaning <q>corner</q>. An angle is represented by the symbol <m>\angle.</m> 
+                    </p>
+
+                    <p>
+                        Angles are formed when two lines intersect at point (also known as <em>vertex </em>). In geometry, an angle is formed when two rays are joined at their endpoints. Rays are also known as sides or arms of the angle.
+                    </p>
+
+                    <p>
+                        Observe the diagram below.
+                    </p>
+
+                    <image width="50%">
+                        <shortdescription>angles(Created with GeoGebra®,[Geogebra Content Team])</shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \draw[blue](0:0cm) node[left]{$O$} -- (0:1cm) node[right]{$A$};
+                                \draw[blue](60:0cm) -- (60:1cm) node[right]{$B$};
+                                \draw[fill=red] (0,0) -- (0:.15) arc (0:60:.15);
+                                    \draw(30:0.25cm) node {$x$};
+                                    <!-- \draw[fill=black](60:0.9cm) circle(1pt);
+                                    \draw[fill=black](0:0cm) circle(1pt);
+                                    \draw[fill=black](0:0.9cm) circle(1pt); -->
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                    
+                    <p>
+                        lIne <m>OA</m> and <m>OB</m> intersect at point <m>O</m> to form <m>\angle</m> <m> x </m>, shaded in red.
+                    </p>
+                </statement>
+            </definition>
+
+
+            <activity>
+                <p>
+                    Here is an interactive activity for you to explore the different types of angles.
+                </p>
+                <p>
+                    Use the spy glass by dragging it over the objects in the given picture.
+                     You can click on the 'NEW PICTURE' button to get a new image.
+                </p>
+
+                <figure>
+                    <caption>Angles</caption>
+                    <interactive xml:id="geogebra-angle-types" platform="geogebra" width="100%" aspect="6:5">
+                    <slate xml:id="geogebra-Types-of-angles" surface="geogebra" material="runwxcek" aspect="6:5">
+                    enableShiftDragZoom(true);
+                    showResetIcon(true);
+                    </slate>
+                    </interactive>
+                </figure>
+
+                <p>
+                    What angles have you discovered from this activity?
+                </p>
+
+                <p>
+                    Now, explore the objects around you and find the different types of angles in your sorrounding. What angles did you find?
+                </p>
+
+                <p>
+                    <term>Learning Point.</term>
+                </p>
+                <p>
+                    Did you know one of the real life applications of angles is in <em>Carpentary?</em> 
+                </p>
+
+                <p>
+                    For example, when carpenters are making a chair, 
+                    they use angles to cut the wood so that the legs of the chair slants at the desired angle thereby creating a stable and beautiful designs.  
+                </p>
+
+                <p>   
+                    
+                    They typically use a combination of measuring tools, like a protractor and a combination square, to mark the angles on the wood before cutting, often aiming for a slight outward slant on the legs for stability and comfort
+                </p>
+                <!-- <figure>
+                    
+                    <caption>Explore different angles </caption>
+                    <interactive xml:id="geogebra-Types-of-angles" geogebra="hfsstwhb" width="90%" aspect="9:5"  />
+                </figure> -->
+                
+            </activity>
+
+
+            <exercise label="angle-definition">
+                         <title>True/False</title>
+                         <idx>definition of angles</idx>
+                            <statement correct="yes">
+                               <p>
+                                   Angles are formed when two rays intersect at a vertex. The opening between the two rays is called an angle, represented by a symbol <m>\angle .</m>
+                               </p>
+                            </statement>
+
+                            
+
+                            <feedback>
+                               
+                                  <p>
+                                   An angle is described as a 'opening' formed by two rays/lines meeting at a vertex.
+                                  </p>
+                                
+                            </feedback>
+                            <hint>
+                               <p>
+                                   Refer to the definition in the introduction section , <xref ref="def-definition-of-an-angle"/>.
+                                </p>
+                            </hint>
+                            
+            </exercise>
+
+            
+        </subsection>
+        <xi:include href="subsections/angles/subsec-angles-in-a-straightline.ptx" />
+
+        <xi:include href="subsections/angles/subsec-angles-at-a-point.ptx" />
+
+        <xi:include href="subsections/angles/subsec-complementary-and-supplimentary-angles.ptx" />
+
+        <xi:include href="subsections/angles/subsec-angles-on-a-tranversal.ptx" />
+
+        <xi:include href="subsections/angles/subsec-angles-in-a-parallelogram.ptx" />
+
+        <xi:include href="subsections/angles/subsec-angles-properties-of-polygons.ptx" />
+
+        <xi:include href="subsections/angles/subsec-interior-angles-of-a-polygon.ptx" />
+
+        <xi:include href="subsections/angles/subsec-relating-interrior-angles-to-the-number-of-sides-of-a-polygon.ptx" />
+
+        <xi:include href="subsections/angles/subsec-relating-exterior-angles-and-the-numer-of-sides-of-a-polygon.ptx" />
+
+        <xi:include href="subsections/angles/subsec-solving-angles-of-polygons.ptx" />
+</section>
+
+        
+
+
+
+        
+        
+
+
+        
+        
+
+       
+        
+
+        
+
+        
+
+
+
+        
