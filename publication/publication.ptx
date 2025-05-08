@@ -125,7 +125,7 @@
         theorem="no"
         proof="yes"
         definition="no"
-        example="yes"
+        example="no"
         example-solution="yes"
         project="no"
         task="no"
@@ -136,7 +136,7 @@
         table="no"
         listing="no"
         list="no"
-        exercise-inline="yes"
+        exercise-inline="no"
         exercise-divisional="no"
         exercise-worksheet="no"
         exercise-readingquestion="no"
@@ -147,14 +147,14 @@
     <!-- put <css style="oscarlevin"/>                         -->
     <!-- See also                                              -->
     <!-- https://pretextbook.org/doc/guide/html/publication-file-online.html#online-style-options -->
-      <!--<css
+      <!-- <css
           style="oscarlevin"
           colors="blue_red"
           knowls="crc"
           toc="crc"
           banner="crc"
           navbar="crc"
-      />-->
+      /> -->
     <css theme = "denver"/>
     <!-- Search can be default or none, or you can use a Google-cx number to use google's search
     feature (but then variant should be set to none to avoid conflict) -->
