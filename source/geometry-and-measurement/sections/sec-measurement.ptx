@@ -1,4 +1,10 @@
 <section xml:id="sec-measurement" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Measurement</title>
-    
+    <xi:include href="subsections/measurement/subsec-bearings.ptx" />
+    <xi:include href="subsections/measurement/subsec-back-bearing.ptx" />
+    <xi:include href="subsections/measurement/subsec-vectors.ptx" />
+    <xi:include href="subsections/measurement/subsec-equality-of-vectors.ptx" />
+    <xi:include href="subsections/measurement/subsec-magnitude-of-vectors.ptx" />
+    <xi:include href="subsections/measurement/subsec-column-of-vectors.ptx" />
+
 </section>
