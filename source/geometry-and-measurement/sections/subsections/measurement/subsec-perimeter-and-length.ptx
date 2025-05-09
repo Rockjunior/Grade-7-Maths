@@ -1,0 +1,81 @@
+<subsection xml:id="subsec-perimeter-and-length">
+    <title>Perimeter and length</title>
+
+    <introduction>
+        <p>
+            <m>\textbf{Perimeter}</m>
+        </p>
+        <p>
+            <ol marker="a.">
+                <li>
+                    <p>
+                        The perimeter of a shape is the total distance around its edges.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        To find the perimeter, you add the lengths of all the sides of the shape.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Example:
+                    </p>
+                    <p>
+                        For a rectangle with length 6 cm and width 4 cm:
+                    </p>
+                    <p>
+                        <md>
+                            <mrow>\text{Perimeter}= \amp 2 \times (6+4) </mrow>
+                            <mrow>= \amp 20 \,cm </mrow>
+                        </md>
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            <m>\textbf{Length}</m>
+        </p>
+        <p>
+            <ol marker="a.">
+                <li>
+                    <p>
+                        Length usually refers to how long an object is from end to end.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        In a rectangle, the longer side is often called the
+                        length, while the shorter is called the width.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        It’s a one-dimensional measure (just one side), not a total like perimeter.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            <term>Note</term>
+        </p>
+        <p>
+            <m>\text{Length} = </m> one side (e.g., <m>6\, cm</m>)
+        </p>
+        <p>
+            <m>\text{Perimeter} = </m> all sides added together (e.g., <m>20 \,cm </m>for a rectangle)
+        </p>
+    </introduction>
+   
+
+    <subsubsection xml:id="subsubsec-Calculate-the-perimeter-of-given-shapes">
+        <title>Calculate the perimeter of given shapes whose dimensions
+        are in two units (i.e. cm and mm, m and cm, or km and m)</title>
+        <p>
+            
+        </p>
+        
+    </subsubsection>
+    
+    
+</subsection>
