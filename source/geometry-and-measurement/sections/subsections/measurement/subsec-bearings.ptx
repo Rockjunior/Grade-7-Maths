@@ -1,4 +1,173 @@
 <subsection xml:id="subsec-bearings">
     <title>Bearings</title>
-    
+    <definition xml:id="def-bearing">
+        <statement>
+            <p>
+                A <term>bearing</term> is the <em>angle</em> in degrees measured in the <em>clockwise direction</em> from north. 
+            </p>
+            <p>
+                <term>Bearing</term> is also known as <term>true bearing</term>.
+            </p>
+        </statement>
+    </definition>
+    <activity>
+        <p>
+            
+        </p>
+        <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        
+                    </p>
+                    <!-- <figure xml:id="figure-phet-fourier">
+                        <caption>Fourier: Making Waves <c>iframe</c></caption>
+                        <interactive xml:id="interactive-phet-fourier" iframe="https://phet.colorado.edu/sims/html/center-and-variability/latest/center-and-variability_all.html" preview="preview/phet-fourier-preview.png" width="95%" aspect="15:10" />
+                    </figure> -->
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <!-- <figure>
+        <caption></caption>
+        <interactive xml:id="bearings-activity" 
+        geogebra="qpmdhdp8" width="100%" aspect="4:6" 
+        reset-icon="yes" material-width="1000px" />
+    </figure> -->
+    <figure xml:id="figure-phet-fourier">
+        <caption>Fourier: Making Waves <c>iframe</c></caption>
+        <interactive xml:id="interactive-phet-fourier" iframe="https://phet.colorado.edu/sims/html/center-and-variability/latest/center-and-variability_all.html" preview="preview/phet-fourier-preview.png" width="95%" aspect="15:10" />
+    </figure>
+    <note xml:id="note-remark">
+        <title>Bearings</title>
+        <p>
+            Three figures are used to give the bearing.
+        </p>
+        <p>
+            The angle is measured from the <em>north</em>.
+        </p>
+    </note>
+    <p>
+        For example, a bearing of <m>090°</m> indicates due <em>east</em>, <m>180°</m> 
+        indicates due <em>south</em>, and <m>270°</m> indicates due <em>west</em>.
+    </p>
+    <example>
+        <statement>
+            <p>
+                 Kisumu and Nanyuki are situated in such a way that Nanyuki is on a bearing of 
+                <m>075^\circ</m> from Nakuru and Kisumu on a bearing of <m>280^\circ</m> from Nakuru. 
+                If Kisumu is <m>190</m> km and Nanyuki is <m>160</m> km from Nakuru, find the bearing of Kisumu from Nanyuki.
+            </p>
+        </statement>
+        <solution>
+            <p>
+              First, we draw a sketch showing the positions of Nakuru (N), Nanyuki (A), and Kisumu (B).
+              The angle between the bearings from Nakuru to Nanyuki and Kisumu is:
+            </p>
+            <p>
+                <m>
+                    \angle ANB = 280^\circ - 75^\circ = 205^\circ
+                </m>
+            </p>
+            <p>
+                 Since this angle is greater than 180°, we use the interior angle in triangle ANB:
+            </p>
+            <p>
+                <m>
+                \angle ANB = 360^\circ - 205^\circ = 155^\circ
+                </m>
+            </p>
+            <p>
+              Now, apply the cosine rule to find the distance <m>AB</m> (distance from Nanyuki to Kisumu):
+            </p>
+            <p>
+                <m>
+                    AB^2 = AN^2 + NB^2 - 2 \cdot AN \cdot NB \cdot \cos(\angle ANB)
+                </m>
+            </p> 
+            <p> 
+                <m>
+                    AB^2 = 160^2 + 190^2 - 2 \cdot 160 \cdot 190 \cdot \cos(155^\circ)
+                </m>
+            </p> 
+            <p> 
+                <m>
+                    AB^2 = 25600 + 36100 - 2 \cdot 160 \cdot 190 \cdot \cos(155^\circ)
+                </m>
+            </p>
+            <p> 
+              <m>
+                 AB^2 ≈ 25600 + 36100 - 60800 \cdot (-0.9063)
+              </m>
+            </p>
+            <p>
+                <m>
+                AB^2 ≈ 61700 + 55103.04 = 116803.04
+                </m>
+            </p>
+            <p>
+                <m>
+                    AB ≈ \sqrt{116803.04} ≈ 341.8 \text{ km}
+                </m>
+            </p>
+            <p>
+                 Now, use the sine rule to find the angle at Nanyuki (angle NAB):
+            </p>
+            <p>
+                <m>
+                    \frac{\sin(\angle NAB)}{NB} = \frac{\sin(155^\circ)}{AB}
+                </m>
+            </p>
+            <p>
+                <m>
+                    \sin(\angle NAB) = \frac{190 \cdot \sin(155^\circ)}{341.8}
+                </m>
+            </p>
+            <p>
+                <m>
+                    \sin(\angle NAB) ≈ \frac{190 \cdot 0.4226}{341.8} ≈ 0.235
+                </m>
+            </p>
+            <p>
+                <m>
+                    \angle NAB ≈ \sin^{-1}(0.235) ≈ 13.6^\circ
+                </m>
+            </p>
+            <p>
+              Finally, the bearing of Kisumu from Nanyuki is:
+            </p>
+            <p>
+                <m>
+                    075^\circ + 13.6^\circ = 088.6^\circ
+                </m>
+            </p>
+            <p>
+              <em>Answers:</em>
+            </p>
+           <p>
+            <ol>
+                <li>The bearing of Kisumu from Nanyuki is approximately <m>089^\circ</m>.</li>
+                <li>The distance from Nanyuki to Kisumu is approximately <m>342</m> km.</li>
+              </ol>
+           </p>
+          </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                
+            </p>
+        </statement>
+        <solution>
+            <p>
+                
+            </p>
+        </solution>
+    </example>
+
 </subsection>
