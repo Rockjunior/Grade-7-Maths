@@ -1,0 +1,398 @@
+<subsection xml:id="subsec-highest-factor-and-least-common-multiple">
+    <title>Highest Factor (HCF) and Least Common Multiple (LCM)</title>
+    
+        <p>
+            HCF is the largest positive integer number that divides evenly into two or more numbers with zero remainder.
+            It is also known as the Highest Common Factor (HFC).
+        </p>
+    
+        <p>
+                Example in real life:
+        </p>
+        <p>
+                Esther and Shillah have packets of snacks and want to share them equally amoung the top mathematics performers in grade <m>7</m> without leaving leftovers.
+                Esther have <m>36</m> crackers and Shillah has <m>54</m> cookies.
+        </p>
+        <p>
+                 The largest number of top performers Shillah and Esther can gift is solved using GCD.
+        </p>
+        <p>
+                Since the factors of <m>36</m> are <m>1,2,3,4,6,9,12,18,36</m> and the factors of <m>54</m> are <m>1,2,3,6,9,18,27,54</m>. 
+                This implies that the higher number of top performers to be gifted is <m>18</m>.
+        </p>
+        <activity>
+            <introduction>
+                <p>
+                        
+                </p>
+            </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Form groups of five learners , count and record the total number of girls and boys in your class.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            List all the factors of each number.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Identify and circle the factors that are common to all the numbers.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Determine the Greatest Common Factor (HCF) by selecting the largest common factor.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                           Present your group's findings to the rest of the class.
+                        </p>
+                    </statement>
+                </task>
+        </activity>
+            <example>
+                <statement>
+                    <p>
+                        Find the HCF of <m>12,48 \text{ and } 30.</m>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        To find the HCF by factoring, list out all of the factors of each number 
+                    </p>
+                    <p>
+                        The divisors of <m>12</m> are <m>{\color{red}1}, {\color{red}2}, {\color{red}3}, 4, {\color{red}6}, 12</m>.
+                    </p>
+                    <p>
+                        The divisors of <m>48</m> are <m>{\color{red}1}, {\color{red}2}, {\color{red}3}, 4, {\color{red}6}, 8, 12, 16, 24, 48</m>.
+                    </p>
+                    <p>
+                        The divisors of <m>30</m> are <m>{\color{red}1}, {\color{red}2}, {\color{red}3}, 5, {\color{red}6}, 10, 15, 30</m>.
+                    </p>
+                    <p>
+                        The common factors of <m>12 , 48 \text{ and } 30</m> are <m>1,2,3,6</m>.
+                    </p>
+                    <p>
+                        The greatest common factor of <m>12 , 48 \text{ and } 30</m> is <m>6</m>.
+                    </p>
+                </solution>
+            </example>
+            <example>
+                <statement>
+                    <p>
+                        Three sticks of lengths <m>30</m> cm, <m>45</m> cm and <m>60</m> cm are cut into smaller pieces of the length. 
+                        Find the greatest length which can be cut without leaving a remainder.
+                    </p>
+                </statement>
+    
+                <solution>
+                    <p>
+                        To determine the greatest length which can be cut without leaving a remainder, 
+                         we need to find the Greatest Common Divisor (GCD) of the three numbers.
+                    </p>
+                <sidebyside widths="25% 25% 25%"> 
+                    <figure xml:id="prime-factors-for-30">
+                        <caption>prime factors for 30</caption>        
+                        <image>
+                            <shortdescription></shortdescription>
+                            <latex-image label="factors-for-30">
+                                \begin{tikzpicture}[level distance=1.5cm,
+                                        level 1/.style={sibling distance=2cm},
+                                        level 2/.style={sibling distance=1cm},
+                                        circled/.style={draw, circle}]
+                                        \node {30}
+                                            child {node[circled] {2}}
+                                            child {node {15}
+                                            child {node[circled] {3}}
+                                            child {node {5}
+                                                child {node[circled] {5}}
+                                                child {node {1}}}};
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </figure> 
+                    <figure xml:id="prime-factors-for-45">
+                        <caption>prime factors for 45</caption>
+                        <image>
+                            <shortdescription></shortdescription>
+                            <latex-image label="factors-for-45">
+                                \begin{tikzpicture}[level distance=1.5cm,
+                                        level 1/.style={sibling distance=2cm},
+                                        level 2/.style={sibling distance=1cm},
+                                        circled/.style={draw, circle}]
+                                        \node {45}
+                                            child {node[circled] {3}}
+                                            child {node {15}
+                                            child {node[circled] {3}}
+                                            child {node {5}
+                                                child {node[circled] {5}}
+                                                child {node {1}}}};
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </figure>
+                    <figure xml:id="prime-factors-for-60">
+                        <caption>prime factors for 60</caption>
+                        <image>
+                            <shortdescription></shortdescription>
+                            <latex-image label="factors-for-60">
+                                \begin{tikzpicture}[level distance=1.5cm,
+                                        level 1/.style={sibling distance=2cm},
+                                        level 2/.style={sibling distance=1cm},
+                                        circled/.style={draw, circle}]
+                                        \node {60}
+                                        child {node[circled] {2}}
+                                        child {node {30}
+                                            child {node[circled] {2}}
+                                            child {node {15}
+                                                child {node[circled] {3}}
+                                                child {node {5}
+                                                    child {node[circled] {5}}
+                                                    child {node{1}}}}};
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside> 
+                <p>
+                    The prime factorization of <m>30</m> is <m>2 \times {\color{blue}3} \times {\color{red}5}</m>.
+                </p> 
+                <p>
+                    The prime factorization of <m>45</m> is <m>{\color{blue}3} \times 3 \times {\color{red}5}</m>.
+                </p>
+                <p>
+                    The prime factorization of <m>60</m> is <m>2 \times 2 \times {\color{blue}3} \times {\color{red}5}</m>.
+                </p>
+                <p>
+                    The common prime factors of <m>30</m>, <m>45</m> and <m>60</m> are <m>{\color{blue}3}</m> and <m>{\color{red}5}</m>.
+                </p>
+                <p>
+                    Thus, the Highest common factor of <m>30</m>, <m>45</m> and <m>60</m> is <m>3 \times 5 = 15</m>.
+                </p>
+                <p>
+                    The greatest length which can be cut from each stick without leaving a remainder is <m>15</m> cm.
+                </p>
+                </solution>
+            </example> 
+    
+            <exercise>
+                <statement>
+                    <p>
+                        Exercise for HCM goes here.
+                    </p>
+                </statement>
+            </exercise>
+        
+    <!-- <subsubsection xml:id="subsubsec-least-common-divisor">
+        <title>Least Common Divisor</title> -->
+        <p>
+            The Least Common Multiple of two or more numbers is the smallest number that is divisible by two or more numbers without a reminder.
+            The Least Common Multiple (LCM) is also referred to as the Lowest Common Multiple (LCM) and Least Common Divisor (LCD).
+        </p>
+        <activity>
+            <task>
+                <statement>
+                    <p>
+                        Click on the first dropdown next to <c>Multiples of</c> and scroll to select the any number.
+                    </p>
+                    <p> 
+                        After selecting a number, <c>-</c> and <c>+</c> buttons will appear. Click the <c>+</c> button to add multiples of the selected number. To remove a listed multiple, click the <c>-</c> button. 
+                    </p> 
+                    <p> 
+                        Keep clicking the <c>+</c> button until you have added at least <m>10</m> multiples for the chosen number.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Click on the second dropdown next to <c>Multiples of</c> and scroll to select a different number from the one you selected on the first dropdown.
+                    </p>
+                    <p> 
+                        After selecting a number, <c>-</c> and <c>+</c> buttons will appear. Click the <c>+</c> button to add multiples of the selected number. To remove a listed multiple, click the <c>-</c> button. 
+                    </p> 
+                    <p> 
+                        Keep clicking the <c>+</c> button until you have added at least <m>10</m> multiples for the chosen number.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                       Select the checkbox next to <c>Common Multiples</c>.
+                    </p>
+                    <p>
+                         If none of the listed multiples are highlighted in blue, keep clicking the <c>+</c> button to generate more multiples. 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Select the checkbox next to <c>Least Common Multiple</c>.
+                    </p>
+                    <p>
+                        In the top right corner, click the circular arrow icon to reset the activity. Then, select new numbers from the dropdowns and repeat the process.               
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Write down what you observed and share with other learner in class.
+                    </p>
+                    <figure>
+                        <caption></caption>
+                        <interactive xml:id="least-common-multiple-activity" geogebra="z6pjjhkh" width="100%" aspect="7:5" reset-icon="yes" material-width="900px"/>
+                    </figure>
+                </statement>
+            </task>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Find the LCM of <m>5 \text{ and } 7</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    To find the LCM of <m>5 \text{ and } 7</m>, list the multiples of each number 
+                    until at least one of the multiples appears on all lists
+                </p>
+                <p>
+                    Multiples of <m>5:</m> are <m>5, 10, 15, 20, 25, 30, {\color{blue}35}, 40, 45,50,55,60,65,{\color{blue}70},75,...</m>
+                </p>
+                <p>
+                    Multiples of <m>7:</m> are <m>7, 14, 21, 28, {\color{blue}35}, 42, 49,56,63,{\color{blue}70},77,84,91,98,...</m>
+                </p>
+                <p>
+                    The common multiples are <m>{\color{blue}35},{\color{blue}70},...</m>
+                </p>
+                <p>
+                    The least common multiple is <m>{\color{blue}35}</m>
+                </p>
+                <p>
+                    Therefore, LCM of <m>5</m> and <m>7</m> is <m>35</m>.
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Grade 7 pupils was preparing for a party and used a ribbon to decorate their classroom. 
+                    What is the shortest possible length of a ribbon that can be cut into equal pieces of <m>10</m> cm, <m>12</m> cm 
+                    or <m>18</m> cm without a remainder?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    To determine the shortest possible length of the ribbon that can be cut
+                     into equal pieces of <m>10</m> cm, <m>12</m> cm, and <m>18</m> cm without a remainder, 
+                     we need to find the Least Common Multiple (LCM) of these three numbers.
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Write down your numbers in a top table row
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Starting with the lowest prime numbers, divide the row of numbers by a prime number 
+                                that is evenly divisible into at least one of your numbers and bring down the result into the next table row.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If any number in the row is not evenly divisible just bring down that number.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Continue dividing rows by prime numbers that divide evenly into at least one number
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                When the last row of results is all <m>1</m>'s you are done.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+                    <tabular>
+                        <row bottom="medium">
+                            <cell right="medium"><m>{\color{blue}2}</m></cell>
+                            <cell right="medium"><m>{\color{red}10}</m></cell>
+                            <cell right="medium"><m>{\color{red}12}</m></cell>
+                            <cell right="medium"><m>{\color{red}18}</m></cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell right="medium"><m>{\color{blue}2}</m></cell>
+                            <cell right="medium"><m>5</m></cell>
+                            <cell right="medium"><m>6</m></cell>
+                            <cell right="medium"><m>9</m></cell>
+                        </row>
+                        <row bottom="medium"> 
+                            <cell right="medium"><m>{\color{blue}3}</m></cell>
+                            <cell right="medium"><m>5</m></cell>
+                            <cell right="medium"><m>3</m></cell>
+                            <cell right="medium"><m>9</m></cell>
+                        </row>
+                        <row bottom="medium"> 
+                            <cell right="medium"><m>{\color{blue}3}</m></cell>
+                            <cell right="medium"><m>5</m></cell>
+                            <cell right="medium"><m>1</m></cell>
+                            <cell right="medium"><m>3</m></cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell right="medium"><m>{\color{blue}5}</m></cell>
+                            <cell right="medium"><m>5</m></cell>
+                            <cell right="medium"><m>1</m></cell>
+                            <cell right="medium"><m>1</m></cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell right="medium"></cell>
+                            <cell right="medium"><m>1</m></cell>
+                            <cell right="medium"><m>1</m></cell>
+                            <cell right="medium"><m>1</m></cell>
+                        </row>
+                    </tabular>
+                <p>
+                    Find the product of the prime numbers in the first column to get the LCM:
+                </p>
+                <p>
+                    <m>{\color{blue}2} \times {\color{blue}2} \times {\color{blue}3} \times {\color{blue}3} \times {\color{blue}5} = 180</m>
+                </p>
+                <p>
+                    The LCM of <m>10, 12 \text{ and } 18</m> is <m>180.</m>
+                </p>
+                <p>
+                    Therefore, the shortest possible length of the ribbon should be <m>180</m> cm long.
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for LCM goes here
+                </p>
+            </statement>
+        </exercise>
+        
+    <!-- </subsubsection>        
+        -->
+    
+</subsection>
