@@ -1,0 +1,145 @@
+<subsection xml:id="subsec-power-of-numbers">
+    <title>Powers of numbers</title>
+    <introduction>
+        <p>
+            The power of a number is the result of multiplying that number by itself a certain number of times. 
+            For example, <m>2^3</m> (read as "two to the power of three") means <m>2 \times 2 \times 2 = 8</m>. 
+            The number <m>2</m> is called the base, and <m>3</m> is called the exponent or index. 
+            The exponent indicates how many times the base is multiplied by itself.
+        </p>
+    </introduction>
+        <subsubsection xml:id="subsubsec-understanding-repeated-factors-through-grouping-and-counting-objects">
+            <title>Understanding repeated factors through grouping and counting objects</title>
+            <p>
+                The concept of powers can be understood through the idea of grouping and counting objects. 
+                For example, if we have <m>2^3</m>, we can think of it as having <m>2</m> groups of <m>3</m> objects each. 
+                This helps in visualizing the multiplication process and understanding the concept of powers.
+            </p>
+            <p>
+                To illustrate this, consider the following example:
+                If we have <m>2^3</m>, we can represent it as:
+                <m>2 \times 2 \times 2 = 8</m>.
+                This means we have <m>2</m> groups of <m>3</m> objects each, resulting in a total of <m>8</m> objects.
+            </p> 
+            <activity>
+                <statement>
+                    <p>
+                        
+                    </p>
+                </statement>
+            </activity>   
+            <example>
+                <statement>
+                    <p>
+                        
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        
+                    </p>
+                </solution>
+            </example>
+            <exercise>
+                <statement>
+                    <p>
+                        
+                    </p>
+                </statement>
+            </exercise>
+            
+        </subsubsection>
+        <subsubsection xml:id="subsubsec-Expressing-numbers-as-products-and-powers">
+            <title>Expressing numbers as products and powers</title>
+            <p>
+                
+            </p>
+            <activity>
+                <statement>
+                    <p>
+                        
+                    </p>
+                </statement>
+            </activity>
+            <example>
+                <statement>
+                    <p>
+                        
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        
+                    </p>
+                </solution>
+            </example>
+            <exercise>
+                <statement>
+                    <p>
+                        
+                    </p>
+                </statement>
+            </exercise>
+            
+        </subsubsection>
+        <subsubsection xml:id="subsubsec-understanding-zero-exponents-and-their-applications">
+            <title>Understanding Zero exponents and their applications</title>
+            <p>
+                
+            </p>
+            <activity>
+                <statement>
+                    <p>
+                        
+                    </p>
+                </statement>
+            </activity>
+            <example>
+                <statement>
+                    <p>
+                        
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        
+                    </p>
+                </solution>
+            </example>
+            <exercise>
+                <statement>
+                    <p>
+                        
+                    </p>
+                </statement>
+            </exercise>
+            
+        </subsubsection>
+        <subsubsection xml:id="subsubsec-evaluating-numbers-written-in-index-form">
+            <title>Evaluating Numbers written in index form</title>
+            <p>
+                
+            </p>
+            <activity>
+                <statement>
+                    <p>
+                        
+                    </p>
+                </statement>
+            </activity>
+            <example>
+                <statement>
+                    <p>
+                        
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        
+                    </p>
+                </solution>
+            </example>
+            
+        </subsubsection>
+   
+</subsection>

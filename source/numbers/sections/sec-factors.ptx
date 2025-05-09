@@ -42,6 +42,5 @@
     <xi:include href="subsections/factors/subsec-divisibility-test-for-10.ptx" />
     <xi:include href="subsections/factors/subsec-divisibility-test-for-11.ptx" />
     <xi:include href="subsections/factors/subsec-expressing-composite-numbers-as-a-product-of-prime-factors.ptx" />
-    <xi:include href="subsections/factors/subsec-greatest-common-divisor.ptx" />    
-    <xi:include href="subsections/factors/subsec-least-common-factor.ptx" /> 
+
 </section>
