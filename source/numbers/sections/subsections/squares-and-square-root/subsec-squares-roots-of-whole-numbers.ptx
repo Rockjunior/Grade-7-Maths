@@ -26,7 +26,7 @@
                         Draw the following grid pattern in your exercise books or on graph paper, as the one shown below.
                     </p>
                     <sidebyside widths="25% 25% 25%">
-                        <figure xml:id="3-by-3-square-grid">
+                        <figure xml:id="f-3-by-3-square-grid-1">
                             <caption>Grid 1</caption>
                             <image>
                                 <shortdescription>
@@ -44,7 +44,7 @@
                                 </latex-image>
                             </image>
                         </figure>
-                        <figure xml:id="4-by-4-square-grid">
+                        <figure xml:id="f-4-by-4-square-grid">
                             <caption>Grid 2</caption>
                             <image>
                                 <shortdescription>
@@ -62,7 +62,7 @@
                                 </latex-image>
                             </image>
                         </figure>
-                        <figure xml:id="5-by-5-square-grid">
+                        <figure xml:id="f-5-by-5-square-grid">
                             <caption>Grid 3</caption>
                             <image>
                                 <shortdescription>
