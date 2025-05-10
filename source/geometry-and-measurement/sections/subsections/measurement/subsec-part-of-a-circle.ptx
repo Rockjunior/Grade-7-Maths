@@ -581,6 +581,48 @@
     <example>
         <statement>
             <p>
+                Find the arc length of the figure below. Use <m>\pi=3.142</m>
+            </p>
+            <image width="50%">
+            <latex-image label="sect2">
+                \begin{tikzpicture}
+                    \coordinate (O) at (0,0);
+                    \coordinate (A) at (1,0); % 0 degrees
+                    \coordinate (B) at ({cos(120)}, {sin(120)}); % 120 degrees point
+                
+                    % Circle
+                    \draw[very thick,dashed, blue] (O) circle (1);
+                
+                    % Radii
+                    \draw[thick] (O) -- (A) node[midway, below] {10 m};
+                    \draw[thick] (O) -- (B) ;
+                
+                    % Arc
+                    \draw[very thick, black, -&gt;] (A) arc[start angle=0, end angle=120, radius=1];
+                    \
+                    % Angle
+                    \draw[-&gt;] (0.2,0) arc[start angle=0, end angle=120, radius=0.2];
+                    \node at (0.3,0.4) {$120^\circ$};
+                \end{tikzpicture}
+            </latex-image>
+               
+            </image>
+        </statement>
+        <solution>
+            <p>
+                <md>
+                    <mrow> \text{Arc Length}=\amp  \frac{\theta}{360} 2 \times \pi r  </mrow>
+                    <mrow> =\amp \frac{120}{360} \times 2 \times 3.142 10 </mrow>
+                    <mrow> =\amp \frac{1}{3} \times 20 \times 3.142</mrow>
+                    <mrow>= \amp 20.94666666 </mrow>
+                    <mrow> ≈\amp 20.95 \, \text{m} </mrow>
+                </md>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
                 Find the angle substended at the centre of a circle by 
                 an arc of length <m>11 \, \text{cm}</m> if the radius of the 
                 circle is <m>21\, \text{cm}</m>
@@ -603,6 +645,53 @@
                     <mrow> \theta =\amp \frac{11 \times 360 \times 7}{2 \times 22 \times 21} </mrow>
                     <mrow> =\amp 30^\circ </mrow>
                     
+                </md>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Find the arc length of the figure below.
+            </p>
+            <image width="50%" >
+            <latex-image label="sect">
+                \begin{tikzpicture}[scale=3]
+                    \coordinate (O) at (0,0);
+                    \coordinate (A) at (1,0); % 0 degrees
+                    \coordinate (B) at ({cos(72)}, {sin(72)}); % 72 degrees point
+                
+                    
+                
+                    % Radii
+                    \draw[very thick] (O) -- (A) node[midway, below] {5 cm};
+                    \draw[very thick] (O) -- (B) node[midway, above left] {5 cm};
+                
+                    % Arc
+                    \draw[very thick, red, ] (A) arc[start angle=0, end angle=72, radius=1];
+                    
+                
+                    % Angle
+                    \draw[-&gt;] (0.2,0) arc[start angle=0, end angle=72, radius=0.2];
+                    \node at (0.3,0.2) {$72^\circ$};
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+        </statement>
+        <solution>
+            <p>
+                The arc length is given by;
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{Arc Length}= \amp \frac{\theta}{360} 2 \times \pi r</mrow>
+                    <mrow> =\amp \frac{72}{360} \times 2 \times \frac{22}{7} \times 5</mrow>
+                    <mrow> =\amp \frac{1}{2} \times 2 \times \frac{22}{7} \times 5</mrow>
+                    <mrow> =\amp 6.2857142 </mrow>
+                    <mrow> ≈\amp  6.29 \, \text{cm}</mrow>
+
+
                 </md>
             </p>
         </solution>
