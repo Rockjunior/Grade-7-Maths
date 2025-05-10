@@ -43,7 +43,7 @@
                     <p>
                         1.Draw a straight line and mark on it point <m>O</m>. With point <m>O</m> as the centre, make arcs to cut the line at <m>A</m> and <m>B</m> as shown below.
                     </p>
-                            <image source="/l1.png" width="40%">
+                            <image source="/lineAB.png" width="40%">
                                 <shortdescription></shortdescription>
                             </image>
 
@@ -51,7 +51,7 @@
                     2. Using <m>A</m> and <m>B</m> as the centres, make arcs abave the line to meet at point <m>C</m> as shown below.
                     </p>
 
-                            <image source="/l2.png" width="40%">
+                            <image source="/arcs.png" width="40%">
                                 <shortdescription></shortdescription>
                             </image>
 
@@ -59,12 +59,12 @@
                     3.Join points <m>O</m> to <m>C</m> as shown below.measure angle <m>BOC</m> and <m>COA</m>. Which angles have you constructed?  
                     </p>
 
-                            <image source="/l3.png" width="40%">
+                            <image source="/bisector.png" width="40%">
                                 <shortdescription></shortdescription>
                             </image>
 
                     <p>
-                        Expected observations
+                       <m>\textbf{Key Takeaway}</m>
                     </p>
 
                     <p>
