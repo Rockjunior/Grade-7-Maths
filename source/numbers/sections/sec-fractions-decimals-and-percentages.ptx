@@ -1,4 +1,4 @@
-<section xml:id="sec-fractions-decimals-and-percentages">
+<section xml:id="sec-fractions-decimals-and-percentages" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Fractions, Decimals and Percentages</title>
 
     <introduction>
@@ -7,6 +7,7 @@
         </p>
     </introduction>
 
-    <xi:include href="subsections/fractions-decimals-and-percentages/subsec-concept-of-fraction.ptx" />
-    <xi:include href="subsections/fractions-decimals-and-percentages/subsec-operation-with-fractions.ptx" />
+    <xi:include href="subsections/fractions-decimals-and-percentages/subsec-concept-of-fractions.ptx" />
+    <xi:include href="subsections/fractions-decimals-and-percentages/subsec-operations-with-fractions.ptx" />
+    
 </section>
