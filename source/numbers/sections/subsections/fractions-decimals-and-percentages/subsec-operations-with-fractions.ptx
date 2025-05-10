@@ -4,9 +4,112 @@
     <subsubsection xml:id="subsubsec-addition-and-subtraction-of-fractions">
         <title>Explaining the process of addition and subtraction of two or three unlike and mixed fractions.</title>
 
+        <definition xml:id="def-mixed-numbers">
+            <statement>
+                <p>
+                    In everyday life, you often come across situations 
+                    where we need to add or subtract parts of a whole—like pieces of 
+                    cake, distances, or time. These parts are represented as fractions. 
+                    Sometimes, we deal with mixed numbers, which are whole numbers combined 
+                    with fractions, like <m>2 \frac{1}{2}</m> In this lesson, you’ll learn how to add 
+                    and subtract mixed numbers with unlike denominators.
+                </p>
+                <p>
+                    Remember:
+                </p>
+                <p>
+                    <ol marker="i. ">
+                        <li>
+                            <p>
+                                <term>Mixed fractions</term>   are numbers like <m>3 \frac{2}{5}</m> which means <m>3</m> wholes and <m>\frac{2}{5}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <term>Unlike fractions </term> are fractions with different denominators, such as 
+                                <m>\frac{2}{5}</m> and <m>\frac{1}{4}</m>.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </definition>
+        <activity>
+            <p>
+                <m>\textbf{Work in pairs}</m>
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Get into pairs. Each group receives two sets of mixed 
+                            numbers written on cards. Your task is to:
+                        </p>
+                        <p>
+                            Add the mixed numbers in the first set.
+                        </p>
+                        <p>
+                            Subtract the mixed numbers in the second set.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Share your steps and answers with the class.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </activity>
         <p>
-            t
+            <m>\textbf{Key Takeaway}</m>
         </p>
+        <p>
+            <ol marker="(a) ">
+                <li>
+                    <p>
+                        Always start by adding/subtracting whole numbers first.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Convert unlike fractions to like fractions
+                        by finding the LCM of the denominators.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Simplify your answer when possible.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        You may also convert mixed numbers to improper 
+                        fractions for easier calculation in some cases.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <example>
+            <statement>
+                <p>
+                    Add the following:
+                </p>
+                <p>
+                    <ol marker="a. "> 
+                        <li>
+                            <p>
+                                <m>2 \frac{2}{5}+ 1 \frac{2}{3}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>7 \frac{3}{4}+ 12 \frac{2}{7}</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </example>
         
     </subsubsection>
 
