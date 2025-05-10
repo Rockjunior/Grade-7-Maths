@@ -1,0 +1,61 @@
+<subsection xml:id="subsec-Constructing-angle-120-degrees">
+    <title>Constructing <m>\angle 120^\circ</m></title>
+    <activity>
+        <statement>
+            <p>
+            <m>\textbf{Work in pairs  }</m>
+            </p>
+
+            <p>
+            <m>\textbf{What  you need:}</m> A ruler, a protractor and a pair of compasses.
+           </p>
+
+            <p>
+                1.Draw a line  and mark a point <m>O</m> on it.
+            </p>
+
+                <image source="/l8.png " width="40%">
+                    <shortdescription></shortdescription>
+                </image>
+
+            <p>
+                2.With <m>O</m> as center draw an arc of any radius to cut the line  at <m>A</m>.
+            </p>
+
+                <image source="/l9.png" width="40%">
+                    <shortdescription></shortdescription>
+                </image>
+
+            <p>
+                3.With same radius and with <m>A</m> as center draw another arc to cut the previous arc at <m>B</m>. With <m>B</m> as center draw another arc of same radius to cut the first arc at <m>C</m>.
+            </p>
+
+                <image source="/l10.png" width="40%">
+                    <shortdescription></shortdescription>
+                </image>
+
+            <p>
+                4.Join <m>OC</m>. We get the required angle <me>\angle AOC = 120^\circ</me>.
+            </p>
+
+                <image source="/l11.png" width="40%">
+                    <shortdescription></shortdescription>
+                </image>
+        </statement>
+    </activity>
+
+    <exercises xml:id="exercises-construct-angles">
+        <exercise>
+            <statement>
+                <p>
+                    <figure>
+                        <interactive xml:id="geogebra-constucting-angles-using-protractori" geogebra="hdhq7car" width="100%" aspect="9:5" reset-icon="yes" />
+                  </figure>
+                </p>
+            </statement>
+        </exercise>
+        
+    </exercises>
+
+</subsection>
+

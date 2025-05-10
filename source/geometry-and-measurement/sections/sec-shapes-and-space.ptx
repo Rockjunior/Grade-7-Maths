@@ -5,8 +5,13 @@
     <xi:include href="subsections/shapes-and-space/subsec-complementary-and-supplementary-angles.ptx" />
     <xi:include href="subsections/shapes-and-space/subsec-angles-in-a-straight-line.ptx" />
     <xi:include href="subsections/shapes-and-space/subsec-angles-at-a-point.ptx" />
-    <xi:include href="subsections/shapes-and-space/subsec-geometrical-constructions-of-angles.ptx" />
+    <xi:include href="subsections/shapes-and-space/subsec-construct-a-line-segment-perpendicular-to-another-line-segment.ptx" />
     <xi:include href="subsections/shapes-and-space/subsec-constructing-the-perpendicular-bisector-of-a-line-segement.ptx" />
     <xi:include href="subsections/shapes-and-space/subsec-bisecting-of-angles.ptx" />
+    <xi:include href="subsections/shapes-and-space/subsec-construct-angle-of-90-and-45.ptx" />
+    <xi:include href="subsections/shapes-and-space/subsec-construct-angle-of-60-and-30.ptx" />
+    <xi:include href="subsections/shapes-and-space/subsec-construct-angle-of-15-and-75.ptx" />
+    <xi:include href="subsections/geometrical-construction/subsec-Constructing-angle-120.ptx"/>
     <xi:include href="subsections/shapes-and-space/subsec-perpendicular-line-segments-perpendicular-bisectors-and-angle-bisectors-in-the-environment.ptx" />
+
 </section>
