@@ -17,7 +17,7 @@
 
   <xi:include href="subsections/area/subsec-square-metres-acres-and-hectares.ptx" />
 
-  <xi:include href="subsections/area/subsec-area-of-a-rectangle.ptx" />
+  <xi:include href="subsections/area/subsec-area-of-a-Rectangle.ptx" />
 
   <xi:include href="subsections/area/subsec-area-of-a-parallelogram.ptx" />
 
