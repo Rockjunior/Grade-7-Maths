@@ -1,0 +1,12 @@
+<section xml:id="sec-fractions-decimals-and-percentages">
+    <title>Fractions, Decimals and Percentages</title>
+
+    <introduction>
+        <p>
+            
+        </p>
+    </introduction>
+
+    <xi:include href="subsections/fractions-decimals-and-percentages/subsec-concept-of-fraction.ptx" />
+    <xi:include href="subsections/fractions-decimals-and-percentages/subsec-operation-with-fractions.ptx" />
+</section>
