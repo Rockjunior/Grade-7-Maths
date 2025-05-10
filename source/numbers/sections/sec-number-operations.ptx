@@ -5,14 +5,14 @@
     <xi:include href="subsections/number-operations/power-of-numbers.ptx" />
     <xi:include href="subsections/number-operations/highest-factor-and-least-common-multiple.ptx" />
     <xi:include href="subsections/number-operations/addition-and-subtraction-of-whole-and-decimal-numbers.ptx" />
-    <xi:include href="subsections/factors/subsec-divisibility-test-for-2.ptx" />
-    <xi:include href="subsections/factors/subsec-divisibility-test-for-3.ptx" />
-    <xi:include href="subsections/factors/subsec-divisibility-test-for-4.ptx" />
-    <xi:include href="subsections/factors/subsec-divisibility-test-for-5.ptx" />
-    <xi:include href="subsections/factors/subsec-divisibility-test-for-6.ptx" />
-    <xi:include href="subsections/factors/subsec-divisibility-test-for-8.ptx" />
-    <xi:include href="subsections/factors/subsec-divisibility-test-for-9.ptx" />
-    <xi:include href="subsections/factors/subsec-divisibility-test-for-10.ptx" />
-    <xi:include href="subsections/factors/subsec-divisibility-test-for-11.ptx" />
+    <xi:include href="subsections/number-operations/subsec-divisibility-test-for-2.ptx" />
+    <xi:include href="subsections/number-operations/subsec-divisibility-test-for-3.ptx" />
+    <xi:include href="subsections/number-operations/subsec-divisibility-test-for-4.ptx" />
+    <xi:include href="subsections/number-operations/subsec-divisibility-test-for-5.ptx" />
+    <xi:include href="subsections/number-operations/subsec-divisibility-test-for-6.ptx" />
+    <xi:include href="subsections/number-operations/subsec-divisibility-test-for-8.ptx" />
+    <xi:include href="subsections/number-operations/subsec-divisibility-test-for-9.ptx" />
+    <xi:include href="subsections/number-operations/subsec-divisibility-test-for-10.ptx" />
+    <xi:include href="subsections/number-operations/subsec-divisibility-test-for-11.ptx" />
     <xi:include href="subsections/number-operations/multiplication-and-division-of-multi-digit-numbers-by-one-or-two-digit-numbers.ptx" />
 </section>
