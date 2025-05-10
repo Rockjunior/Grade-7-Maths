@@ -1,4 +1,4 @@
-  <subsection xml:id="subsec-area-of-a-rectangle">
+<subsection xml:id="subsec-area-of-a-rectangle">
     <title>Area of a rectangle</title>
     <p>
       Area of a rectangle <m>=</m> length <m>\times</m> width
@@ -19,9 +19,9 @@
             <p>
               Trace and cut out the rectangle below.
             </p>
-                             
+                              
             <image width="40%">
-            <latex-image>
+            <latex-image label="rec">
               \begin{tikzpicture}
                 \draw [very thick ,fill=green](0,0) coordinate (A)-- (0,4) coordinate (B)-- (5,4) coordinate (C)-- (5,0)coordinate (D) --(0,0)coordinate (A);
                 \node at (2.5,4.3){ \(6\,cm\)};
@@ -38,8 +38,8 @@
             </latex-image>
               
             </image>
-
-
+  
+  
           </li>
           <li>Find the area of the rectangle paper cut-out</li>
           <li>
@@ -81,12 +81,12 @@
             </tabular>
           </li>
           <li>Share your answer with other learners in class.</li>
-
-         </ol>
+  
+          </ol>
       </p>
       
     </activity>
-
+  
     <activity>
       <p>
         Play along with the activities below.
@@ -97,16 +97,16 @@
       </p>
       <figure>
       <caption>Perimeter of different plane figures.</caption>
-      <interactive xml:id="geogebra-reas" platform="geogebra" width="150%" aspect="1:1">
-        <slate xml:id="areas-figures" surface="geogebra" material="jnubwvem" aspect="1:1" />
+      <interactive xml:id="geogebra-reas" platform="geogebra" width="100%" aspect="1:1">
+        <slate xml:id="areas-figures" surface="geogebra" material="a544maky" aspect="1:1" />
       </interactive>
     </figure>
               <p>
         Calculate the areas of the figures given their side lengths.
       </p>
-     <figure>
+      <figure>
       <caption>Perimeter of different plane figures.</caption>
-      <interactive xml:id="geogebra-rectangle" platform="geogebra" width="150%" aspect="1:1">
+      <interactive xml:id="geogebra-rectangle" platform="geogebra" width="100%" aspect="1:1">
         <slate xml:id="rectangle-figures" surface="geogebra" material="buhw7dpf" aspect="1:1" />
       </interactive>
     </figure>
@@ -133,7 +133,7 @@
         </p>
       </solution>
     </example>
-
+  
     <example>
       <statement>
         <p>
@@ -177,7 +177,7 @@
           </md>
         </p>
       </solution>
-
+  
     </example>
     <example>
       <statement>
@@ -185,7 +185,7 @@
           Work out the area of the figure below.
         </p>
         <image width="40%">
-        <latex-image>
+        <latex-image label="rec1">
           \begin{tikzpicture}
             % Draw the rectangle with white fill and clearly closed sides
             \draw[very thick, fill=green] (0,0) -- (8,0) -- (8,3.5) -- (0,3.5) --(0,0) --cycle;
@@ -193,8 +193,8 @@
             % Label the sides
             \node at (4,-0.5) {\textbf{16 cm}};
             \node [rotate=90] at (8.5,2) {\textbf{7 cm}};
-
-
+  
+  
           \end{tikzpicture}
         </latex-image>
           
@@ -212,10 +212,10 @@
           The area is : <m>112\, cm^2</m> 
         </p>
       </solution>
-
+  
     </example>
-
-
+  
+  
   
     
   </subsection>

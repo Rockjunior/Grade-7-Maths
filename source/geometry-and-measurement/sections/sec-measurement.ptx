@@ -9,7 +9,12 @@
 
     <xi:include href="subsections/measurement/subsec-perimeter-and-length.ptx" />
     <xi:include href="subsections/measurement/subsec-part-of-a-circle.ptx" />
+    <xi:include href="subsections/measurement/subsec-pi.ptx" />
     <xi:include href="subsections/measurement/subsec-area.ptx" />
+    <xi:include href="subsections/measurement/subsec-parallelogram.ptx" />
+    <xi:include href="subsections/measurement/subsec-area-of-a-rectangle.ptx" />
+    <xi:include href="subsections/measurement/subsec-area-of-a-triangle.ptx" />
+    <xi:include href="subsections/measurement/subsec-area-of-a-parallelogram-and-rhombus.ptx" />
     <xi:include href="subsections/measurement/subsec-bearings.ptx" />
     <xi:include href="subsections/measurement/subsec-back-bearing.ptx" />
     <xi:include href="subsections/measurement/subsec-vectors.ptx" />
