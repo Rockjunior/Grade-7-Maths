@@ -2,7 +2,14 @@
 
 <section xml:id="sec-data" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Data </title>
-
+  <introduction>
+    <p>
+      This chapter introduces students to the concept of data 
+    </p>
+    <p>
+      what it is, how to collect it, organize it, and interpret it using various tools like tables and graphs. It also covers basic statistical measures.
+    </p>
+  </introduction>
 
   <xi:include href="subsections/data/subsec-data_from_the_environment.ptx" /> 
 
