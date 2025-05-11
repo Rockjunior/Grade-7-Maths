@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-data" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Data </title>
+
+
+  <xi:include href="subsections/data/subsec-data_from_the_environment.ptx" /> 
+
+  <xi:include href="subsections/data/subsec-collecting_data.ptx" />
+
+  <xi:include href="subsections/data/subsec-frequency-distribution-table.ptx" />
+
+  <xi:include href="subsections/data/subsec-real-life_problems_involving_data.ptx" />
+
+  <xi:include href="subsections/data/subsec-line_graphs.ptx" />
+
+  <xi:include href="subsections/data/subsec-pie-charts-of-data.ptx" />
+
+  <xi:include href="subsections/data/subsec-bar-graphs-of-data.ptx" />
+
+  <xi:include href="subsections/data/subsec-histogram.ptx" />
+
+  <xi:include href="subsections/data/subsec-measures_of_central_tendency.ptx" />
+  
+</section> 
