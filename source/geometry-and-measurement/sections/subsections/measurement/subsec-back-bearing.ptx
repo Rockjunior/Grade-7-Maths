@@ -1,4 +1,18 @@
 <subsection xml:id="subsec-back-bearing">
     <title>Back Bearing</title>
+        <p>
+        Back bearing is a fundamental concept in navigation and surveying. 
+        It refers to the direction opposite to the direction of a given bearing. 
+        In other words, the back bearing is the bearing from the destination point 
+        back to the starting point.
+    </p>
+    <p>
+        If the fore bearing (the direction from point A to point B) is known, the back bearing (from point B to point A) 
+        can be calculated by adding or subtracting <m>180^\circ</m> depending on the value of the fore bearing.
+    </p>
+    <p>
+        For example, if the fore bearing is less than <m>180^\circ</m>, the back bearing is found by adding <m>180^\circ</m>. 
+        If the fore bearing is greater than <m>180^\circ</m>, the back bearing is found by subtracting <m>180^\circ</m>.
+    </p>
     
 </subsection>
