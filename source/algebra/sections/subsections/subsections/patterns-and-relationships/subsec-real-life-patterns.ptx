@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <subsection xml:id="real-life-patterns">
+    <title>Patterns in Real Life</title>
+    <p>
+      Patterns are everywhere: in farming, school timetables, savings, or mobile phone usage. We can use algebra to describe them.
+    </p>
+
+    <example>
+      <title>Saving Money</title>
+      <p>
+        Kweku saves ₵5 every week. How much does he save after <m>n</m> weeks?
+      </p>
+      <p>Total saved = <m>5n</m> cedis</p>
+    </example>
+
+    <exercise>
+      <p>
+        Afia takes 2 books from the library every week. Write an expression for the number of books she has after <m>w</m> weeks.
+      </p>
+      <p><em>Answer:</em> Number of books = <m>2w</m></p>
+    </exercise>
+
+    <figure>
+      <caption>Visualizing a weekly savings pattern in a table and bar chart.</caption>
+      <image source="images/real-life-saving-pattern.svg" width="65%" />
+    </figure>
+  </subsection>
