@@ -31,20 +31,24 @@
         </activity>
 
         <p>
-          <me>
-            {\color{blue} \text{Learning Point.}}
-          </me>          
+          <term>Key takeaway:</term>
         </p>
 
         <p>
-          <me>{\color{green} \text{Equating the masses on both sides leads to the formation of an equation.}}</me>
+          <ul>
+            <li>
+              <p>
+                Equating the masses on both sides leads to the formation of an equation.
+              </p>
+            </li>
+          </ul>
         </p>
 
         <example>
 
           <statement>
             <p>
-              Walibora bought a shirt and a pair of shorts. The cost of the pair of shorts was <m>150</m> shillings less than that of the shirt. If the two items cost <m>950</m> shillings. Write an equation representing the information using letter <m>x</m> as the cost of a shirt.
+              Immanuel bought a shirt and a pair of shorts. The cost of the pair of shorts was <m>150</m> shillings less than that of the shirt. If the two items cost <m>950</m> shillings. Write an equation representing the information using letter <m>x</m> as the cost of a shirt.
             </p>
           </statement>
 
