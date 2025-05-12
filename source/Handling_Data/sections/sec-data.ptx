@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-data" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Data </title>
+  <introduction>
+    <p>
+      This chapter introduces students to the concept of data 
+    </p>
+    <p>
+      what it is, how to collect it, organize it, and interpret it using various tools like tables and graphs. It also covers basic statistical measures.
+    </p>
+  </introduction>
+
+  <xi:include href="subsections/data/subsec-data_from_the_environment.ptx" /> 
+
+  <xi:include href="subsections/data/subsec-collecting_data.ptx" />
+
+  <xi:include href="subsections/data/subsec-frequency-distribution-table.ptx" />
+
+  <xi:include href="subsections/data/subsec-real-life_problems_involving_data.ptx" />
+
+  <xi:include href="subsections/data/subsec-line_graphs.ptx" />
+
+  <xi:include href="subsections/data/subsec-pie-charts-of-data.ptx" />
+
+  <xi:include href="subsections/data/subsec-bar-graphs-of-data.ptx" />
+
+  <xi:include href="subsections/data/subsec-histogram.ptx" />
+
+  <xi:include href="subsections/data/subsec-measures_of_central_tendency.ptx" />
+  
+</section> 

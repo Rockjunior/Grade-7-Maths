@@ -1,0 +1,114 @@
+<subsection xml:id="subsec-divisibility-test-for-6">
+    <title>Divisibility test for 6</title>
+    <p>
+        A number is divisible by <m>6</m> if it is divisible by both <m>2</m> and <m>3</m>.
+    </p>
+    <activity>
+        <statement>
+            <p></p>
+            <p>
+            1. Working in groups, find <m>1</m> mathematical textbook and put it at the table.
+            </p>
+            <p>
+            2. In turns, each group member to close their eyes and open a page in the textbook.
+            </p>
+            <p>
+            3. One of the goup members to write down the number pages.
+            </p>
+            <p>
+            4. Test if the numbers are divisible by <m>2</m> that is if the last digit is an even number and also test if the numbers are divisible by <m>3</m> that is add the digits and check if the sum is divisible by <m>3</m>.
+            </p>
+            <p>
+            5. If the number is divisible by both <m>2</m> and <m>3</m> then it is divisble by <m>6</m>.
+            </p>
+            <p>
+            6. Share your group's findings with the class. What did you notice about the numbers divisible by <m>6</m>.
+            </p>
+        </statement>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Which of the following numbers are divisible by 6?
+            </p>
+            <p>
+                <m>17\,832</m>, <m>80\,258</m>, <m>632\,842</m>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>17\,832</m>
+                        </p>
+                        <p>
+                            First we check if <m>17\,832</m> is divisible by both <m>2 \text{ and } 3.</m>
+                        </p>
+                        <p>
+                            The digit in the ones place value of <m>17\,832</m> is even, hence it is divisible by <m>2.</m>
+                        </p>
+                        <p>
+                            Add up all the single digits in the number <m>17\,832</m> then divide the sum by <m>3.</m>
+                        </p>
+                        <p>
+                            <m>1+7+8+3+2 = 21</m>
+                        </p>
+                        <p>
+                                <m>21 \div 3 = 7</m> which is divisible by 3.
+                        </p>
+                        <p>
+                            <m>17\,832</m>  is divisible by <m>6</m> because it is divisible by both <m>2 \text{ and } 3.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>80\,258</m>
+                        </p>
+                        <p>
+                            First we check if <m>80\,258</m> is divisible by both <m>2 \text{ and } 3.</m>
+                        </p>
+                        <p>
+                            The digit in the ones place value of <m>80\,258</m> is even, hence it is divisible by <m>2.</m>
+                        </p>
+                        <p>
+                            Add up all the single digits in the number <m>80\,258</m> then divide the sum by <m>3.</m>
+                        </p>
+                        <p>
+                            <m>8+0+2+5+8 = 23</m> 
+                        </p>
+                        <p>
+                            <m>23 \div 3 = 7 \text{ remainder } 2</m> which is not divisible by 3.
+                        </p>
+                        <p>
+                            <m>28\,085</m>  is not divisible by <m>6</m> because it is not divisible by both <m>2 \text{ and } 3.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>236\,484</m>
+                        </p>
+                        <p>
+                            First we check if <m>632\,842</m> is divisible by both <m>2 \text{ and } 3.</m>
+                        </p>
+                        <p>
+                            The digit in the ones place value of <m>632\,842</m> is even, hence it is divisible by <m>2.</m>
+                        </p>
+                        <p>
+                            Add up all the single digits in the number <m>632\,842</m> then divide the sum by <m>3.</m>
+                        </p>
+                        <p>
+                            <m>6+3+2+8+4+2 = 25</m>
+                        </p>
+                        <p>
+                            <m>25 \div 3 = 8</m> remainder <m>1</m> hence it is not divisible by 3.
+                        </p>
+                        <p>
+                            <m>632\,842</m>  is not divisible by <m>6</m> because it is not divisible by both <m>2 \text{ and } 3.</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+</subsection>

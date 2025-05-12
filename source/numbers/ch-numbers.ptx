@@ -9,9 +9,14 @@
 
   <!-- include sections -->
   <xi:include href="./sections/sec-whole-numbers.ptx" />
+
+
+  <xi:include href="./sections/sec-factors.ptx" />
+
   <xi:include href="./sections/sec-fractions.ptx" />
   <xi:include href="./sections/sec-decimals.ptx" />
   <xi:include href="./sections/sec-squares-and-square-roots.ptx" />
   <xi:include href="./sections/sec-number-operations.ptx" />
+  <xi:include href="./sections/sec-fractions-decimals-and-percentages.ptx" />
 
 </chapter>

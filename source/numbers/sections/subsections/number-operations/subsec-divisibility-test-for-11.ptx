@@ -1,0 +1,124 @@
+<subsection xml:id="subsec-Divisibility-test-for-11">
+    <title>Divisibility test for 11</title>
+    <p>
+        To check if a number is divisible by <m>11</m> , subtract the sum of the digits in odd positions from the sum of the digits in even positions. 
+        If the result is zero or a multiple of <m>11</m> , the number is divisible by 11.
+    </p>
+    <!-- <p>
+        <m>\textbf{Example}</m>
+    </p>
+    <p>
+        1. To identify if <m> 2728 </m> is divisible by <m>11</m>, assign positions i.e 
+        <m>\rightarrow</m> digits in odd positions are: <m> 2 + 2 = 4 </m>, digits in even positions are: <m>7 + 8 = 15</m>.
+    </p>
+    <p>
+        Since <m> 15 - 4 = 11</m> <m>\rightarrow</m> <m> 2728 </m> is divisible by <m>11</m>.
+    </p>
+    <p>
+       2. To identify if <m> 1234 </m> is divisible by <m>11</m>, assign positions i.e 
+        <m>\rightarrow</m> digits in odd positions are: <m> 1 + 3 = 4 </m>, digits in even positions are: <m>2 + 4 = 6</m>.
+    </p>
+    <p>
+       Since <m> 6 - 4 = 2</m> <m>\rightarrow</m> <m> 1234 </m> is not divisible by <m>11</m>.
+    </p> -->
+    <!-- <activity>
+        <statement>
+            <p>
+            
+            </p>
+            <p>
+               1. Working in groups of <m>5</m> , each student to create a 4-digit number using digits from <m>1</m> to <m>9</m> and writes it on a piece of paper.
+            </p>
+            <p>
+               2. In turns, each learner to read out the number they formed for the group to check if it is divisible by <m>11</m>.
+            </p>
+            <p>
+               3. Each group to write down numbers they found out to be divisible by <m>11</m>. Share the numbers with your fellow learners.
+            </p>
+            <p>
+               4. Discuss what strategies helped you to identify numbers that are divisible by <m>11</m>.Did you notice any patterns? 
+            </p>
+        </statement>
+    </activity> -->
+    <activity>
+        <introduction>
+            <p>
+                <alert>Work in groups</alert>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Working in groups of <m>5</m> learners, each learner to create a 4-digit number 
+                    using digits from <m>1</m> to <m>9</m> and writes it on a piece of paper.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    In turns, each learner to read out the number they formed for the group to check if it is divisible by <m>11</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Write down numbers you found to be divisible by <m>11</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Reflect on and discuss the strategy you used to determine if a number is divisible by <m>11</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Share your findings with the rest of the class.
+                </p>
+            </statement>
+        </task>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Is <m>375\,149</m> divisible by <m>11</m>?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                           First, find the sum of the digits in odd number positions.
+                        </p>
+                        <p>
+                            <m>3+5+4=12</m>
+                        </p>
+                        <p>
+                            Next we find the sum of digits in even positions.
+                        </p>
+                        <p>
+                            <m>7+1+9=17</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Finding their difference we get:
+                        </p>
+                        <p>
+                            <m>17-12 = 5</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                Since the difference is <m>5</m>, then  <m>375\,149</m> is not divisible by <m>11.</m>
+            </p>
+        </solution>
+    </example>
+</subsection>
