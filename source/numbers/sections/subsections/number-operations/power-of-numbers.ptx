@@ -11,6 +11,18 @@
         <subsubsection xml:id="subsubsec-understanding-repeated-factors-through-grouping-and-counting-objects">
             <title>Understanding repeated factors through grouping and counting objects</title>
             <p>
+                A repeated factor means multiplying the same number over and over.
+            </p>
+            <p>
+                For example:
+            </p>
+            <p>
+                <m>2 \times 2 \times 2 \times 2</m>
+            </p>
+            <p>
+                Here, the number <m>2</m> is the factor, and it repeats four times.
+            </p>
+            <p>
                 The concept of powers can be understood through the idea of grouping and counting objects. 
                 For example, if we have <m>2^3</m>, we can think of it as having <m>2</m> groups of <m>3</m> objects each. 
                 This helps in visualizing the multiplication process and understanding the concept of powers.
@@ -19,24 +31,165 @@
                 To illustrate this, consider the following example:
                 If we have <m>2^3</m>, we can represent it as:
                 <m>2 \times 2 \times 2 = 8</m>.
-                This means we have <m>2</m> groups of <m>3</m> objects each, resulting in a total of <m>8</m> objects.
+                This means we have <m>3</m> groups of <m>2</m> objects each, resulting in a total of <m>8</m> objects.
             </p> 
             <activity>
                 <statement>
                     <p>
                         
                     </p>
+                    <p>
+                       <m>\textbf{Materials needed}</m> 
+                    </p>
+                    <p>
+                        <m>\quad\quad \bullet  27</m> bottle tops or sticks.
+                    </p>
+                    <p>
+                      1. Arrange <m>3</m> bottle tops in a row (first layer) as shown below:
+                    </p>
+                    <p>
+                        NOTE: The bottle tops are represented by the symbol <m>⚪</m>.
+                    </p>
+                    <tabular right="medium" left="medium" bottom="medium" top="medium">
+                        <row>
+                            <cell>first layer</cell>
+                            <cell>⚪ ⚪ ⚪</cell>
+                        </row>
+                    </tabular>
+                    <p>
+                       2. Now, place another <m>3</m> bottle tops below the first layer (second layer):
+                    </p>
+                    <tabular bottom="medium" top="medium" left="medium" right="medium">
+                        <row>
+                            <cell>first layer</cell>
+                            <cell>⚪ ⚪ ⚪</cell>
+                        </row>
+                        <row>
+                            <cell>second layer</cell>
+                            <cell>⚪ ⚪ ⚪</cell>
+                        </row>
+                    </tabular>
+                    <p>
+                       4. Continue this process until you have <m>3</m> layers of <m>3</m> bottle tops:
+                    </p>
+                    <tabular bottom="medium" top="medium" right="medium" left="medium">
+                        <row>
+                            <cell>first layer</cell>
+                            <cell>⚪ ⚪ ⚪</cell>
+                        </row>
+                        <row>
+                            <cell>second layer</cell>
+                            <cell>⚪ ⚪ ⚪</cell>
+                        </row>
+                        <row>
+                            <cell>third layer</cell>
+                            <cell>⚪ ⚪ ⚪</cell>
+                        </row>
+                    </tabular>
+                    <p>
+                       5. Now, count the total number of bottle tops:
+                    </p>
+                    <tabular left="medium" top="medium" bottom="medium" right="medium">
+                        <row>
+                            
+                            <cell right="medium">⚪ </cell>
+                            <cell right="medium">⚪ </cell>
+                            <cell right="medium">⚪ </cell>
+
+                        </row>
+                        <row>
+                            
+                            <cell right="medium">⚪ </cell>
+                            <cell right="medium">⚪ </cell>
+                            <cell right="medium">⚪ </cell>
+                        </row>
+                        <row>
+                            
+                            <cell right="medium">⚪ </cell>
+                            <cell right="medium">⚪ </cell>
+                            <cell right="medium">⚪ </cell>
+                        </row>
+                    </tabular>
+                    <p>
+                       6. What is the repeated factor in this example?
+                    </p>
+                    <p>
+                       7. Express the total number of bottle tops in terms of repeated factors.
+                    </p>
+                    <p>
+                       8. Why is <m>3^3</m> different from <m>3 \times 3?</m>
+                 </p>
+                    <p>
+                       9. Discuss your work with the class.
+                    </p>
                 </statement>
             </activity>   
             <example>
                 <statement>
                     <p>
-                        
+                      Given: <m>2 \times 2 \times 2 \times 2 \times 2</m>  
+                    </p>
+                    <p>
+                        1. What is the repeated factor?
+                    </p>
+                    <p>
+                        2. How many times is the factor repeated?
+                    </p>
+                    <p>
+                        3. Write the multiplication as a power.
+                    </p>
+                    <p>
+                        4. What is its base?
+                    </p>
+                    <p>
+                        5. What is its exponent?
+                    </p>
+                    <p>
+                        6. Calculate the value of the power.
                     </p>
                 </statement>
                 <solution>
                     <p>
-                        
+                       1. To find the repeated factor, we look for a number that is being multiplied over and over in the multiplication: <m>2 \times 2 \times 2 \times 2 \times 2</m>. 
+                    </p>
+                    <p>
+                        Hence the repeated factor is <m>2</m>.
+                    </p>
+                    <p>
+                          2. The factor <m>2</m> is repeated <m>5</m> times.
+                    </p>
+                    <p>
+                        3. To write <m>2 \times 2 \times 2 \times 2 \times 2</m>  as a power, we need to identify the number of times the factor <m>2</m> is repeated.
+                    </p>
+                    <p>
+                        Since <m>2</m> is repeated <m>5</m> times, we can write it as <m>2^5</m>.
+                    </p>
+                    <p>
+                        4. Base is the number being multiplied.
+                    </p>
+                    <p>
+                        Hence the base is <m>2</m>
+                    </p>
+                    <p>
+                        5. Since exponent is the number of times the base is being multiplied, then the exponent is <m>5</m>.
+                    </p>
+                    <p>
+                        6. To calculate <m>2 \times 2 \times2 \times2 \times 2</m>, multiply <m>2</m> by itself <m>5</m> times:
+                    </p>
+                    <p>
+                        <m>2\times2 = 4</m>
+                    </p>
+                    <p>
+                        <m>4 \times 2 = 8</m>
+                    </p>
+                    <p>
+                        <m>8 \times 2= 16</m>
+                    </p>
+                    <p>
+                        <m>16 \times 2= 32</m>
+                    </p>
+                    <p>
+                        Therefore, <m>2 \times 2 \times 2 \times 2 \times 2 = 32</m>.
                     </p>
                 </solution>
             </example>
@@ -51,26 +204,285 @@
         </subsubsection>
         <subsubsection xml:id="subsubsec-Expressing-numbers-as-products-and-powers">
             <title>Expressing numbers as products and powers</title>
+            <p>  
+                The process of expressing numbers as products and powers involves breaking down a number into its prime factors and writing it in exponential form. 
+                             
+            </p>
             <p>
-                
+               <m>\textbf{How to find the prime factorization of the given number and express it in exponential form.}</m> 
+            </p>
+            <p>
+               <m>\textbf{\color{blue}{Step 1:}} \text{ Find the prime factors of the number.}</m>
+            </p>
+            <p>
+                Divide the number by the smallest prime number that divides it evenly.
+            </p>
+            <p>
+                Repeat the process with the quotient until it cannot be divided anymore.
+            </p>
+            <p>
+                List all the prime factors obtained.
+            </p>
+            <p>
+                Example: . Find the prime factors of <m>64</m>.
+            </p>
+            <p>
+                <m>64 \div 2 = 32</m>
+            </p>
+            <p>
+                <m>32 \div 2 = 16</m>
+            </p>
+            <p>
+                <m>16 \div 2 = 8</m>
+            </p>
+            <p>
+                <m>8 \div 2 = 4</m>
+            </p>
+            <p>
+                <m>4 \div 2 = 2</m>
+            </p>
+            <p>
+                <m>2 \div 2 = 1</m>
+            </p>
+            <p>
+                The prime factors of <m>64</m> are <m>2, 2, 2, 2, 2, 2</m>.
+            </p>
+            <p>
+                <m>\textbf{\color{blue}{Step 2:}} \text{ Write the number as a product of all its prime factors.}</m>
+            </p>
+            <p>
+                Express the prime factors as a product
+            </p>
+            <p>
+                <m>\(64=2\times 2\times 2\times 2\times 2\times 2\)</m>
+            </p>
+            <p>
+                <m>\textbf{\color{blue}{Step 3:}} \text{ Express the product in exponential form.}</m>
+            </p>
+            <p>
+                Count the number of times each prime factor appears.
+            </p>
+            <p>
+                Write the number as a product of powers, where the base is the prime factor and the exponent is its count.
+            </p>
+            <p>
+                The prime factor <m>2</m> appears <m>6</m> times. 
+            </p>
+            <p>
+               <m>64=2^{6}</m> 
+            </p>
+            <p>
+                Hence, <m>64= 2^6</m>
             </p>
             <activity>
                 <statement>
                     <p>
                         
                     </p>
+                    <p>
+                        <m>\textbf{Materials needed}</m>
+                    </p>
+                    <p>
+                        <m>\bullet</m> Worksheet 
+                    </p>
+                    <p>
+                        <m>\bullet</m> pen or pencil and erasers
+                    </p>
+                    <p>
+                        <m>\bullet</m> Optional: bottle tops for modeling
+                    </p>
+                    <p>
+                        1. Working in groups, look at each number in the first column of the table below.
+                    </p>
+                    <p>
+                        2. For each number:
+                    </p>
+                    <p>
+                        <ol marker="a)">
+                            <li>
+                                <p>
+                                  Write it as a product of repeated factors (multiply the same number again and again to get the given number).  
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Write the number as a power (use the base and exponent to show how many times the number is multiplied) or as a product of powers of two different numbers depending on the number given.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <p>
+                        3. Fill in the table with your answers.
+                    </p>
+                    <tabular top="medium">
+                        <row left="medium">
+                            <cell bottom="medium" right="medium">Number</cell>
+                            <cell bottom="medium" right="medium">Product of repeated factors</cell>
+                            <cell bottom="medium" right="medium">Power form / Products of the power</cell>
+                        </row>
+                        <row left="medium">
+                            <cell bottom="medium" right="medium"><m>8</m></cell>
+                            <cell bottom="medium" right="medium"><m>2 \times 2 \times 2</m></cell>
+                            <cell bottom="medium" right="medium"><m>2^3</m></cell>
+                        </row>
+                        <row left="medium">
+                            <cell bottom="medium" right="medium"><m>27</m></cell>
+                            <cell bottom="medium" right="medium"><m></m></cell>
+                            <cell bottom="medium" right="medium"><m></m></cell>
+                        </row>
+                        <row left="medium"> 
+                            <cell bottom="medium" right="medium"><m>36</m></cell>
+                            <cell bottom="medium" right="medium"><m></m></cell>
+                            <cell bottom="medium" right="medium"><m></m></cell>
+                        </row>
+                        <row left="medium">
+                            <cell bottom="medium" right="medium"><m>64</m></cell>
+                            <cell bottom="medium" right="medium"><m></m></cell>
+                            <cell bottom="medium" right="medium"><m></m></cell>
+                        </row>
+                        <row left="medium"> 
+                            <cell bottom="medium" right="medium"><m>72</m></cell>
+                            <cell bottom="medium" right="medium"><m>2 \times 2 \times 2 \times 3 \times 3</m></cell>
+                            <cell bottom="medium" right="medium"><m> 2^3 \times 3^2</m></cell>
+                        </row>
+                        <row left="medium"> 
+                            <cell bottom="medium" right="medium"><m>81</m></cell>
+                            <cell bottom="medium" right="medium"><m></m></cell>
+                            <cell bottom="medium" right="medium"><m></m></cell>
+                        </row>
+                        <row left="medium"> 
+                            <cell bottom="medium" right="medium"><m>96</m></cell>
+                            <cell bottom="medium" right="medium"><m></m></cell>
+                            <cell bottom="medium" right="medium"><m></m></cell>
+                        </row>
+                        <row left="medium">
+                            <cell bottom="medium" right="medium"><m>108</m></cell>
+                            <cell bottom="medium" right="medium"><m></m></cell>
+                            <cell bottom="medium" right="medium"><m></m></cell>
+                        </row>
+                        <row left="medium">
+                            <cell bottom="medium" right="medium"><m>144</m></cell>
+                            <cell bottom="medium" right="medium"><m></m></cell>
+                            <cell bottom="medium" right="medium"><m></m></cell>
+                        </row>
+                    </tabular>
+                    <p>
+                        4. share your work with your fellow learners.
+                    </p>
                 </statement>
             </activity>
             <example>
                 <statement>
                     <p>
-                        
+                       Express <m>48</m> as a product of its prime factors.  
                     </p>
                 </statement>
                 <solution>
+                <p> 
+                    To break down <m>48</m> into its prime factors, we need to find which prime numbers multiply together to give us <m>48</m>.
+                </p>
+                <p>
+                    <alert>Remember:</alert> Always start with the smallest prime number (which is <m>2</m>). 
+                    If the number isn’t divisible by <m>2</m>, move to the next prime number 
+                    (<m>3</m>, then <m>5</m>, and so on) until you can’t divide further.
+                </p>
+                 <p> 
+                    We start with the smallest prime number, which is <m>2</m>. 
+                    Let's divide <m>48</m> by <m>2</m>: <m>48 \div 2 = 24</m>.
+                     Since it divides exactly, <m>2</m> is our first prime factor. 
+
+                 </p>
+                <p> 
+                    Next, we take <m>24</m> and divide it by <m>2</m> again: <m>24 \div 2 = 12</m>. 
+                    It divides exactly, so <m>2</m> is our second prime factor. 
+                </p> 
+                <p> 
+                    Now, we take <m>12</m> and divide it by <m>2</m> once more: <m>12 \div 2 = 6</m>. It divides exactly, so <m>2</m> is our third prime factor. 
+                </p>
+                <p> 
+                    Next, we take <m>6</m> and divide it by <m>2</m> again: <m>6 \div 2 = 3</m>. It divides exactly, so <m>2</m> is our fourth prime factor.
+                 </p>
+                <p> 
+                    Finally, we have <m>3</m>, which is already a prime number and cannot be divided further.
+                 </p>
+                <p> 
+                    So, the prime factors of <m>48</m> are: <m>48 = 2 \times 2 \times 2 \times 2 \times 3</m>. 
+                </p>
+                    <tabular>
+                        <row  bottom="medium"> 
+                            <cell right="medium"><m>{\color{blue}2}</m></cell>
+                            <cell right="medium"><m>48</m></cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell right="medium"><m>{\color{blue}2}</m></cell>
+                            <cell right="medium">24</cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell right="medium"><m>{\color{blue}2}</m></cell>
+                            <cell right="medium">12</cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell right="medium"><m>{\color{blue}2}</m></cell>
+                            <cell right="medium">6</cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell right="medium"><m>{\color{blue}2}</m></cell>
+                            <cell right="medium">3</cell>
+                        </row>
+                        <row>
+                            <cell right="medium"><m>{\color{blue}3}</m></cell>
+                            <cell right="medium">1</cell>
+                        </row>
+                    </tabular>
+                <p>
+                    <m>48 = 2 \times 2 \times 2 \times 2 \times 3</m>
+                </p>
+            
+                </solution>
+            </example>
+            <example>
+                <statement>
                     <p>
-                        
+                        Express <m>88</m> as a product of its prime factors.
                     </p>
+                </statement>
+               <solution>
+                <p> 
+                    To find the prime factors of <m>88</m>, we will use a factor tree. 
+                    A factor tree helps us break down a composite number into its prime factors step by step. 
+                </p> 
+                <p> 
+                    Here’s how the factor tree for <m>88</m> looks:
+                </p>
+                <image width="25%">
+                    <shortdescription></shortdescription>
+                    <latex-image label="factors-of-88">
+                        \begin{tikzpicture}[level distance=1.5cm,
+                            level 1/.style={sibling distance=2cm},
+                            level 2/.style={sibling distance=1cm},
+                            circled/.style={draw, circle}]
+                            \node {88}
+                                child {node[circled] {2}}
+                                child {node {44}
+                                child {node[circled] {2}}
+                                child {node {22}
+                                    child {node[circled] {2}}
+                                    child {node[circled] {11}}}};
+                    \end{tikzpicture}
+                    </latex-image>
+                </image>
+                <p> 
+                    We start by breaking <m>88</m> into <m>2</m> and <m>44</m>. 
+                    Then, <m>44</m> is broken into <m>2</m> and <m>22</m>, and
+                    finally, <m>22</m> is broken into <m>2</m> and <m>11</m>.
+                    Since <m>11</m> is a prime number, we stop here. 
+                </p> 
+                <p>
+                    We can't factor any more, so we have found the prime factors.
+                </p>
+                <p>
+                    Therefore, the product of prime factors of <m>88</m> is : <m>88 = 2 \times 2 \times 2 \times 11 </m>
+                </p>
                 </solution>
             </example>
             <exercise>
@@ -85,24 +497,172 @@
         <subsubsection xml:id="subsubsec-understanding-zero-exponents-and-their-applications">
             <title>Understanding Zero exponents and their applications</title>
             <p>
-                
+               For any natural number <m>a</m>, if it is raised to the power of zero, the result is always <m>1</m>. 
+            </p>
+            <p>
+                This means that <m>a^0 = 1</m> for any <m>a \notequal</m>.
+            </p>
+            <p>
+                <m>\frac{a}{a} = 1</m>, but from indices,<m>\frac{a}{a} = a^0</m> , <m>x^0 = 1</m> for any natural number <m>a</m>.
+            </p>
+            <p>
+                Example:
+            </p>
+            <p>
+                Let’s take <m>a</m> to be <m>4</m>:
+            </p>
+            <p>
+                <m>4^2 \div 4^2 = \frac{4^2}{4^2} = 1</m>
+            </p>
+            <p>
+               But using the laws of indices: 
+            </p>
+            <p>
+                <m>4^2 \div 4^2 = 4^{2-2} = 4^0</m>
+            </p>
+            <p>
+                So: <m>4^0 = 1</m>
+            </p>
+            <p>
+               Suppose we have <m>\frac{5^3}{5^3}</m>
+            </p>
+            <p>
+                <m>\frac{5^3}{5^3} = 1</m>
+            </p>
+            <p>
+                But using the laws of indices: 
+            </p>
+            <p>
+                <m>\frac{5^3}{5^3} = 5^{3-3} = 5^0</m>
+            </p>
+            <p>
+                Thus: <m>5^0 = 1</m>
+            </p>
+            <p>
+                 Also, if we have <m>\frac{8}{8}</m> the result is <m>1</m>. 
+                 This can be done using powers of numbers:
+            </p>
+            <p>
+                That is, <m>\frac{8}{8} = 2^3 \div 2^3 = 2^{3-3}= 2^0 = 1</m>
+            </p>
+            <p>
+                Therefore, any natural number raised to the power of zero is equal to <m>1</m>.
+            </p>
+            <p>
+                We can also use pattern recognition to verify that <m>a^0 = 1</m>.
+            </p>
+            <p>
+                Example: Powers of <m>2</m>:
+            </p>
+            <p>
+                <m>2^3=8</m>
+            </p>
+            <p>
+                <m>2^2=4</m>
+            </p>
+            <p>
+                <m>2^1=2</m>
+            </p>
+            <p>
+                <m>2^0=1</m>
+            </p>
+            <p>
+                Each step divides by <m>2</m>:
+            </p>
+            <p>
+                <m>8 \div 2=4, 4 \div 2= 2 , 2 \div2=1</m>
+            </p>
+            <p>
+               Thus <m>2^0 = 1</m>
             </p>
             <activity>
                 <statement>
                     <p>
                         
                     </p>
+                    <p>
+                       1. Working in groups, choose any <m>3</m> natural numbers from the list below:
+                    </p>
+                    <p>
+                        <m>2, 5, 7, 10, 25, 100</m>
+                    </p>
+                    <p>
+                        2. For each number:
+                    </p>
+                    <p>
+                        <ol marker="i)">
+                            <li>
+                                <p>
+                                    Write two equal powers of the number.e.g <m> 2^3 \div 2^3</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Simplify the expression to show that it equals <m>1</m>.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <p>
+                        3. Look at the pattern below and complete the missing values:
+                    </p>
+                <p>
+                    <me>
+                        2^4 = 16
+                    </me>
+                </p>
+                <p>
+                    <me>
+                        2^3 = 8
+                    </me>
+                </p>
+                <p>
+                    <me>
+                        2^2 = 4
+                    </me>
+                </p>
+                <p>
+                    <me>
+                        2^1 = 2
+                    </me>
+                </p>
+                <p>
+                    <me>
+                        2^0 = ?
+                    </me>
+                </p>
+                <p>
+                    What happens when the exponent reaches zero?
+                </p>
+                <p>
+                    4. Discuss your work with the class.
+                </p>
                 </statement>
             </activity>
             <example>
                 <statement>
                     <p>
-                        
+                      Simplify <m>7^2 \times 7^0</m>  
                     </p>
                 </statement>
                 <solution>
                     <p>
-                        
+                      By definition, <m>7^0 = 1</m>.  
+                    </p>
+                    <p>
+                        Therefore, <m>7^2 \times 7^0 = 7^2 \times 1 = 7^2</m>.
+                    </p>
+                    <p>
+                        Calculating <m>7^2</m> gives us:
+                    </p>
+                    <p>
+                        <m>7 \times 7 = 49</m>.
+                    </p>
+                    <p>
+                        So, <m>7^2 \times 7^0 = 49 \times 1</m>.
+                    </p>
+                    <p>
+                        Hence, <m>7^2 \times 7^0 = 49</m>.
                     </p>
                 </solution>
             </example>
@@ -118,24 +678,218 @@
         <subsubsection xml:id="subsubsec-evaluating-numbers-written-in-index-form">
             <title>Evaluating Numbers written in index form</title>
             <p>
-                
+               Index form means a number written with a base and an exponent (also called index or power). 
             </p>
+            <p>
+                <m>\textbf{How to Find the Value of a Number Written in Index Form}</m>
+            </p>
+            <p>
+                <ol marker="1">
+                    <li>
+                        <p>
+                            Identify the Base and Exponent:
+                        </p>
+                        <p>
+                            Example: In <m>5^3</m>, the base is <m>5</m>, and the exponent is <m>3</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Multiply the Base by Itself as many times as the exponent indicates:
+                        </p>
+                        <p>
+                            <m>5^3=5 \times5 \times 5</m>
+                        </p>
+                        <p>
+                            <m>5 \times 5=25</m>
+                        </p>
+                        <p>
+                            <m>25 \times 5 = 125</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Record the final value: <m>5^3 = 125</m> 
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <tabular top="medium">
+                <row left="medium">
+                    <cell bottom="medium" right="medium"> Index form </cell>
+                    <cell bottom="medium" right="medium"> Expanded form </cell>
+                    <cell bottom="medium" right="medium"> Calculation </cell>
+                    <cell bottom="medium" right="medium"> Value </cell>
+                </row>
+                <row left="medium"> 
+                    <cell bottom="medium" right="medium"><m>2^4</m></cell>
+                    <cell bottom="medium" right="medium"><m>2 \times 2 \times 2 \times 2</m></cell>
+                    <cell bottom="medium" right="medium"><m>2 \times 2 = 4 \rightarrow 4 \times 2=8 \rightarrow 8 \times 2 = 16</m></cell>
+                    <cell bottom="medium" right="medium"> <m>16</m> </cell>
+                </row>
+                <row left="medium">
+                    <cell bottom="medium" right="medium"><m>3^2</m></cell>
+                    <cell bottom="medium" right="medium"><m>3 \times 3</m></cell>
+                    <cell bottom="medium" right="medium"><m>3 \times 3 = 9</m></cell>
+                    <cell bottom="medium" right="medium"><m>9</m></cell>
+                </row>
+                <row left="medium">
+                    <cell bottom="medium" right="medium"><m>10^3</m></cell>
+                    <cell bottom="medium" right="medium"><m>10 \times 10 \times 10</m></cell>
+                    <cell bottom="medium" right="medium"><m>10 \times 10 = 100 \rightarrow 100 \times 10 = 1000</m></cell>
+                    <cell bottom="medium" right="medium"><m>1000</m></cell>
+                </row>
+                <row left="medium">
+                    <cell bottom="medium" right="medium"><m>7^0</m></cell>
+                    <cell bottom="medium" right="medium">special rule:<m> a^0 = 1</m></cell>
+                    <cell bottom="medium" right="medium"><m>7^0 = 1</m></cell>
+                    <cell bottom="medium" right="medium"><m>1</m></cell>
+                </row>
+                <row left="medium">
+                    <cell bottom="medium" right="medium"><m>\frac{1}{2^5}</m></cell>
+                    <cell bottom="medium" right="medium"><m>\frac{1}{2 \times 2 \times 2 \times 2 \times 2}</m></cell>
+                    <cell bottom="medium" right="medium"><m>\frac{1}{2 \times 2 = 4 \rightarrow 4 \times 2=8 \rightarrow 8 \times 2 = 16 \rightarrow 16 \times 2 = 32}</m></cell>
+                    <cell bottom="medium" right="medium"><m>\frac{1}{32}</m></cell>
+                </row>
+            </tabular>
+            
             <activity>
                 <statement>
-                    <p>
-                        
-                    </p>
+                     <p>
+                <term>Work in groups:</term>
+            </p>
+            <p>
+                <term>Materials Needed:</term> One <m>A4</m> sheet of paper per student. A piece of paper is approimately. <m>0.1</m> mm thick
+            </p>
+            <p>
+                <term>Instruction:</term>
+            </p>
+            <p>
+                Form groups of <m>2-3</m> students each. A piece of paper is approximately. <m>0.1</m> mm thick
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Take a piece of paper and fold it in half once. Count the number of layers.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Fold it in half again and count the number of layers.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Continue folding and record your observations in a table like the one below.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Express the number of layers using index notation.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+                <tabular top="medium" bottom="medium" left="medium" right="medium">
+                    <row>
+                        <cell>Number of Folds</cell>
+                        <cell>Thickness (mm)</cell>
+                        <cell>Index Notation</cell>
+                        <cell>Expanded form</cell>
+                        <cell>Calculation</cell>
+                        <cell>Value</cell>
+                    </row>
+                    <row>
+                        <cell>0 (no fold)</cell>
+                        <cell>0.1 mm</cell>
+                        <cell><m>2^0 \times 0.1</m></cell>
+                        <cell><m>1 \times 0.1</m></cell>
+                        <cell><m>1 \times 0.1 = 0.1</m></cell>
+                        <cell><m>0.1</m></cell>
+                    </row>
+                    <row>
+                        <cell>1 fold</cell>
+                        <cell>0.2 mm</cell>
+                        <cell><m>2^1 \times 0.1</m></cell>
+                        <cell><m>2 \times 0.1</m></cell>
+                        <cell><m>2 \times 0.1 = 0.2</m></cell>
+                        <cell><m>0.2</m></cell>
+                    </row>
+                    <row>
+                        <cell>2 folds</cell>
+                        <cell>0.4 mm</cell>
+                        <cell><m>2^2 \times 0.1</m></cell>
+                        <cell><m>2 \times 2 \times 0.1</m></cell>
+                        <cell><m>4 \times 0.1 = 0.4</m></cell>
+                        <cell><m>0.4</m></cell>
+                    </row>
+                    <row>
+                        <cell>3 folds</cell>
+                        <cell>?</cell>
+                        <cell>?</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>4 folds</cell>
+                        <cell>?</cell>
+                        <cell>?</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>5 folds</cell>
+                        <cell>?</cell>
+                        <cell>?</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                </tabular>
+
+            <p>
+                <ol marker = "a)">
+                    <li>
+                        <p>
+                            What pattern do you observe in the numbers of layers?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If you could fold the paper 10 times, how thick would it be?
+                        </p>
+                    </li>
+                </ol>
+            </p>
                 </statement>
             </activity>
             <example>
                 <statement>
                     <p>
-                        
+                        Evaluate the expression <m>5^2</m>.
                     </p>
                 </statement>
                 <solution>
                     <p>
-                        
+                       First identify the Base and Exponent:
+                    </p>
+                    <p>
+                        In <m>5^2</m>, the base is <m>5</m>, and the exponent is <m>2</m>.
+                    </p>
+                    <p>
+                        According to the definition of exponents, <m>5^2</m> means <m>5</m> multiplied by itself <m>2</m> times.
+                    </p>
+                    <p>
+                        Next, multiply the base by itself: <m>5 \times 5</m>
+                    </p>
+                    <p>
+                        Calculating the Result: <m>5 \times 5 25</m>
+                    </p>
+                    <p>
+                        Therefore, the value of <m>5^2</m> is <m>25</m>.
                     </p>
                 </solution>
             </example>

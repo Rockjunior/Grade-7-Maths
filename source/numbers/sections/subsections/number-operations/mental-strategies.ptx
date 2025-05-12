@@ -6,9 +6,112 @@
         </p>
     </introduction>
     <subsubsection xml:id="subsubsec-multiplying-and-dividing-numbers-by-powers-of-10-icluding-decimals-and-benchmark-fractions">
-        <title>Multiplying and Dividing Numbers by Powers of 10, Including Decimals and Benchmark Fractions</title>
+        <title>Multiplying and Dividing Numbers by Powers of 10.</title>
         <p>
-           Powers of <m>10</m> are numbers that represent a base of <m>10</m> raised to an exponent.  
+            Before working with powers of <m>10</m>, take a moment to review the multiplication and division facts.
+        </p>
+        <p>
+           The table below shows the relationship between multiplication and division.
+        </p>
+        <tabular top="medium">
+            <row left="medium">
+                <cell right="medium" bottom="medium">Multiplication</cell>
+                <cell right="medium" bottom="medium">Division</cell>
+                <cell right="medium" bottom="medium">Division </cell>
+            </row>
+            <row left="medium">
+                <cell right="medium"><m>6 \times 7=42</m></cell>
+                <cell right="medium"><m>42 \div 6 = 7</m></cell>
+                <cell right="medium"><m>42 \div 7 = 6</m></cell>
+                
+            </row>
+            <row left="medium">
+                <cell right="medium"><m>8 \times 9 = 72</m></cell>
+                <cell right="medium"><m>72 \div 8 = 9</m></cell>
+                <cell right="medium"><m>72 \times 9 = 8</m></cell>
+            </row>
+            <row left="medium">
+                <cell right="medium"><m>12 \times 12=144</m></cell>
+                <cell right="medium"><m>144 \div 12 = 12</m></cell>
+                <cell right="medium"><m>144 \div 12 = 12</m></cell>
+            </row>
+            <row left="medium">
+                <cell right="medium"> <m>4 \times 5=20</m></cell>
+                <cell right="medium"><m>20 \div 4 = 5</m></cell>
+                <cell right="medium"><m>20 \div 5 = 4</m></cell>
+            </row>
+            <row left="medium">
+                <cell right="medium"><m>3 \times 11 = 33</m></cell>
+                <cell right="medium"><m>33 \div 3 = 11</m></cell>
+                <cell right="medium"><m>33 \div 11 = 3</m></cell>
+            </row>
+            <row left="medium">
+                <cell right="medium"><m>9 \times 2=18</m></cell>
+                <cell right="medium" ><m>18 \div 9 = 2</m></cell>
+                <cell right="medium"><m>18 \div 2 = 9</m></cell>
+            </row>
+            <row left="medium">
+               <cell right="medium" ><m>3 \times 2 = 6</m></cell>
+               <cell right="medium"><m> 6 \div 2 = 3</m></cell>
+               <cell right="medium" ><m> 6 \div 3= 2</m></cell>
+            </row>
+            <row left="medium">
+                <cell right="medium" bottom="medium"><m>10 \times 5 = 50</m></cell>
+                <cell right="medium" bottom="medium"><m> 50 \div 5 = 10</m></cell>
+                <cell right="medium" bottom="medium"><m> 50 \div 10 = 5</m></cell>
+            </row>
+        </tabular>
+        <p>
+            <m>\textbf{Recalling decimal names of given benchmark fractions converted to decimals or percentages}</m>
+        </p>
+        <p>
+            Benchmark fractions are fractions that are easy to remember and convert to decimals or percentages.
+        </p>
+        <p>
+            The table below shows some common benchmark fractions and their decimal and percentage equivalents.
+        </p>
+        <tabular top="medium">
+            <row left="medium">
+                <cell bottom="medium" right="medium">Benchmark fractions</cell>
+                <cell bottom="medium" right="medium">Decimal representation</cell>
+                <cell bottom="medium" right="medium"> Percentage equivalents</cell>
+            </row>
+            <row left="medium">
+                <cell right="medium"><m>\frac{1}{2}</m></cell>
+                <cell right="medium"><m>1 \div 2 =0.5</m></cell>
+                <cell right="medium"><m>0.5 \times 100=50</m></cell>
+            </row>
+            <row left="medium">
+                <cell right="medium"><m>\frac{1}{4}</m></cell>
+                <cell right="medium"><m> 1 \div 4=0.25</m></cell>
+                <cell right="medium"><m> 0.25 \times 100 = 25</m></cell>
+            </row>
+            <row left="medium">
+                <cell right="medium"><m>\frac{3}{4}</m></cell>
+                <cell right="medium"><m> 3 \div 4 = 0.75</m></cell>
+                <cell right="medium"><m> 0.75 \times 100 = 75</m></cell>
+            </row>
+            <row left="medium">
+                <cell right="medium"><m>\frac{1}{10}</m></cell>
+                <cell right="medium"><m> 1 \div 10 = 0.1</m></cell>
+                <cell right="medium"><m> 0.1 \times 100 = 10</m></cell>
+            </row>
+            <row left="medium">
+                <cell right="medium"><m>\frac{1}{100}</m></cell>
+                <cell right="medium"><m>1 \div 100= 0.01</m></cell>
+                <cell right="medium"><m> 0.01 \times 100 = 1</m></cell>
+            </row>
+            <row left="medium">
+                <cell right="medium" bottom="medium"><m> \frac{1}{1000}</m></cell>
+                <cell bottom="medium" right="medium"><m>1 \div 1000 = 0.001</m></cell>
+                <cell bottom="medium" right="medium"><m>0.001 \times 100 = 0.1</m></cell>
+            </row>
+        </tabular>
+        <p>
+            Powers are fundamental in shifting the decimal point in a number.
+        </p>
+        <p>
+          <m>\bullet</m> <m> \textbf{Powers of 10 }</m> are numbers that represent a base of <m>10</m> raised to an exponent.  
         </p>
         <p>
               The exponent indicates how many times the base is multiplied by itself.
@@ -16,23 +119,314 @@
         <p>
            For example: <m>10^0 =1, 10^1=10, 10^2 =100, 10^3 = 1000 </m>.  
         </p>
+        <p>
+           <m>\bullet</m> Powers of 10 can be written in two ways:
+        </p>
+        <p>
+            <m>1.</m> With an exponent: <m>10^2</m>
+        </p>
+        <p>
+            <m>2.</m> In expanded form: <m>100</m> which equals <m>10^2</m> (Note that the number of zeros is equivalent to the
+           exponent)
+        </p>
+        <p>
+            <m>\textbf{Multiplying Numbers by Powers of 10}</m>
+        </p>
+        <p>
+            To multiply a number by a power of <m>10</m>, simply move the decimal to the right the same number of places as the
+            exponent or as the number of zeros.
+        </p>
+        <p>
+           Example: <m>32.5 \times 10^3 = 32.5 \times 1000 </m>
+        </p>
+        <p>
+            <m> = 325 \rightarrow 3250 \rightarrow 32500</m>
+        </p>
+        <p>
+            <m>= 32500</m>
+        </p>
+        <p>
+            <m>\textbf{Dividing Numbers by Powers of 10}</m>
+        </p>
+        <p>
+            To divide by a power of <m>10</m>, simply move the decimal to the left the same number of places as the
+            exponent or as the number of zeros.
+        </p>
+        <p>
+            Example: <m>0.075 \div 1000</m>
+        </p>
+        <p>
+            <m>= 0.0075 \rightarrow 0.00075 \rightarrow 0.000075</m>
+        </p>
+        <p>
+            <m>= 0.000075</m>
+        </p>
+        <p>
+           Another method to express the division of a number by a power of <m>10</m> is through the use of multiplication by the reciprocal of that power. 
+           In simpler terms, dividing by <m>100</m> is the same as multiplying by <m>\frac{1}{100}</m>, because <m>100</m> can be thought of as <m>10^2</m>, and dividing by <m>10^2</m> is equivalent to multiplying by <m>10^{−2}</m>.
+        </p>
+        <p>
+            Example:<m>0.25 \div 100= 0.25 \times \frac{1}{100} = 0.0025</m>
+        </p>
+        <p>
+            So, to multiply a number by the reciprocal of a power of <m>10</m>, you move the decimal point in the number to the left by as many places as there are zeros in that power of <m>10</m>.
+        </p>
+        <p>
+            
+        </p>
+
+        
         
         <activity>
             <statement>
                 <p>
                     
                 </p>
+                <p>
+                  1. Working in groups of <m>3</m>, each group to act as a small business in a market, selling <m>3</m> imaginary items. 
+
+                </p>
+                <p>
+                  2. Write on a piece of paper the <m>3</m> imaginary items .Example: a bottle of juice, a pen, and a toy.
+                </p>
+                <p>
+                    3. Choose three decimal prices for the products you are selling and record it as base prices.
+                </p>
+                <p>
+                    Example: a bottle of juice for <m>1.251</m>, a pen for <m>0.7534</m>, and a toy for <m>10.50</m>.
+                </p>
+                <p>
+                    4. Using a chart like the one below, multiply and divide the product prices by: <m>10,100,1000, \frac{1}{10}, \frac{1}{100}</m>
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                <m>10</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>100</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>1000</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\frac{1}{10}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\frac{1}{100}</m>
+                            </p>
+                        </li>
+                    </ul>    
+                </p>
+                <tabular top="medium" >
+                    <row left="medium" >
+                        <cell bottom="medium" right="medium">Item</cell>
+                        <cell bottom="medium" right="medium">Base Price</cell>
+                        <cell bottom="medium" right="medium">Base Price <m>\times 10</m></cell>
+                        <cell bottom="medium" right="medium">Base Price <m>\times 100</m></cell>
+                        <cell bottom="medium" right="medium">Base Price <m>\times 1000</m></cell>
+                        <cell bottom="medium" right="medium">Base Price <m>\times \frac{1}{10}</m></cell>
+                        <cell right="medium" bottom="medium">Base Price <m>\times \frac{1}{100}</m></cell>
+                    </row>
+                    <row left="medium">
+                        <cell  right="medium">Juice</cell>
+                        <cell right="medium"><m>1.251</m></cell>
+                        <cell right="medium"><m>12.51</m></cell>
+                        <cell right="medium"><m>125.1</m></cell>
+                        <cell right="medium"><m>1251</m></cell>
+                        <cell right="medium"><m>0.1251</m></cell>
+                        <cell right="medium" ><m>0.01251</m></cell>
+                    </row>
+                    <row left="medium">
+                        <cell  right="medium">Pen</cell>
+                        <cell right="medium"><m>0.7534</m></cell>
+                        <cell right="medium"><m>7.534</m></cell>
+                        <cell right="medium"><m>75.34</m></cell>
+                        <cell right="medium"><m>753.4</m></cell>
+                        <cell right="medium"><m>0.07534</m></cell>
+                        <cell right="medium"><m>0.007534</m></cell>
+                    </row>
+                    <row left="medium">
+                        <cell bottom="medium" right="medium">Toy</cell>
+                        <cell right="medium" bottom="medium"><m>10.50</m></cell>
+                        <cell right="medium" bottom="medium"><m>1050</m></cell>
+                        <cell right="medium" bottom="medium"><m>10500</m></cell>
+                        <cell right="medium" bottom="medium"><m>105000</m></cell>
+                        <cell right="medium" bottom="medium"><m>1.050</m></cell>
+                        <cell right="medium" bottom="medium"><m>0.1050</m></cell>
+                    </row>
+                </tabular>
             </statement>
         </activity>
         <example>
             <statement>
                 <p>
-                    
+                  Multiply and divide the following decimal numbers by <m>10,100</m>  and <m>1000</m>.
+                </p>
+                <p>
+                <ol marker="a)"> 
+                    <li>
+                        <p>
+                           <m>1025.2 </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>15.678</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>109.421</m>
+                        </p>
+                    </li>
+                </ol>
                 </p>
             </statement>
             <solution>
                 <p>
+                  Whe performing multiplication of decimal numbers by <m>10,100</m> and <m>1000</m>, the decimal point is moved to the right by as many places as there are zeros in the power of <m>10</m>.  
+                </p>
+                <p>
+                    Therefore, 
+                </p>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                <m>1025.2 \times 10 = 10252</m>
+                            </p>
+                            <p>
+                                <m>1025.2 \times 100 = 102520</m>
+                            </p>
+                            <p>
+                                <m>1025.2 \times 1000 = 1025200</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>15.678 \times 10 = 156.78</m>
+                            </p>
+                            <p>
+                                <m>15.678 \times 100 = 1567.8</m>
+                            </p>
+                            <p>
+                                <m>15.678 \times 1000 = 15678</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>109.421 \times 10 = 1094.21</m>
+                            </p>
+                            <p>
+                                <m>109.421 \times 100 = 10942.1</m>
+                            </p>
+                            <p>
+                                <m>109.421 \times 1000 = 109421</m>
+                            </p>
+                        </li>
+                    </ol>
                     
+                </p>
+                <p>
+                    To perform division of decimal numbers by <m>10,100</m> and <m>1000</m>, the decimal point is moved to the left by as many places as there are zeros in the power of <m>10</m>.
+                </p>
+                <p>
+                    Hence,
+                </p>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                <m>1025.2 \div 10 = 102.52</m>
+                            </p>
+                            <p>
+                                <m>1025.2 \div 100 = 10.252</m>
+                            </p>
+                            <p>
+                                <m>1025.2 \div 1000 = 1.0252</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>15.678 \div 10 = 1.5678</m>
+                            </p>
+                            <p>
+                                <m>15.678 \div 100 = 0.15678</m>
+                            </p>
+                            <p>
+                                <m>15.678 \div 1000 = 0.015678</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>109.421 \div 10 = 10.9421</m>
+                            </p>
+                            <p>
+                                <m>109.421 \div 100 = 1.09421</m>
+                            </p>
+                            <p>
+                                <m>109.421 \div 1000 = 0.109421</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Multiply <m>32.56</m> by <m>\frac{1}{10}, \frac{1}{100}</m> and <m>\frac{1}{1000}</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    To multiply <m>32.56</m> by <m>\frac{1}{10}</m>, we can divide <m>32.56</m> by <m>10</m>.
+                </p>
+                <p>
+                    <m>32.56 \times \frac{1}{10} = 32.56 \div 10 </m>
+                </p>
+                <p>
+                    Since we are dividing by <m>10</m> which has one zero
+                     , we move the decimal point in <m>32.56</m> one place to the left.
+                </p>
+                <p>
+                    <m>= 3.256</m>
+                </p>
+                <p>
+                    To multiply <m>32.56</m> by <m>\frac{1}{100}</m>, we can divide <m>32.56</m> by <m>100</m>.
+                </p>
+                <p>
+                    <m>32.56 \times \frac{1}{100} = 32.56 \div 100</m>
+                </p>
+                <p>
+                    Since we are dividing by <m>100</m>, which has two zeros,
+                     we move the decimal point in <m>32.56</m> two places to the left.
+                </p>
+                <p>
+                    <m>= 0.3256</m>
+                </p>
+                <p>
+                    To multiply <m>32.56</m> by <m>\frac{1}{1000}</m>, we can divide <m>32.56</m> by <m>1000</m>.
+                </p>
+                <p>
+                    <m>32.56 \times \frac{1}{1000} = 32.56 \div 1000</m>
+                </p>
+                <p>
+                    We are dividing by <m>1000</m>, which has three zeros.
+                    Therefore, we move the decimal point in <m>32.56</m> three places to the left.
+                </p>
+                <p>
+                    <m>= 0.03256</m>
                 </p>
             </solution>
         </example>
@@ -48,67 +442,378 @@
     <subsubsection xml:id="subsubsec-using-mental-math-strategies-and-number-properties-to-perform-calculations">
         <title>Using Mental Math Strategies and Number Properties to Perform Calculations</title>
         <p>
-            
+          <m>\textbf{Doubling and Halving}</m>  
         </p>
+        <p>
+           <m>\bullet</m> Doubling is a multiplication strategy where you essentially multiply a number by <m>2</m> while Halving is a division strategy where you divide a number by <m>2</m>.
+        </p>
+        <p>
+            Example:
+        </p>
+        <p>
+            Doubling <m>16= 16 \times 2</m>
+        </p>
+        <p>
+            Halving <m>16= 16 \div 2</m>
+        </p>
+        <p>
+            <m>\bullet</m> Halving and doubling is used when a problem has one even and one odd factor (or two even factors).  It does not work with <m>2</m> odd factors because you can not break an odd number in half and still get a whole number.
+        </p>
+        <p>
+            <m>\bullet</m> Given an odd and even number to multiply,  double the odd factor and halve the even factor. You can halve the number until you get two factors which can be multiplied mentally.
+        </p>
+        <p>
+            Example: <m>16 \times 3</m>
+        </p>
+        <p>
+            Here, we double <m>3</m> and halve <m>16</m>
+        </p>
+        <p>
+            <m>16 \times 3 = 8 \times(3 \times 2) = 8 \times 6 = 48</m>
+        </p>
+        <p>
+            Hence, <m>8 \times 6 = 48</m>
+        </p>
+        <p>
+            <m>\textbf{Using the Distributive Property}</m>
+        </p>
+        <p>
+            The distributive property states that a(b+c) = ab + ac. This means that you can break a number into smaller parts to make it easier to multiply.
+        </p>
+        <p>
+            Example: Given <m>12 \times 5</m>
+        </p>
+        <p>
+            Applying the distributive property: <m>12 \times 5</m> = <m>(10+2) \times 5 </m>
+        </p>
+        <p>
+            <m>= 10 \times 5 + 2 \times 5</m>
+        </p>
+        <p>
+            Calculating the two products: <m>10 \times 5 + 10 \times 2 = 50 +10</m>
+        </p>
+        <p>
+            <m>= 60</m>
+        </p>
+
         <activity>
             <statement>
                 <p>
                     
+                </p>
+                <p>
+                    <ol marker="1">
+                        <li>
+                            <p>
+                                In groups, choose two multiplication problems. Example: <m>18 \times 5</m> and <m>12 \times 3</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Solve the two multiplication problems using both halving and doubling, and the distributive property.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Use distributive property to solve:
+                            </p>
+                            <p>
+                                <ol marker="i)">
+                                    <li>
+                                        <p>
+                                            <m>7 \times 15</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>18 \times 6</m>
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Calculate the following expressions using the distributive property:
+                            </p>
+                            <p>
+                                <ol marker="i)">
+                                    <li>
+                                        <p>
+                                            <m>28\times 5</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>125 \times 4</m>
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Discuss your work with your fellow learners.
+                            </p>
+                        </li>
+                        
+                    </ol>
                 </p>
             </statement>
         </activity>
         <example>
             <statement>
                 <p>
-                    
+                   Use doubling and halving to solve <m>25 \times 16.</m> 
                 </p>
             </statement>
             <solution>
                 <p>
-                    
+                   Let us halve <m>16</m> and double <m>25 </m>:
+                </p>
+                <p>
+                    Halve <m>16: 16 \div 2 = 8</m>
+                </p>
+                <p>
+                    Double <m>25: 25 \times 2 = 50</m>
+                </p>
+                <p>
+                    Hence, <m>25 \times 16 = 50 \times 8</m>
+                </p>
+                <p>
+                    <m>= 400</m>
                 </p>
             </solution>
         </example>
         <exercise>
             <statement>
                 <p>
-                    
+                  Calculate <m>9 \times 16</m>  by applying distributive property.
                 </p>
             </statement>
+            <solution>
+                <p>
+                    First we breakdown <m>16</m> into <m>10 + 6</m>:
+                </p>
+                <p>
+                    The re-write the expression: <m>9 \times (10 + 6)</m>
+                </p>
+                <p>
+                    Multily <m>9</m> by both <m>10</m> and <m>6</m>:
+                </p>
+                <p>
+                    <m>9 \times 10 + 9 \times 6</m>
+                </p>
+                <p>
+                    Calculating the two products:
+                </p>
+                <p>
+                    <m>9 \times 10 = 90</m>
+                </p>
+                <p>
+                    <m>9 \times 6 = 54</m>
+                </p>
+                <p>
+                    Adding the products we have:
+                </p>
+                <p>
+                    <m>90 + 54 = 144</m>
+                </p>    
+            </solution>
         </exercise>
         
     </subsubsection>
     <subsubsection xml:id="subsubsec-applying-mental-math-strategies-to-solve-real-world-problems">
         <title>Applying Mental Math Strategies to Solve Real-World Problems</title>
         <p>
-            
+            To effectively use mental math to solve word problems: 
+
         </p>
+        <p>
+            <ol marker="i)">
+                <li>
+                    <p>
+                        Read the problem carefully and identify the unknown.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Translate the words into mathematical symbols.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Apply appropriate mental math strategies like breaking down numbers.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Check your answer to ensure it makes sense in the context of the problem.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p><m>\textbf{Mental Strategy Keywords by Operation}</m></p>
+        <tabular top="medium">
+            <row left="medium">
+                <cell bottom="medium" right="medium">Operation</cell>
+                <cell bottom="medium" right="medium">Common Keywords</cell>
+            </row>
+            <row left="medium">
+                <cell right="medium" bottom="medium">Addition</cell>
+                 <cell right="medium" bottom="medium">plus, add, calculate the sum, increase a number by, find the total</cell>
+            </row>
+            <row left="medium">
+                <cell right="medium" bottom="medium">Subtraction</cell>
+                 <cell right="medium" bottom="medium">minus, take away, subtract from, find the difference, what must be added to make</cell>
+            </row>
+            <row left="medium">
+                <cell right="medium" bottom="medium">Multiplication</cell>
+                 <cell right="medium" bottom="medium">times, multiply, find the product, square, what must be divided by to give</cell>
+            </row>
+            <row left="medium">
+                <cell right="medium" bottom="medium">Division</cell>
+                 <cell right="medium" bottom="medium">divide, share, how many times does it go into, quotient, what must be multiplied</cell>
+            </row>
+        </tabular>
         <activity>
             <statement>
                 <p>
                     
+                </p>
+                <p>
+                    Working in pairs, solve the following problems using mental math strategies.
+                </p>
+                <p>
+                  1. Ama bought <m>3</m> pens at ₵<m>2.50</m> each. What was the total cost? 
+                </p>
+                <p>
+                    a). Read the problem carefully and identify the unknown.
+                </p>
+                <p>
+                    b). Translate the words into mathematical symbols.
+                </p>
+                <p>
+                    c). What operation will you use to solve the problem?
+                </p>
+                <p>
+                   2. What must Serwa add to <m>19</m> to make <m>25?</m>
+                </p>
+                <p>
+                  3. Adzo is a teacher preparing for a mathematics class with <m>48</m> pieces of graph papers. 
+                     She want to distribute an equal number of graph papers to each of her <m>8</m> students. How many pieces of graph papers will each student receive?
+
+                </p>
+                <p>
+                    4. Discuss your work with your fellow learners.
                 </p>
             </statement>
         </activity>
         <example>
             <statement>
                 <p>
-                    
+                   Afia had ₵ <m>75</m>. She increased her money by ₵<m>28</m> after selling some plantain. Later, she bought groceries for ₵<m>39</m>.
+                    What is the total amount Afia was left with? 
                 </p>
             </statement>
             <solution>
                 <p>
-                    
+                    Initial amount Afia had <m> =</m> ₵<m>75</m>
+                </p>
+                <p>
+                    Afia increased her money by ₵<m>28</m> after selling some plantain meaning she added ₵<m>28</m> to her initial amount:
+                </p>
+                <p>
+                    ₵<m>75 + </m>₵<m>28</m>
+                </p>
+                <p>
+                    Lets break it down:₵<m>75 +</m> ₵<m>28 = </m>₵<m>75 + </m>₵<m>25 +</m> ₵<m>3 </m>
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{₵}75 + \text{₵}25 =\amp \text{₵}100 </mrow>
+                        <mrow>\text{₵}100 + \text{₵}3 =\amp \text{₵}103</mrow>
+                    </md>
+                </p>
+                <p>
+                    Hence the total amount of money Afia has is ₵<m>103</m>
+                </p>
+                <p>
+                    To get the total amount Afia was left with, we minus ₵<m>39</m> from ₵<m>103</m>.i.e  ₵<m>103 - </m>₵<m>39 </m>.
+                </p>
+                <p>
+                    Applying mental strategies: ₵<m>103 -</m> ₵<m>39 \rightarrow </m>₵<m>103 - </m>₵<m>40</m>.
+                </p>
+                <p>
+                   Then add ₵<m>1</m> back: ₵<m>65 + 1 = </m>₵<m>64</m>
+                </p>
+                <p>
+                    Since the difference between ₵<m>103</m> and  ₵<m>39</m> is <m>=</m>₵<m>64</m>, it means that Afia was left with ₵<m>64</m> after buying groceries.
+                </p>
+
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                   A farmer harvested <m>24</m> boxes of tomatoes, with each box containing <m>36</m> tomatoes.
+                </p>
+                <p>
+                    He distributed the total number of tomatoes equally among <m>6</m> markets.
+                </p>
+                <p>
+                   1. Find the product of the number of boxes and the number of tomatoes per box.
+                </p>
+                <p>
+                  2. How many tomatoes did each market receive?
+                  
+                </p>
+            </statement>
+            <solution>
+                <p>
+                  1. First, we find the product of boxes and tomatoes per box: 
+                </p>
+                <p>
+                    <m>24 \times 36</m>
+                </p>
+                <p>
+                    Next, we break <m>24 \times 36</m> down using distributive property:
+                </p>
+                <p>
+                    <m>24 \times (30 + 6)</m>
+                </p>
+                <p>
+                    <m>= (24 \times 30) + (24 \times 6)</m>
+                </p>
+                <p>
+                    <m>= 720 + 144 = 864 </m> tomatoes.
+                </p>
+                <p>
+                    2. Share <m>864</m> tomatoes among <m>6</m> markets
+                </p>
+                <p>
+                    Mathematically expressed as <m>864 \div 6</m>
+                </p>
+                <p>
+                    Breaking <m>864 \div 6</m> down we have: <m>(600+240+24) \div 6</m>
+                </p>
+                <p>
+                    <m>600 \div 6 = 100</m>
+                </p>
+                <p>
+                    <m>240 \div 6 = 40</m>
+                </p>
+                <p>
+                    <m>24 \div 6 = 4</m>
+                </p>
+                <p>
+                  Adding them we have: <m>100 + 40 + 4 = 144</m>
+                </p>
+                <p>
+                    Therefore, each market received <m>144</m> tomatoes
                 </p>
             </solution>
         </example>
-        <exercise>
-            <statement>
-                <p>
-                    
-                </p>
-            </statement>
-        </exercise>
         
     </subsubsection>
 </subsection>
