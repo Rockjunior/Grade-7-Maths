@@ -1,0 +1,70 @@
+<subsection xml:id="subsec-divisibility-test-for-5">
+        <title>Divisibility test for 5</title>
+        <p>
+            A number is divisible by <m>5</m> if the digit in the ones place value is <m>5</m> or zero.
+        </p>
+        <activity>
+            <statement>
+                <p>
+                    
+                </p>
+                <p>
+                1. Working in groups of 5, think of numbers between <m>50</m> and <m>200</m> and select five numbers from the range .
+                </p>
+                <p>
+                    2. Check which of your selected numbers are divisible by <m>5</m> and write them down.
+                </p>
+                <p>
+                    3. Look at the last digits of the numbers that are divisible by <m>5</m>.
+                </p>
+                <p>
+                    4. What do you notice?
+                </p>
+                <p>
+                   5. Present your observation to the class.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Which of the following numbers are divisible by <m>5</m>?
+                </p>
+                <p>
+                    <ol marker="a)" cols="4">
+                        <li>
+                            <p>
+                                <m>18\,765</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>901\,070</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>135\,932</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>420\,520</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    To identify the numbers divisible by <m>5</m>:
+                </p>
+                <p>
+                    Check the numbers whose digits in the ones place value is either <m>5</m> or <m>0</m>.
+                </p>
+                <p>
+                    <m>18\,765</m>, <m>901\,070</m>, <m>420\,520</m> are divisible by <m>5</m> since the digits in the ones place value is either <m>5</m> or zero.
+                </p>
+            </solution>
+        </example>
+    </subsection>

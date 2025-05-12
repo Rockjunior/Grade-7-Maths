@@ -1,0 +1,267 @@
+<subsection xml:id="subsec-line-graphs">
+        <title>Line graphs of data</title>
+        <p>
+            Line graph of data is a visual representation of data where individual data points are connected by straight lines, showing how a variable changes over time or across a continuous scale, typically with the horizontal axis representing time and the vertical axis representing the measured values.
+        </p>
+        <p>
+            It is used to identify trends and patterns in data over a period of time.
+        </p>
+        <activity>
+            <p>
+                <m>{\color{black} \textbf{Work in groups}}</m>
+            </p>
+            <p>
+            <ol>
+                <li>
+                    <p>
+                        Consider the table shown on the amount of recorded rainfall in a place for a period of six months.
+                    </p>
+                    <table>
+                        <title>Amount of Rainfall for a period of six months</title>
+                        <tabular left="medium" right="medium" top="medium" bottom="medium" >
+                            <row halign="left" header="yes">
+                                <cell>Month</cell>
+                                <cell>Jan.</cell>
+                                <cell>Feb.</cell>
+                                <cell>March.</cell>
+                                <cell>April.</cell>
+                                <cell>May.</cell>
+                                <cell>June.</cell>
+                            </row>
+                            <row>
+                                <cell>Amount of Rainfall(mm)</cell>
+                                <cell>50</cell>
+                                <cell>70</cell>
+                                <cell>80</cell>
+                                <cell>150</cell>
+                                <cell>140</cell>
+                                <cell>110</cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </li>
+                <li>
+                    <p>
+                        Represent the information on a line graph.
+                    </p>
+                </li>
+                 <li>
+                    <p>
+                        Share and discuss with other groups.
+                    </p>
+                </li>
+            </ol>
+            </p>
+        </activity>
+        <p>
+            <m>{\color{black} \textbf{Key Takeaway}}</m>
+        </p>
+        <p>
+        <ul>
+            <li>
+                <p>
+                    In line graphs, points are connected with straight lines to represent changes in values over a period of time.
+                </p>
+            </li>
+        </ul>
+        </p>
+        <example>
+          <statement>
+            <p>
+                The table shown represents the sale of motorcycles by a company from the month of June to December 2021
+            </p>
+            <table>
+                <title></title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="left" header="yes">
+                        <cell>Month</cell>
+                        <cell>June</cell>
+                        <cell>July</cell>
+                        <cell>Aug.</cell>
+                        <cell>Sept.</cell>
+                        <cell>Oct.</cell>
+                        <cell>Nov</cell>
+                        <cell>Dec.</cell>
+                    </row>
+                    <row>
+                        <cell>No. of motocycles</cell>
+                        <cell>10</cell>
+                        <cell>40</cell>
+                        <cell>30</cell>
+                        <cell>20</cell>
+                        <cell>30</cell>
+                        <cell>40</cell>
+                        <cell>50</cell>
+                    </row>
+                </tabular>
+            </table>
+            <p>
+                Draw a line graph to represent the information
+            </p>
+          </statement>
+            <solution>
+                <p>
+                    Scale 1 cm represents 10 motorcycles.
+                </p>
+                <image>
+                <latex-image>
+                    \begin{tikzpicture}
+                        \begin{axis}[
+                           xlabel={Month},
+                           ylabel={Number of Motocycles},
+                           xtick=data,
+                           xticklabels={June, July, Aug, Sept, Oct, Nov, Dec},
+                           ymin=0, ymax=60,
+                           xmin=1, xmax=8,
+                           grid=both,
+                           ytick={0, 10, 20, 30, 40, 50, 60}, 
+                           grid=both,
+                           mark options={solid}
+                        ]
+
+                        \addplot[
+                           color=blue,
+                           mark=square*,
+                           thick
+                        ] coordinates {
+                           (1,10)
+                           (2,40)
+                           (3,30)
+                           (4,20)
+                           (5,30)
+                           (6,40)
+                           (7,50)
+                        };
+                        \end{axis}
+                    \end{tikzpicture}
+                </latex-image>
+                </image>
+            </solution>
+        </example>
+        <example>
+          <statement>
+            <p>
+                The table below shows recorded average temperature of a place in a week.
+            </p>
+            <table>
+                <title>Average temperature in a week</title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="center" header="yes">
+                        <cell>Day</cell>
+                        <cell>Mon</cell>
+                        <cell>Tue</cell>
+                        <cell>Wed</cell>
+                        <cell>Thur</cell>
+                        <cell>Fri</cell>
+                        <cell>Sat</cell>
+                        <cell>Sun</cell>
+                    </row>
+                    <row halign="center" header="yes">
+                        <cell>Average temperature</cell>
+                        <cell><m>16.5^\circ C</m></cell>
+                        <cell><m>15^\circ C</m></cell>
+                        <cell><m>17^\circ C</m></cell>
+                        <cell><m>18^\circ C</m></cell>
+                        <cell><m>20^\circ C</m></cell>
+                        <cell><m>15.5^\circ C</m></cell>
+                        <cell><m>14^\circ C</m></cell>
+                    </row>
+                </tabular>
+            </table>
+          </statement>
+            <solution>
+                <p>
+                    Scale 1 cm represents <m>5^\circ C</m>
+                </p>
+                <image>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \begin{axis}[
+                               xlabel={Month},
+                               ylabel={Average Temperature in ℃ },
+                               xtick=data,
+                               xticklabels={Mon, Tue, Wed, Thur, Fri, Sat, Sun},
+                               ymin=0, ymax=60,
+                               xmin=1, xmax=8,
+                               grid=both,
+                               ytick={0, 5, 10, 15, 20, 25, 30}, 
+                               grid=both,
+                               mark options={solid}
+                            ]
+
+                            \addplot[
+                               color=blue,
+                               mark=square*,
+                               thick
+                            ] coordinates {
+                               (1,16.5)
+                               (2,15)
+                               (3,17)
+                               (4,18)
+                               (5,20)
+                               (6,15.5)
+                               (7,14)
+                            };
+                            \end{axis}
+                        \end{tikzpicture}
+                    </latex-image>
+                    
+                </image>
+               
+            </solution>
+        </example>
+        <example>
+            <p>
+                A Learner measured changes in the length of a flag post's shadow at different times. She recorded the lengths as shown. Below is a representation of the line graph
+            </p>
+            <table>
+                <title>Time vs Lengths in metres</title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row>
+                        <cell>Time</cell>
+                        <cell>7:00 a.m</cell>
+                        <cell>9:00 a.m</cell>
+                        <cell>11:00 a.m</cell>
+                        <cell>1:00 p.m</cell>
+                    </row>
+                    <row>
+                        <cell>Lengths in metres</cell>
+                        <cell>6 m</cell>
+                        <cell>4 m</cell>
+                        <cell>2 m</cell>
+                        <cell>0 m</cell>
+                    </row>
+                </tabular>
+            </table>
+            <image>
+                <latex-image>
+                    \begin{tikzpicture}
+                        % Axes
+                        \draw[->] (0,0) -- (8,0) node[right] {Time};
+                        \draw[->] (0,0) -- (0,7) node[above] {Length (m)};
+
+                        % X-axis labels
+                        \node at (1, -0.3) {7:00 a.m};
+                        \node at (3, -0.3) {9:00 a.m};
+                        \node at (5, -0.3) {11:00 a.m};
+                        \node at (7, -0.3) {1:00 p.m};
+
+                        % Y-axis labels
+                        \foreach \y in {0,1,2,3,4,5,6} {
+                            \node at (-0.3, \y) {\y};
+                        }
+
+                        % Plot points
+                        \filldraw (1,6) circle (2pt) node[above] {};
+                        \filldraw (3,4) circle (2pt) node[above] {};
+                        \filldraw (5,2) circle (2pt) node[above] {};
+                        \filldraw (7,0) circle (2pt) node[below right] {};
+
+                        % Connect points
+                        \draw[thick, blue] (1,6) -- (3,4) -- (5,2) -- (7,0);
+                    \end{tikzpicture}
+                </latex-image>
+                
+            </image>
+        </example>
+    </subsection>

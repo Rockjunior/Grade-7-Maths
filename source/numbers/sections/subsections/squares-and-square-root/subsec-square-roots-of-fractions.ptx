@@ -19,7 +19,7 @@
                     Draw the following grids as shown below.
                 </p>
                 <sidebyside widths="25% 25% 25%"> 
-                    <figure xml:id="2-by-2-fraction-square">
+                    <figure xml:id="f-2-by-2-fraction-square">
                         <caption>Grid 1</caption>
                         <image> 
                             <shortdescription>
@@ -34,7 +34,7 @@
                             </latex-image>
                         </image> 
                     </figure>
-                    <figure xml:id="4-by-fraction-square">
+                    <figure xml:id="f-4-by-fraction-square">
                         <caption>Grid 2</caption>
                         <image> 
                             <shortdescription>
@@ -49,7 +49,7 @@
                             </latex-image>
                         </image> 
                     </figure>
-                    <figure xml:id="3-by-3-fraction-square">
+                    <figure xml:id="f-3-by-3-fraction-square">
                         <caption>Grid 3</caption>
                         <image>
                             <shortdescription>

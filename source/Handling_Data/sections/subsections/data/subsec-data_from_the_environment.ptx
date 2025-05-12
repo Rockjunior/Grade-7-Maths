@@ -1,0 +1,71 @@
+  <subsection xml:id="subsec-data_from_the_environment">
+    <title>Data from the Environment</title>
+       <p>
+           Data is a collection of facts such as numbers and measurements that we learn, make decisions or solve problems.
+       </p> 
+        <p>
+            An example of data in a classroom could be the information on finding out how many pens each group in the classroom has. Here is the data we collected: 
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Group Names: Group 1, Group 2, Group 3
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Number of Pens:
+                    </p>
+                </li>
+            </ol>
+            <ul>
+                <li>
+                    <p>
+                        Group 1: 5 pens
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Group 2: 8 pens
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Group 3: 7 pens
+                    </p>
+                </li>
+            </ul>
+        </p>
+        
+        <p>
+            This information is considered data because counting pens helps us manage and organize our resources effectively. For instance, if one group needs more pens, we can identify which group has extra pens to share.
+            You could use this data to figure out things like:
+            <ul>
+                <li>Which group has the most pens?</li>
+                <li>How many pens are there in total?</li>
+                <li>What is the average number of pens per group?</li>   
+            </ul>
+        </p>
+    <activity> 
+        <p>
+            <m>{\color{black} \textbf{Work in groups}}</m>
+        </p>
+        <p>
+            <ol marker="a">
+                <li>
+                    <p>
+                        Walk around the school and record 5 things you can count (e.g., number of desks, types of plants).
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Visit a market or home and observe 5 items you can count or classify (e.g., fruits, colors of clothes).
+                    </p>
+                </li>
+            </ol>
+        </p>
+
+    </activity>
+
+  </subsection>

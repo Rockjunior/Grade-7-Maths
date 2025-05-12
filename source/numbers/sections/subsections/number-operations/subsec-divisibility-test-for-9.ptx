@@ -1,0 +1,117 @@
+ <subsection xml:id="subsec-Divisibility-test-for-9">
+    <title>Divisibility test for 9</title>
+    <p>
+        A number is divisible by <m>9</m> if the sum of the digits in the number is divisible by <m>9.</m>
+    </p>
+   
+        <exploration>
+        <p>
+            
+        </p>
+        <p>
+            Here is an example on how to find out if <m>243</m>  and <m>154</m> are divisible by <m>9</m>:
+        </p>
+          <p>
+            <m>243 \rightarrow 2 + 4 + 3 = 9 \rightarrow 9 </m>  is divisible by <m> 9 </m> , so <m> 243</m>  is divisible by <m>9</m>.
+          </p>
+        </exploration>
+            
+    <p>
+        <m>154 \rightarrow 1 + 5 + 4 = 10 \rightarrow 10 </m>  is not divisible by <m> 9 </m> , so <m> 154</m>  is not divisible by <m>9</m>.
+    </p>
+    <activity>
+        <statement>
+            <p>
+            
+            </p>
+            <p>
+               1. Working in groups of <m>10</m>, each learner to form a 3 digit number using numbers from <m>1-9</m>.                 
+            </p>
+            <p>
+               2. Each student to write down their 3-digit number on a piece of paper.
+            </p>
+            <p>
+                3. Outside the classroom, each group members to line up holding their numbers in the air for everyone to see.
+            </p>
+            <p>
+                4. Play the shooting game where the first person in the line "shoots" (points) at everyone in positions that are multiples of 2 (e.g., 2nd, 4th, 6th,...).
+            </p>
+            <p>
+                5. Check if the numbers from the students who were shot(were in positions which are multiples of 2) are divisible by 9.   
+            </p>
+            <p>
+                6. Repeat the shooting game but here, the second person in the line shoots everyone in odd positions ( e.g., 1st, 3rd, 5th,...).
+            </p>
+            <p>
+                7. Check if the numbers obtained from the students in odd positions are divisible by 9.
+            </p>
+            <p>
+                8. Write down all numbers divisible by 9 from both rounds. Share your results with other groups.
+            </p>
+            <p>
+                9. Discuss what you realized about the numbers divisible by 9. Were there patterns in the results?
+            </p>
+        </statement>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Which of the following numbers are divisible by 9?
+            </p>
+            <p>
+                <m>14\,578</m>, <m>68\,373</m>, <m>103\,689</m>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>14\,578</m>
+                        </p>
+                        <p>
+                            <m>1+4+5+7+8=25</m>
+                        </p>
+                        <p>
+                            <m>25 \div 9 = 2 \text{ remainder } 7</m>
+                        </p>
+                        <p>
+                            <m>14\,578</m> is not divisible by <m>9</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>68\,373</m>
+                        </p>
+                        <p>
+                            <m>6+8+3+7+3=27</m>
+                        </p>
+                        <p>
+                            <m>27 \div 9 = 3 </m>
+                        </p>
+                        <p>
+                            <m>68\,373</m> is divisible by <m>9</m>
+                        </p>
+                    </li>
+                    <li>
+                            <p>
+                            <m>103\,689</m>
+                        </p>
+                        <p>
+                            <m>1+0+3+6+8+9=27</m>
+                        </p>
+                        <p>
+                            <m>27 \div 9 = 3 </m>
+                        </p>
+                        <p>
+                            <m>103\,689</m> is divisible by <m>9</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                <m>68\,373</m> and <m>103\,689</m> are divisible <m>9</m> because the sum of the digits in each number is divisible by <m>9</m>
+            </p>
+        </solution>
+    </example>
+</subsection>

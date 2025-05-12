@@ -1,0 +1,137 @@
+<subsection xml:id="subsec-Divisibility-test-for-2">
+    <title>Divisibility test for 2</title>
+    <p>
+        A number is divisible by <m>2</m> if the digit in the ones place value is an even number or zero.
+    </p>
+    <!-- <activity>
+        <statement>
+            <p>
+            
+            </p>
+            <p>
+                1. Working in groups of <m>10</m> members, write numbers from <m>0</m> to <m>9</m> each on a piece of paper.
+            </p>
+            <p>
+                2. Pick random digits to form <m>5</m> digit numbers.   
+            </p>
+            <p>
+                3. Divide each number by <m>2</m>.
+            </p>
+            <p>
+                4. What do you notice about numbers divisible by <m>2</m>?
+            </p>
+            <p>
+                5. Discuss how to test if a number is divisible by <m>2</m>.
+            </p>
+        </statement>
+    </activity> -->
+    <activity>
+        <introduction>
+            <p>
+                <alert>Work in groups</alert>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Form groups of <m>10</m> learners. Each learner should write down a number between <m>500</m> and <m>5000</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Identify which of the numbers have an <alert>even number</alert>  as their last digit.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Identify which of the numbers end with a zero.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Find out which numbers are divisible by <m>2.</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Share your findings with the rest of the class.
+                </p>
+            </statement>
+        </task>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Which of the following numbers are divisible by <m>2</m>?
+            </p>
+            <p>
+                <m>34\,436, 78\,135, 23\,521, 56\,490</m>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                To identify if a number is divisible by <m>2</m>, 
+                we check if its last digit (the digit in the ones place) is either <m>0</m> or an even number <m>(2, 4, 6, 8)</m>.
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>34\,436</m>
+                        </p>
+                        <p>
+                            The last digit of <m>34\,43{\color{red}6}</m> is <m>6</m>, which is an even number.
+                        </p>
+                        <p>
+                            Therefore, <m>34\,436</m> is divisible by <m>2.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>78\,135</m>
+                        </p>
+                        <p>
+                            The last digit of <m>78\,13{\color{red}5}</m> is <m>5</m>, which is an odd number.
+                        </p>
+                        <p>
+                            Therefore, <m>78\,135</m> is not divisible by <m>2.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>23\,521</m>
+                        </p>
+                        <p>
+                            The last digit of <m>23\,52{\color{red}1}</m> is <m>1</m>, which is an odd number.
+                        </p>
+                        <p>
+                            Therefore, <m>23\,521</m> is not divisible by <m>2.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>56\,490</m>
+                        </p>
+                        <p>
+                            The last digit of <m>56\,49{\color{red}0}</m> is <m>0</m>
+                        </p>
+                        <p>
+                            Therefore, <m>56\,490</m> is divisible by <m>2.</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                Hence, <m>34\,436, 56\,490</m> are divisible by <m>2</m>. 
+            </p>
+        </solution>
+    </example> 
+</subsection>

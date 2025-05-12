@@ -1,0 +1,432 @@
+<subsection xml:id="subsec-area-of-a-parallelogram-and-rhombus">
+    <title>Area of a parallelogram and rhombus</title>
+    <p>
+       <m>\textbf{Area of a parallelogram}</m> 
+    </p>
+    <p>
+        <ul>
+          <li>
+            <p>
+              Rectangle is a type of parallelogram where all the angles are 90°
+            </p>
+          </li>
+          <li>
+            <p>
+              All rectangles are parallelograms, but not all parallelograms are rectangles.
+            </p>
+          </li>
+        </ul>
+    </p>
+    <p>
+    <md>
+        <mrow>\text{Area of a parallelogram} = \amp \text{base} \times \text{height}</mrow>
+        <mrow>= \amp bh </mrow>
+    </md>
+    </p>
+    <p>
+    The figure below shows a parallelogram with base and height labeled. 
+    </p>
+    <image width="40%">
+    <latex-image label="Parr1">
+    \begin{tikzpicture}
+        \draw [very thick,fill=yellow](2,4) coordinate (D)-- (0,0) coordinate (A)-- (6,0) coordinate (B);
+        \draw [very thick,fill=yellow](6,0) coordinate (B)-- (8,4) coordinate (C)-- (2,4) coordinate (D);
+        \node at (3,2){height(h)};
+        \node at (3,-0.5){base(b)};
+        \draw [dashed] (2,4) --(2,0);
+        \draw(2,0) coordinate (A)-- (2,0.5) coordinate (B)-- (2.5,0.5) coordinate (C)--  (2.5,0) coordinate(D)-- (2,0) coordinate (A);
+    \end{tikzpicture}
+    </latex-image>
+    
+    </image>
+
+    <activity>
+    <p>
+        Work in pairs.
+    </p>
+    <p>
+        In this worksheet there two polygons; 
+        a rectangle and a parallelogram.  Use the polygons to complete the investigation below.
+    </p>
+    <figure>
+    <caption>Perimeter of different plane figures.</caption>
+    <interactive xml:id="geogebra-parallelogram" platform="geogebra" width="150%" aspect="1:1">
+        <slate xml:id="parallelogram-figures" surface="geogebra" material="rmqbmkqa" aspect="1:1" />
+    </interactive>
+    </figure>
+    <p>
+        <ol>
+        <li>
+            <p>
+            Change the height of the rectangle (h) by moving point C.  
+            What happens to the height of the parallelogram? 
+            </p>
+        </li>
+        <li>Change the width of the rectangle by moving point L.  What happens to the parallelogram? </li>
+        <li>Find the area of 3 different rectangles and compare the area of each rectangle to the area of the corresponding parallelogram.</li>
+        <li> What conjecture can you make about the formula for area of a parallelogram and why? (use the answer to question 3 to guide you)</li>
+        <li>Share your work with other leaners in class</li>
+        </ol>
+    </p>
+    </activity>
+    <example>
+    <statement>
+        <p>
+        Muchemi's piece of land is in the shape below.
+        </p>
+        <image source="/parallelogram.png" width="40%">
+        <shortdescription>Parallelogram</shortdescription>
+        </image>
+        <p>
+        What is the area of the piece of land?
+        </p>
+    </statement>
+    <solution>
+        <p>
+        <md>
+            <mrow> \text{Area of a parallelogram}=\amp \text{base length} \times \text{Perpendicular height}</mrow>
+            <mrow> =\amp 120\,m \times 40\,m</mrow>
+            <mrow> =\amp 4\,800\,m^2 </mrow>
+        </md>
+        </p>
+        <p>
+        The area of the piece of land is <m>4\,800\,m^2</m>.
+        </p>
+    </solution>
+
+    </example>
+
+    <example>
+    <statement>
+        <p>
+        Mr Onyango's garden is in the shape of a parallelogram. 
+        The length of the farm is <m>42\,m</m> and its height is <m>21\,m</m>. 
+        Find the area of the garden.
+        </p>
+    </statement>
+    <hint>
+        <p>
+        Try to scetch the garden in form of a parallelogram.
+        </p>
+        <p>
+        Use the formula of parallelogram to get the area of the farm.
+        </p>
+    </hint>
+    <solution>
+        <p>
+        Given that the length <m>= 42\,m</m> 
+        </p>
+        <p>
+        height of the farm <m>= 21\,m</m>
+        </p>
+        <p>
+        The scetch is as shown,
+        </p>
+        <image width="50%">
+        <latex-image>
+        \begin{tikzpicture}
+            % Draw the parallelogram with perpendicular height
+            \draw[very thick, fill=white] (0,0) -- (10.5,0) -- (14,7) -- (3.5,7) -- cycle;
+            
+            % Show perpendicular height with a dashed line and right angle mark
+            \draw[dashed, thick] (3.5,0) -- (3.5,7);
+            \draw (3.5,0) rectangle ++(0.5,0.5); % Right angle symbol
+            
+            % Label the sides with large font
+            \node[font=\Huge] at (5.25,-1) {\textbf{ 42 m}};
+            \node[font=\Huge, rotate=90] at (2.3,3) {\textbf{ 21 m}};
+
+        \end{tikzpicture}
+        </latex-image>
+            
+        </image>
+        <p>
+        <md>
+            <mrow> \text{Area of a parallelogram}=\amp \text{Base length} \times \text{Perpendicular height} </mrow>
+            <mrow> =\amp 42\,m \times 21\,m</mrow>
+            <mrow> =\amp 882\,m^2</mrow>
+        </md>
+        </p>
+        <p>
+        The area of the piece of garden is <m> {\color{blue} 882\,m^2}</m>.
+        </p>
+    </solution>
+    </example>
+
+    <p>
+    <m>{\textbf{ NOTE}}:</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+            <p>
+                When calculating the area of a parallelogram 
+                ensure you use the formula Area <m>= base \times height</m>
+            </p>
+            </li>
+            <li>
+            <p>
+                For any drawn figure ensure you've obtained both the <em>base</em> and 
+                <em>height</em> before incoopereting the formula.
+            </p>
+            </li>
+        </ul>
+    </p>
+
+    <p>
+        <m>\textbf{Area of a rhombus}</m>
+    </p>
+    
+    
+    <activity>
+        <p>
+            Move the slide slowly as you whatch how the rhombus looks like.
+        </p>
+    
+        <figure>
+        <caption>A Rhombus.</caption>
+        <interactive xml:id="geogebra-rhombus" platform="geogebra" width="100%" aspect="1:1">
+        <slate xml:id="rhombus-figures" surface="geogebra" material="qaw6nhfy" aspect="1:1" />
+        </interactive>
+        </figure>
+    </activity>
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        A rhombus is a type of quadrilateral that is a special kind of parallelogram. The key characteristics of a rhombus are:
+    </p>
+
+    <p>
+        <ol>
+        <li>
+            <p>
+            Opposite sides are parallel.
+            </p>
+        </li>
+        <li>
+            <p>
+            All sides have equal length.
+            </p>
+        </li>
+        <li>
+            <p>
+            Opposite angles are equa and adjacent angles are supplementary (they add up to <m>180°</m>).
+            </p>
+        </li>
+        <li>
+            <p>
+            The diagonals of a rhombus bisect each other at right angles (90°), meaning they intersect at 
+            a right angle and divide each other into two equal parts.
+            </p>
+        </li>
+        </ol>
+    </p>
+    <p>
+        The formula for the area <m>A</m> of a rhombus can be given in two common ways:
+    </p>
+    <p>
+        <ul>
+        <li>
+            <p>
+            Using the diagonals: <me>A=\frac{1}{2}\times d_1 \times d_2</me>
+            </p>
+            <p>
+            where:
+            </p>
+            <p>
+            <m>d_1 </m>and <m>d_2</m> are the lengths of the two diagonals.
+            </p>
+        </li>
+        <li>
+            <p>
+            Using the base and height: <me>A= \text{base} \times \text{height}</me>
+            </p>
+            <p>
+            Where the base is the length of any side (since all sides are equal) and the 
+            height is the perpendicular distance between opposite sides.
+            </p>
+        </li>
+        </ul>
+    </p>
+
+
+    <example>
+        <statement>
+        <p>
+            Calculate the area of the figure given it's 
+            diagonals are <m>6cm</m> and <m>8cm</m>.
+        </p>
+        <image source="/Rhombus.png" width="50%">
+            <shortdescription>Rhombus</shortdescription>
+        </image>
+        </statement>
+        <solution>
+        <p>
+            Area of a rhombus <m>= \frac{1}{2}</m> short diagonals <m>\times</m> long diagonal.
+        </p>
+        <p>
+            <md>
+            <mrow> A=\amp \frac{1}{2}d_1 d_2</mrow>
+            <mrow> A=\amp \frac{1}{2} (6 \times 8)cm^2 </mrow>
+            <mrow> A=\amp 24 cm^2 </mrow>
+            </md>
+        </p>
+        </solution>
+
+    </example>
+    
+    <example>
+        <statement>
+        <p>
+            Calculate the area of each rhombus.
+        </p>
+        <sidebyside>
+            
+            <image width="40%">
+            <latex-image label="Rhombus-1">
+            \begin{tikzpicture}
+                \draw [thick,fill=yellow](0,0) coordinate (A)-- (4,4) coordinate (B)-- (8,4) coordinate (C)--(4,0) 
+                coordinate (D)-- (0,0) coordinate (A);
+                \node at (4,5){(a)};
+                \node at (4.5,2){4m};
+                \node at (2,-0.7){5m};
+                \draw [dashed,fill=black] (4,4) --(4,0);
+                \draw(3.5,0) coordinate (A)-- (3.5,0.5) coordinate (B)-- (4,0.5) coordinate (C)--  (4,0) 
+                coordinate(D)-- (3.5,0) coordinate (A);
+            \end{tikzpicture}
+            </latex-image>
+            
+            </image>
+
+            <image width="40%">
+            <latex-image label="Rhombus-2">
+                \begin{tikzpicture}
+                \draw [thick,fill=white](0,0) coordinate (A)-- (4,4) coordinate (B)-- (8,4) 
+                coordinate (C)--(4,0) coordinate (D)-- (0,0) coordinate (A);
+                \node at (4,5){(b)};
+                \node at (6,4.3){9cm};
+                \node at (4.5,2){7cm};
+                \draw [dashed,fill=black] (4,0) --(4,4);
+                \draw(4,3.5) coordinate (A)-- (4,4) coordinate (B)-- (4.5,4) coordinate (C)-- 
+                    (4.5,3.5) coordinate(D)-- (4,3.5) coordinate (A);
+                \end{tikzpicture}
+            </latex-image>
+            </image>
+        </sidebyside>
+        </statement>
+        <solution>
+        <p>
+            (a)
+        </p>
+        <p>
+            Area of a rhombus by the base and height: <m>A= \text{base} \times \text{height}{}</m>.
+        </p>
+        <p>
+            <md>
+            <mrow> A= \amp \text{base} \times \text{height}</mrow>
+            <mrow> =\amp 5m \times 4m </mrow>
+            <mrow>= \amp 20m^2 </mrow>
+            </md>
+        </p>
+        <p>
+            (b)
+        </p>
+        <p>
+            <md>
+            <mrow> A= \amp \text{base} \times \text{height} </mrow>
+            <mrow> =\amp 9cm \times 7cm  </mrow>
+            <mrow> = \amp 63cm^2 </mrow>
+            </md>
+        </p>
+        </solution>
+    </example>
+
+    <example>
+        <statement>
+            <p>
+                A rhombus has a diagonal of 10 cm and another diagonal of 24 cm. Find:
+            </p>
+            <p>
+            i) The area of the rhombus.
+            </p>
+            <p>
+              ii).The length of one side of the rhombus.
+            </p>
+
+        <image width="50%">
+        <latex-image label="rhombus">
+            \begin{tikzpicture}
+                % Define the rhombus vertices
+                \coordinate (A) at (0,3);
+                \coordinate (B) at (3,0);
+                \coordinate (C) at (0,-3);
+                \coordinate (D) at (-3,0);
+                % Draw the rhombus with thick pink outline
+                \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+
+                % Draw diagonals with dashed lines
+                \draw[dashed] (A) -- (C);
+                \draw[dashed] (B) -- (D);
+
+                % Mark right angles at the intersection of diagonals
+                \coordinate (O) at (0,0);
+                \draw[thick] (O) ++(0.2,0) -- ++(0,0.2) -- ++(-0.2,0);
+
+                % Label the vertices
+                \node[above] at (A) {A};
+                \node[right] at (B) {B};
+                \node[below] at (C) {C};
+                \node[left] at (D) {D};
+                \node[below right] at (O) {O};
+            \end{tikzpicture}
+        </latex-image>
+        </image>
+            
+        </statement>
+        <solution>
+            <p>
+                i.
+            </p>
+            <p>
+                One diagonal = 10 cm
+            </p>
+            <p>  
+                Another diagonal = 24 cm
+            </p>
+                <p>
+                <md>
+                    <mrow>\text{Area} =  \amp \frac{1}{2 }\times d_1 \times d_2</mrow>
+                    <mrow> = \amp \frac{1}{2} \times 10\, \text{cm} \times 24\, \text{cm} </mrow>
+                    <mrow> = \amp 120 \, \text{cm}^2</mrow>
+                </md>
+            </p>
+            <p>
+                ii. Length of One Side of the Rhombus
+            </p>
+            <p>
+                In a rhombus, the diagonals bisect each other at 90°. That means each side of the rhombus forms a right-angled triangle with half of each diagonal.
+                </p>
+                <p>
+                Let's find the length of one side using the Pythagorean Theorem.
+                </p>
+                <p>
+                Each side of the rhombus is the hypotenuse of a right triangle with legs:
+                </p>
+            <p>
+                <md>
+                    <mrow> \text{Half of AC } = \amp \frac{10}{2} = 5\, \text{cm}</mrow>
+                    <mrow> \text{Half of BD } = \amp \frac{24}{2} = 12\, \text{cm}</mrow>
+                    <mrow> \text{Side} = \amp \sqrt{(5)^2 + (12)^2} </mrow>
+                    <mrow> = \amp \sqrt{25\,\text{cm} + 144\,\text{cm}} </mrow>
+                    <mrow> = \amp \sqrt{169 \,\text{cm}}</mrow>
+                    <mrow> = \amp 13\,\text{cm}</mrow>
+                </md>
+            </p>
+        </solution>
+    </example>
+        
+        
+      
+    
+</subsection>

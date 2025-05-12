@@ -1,0 +1,721 @@
+<subsection xml:id="subsec-perimeter-and-length">
+  <title>Perimeter and length</title>
+
+  <introduction>
+      <p>
+          <m>\textbf{Perimeter}</m>
+      </p>
+      <p>
+          <ol marker="a.">
+              <li>
+                  <p>
+                      The perimeter of a shape is the total distance around its edges.
+                  </p>
+              </li>
+              <li>
+                  <p>
+                      To find the perimeter, you add the lengths of all the sides of the shape.
+                  </p>
+              </li>
+              <li>
+                  <p>
+                      Example:
+                  </p>
+                  <p>
+                      For a rectangle with length 6 cm and width 4 cm:
+                  </p>
+                  <p>
+                      <md>
+                          <mrow>\text{Perimeter}= \amp 2 \times (6+4) </mrow>
+                          <mrow>= \amp 20 \,cm </mrow>
+                      </md>
+                  </p>
+              </li>
+          </ol>
+      </p>
+      <p>
+          <m>\textbf{Length}</m>
+      </p>
+      <p>
+          <ol marker="a.">
+              <li>
+                  <p>
+                      Length usually refers to how long an object is from end to end.
+                  </p>
+              </li>
+              <li>
+                  <p>
+                      In a rectangle, the longer side is often called the
+                      length, while the shorter is called the width.
+                  </p>
+              </li>
+              <li>
+                  <p>
+                      It’s a one-dimensional measure (just one side), not a total like perimeter.
+                  </p>
+              </li>
+          </ol>
+      </p>
+      <p>
+          <term>Note</term>
+      </p>
+      <p>
+          <m>\text{Length} = </m> one side (e.g., <m>6\, cm</m>)
+      </p>
+      <p>
+          <m>\text{Perimeter} = </m> all sides added together (e.g., <m>20 \,cm </m>for a rectangle)
+      </p>
+  </introduction>
+  
+
+  <subsubsection xml:id="subsubsec-Calculate-the-perimeter-of-given-shapes">
+      <title>Calculate the perimeter of given shapes whose dimensions
+      are in two units (i.e. cm and mm, m and cm, or km and m)</title>
+      <p>
+          <m>\textbf{Conversion of units of length}</m>
+      </p>
+      <sidebyside>
+          <p>
+            Consider a tailor cutting out and doing your school unifom. He has to take your measurements using a tape measure labelled <m>\textbf {A} </m> alongside, record them down then take the fabric to make your
+            uniform , measure then cut the fabric ready to sew it to come up with a well fitting uniform for you. 
+          </p>
+          <image source="/length.png" width="40%">
+            <shortdescription>length</shortdescription>
+          </image>
+        </sidebyside>
+      <activity>
+          <statement>
+              <p>
+              <m>{\color{blue}textbf{Converting units of length.}}</m>
+            </p>
+            <sidebyside>
+            <p>
+              Washika wants to go up the stairs. The staircases are labelled centimetres <m>\text{(cm) }</m>, decimetres <m>\text{ (dm) }</m>,
+              metres <m>\text{ (m) }</m>, Decametres <m>\text{ (Dm) }</m> and Hectometres <m>\text{ (Hm) }</m>
+                Every step he makes is equivalent to ten times the previous step from the picture above.
+              
+            </p>
+            <ol>
+              <li>How many decimetres are there in a metre?</li>
+              <li>How many decimetres are there in a Decametre?</li>
+              <li>How many metres are there in a Hectometre?</li>
+            </ol>
+      
+            <image source="/staircase.png" width="100%">
+              <shortdescription>length conversion</shortdescription>
+            </image>
+            </sidebyside>
+            
+              <p>
+                  <m>\textbf{ Conversion of length}.</m>
+              </p>
+              <p>
+                  <ul>
+                  <li>
+                    <p>
+                      <m> {\color{blue} \text {To perfom the operations involving length, measurements must be of the same units. }}</m>
+                    </p>
+                  </li>
+                  </ul>
+              </p>
+              <sidebyside>
+                    <p>
+                  <ol>
+                      <li>
+                          <p>
+                              Collect a number of sticks and cut them according to the exact height of the staircase in your environment.
+                          </p>
+                      </li>
+                      <li>
+                          <p>
+                              Measure the sticks to uniform length in my case it's <m>10\text{ cm }</m> long.
+                          </p>
+                          <p>
+                              I have <m>7</m> what about you? 
+                          </p>
+                      </li>
+                      <li>
+                          <p>
+                              We will also measure the width of our staircases the same way we did to the length and we shall get the total length and the total width. 
+                          </p>
+                      </li>
+                  
+                      <li>
+                          <p>
+                              Fill in the table below to test mastery of skills learnt from the activity...
+                          </p>
+                      </li>
+                  </ol>
+              </p>
+              <image width="100">
+              <latex-image label="stairs">
+                \begin{tikzpicture}
+                  \draw[very thick,fill=pink](0,2) --(2,2) --(2,4) --(4,4) --(4,6) --(6,6) --(6,8) --(8,8) --(8,10) --(10,10) --(10,12) --(12,12) --(12,0) --(0,0) --(0,2);
+                  \draw[-&gt;,very thick,fill=blue](-0.3,0) --(-0.3,2);
+                  \draw[-&gt;,very thick,fill=blue](1.7,2) --(1.7,4);
+                  \draw[-&gt;,very thick,fill=blue](3.7,4) --(3.7,6);
+                  \draw[-&gt;,very thick,fill=blue](5.7,6) --(5.7,8);
+                  \draw[-&gt;,very thick,fill=blue](7.7,8) --(7.7,10);
+                  \draw[-&gt;,very thick,fill=blue](9.7,10) --(9.7,12);
+                  \draw[-&gt;,very thick,fill=blue](0.0,1.8) --(2,1.8);
+                  \draw[-&gt;,very thick,fill=blue](2.0,3.8) --(4,3.8);
+                  \draw[-&gt;,very thick,fill=blue](4.0,5.8) --(6,5.8);
+                  \draw[-&gt;,very thick,fill=blue](6.0,7.8) --(8,7.8);
+                  \draw[-&gt;,very thick,fill=blue](8.0,9.8) --(10,9.8);
+                  \draw[-&gt;,very thick,fill=blue](10.0,11.8) --(11.95,11.8);
+                  \draw[-&gt;,very thick,fill=blue](0,-0.2) --(12,-0.2);
+                  \draw[-&gt;,very thick,fill=blue](12.2,0) --(12.2,12);
+                  \node [blue] at(0.8,2.3){cm};
+                  \node [blue] at(2.8,4.3){dm};
+                  \node [blue] at(4.8,6.3){m};
+                  \node [blue] at(6.8,8.3){Dm};
+                  \node [blue] at(8.8,10.3){Hm};
+                  \node [blue] at(10.8,12.3){km};
+                  \node [blue] at(0.3,1){\huge 10};
+                  \node [blue] at(2.3,3){\huge 10};
+                  \node [blue] at(4.3,5){\huge 10};
+                  \node [blue] at(6.3,7){\huge 10};
+                  \node [blue] at(8.3,9){\huge 10};
+                  \node [blue] at(10.3,11){\huge 10};
+                \end{tikzpicture}
+              </latex-image>
+              </image>
+              </sidebyside>
+            
+              <table>
+                <title></title>
+                <tabular  halign="center" top="medium" left="medium" bottom="medium" right="medium">
+                  <row > 
+                    <cell> ______mm = 1 cm</cell>
+                  </row>
+                  <row>
+                    <cell> ______cm = 1 m</cell>
+                  </row>
+                  <row>
+                    <cell>______m = 1 km</cell>
+                  </row>
+                  
+                </tabular>
+              </table>
+      
+              <table>
+                <title>Learning point.</title>
+                <tabular halign="center" top="medium" left="medium" bottom="medium" right="medium">
+                  <row>
+                    <cell>  1cm= 10mm</cell>
+                  </row>
+                  <row>
+                    <cell>1m  = 100cm</cell>
+                  </row>
+                  <row>
+                    <cell>1km  = 1000 m</cell>
+                  </row>
+                  
+                </tabular>
+              </table>
+      
+              <p>
+                <m>  {\color{Magenta} \text {The standard unit for measuring length internationally is Metres.}}</m>
+              </p>
+              <p>
+                a. We multiply a unit by <m>10</m> to convert it to the next in descending order.
+                <m>{\color{Magenta} \text{ Km } \xrightarrow[] {\times 10} \text{ Hm } \xrightarrow[] {\times 10} \text{ Dm } \xrightarrow[]{\times 10} \text{ m } \xrightarrow[]{\times 10} \text{ dm } \xrightarrow[]{\times 10}\text{ cm }}</m>
+              </p>
+              <p>
+                b. We divide a unit by <m>10</m> to convert it to the next in ascending order.
+                <m>{\color{Magenta} \text{ Km } \xleftarrow[]{\div10} \text{ Hm } \xleftarrow[]{\div10} \text{ Dm } \xleftarrow[]{\div 10}\text{ m } \xleftarrow[]{\div 10}\text{ dm } \xleftarrow[]{\div 10}\text{ cm }}</m>
+              </p>
+      
+              <p>
+                Interact with the exrcise below.
+                <m>{\color{blue}\text{Drag the blue box across to your right and back}}</m> and observe conversion of different units of measuring length from <m>{\color{blue}\text{Km to mm.}}</m>
+                You can also click on the dropown arow written <dblbrackets><m>\mathbf{metres}</m></dblbrackets> and change the units as you prefer.
+                The <m>\mathbf{\text {randomizing tab can also help you generate a new number.}}</m>
+                <m> {\color{magenta}\text{Enjoy as you play around with the mathematical figures!}}</m>
+              </p>
+        <figure>
+        <caption>Converting various units of measuring length.</caption>
+        <interactive xml:id="geogebra-length" platform="geogebra" width="100%" aspect="1:1">
+          <slate xml:id="length" surface="geogebra" material="dry7qeja" aspect="1:1" />
+        </interactive>
+      </figure>
+      
+          </statement>
+      </activity>
+      <example>
+          <statement>
+              <p>
+                  Kwabena walks from home to school taking <m>40\text{ m } </m>. Convert Moraa's distance in <m>\text{km}</m>.
+              </p>
+          </statement>
+          <solution>
+              <p>
+                Since,
+              </p>
+              <p>
+                <m>1000 \text{ m } =1\text{ km }</m>
+              </p>
+              <p>
+                <md>
+                  <mrow> 40 \text{ m }=\amp \frac{40 \cancel {m}}{1\,000\cancel{m}} \times 1\text{ km }</mrow>
+                  <mrow> =\amp 0.04 \text{ km } </mrow>
+                  
+                </md>
+              </p>
+              <p>
+                  Kwabena walks <m> 0.04 \text{ km }</m> from  home to school.
+              </p>
+          </solution>
+          </example>
+      <example>
+          <statement>
+              <p>
+                  The path from the gate to the office in 
+                  Achimota School is <m>40 \text{m}  450 \text{cm}</m>. What is the distance 
+                  in centimetres?
+              </p>
+          </statement>
+          <solution>
+              <p>
+                  Distance is <m>40 \, \text{m} \, 450\, \text{cm}</m>. 
+              </p>
+              <p>
+                  The conversion is, 
+              </p>
+              <p>
+                  <m>100\,\text{cm}= 1\,\text{m}</m>
+              </p>
+              <p>
+                  Therefore,
+              </p>
+              <p>
+                  <md>
+                  <mrow> 40 \, \text{m} \, 450\, \text{cm}=\amp (40 \times 100)\,\text{cm}+ 450\,\text{cm}</mrow>
+                  <mrow> =\amp4\,000\,\text{cm} +450\,\text{cm} </mrow>
+                  <mrow> = \amp 4\,450 \text{cm} </mrow>
+                  </md>
+              </p>
+              <p>
+                  The path from the gate to the school is <m>4\,450 \text{cm} </m>.
+              </p>
+          </solution>
+      </example>
+
+      
+
+      
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-perimeter-of-plane-figures">
+      <title>Perimeter of plane figures</title>
+      <activity>
+          <statement>
+            <p>
+              We need paper cut-outs and a ruler.
+            </p>
+            <p>
+            <ol>
+              <li>
+                <p>
+                  Make paper cut-outs of different plane figures.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Make paper cut-outs of different plane combined shapes. 
+                </p>
+              </li>
+              <li>
+                <p>
+                  Measure the distance round each shape using a piece of string and a ruler.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Compare the answers in step 2 and 3 and note the difference.
+                </p>
+              </li>
+            </ol>
+            </p>
+            <p>
+              Perimeter is the distance round a plane figure. To work out perimeter, you add the lengths of the sides of a given plane figure.
+            </p>
+          </statement>
+      </activity>
+      <p>
+      Develop the formula for a perimeter of a rectangle in this activity. Drag th
+      </p>
+      <figure>
+          <caption>Calculating perimeter.</caption>
+          <interactive xml:id="geogebra-rectangle-h" platform="geogebra" width="100%" aspect="1:1">
+          <slate xml:id="rectangle" surface="geogebra" material="cvuafbec" aspect="1:1" />
+          </interactive>
+      </figure>
+      <exploration>
+      <p><m>\textbf{Extended activity}</m></p>
+          <sidebyside>
+          <p>
+              Akosua made a paper cut out of right-angled triangle like the one shown on the right.
+              He then made three similar cut outs then joined them as shown below to form a combined
+              cut-out. Work out the perimeter  of the combined cut
+          </p>
+          <image>
+          <latex-image label="triangle-1">
+          \begin{tikzpicture}
+              \draw [thick,fill=yellow](3,0) --(0,3) --(4,0.3) --(3,0);
+          \end{tikzpicture}
+          </latex-image>
+          </image>
+          
+          </sidebyside>
+          <p>
+          We can as well make different shapes and find their perimeters. Explore on the folowing shapes and count the number of sides they have in the video below.
+          <url href="https://www.youtube.com/watch?v=WTeqUejf3D0" />
+          </p>
+          <image width="60%">
+          <latex-image label="triangles">
+          \begin{tikzpicture}
+              \draw [thick,fill=yellow](3,0) --(0,3) --(4,0.3) --(3,0);
+              \draw [thick,fill=yellow](3,0) --(6,0) --(6,1) --(3,0);
+              \draw [thick,fill=yellow](6,1) --(9,1) --(6,0);
+              \draw [thick,fill=yellow](8,1) --(9,1) --(9,4) --(8,1);
+              \node at(1.5,1){15cm};
+              \node at(4,-0.5){15cm};
+              \node at(7.5,0.5){17cm};
+              \node at(9.5,2){15cm};
+              \node at(8,3){17cm};
+              \node at(2.5,1.5){17cm};
+          \end{tikzpicture}
+          </latex-image>
+          </image>
+      </exploration>
+
+      <figure>
+          <caption>Perimeter of different plane figures.</caption>
+          <interactive xml:id="geogebra-triangle" platform="geogebra" width="110%" aspect="1:1">
+          <slate xml:id="triangle-t" surface="geogebra" material="gqt4ejbe" aspect="1:1" />
+          </interactive>
+      </figure>
+        
+
+        
+      <example>
+          <statement>
+            <p>
+              Work out the perimeter of the given plane figures.
+            </p>
+            <p>
+              <ol cols="2" marker="a)">
+                <li>
+                  <image width="65%">
+                  
+                  <latex-image label="Sqr">
+                      \begin{tikzpicture}[blue]
+                      \draw[very thick,fill=black](-0.5,2.5) --(0.5,2.5);
+                      \draw[very thick,fill=black](2.5,-0.5) --(2.5,0.5);
+                      \draw[very thick,fill=black](4.5,2.5) --(5.5,2.5);
+                      \draw[very thick,fill=black](2.5,4.5) --(2.5,5.5);.
+                      \draw[very thick,fill=black](0.5,0) --(0.5,0.5);
+                      \draw[very thick,fill=black](0,0.5) --(0.5,0.5);
+                      \draw[very thick,fill=black](0.5,4.5) --(0.5,5);
+                      \draw[very thick,fill=black](0,4.5) --(0.5,4.5);
+                      \node at(-1,2.5){\Huge10 km};
+                      \draw[very thick,fill=white](0,0) --(0,5) --(5,5) --(5,0) --(0,0);
+                      \end{tikzpicture}
+                  </latex-image>
+                  </image>
+                </li>
+                <li>
+                  <image width="80%">
+                  <latex-image>
+                    \begin{tikzpicture}
+                      \draw[very thick,fill=yellow](0,0) --(0,3)--(5,3)--(5,0) --(0,0);
+                      \node at (-1,1.5) {\Huge 8cm};
+                      \node at (2.5,-0.5){\Huge 40cm};
+                    \end{tikzpicture}
+                  </latex-image>
+                      
+                  </image>
+                </li>
+              </ol>
+            </p>
+          </statement>
+          <solution>
+            <p>
+              <ol cols="2" marker="a)">
+                <li>
+                  <p> Perimeter of a square.
+                    <md>
+                      <mrow>=\amp l+l+l+l </mrow>
+                      <mrow>=\amp 4l</mrow>
+                      <mrow>=\amp 4 \times 10\,km </mrow>
+                      <mrow>=\amp  \textbf {40 Km} </mrow>
+                    </md>
+                  </p>
+                </li>
+                <li>
+                    <p> Perimeter of a rectangle.
+                    <md>
+                      <mrow>=\amp l+w+l+w </mrow>
+                      <mrow>=\amp 2 \times (l + w) </mrow>
+                      <mrow>=\amp 2 \times (40cm +8cm) </mrow>
+                      <mrow>=\amp 2 \times 48cm </mrow>
+                      <mrow>=\amp  \textbf {96cm} </mrow>
+      
+                    </md>
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </solution>
+      </example>
+        
+      
+      <example>
+      <statement>
+          <p>
+            Work out the perimeter of the figure below.
+          </p>
+          <image width="70%">
+          <latex-image label="recta1">
+              \begin{tikzpicture}
+              \draw[very thick,fill=white](1,0) --(1,4) --(3.75,4) --(7.5,7) --(11.25,4) --(12,4) --(14,4) --(14,0) --(1,0);
+              \draw[very thick](0.5,2) --(1.5,2);
+              \draw[very thick](13.5,2) --(14.5,2);
+              \draw[very thick](4.7,5.7) --(5.7,5.2);
+              \draw[very thick](4.5,5.5) --(5.5,5);
+              \draw[very thick](10.3,5.5) --(9.3,5);
+              \draw[very thick](10.5,5.3) --(9.5,4.8);
+              \draw[very thick](13.5,2) --(14.5,2);
+              \draw[very thick,dashed,fill=black](3.75,4) --(11.25,4);
+              \node at(0.2,2.2){\Huge 4 cm};
+              \node at(7,0.5){\Huge 15 cm};
+              \node at(14.8,2.5){\Huge 4 cm};
+              \node at(12,4.4){\Huge 3 cm};
+              \node at(2,4.4){\Huge 3 cm};
+              \node at(9.9,5.9){\Huge 7 cm};
+              \end{tikzpicture}
+          </latex-image>
+          </image>
+      </statement>
+      <solution>
+          <p>
+          We add all the sides to get the perimeter.
+          <md>
+              <mrow>\text{perimeter}=\amp 4\,\text {cm} + 3 \,\text {cm} + 7\,\text {cm }+ 7\,\text {cm} + 3\,\text {cm} + 4\,\text {cm} + 15\,\text {cm}</mrow>
+              <mrow>=\amp \textbf {43 cm} </mrow>
+          </md>
+          </p>
+      </solution>
+      </example>
+
+      <example>
+          <statement>
+              <p>
+                  Calculate the perimeter of a shape
+                  with dimensions given in km and m
+                  by converting to the smaller unit
+                  and adding the distance around
+                  the shapes.
+              </p>
+
+              <image width="50%">
+                  <latex-image label="recta3">
+                    \begin{tikzpicture}
+                      % Define points
+                      \coordinate (A) at (-2,0);
+                      \coordinate (B) at (6,0);
+                      \coordinate (C) at (4,3);
+                      \coordinate (D) at (0,3);
+                      \coordinate (H1) at (0,0);
+                      \coordinate (H2) at (0,3);
+                      
+              
+                      % Draw the trapezium
+                      \draw [very thick ,fill=cyan](A) -- (B) -- (C) -- (D) -- cycle;
+                      
+                                          
+                      % Draw height
+                      \draw[dashed] (H2) -- (H1);
+                      % Draw the right angle 
+                      \draw (-0.5,0) rectangle ++(0.5,0.5);   
+              
+                      % Label sides
+                      \node[below] at (2,-0.2)  { 1 km}; 
+                      \node[above] at (2,3.2) { 800 m};
+                      \node[left] at (-1,1.5) { 600 m};
+                      \node[left] at (6.5,1.5) { 600 m};
+                    \end{tikzpicture}
+                  </latex-image> 
+              </image> 
+
+
+
+          </statement>
+          <solution>
+              <p>
+                  Change all the measurements to the same unit.
+              </p>
+              <p>
+                  You will change everything to metres (m),
+                  because most of the sides are already in m.
+              </p>
+              <p>
+                  <m>1\,\text{km}= 1000 \,\text{m}</m>
+              </p>
+              <p>
+                  Now write all sides in metres:
+              </p>
+              <p>
+                  <ul>
+                      <li>
+                          <p>
+                              Top <m>= 1000 \,\text{m}</m>
+                          </p>
+                      </li>
+                      <li>
+                          <p>
+                              Bottom <m>= 800 \,\text{m}</m>
+                          </p>
+                      </li>
+                      <li>
+                          <p>
+                              Left <m> = 600 \,\text{m}</m>
+                          </p>
+                      </li>
+                      <li>
+                          <p>
+                              Right <m>= 600 \,\text{m}</m>
+                          </p>
+                      </li>
+                  </ul>
+              </p>
+              <p>
+                  Add all the sides to find the perimeter.
+              </p>
+              <p>
+                  <md>
+                      <mrow> \text{Perimeter}=\amp 1\,000+800+600+600</mrow>
+                      <mrow> =\amp 3\,000 \,\text{m} </mrow>
+                  </md>
+              </p>
+          </solution>
+      </example>
+      <example>
+          <statement>
+              <p>
+                  Calculate the perimeter of a shape
+                  with dimensions given in cm and
+                  mm by converting to decimal
+                  fractions in the larger unit
+              </p>
+              <image width="50%">
+                  <latex-image label="recta2">
+                    \begin{tikzpicture}
+                      % Define points
+                      \coordinate (A) at (0,0);
+                      \coordinate (B) at (5,0);
+                      \coordinate (C) at (5,3);
+                      \coordinate (D) at (2,3);
+                      \coordinate (E) at (2,5);
+                      \coordinate (F) at (0,5);
+                      
+                      
+              
+                      % Draw the trapezium
+                      \draw [very thick ,fill=white](A) -- (B) -- (C) -- (D) --(E) --(F) --(A) ;
+                      
+                      % Label sides
+                      \node[below] at (3,0)  { 7cm 5mm }; 
+                      \node[right] at (5.3,1.5) { 4cm 5mm};
+                      \node[right] at (2.3,4) { 3 cm};
+                      \node[above] at (1,5.2) { 3 cm};
+                      \node[left] at (-0.5,2) { 7cm 5mm};
+                    \end{tikzpicture}
+                  </latex-image> 
+              </image> 
+          </statement>
+          <solution>
+              <p>
+                The sides have a mix of centimetres (cm) and millimetres (mm).
+              </p>
+              <p>
+                Recal, <m>10\,\text{mm}=1\, \text{cm}</m> therefore, 
+                <m>5\,\text{mm}=\frac{5}{10}= 0.5 \, \text{cm}</m>
+              </p>
+              <p>
+                <ul>
+                  <li>
+                    <p>
+                      Change all mm to cm by converting.
+                    </p>
+                    <p>
+                      <m>7\,\text{cm}\,5\,\text{mm}=7.5\,\text{cm}</m>
+                    </p>
+                    <p>
+                      <m>4\,\text{cm}\,5\,\text{mm}=4.5\,\text{cm}</m>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Therefore, the labels are,
+                    </p>
+                    <image width="50%">
+                    <latex-image label="recta4">
+                      \begin{tikzpicture}
+                        % Define points
+                        \coordinate (A) at (0,0);
+                        \coordinate (B) at (5,0);
+                        \coordinate (C) at (5,3);
+                        \coordinate (D) at (2,3);
+                        \coordinate (E) at (2,5);
+                        \coordinate (F) at (0,5);
+                        
+                        
+                      
+                        % Draw the trapezium
+                        \draw [very thick ,fill=white](A) -- (B) -- (C) -- (D) --(E) --(F) --(A) ;
+                        
+                        % Label sides
+                        \node[below] at (3,0)  { 7.5 cm }; 
+                        \node[right] at (5.3,1.5) { 4.5 cm};
+                        \node[above] at (3.3,3.1) { 4.5 cm};
+                        \node[right] at (2.3,4) { 3 cm};
+                        \node[above] at (1,5.2) { 3 cm};
+                        \node[left] at (-0.5,2.5) { 7.5 cm};
+                      \end{tikzpicture}
+                    </latex-image>
+                      
+                    </image>
+                    
+                  </li>
+                </ul>
+              </p>
+              <p>
+                Add all the sides to get the perimeter.
+              </p>
+              <p>
+                <md>
+                  <mrow> \text{Perimeter}=\amp 7.5+7.5+4.5+4.5+3+3 </mrow>
+                  <mrow> =\amp 30 \, \text{cm} </mrow>
+
+                </md>
+              </p>
+              
+              
+          </solution>
+
+      </example>
+      
+      
+      
+          
+      
+      
+  </subsubsection>
+
+  
+  
+    
+    
+</subsection>

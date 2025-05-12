@@ -6,15 +6,7 @@
       <p>
       Length in focus.
       </p>
-    <sidebyside>
-      <p>
-       Consider a tailor cutting out and doing your school unifom. He has to take your measurements using a tape measure labelled <m>\textbf {A} </m> alongside, record them down then take the fabric to make your
-        uniform , measure then cut the fabric ready to sew it to come up with a well fitting uniform for you. 
-      </p>
-      <image source="/length.png" width="40%">
-        <shortdescription>length</shortdescription>
-      </image>
-    </sidebyside>
+    
   </introduction>
   
   <xi:include href="subsections/length/subsec-conversion-of-units-of-length.ptx" />
