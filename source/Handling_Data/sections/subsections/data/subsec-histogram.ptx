@@ -2,12 +2,67 @@
     <title>Histogram</title>
 
         <p>
-            work in groups
+            A histogram is a type of bar graph that shows the frequency distribution of continuous data (grouped data). 
+            It helps to understand the shape of data by showing how often values fall into different ranges or intervals (called class intervals or bins)
         </p>
     <activity>
         <p>
             <m>{\color{black} \textbf{Work in groups}}</m>
         </p>
+        <tabular  halign="left" top="medium" left="medium" right="medium" bottom="medium">
+            <row>
+                <cell>Class Interval</cell>
+                <cell>Frequency</cell>
+            </row>
+            <row>
+                <cell><m>0-1</m></cell>
+                <cell><m>4</m></cell>
+            </row>
+            <row>
+                <cell><m>10-20</m></cell>
+                <cell><m>6</m></cell>
+            </row>
+            <row>
+                <cell><m>20-30</m></cell>
+                <cell><m>9</m></cell>
+            </row>
+            <row>
+                <cell><m>30-40</m></cell>
+                <cell><m>7</m></cell>
+            </row>
+            <row>
+                <cell><m>40-50</m></cell>
+                <cell><m>4</m></cell>
+            </row>
+        </tabular>
+        <p>
+            <ol marker="a.">
+                <li>
+                    <p>
+                        Plot class intervals on the X-axis.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Plot frequencies on the Y-axis.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Draw bars for each interval with height equal to the frequency.
+                    </p>
+                </li>
+            </ol>
+        </p>
     </activity>
+    <p>
+        <m>{\color{black} \textbf{Key Takeaway}}</m>
+    </p>
+    <p>
+        If class widths are equal, then frequency can be plotted directly.
+    </p>
+    <p>
+        If class widths are unequal, use frequency density instead of frequency.
+    </p>
         
    </subsection>
