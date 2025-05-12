@@ -122,11 +122,187 @@
     </subsubsection>
 
     <subsubsection xml:id="subsubsec-multiplication-of-fractions">
-        <title>Explain the process of multiplying a fraction by a whole  number and by a fraction.</title>
+        <title>Multiplication of fractions.</title>
+        
+        <p>
+            <m>\textbf{(i)  Multiplying a fraction by a whole number}</m>
+        </p>
+
+        <activity>
+            <statement>
+                <p>
+                    <alert>Work in groups</alert>
+                </p>
+                <p>
+                    Kwabena, a baker, is excited to surprise his family with three delicious cakes.
+                     He eagerly pulls out his recipe book, only to realize he needs to calculate the sugar needed. 
+                     Each cake, according to the recipe, requires a <m>\frac{1}{2}</m> kg of sugar. Kwabena wonders the total amount of sugar he will need in total?.
+                     Can you help  Kwabena figure out how much sugar he needs to bake his surprise cakes?
+                </p>
+                <p>
+                    Share your calculations and the amount of sugar you determined with the rest of the class.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>\frac{5}{7} \times 4 </m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                To multiply a proper fraction by a whole number, multiply the numerator of the fraction by the whole number and retain the same denominator.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>\frac{5}{7} \times 4  \amp = \frac{5 \times 4}{7}</mrow>
+                                    <mrow> </mrow>
+                                    <mrow> \amp = \frac{20}{7} </mrow>
+                                </md>
+                            </p>
+                            <p>
+                                We now, convert resulting the improper fraction <m>\frac{20}{7}</m> into a mixed fraction.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow> \frac{20}{7} \amp = 2 \frac{6}{7} </mrow>
+                                    <mrow> </mrow>
+                                    <mrow>  \amp = 2 \frac{6}{7} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
 
         <p>
-            t
+            <m>\textbf{(ii)  Multiplying a proper fraction by a proper fraction}</m>
         </p>
+        <activity>
+            <introduction>
+                <p>
+
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Drag the slider <c>Slide to explore</c> to the right direction and observe what happens to the squares.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Click <c>NEW FRACTIONS</c> button on the bottom right hand side to regenerate new fractions and follow step <m>\textbf{(a)}</m> again.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Discuss with your fellow learners on your observation in this activity.
+                    </p>
+                    <figure>
+                        <caption></caption>
+                        <interactive xml:id="multiplying-of-a-fraction-by-a-fraction-activity" geogebra="aqxh9hch" width="100%" aspect="12:9" reset-icon="yes" />
+                    </figure>
+                </statement>
+            </task>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>\frac{5}{9} \times \frac{2}{3}</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    To multiply two fractions, multiply numerators and denominators separately and simplify the resulting fraction to its simplest form.
+                </p>
+                <p>
+                    <md>
+                        <mrow>\frac{5}{9} \times \frac{2}{3} \amp = \frac{5 \times 2}{9 \times 3}</mrow>
+                        <mrow></mrow>
+                        <mrow> \amp = \frac{10}{27} </mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+
+       <p>
+        <m>\textbf{(iii)   Multiplying a fraction by a mixed number}</m>
+       </p>
+        <activity>
+            <p>
+                <alert>Work in groups</alert>
+            </p>
+            <p>
+                A delivery lorry set off from Tema town to Madina city, 
+                the lorry is transporting fresh farm produce, and the distance between Tema and Madina is <m>80 \frac{1}{5}</m> km.
+                The lorry uses <m>\frac{4}{5}</m> litres of fuel per kilometre.
+            </p>
+            <p>
+                How many litres of fuel does the lorry need for the whole journey?
+            </p>
+            <p>
+                Share your work with learners in your class.
+            </p>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>\frac{2}{5} \times 1 \frac{3}{7} </m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                First, we convert <m>1 \frac{{\color{blue}3}}{{\color{red}7}}</m> to improper fraction.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>1 \frac{{\color{blue}3}}{{\color{red}7}} \amp = \frac{({\color{red}7} \times 1) + {\color{blue}3}}{{\color{red}7}} </mrow>
+                                    <mrow></mrow>
+                                    <mrow> \amp = \frac{10}{7} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Multiply the fractions
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>\frac{2}{5} \times \frac{10}{7} \amp = \frac{2 \times 10}{5 \times 7}</mrow>
+                                    <mrow> </mrow>
+                                    <mrow> \amp = \frac{20}{35} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Simplify the numerator and denominator by dividing through by <m>5.</m>
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>\frac{20}{35} \amp = \frac{4}{7}</mrow>
+                                    <mrow></mrow>
+                                    <mrow> \amp = \frac{4}{7} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
         
     </subsubsection>
 </subsection>

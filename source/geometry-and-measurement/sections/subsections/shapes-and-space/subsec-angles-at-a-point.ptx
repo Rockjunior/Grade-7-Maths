@@ -1,4 +1,240 @@
 <subsection xml:id="subsec-angles-at-a-point">
-    <title>Angles at a Point</title>
-    
+    <title>Angles Around a Point</title>
+    <p>
+        Angles at a point are formed when two or more angles meet at the same point (vertex), creating a full turn. 
+        The most important property of angles at a point is that their sum always adds up to <m>360^\circ</m>.
+    </p>
+    <p>
+        Here are the different types of angles that can be formed at a point:
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    <term>Full Rotation (360° Angle) </term> - A complete turn around a point, forming a circle.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <term>Vertically Opposite Angles</term> - When two lines cross at a point, they create pairs of equal angles that are opposite each other.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <term>Adjacent Angles</term> - Two angles that share a common side and a common vertex. 
+                </p>
+            </li>
+            <li>
+                <p>
+                    <term>Complementary Angles</term> - Two angles that add up to <m>90^\circ</m>, forming a right-angle when placed together.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <term>Supplementary Angles</term> - Two angles that add up to <m>180^\circ</m>, forming a straight line when combined.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <activity>
+        <statement>
+            <p>
+                <term>Work in pairs.</term>
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Trace and cut out the fugure below.     
+                        </p>
+                        <image width="50%">
+                            <shortdescription>Angles at a point</shortdescription>
+                                <latex-image>
+                                    \begin{tikzpicture}
+                                    \draw(-3,-2) coordinate (a)--(3,2)coordinate(b);
+                                        \draw(3,-2)coordinate(c)--(-3,2)coordinate(d);
+                                        \node at(0,0.5) {a};
+                                        \node at(0.5,0){b};
+                                        \node at (0,-0.5){c};
+                                        \node at (-0.5,0){d};
+                                    \end{tikzpicture}
+                                </latex-image>
+                            </image>
+                    </li>
+                    <li>
+                        <p>
+                            Use a protractor to measure the following angles:
+                            <ul>
+                                <li>
+                                    <p>
+                                        <m>\angle a</m> 
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\angle b</m> 
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\angle c</m> 
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\angle d</m> 
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Identify the pair of angles that are:
+                            <ul>
+                                <li>
+                                    <p>
+                                        Vertically opposite
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Adjacent
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the sum of <m>\angle a</m> , <m>\angle b</m> , <m>\angle c</m> and <m>\angle d.</m> 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Share your work with other learners in class.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+                
+            <p>
+                <term>Key Takeaway</term>
+            </p>
+            <p>
+                <m>\angle a</m>  is vertically opposite to <m>\angle c</m>
+            </p>
+            <p>
+                <m>\angle b</m>  is vertically opposite to <m>\angle d</m>
+            </p>
+            <p>
+                Vertically opposite angles are equal.
+            </p>
+            <p>
+                <m>\angle a</m> = <m>\angle c</m> 
+            </p>
+            <p>
+                <m>\angle b</m> = <m>\angle d</m> 
+            </p>
+            <p>
+                <m>\angle a</m>  is adjacent to <m>\angle b</m>
+            </p>
+            <p>
+                <m>\angle b</m>  is adjacent to <m>\angle c</m>
+            </p>
+            <p>
+                <m>\angle c</m>  is adjacent to <m>\angle d</m>
+            </p>
+            <p>
+                <m>\angle d</m>  is adjacent to <m>\angle a</m>
+            </p>
+        </statement>            
+    </activity>
+                        
+    <example>
+        <statement>
+        <p>
+            Work out the value of the angle marked <m>x</m>  in the figure 
+        </p>
+
+        <image>
+            <shortdescription></shortdescription>
+            <latex-image>
+                \begin{tikzpicture}
+                    \draw(105:-2cm) -- (105:3cm);
+                    \draw(-3,-2) -- (3,2);
+                    \draw(160:0) -- (160:3cm);
+                    \draw(0,0) -- (34:.55) arc (34:105:.55);
+                    \draw(68:0.9cm) node {$x$};
+                    \draw(0,0) --(105:.45) arc (105:160:.45);
+                    \draw(120:0.9cm) node {$45^\circ$};
+                    \draw(0,0) -- (160:.5) arc (160:214:.5);
+                    \draw(195:0.9cm) node{$70^\circ$};
+                    \draw(0,0) -- (214:.65) arc (214:285:.65);
+                    \draw(250:.9cm) node {$60^\circ$};
+                    \draw(0,0) -- (285:.45) arc (285:394:.45);
+                    \draw(350:.9cm) node {$125^\circ$};   
+                \end{tikzpicture}
+            </latex-image>
+        </image>
+        </statement>
+
+        <solution>
+            <p>
+                Angles <m>x,45^\circ, 70^\circ, 60^\circ \text{and } 125^\circ</m> meet at a point. 
+
+            </p>
+
+            <p>
+                Therefore:
+            </p>
+
+            <p>
+                <me>
+                x +45^\circ + 70^\circ + 60^\circ + 125^\circ = 360^\circ
+                </me>
+                
+            </p>
+
+            <p>
+                <me>
+                    x + 300^\circ = 360^\circ  
+                </me>   
+            </p>
+
+            <p>
+                <me>
+                    x + 300^\circ - 300^\circ = 360^\circ - 300^\circ  
+                </me>
+            </p>
+
+            <p>
+                <me>
+                    x = 60^\circ
+                </me>
+                
+            </p>
+
+        </solution>
+    </example>
+
+    <exercise>
+
+        <figure>
+            <caption>Angles around a point</caption>
+            <interactive xml:id="geogebra-angles-at-a-point-2" platform="geogebra" width="90%" aspect="4:3">
+            <slate xml:id="geogebra-Angles-at-a-point-2" surface="geogebra" material="zwekgdkp" aspect="4:3">
+            enableShiftDragZoom(true);
+            showResetIcon(true);
+            </slate>
+            </interactive>
+        </figure>
+            
+        <!-- <figure>
+            <caption>Angles at a point </caption>
+            <interactive xml:id="geogebra-angles-at-a-point" geogebra="zwekgdkp" width="90%" aspect="9:5"/>
+        </figure> -->
+            
+            
+    </exercise>
 </subsection>

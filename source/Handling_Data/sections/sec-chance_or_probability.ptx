@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-chance_or_probability" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Chance or Probability </title>
+  <introduction>
+    <p>
+      
+    </p>
+  </introduction>
+  
+  
+  
+  
+  <xi:include href="subsections/chance_or_probability/subsec-describing_events.ptx" /> 
+
+   <xi:include href="subsections/chance_or_probability/subsec-describing_outcomes.ptx" />
+
+    <xi:include href="subsections/chance_or_probability/subsec-probability_of_the_event.ptx" />
+
+  </section> 
