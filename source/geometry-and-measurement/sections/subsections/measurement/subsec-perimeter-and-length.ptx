@@ -2,75 +2,80 @@
   <title>Perimeter and length</title>
 
   <introduction>
-      <p>
+    <definition xml:id="def-">
+      <statement>
+        <p>
           <m>\textbf{Perimeter}</m>
-      </p>
-      <p>
-          <ol marker="a.">
-              <li>
-                  <p>
-                      The perimeter of a shape is the total distance around its edges.
-                  </p>
-              </li>
-              <li>
-                  <p>
-                      To find the perimeter, you add the lengths of all the sides of the shape.
-                  </p>
-              </li>
-              <li>
-                  <p>
-                      Example:
-                  </p>
-                  <p>
-                      For a rectangle with length 6 cm and width 4 cm:
-                  </p>
-                  <p>
-                      <md>
-                          <mrow>\text{Perimeter}= \amp 2 \times (6+4) </mrow>
-                          <mrow>= \amp 20 \,cm </mrow>
-                      </md>
-                  </p>
-              </li>
-          </ol>
-      </p>
-      <p>
-          <m>\textbf{Length}</m>
-      </p>
-      <p>
-          <ol marker="a.">
-              <li>
-                  <p>
-                      Length usually refers to how long an object is from end to end.
-                  </p>
-              </li>
-              <li>
-                  <p>
-                      In a rectangle, the longer side is often called the
-                      length, while the shorter is called the width.
-                  </p>
-              </li>
-              <li>
-                  <p>
-                      It’s a one-dimensional measure (just one side), not a total like perimeter.
-                  </p>
-              </li>
-          </ol>
-      </p>
-      <p>
+        </p>
+        <p>
+            <ol marker="a.">
+                <li>
+                    <p>
+                        The perimeter of a shape is the total distance around its edges.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        To find the perimeter, you add the lengths of all the sides of the shape.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Example:
+                    </p>
+                    <p>
+                        For a rectangle with length 6 cm and width 4 cm:
+                    </p>
+                    <p>
+                        <md>
+                            <mrow>\text{Perimeter}= \amp 2 \times (6+4) </mrow>
+                            <mrow>= \amp 20 \,cm </mrow>
+                        </md>
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            <m>\textbf{Length}</m>
+        </p>
+        <p>
+            <ol marker="a.">
+                <li>
+                    <p>
+                        Length usually refers to how long an object is from end to end.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        In a rectangle, the longer side is often called the
+                        length, while the shorter is called the width.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        It’s a one-dimensional measure (just one side), not a total like perimeter.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
           <term>Note</term>
-      </p>
-      <p>
+        </p>
+        <p>
           <m>\text{Length} = </m> one side (e.g., <m>6\, cm</m>)
-      </p>
-      <p>
+        </p>
+        <p>
           <m>\text{Perimeter} = </m> all sides added together (e.g., <m>20 \,cm </m>for a rectangle)
-      </p>
+        </p>
+      </statement>
+    </definition>
+      
   </introduction>
   
 
   <subsubsection xml:id="subsubsec-Calculate-the-perimeter-of-given-shapes">
-      <title>Calculate the perimeter of given shapes whose dimensions
-      are in two units (i.e. cm and mm, m and cm, or km and m)</title>
+      <title>Calculating the perimeter of given shapes whose dimensions
+      are in two units.</title>
       <p>
           <m>\textbf{Conversion of units of length}</m>
       </p>
@@ -86,7 +91,7 @@
       <activity>
           <statement>
               <p>
-              <m>{\color{blue}textbf{Converting units of length.}}</m>
+              <m>{\color{blue}\textbf{Converting units of length.}}</m>
             </p>
             <sidebyside>
             <p>
@@ -113,7 +118,7 @@
                   <ul>
                   <li>
                     <p>
-                      <m> {\color{blue} \text {To perfom the operations involving length, measurements must be of the same units. }}</m>
+                      <term>To perfom the operations involving length, measurements must be of the same units.</term>
                     </p>
                   </li>
                   </ul>
@@ -165,12 +170,12 @@
                   \draw[-&gt;,very thick,fill=blue](10.0,11.8) --(11.95,11.8);
                   \draw[-&gt;,very thick,fill=blue](0,-0.2) --(12,-0.2);
                   \draw[-&gt;,very thick,fill=blue](12.2,0) --(12.2,12);
-                  \node [blue] at(0.8,2.3){cm};
-                  \node [blue] at(2.8,4.3){dm};
-                  \node [blue] at(4.8,6.3){m};
-                  \node [blue] at(6.8,8.3){Dm};
-                  \node [blue] at(8.8,10.3){Hm};
-                  \node [blue] at(10.8,12.3){km};
+                  \node [black] at(0.8,2.3){cm};
+                  \node [black] at(2.8,4.3){dm};
+                  \node [black] at(4.8,6.3){m};
+                  \node [black] at(6.8,8.3){Dm};
+                  \node [black] at(8.8,10.3){Hm};
+                  \node [black] at(10.8,12.3){km};
                   \node [blue] at(0.3,1){\huge 10};
                   \node [blue] at(2.3,3){\huge 10};
                   \node [blue] at(4.3,5){\huge 10};
@@ -186,13 +191,13 @@
                 <title></title>
                 <tabular  halign="center" top="medium" left="medium" bottom="medium" right="medium">
                   <row > 
-                    <cell> ______mm = 1 cm</cell>
+                    <cell> ______ mm = 1 cm</cell>
                   </row>
                   <row>
-                    <cell> ______cm = 1 m</cell>
+                    <cell> ______ cm = 1 m</cell>
                   </row>
                   <row>
-                    <cell>______m = 1 km</cell>
+                    <cell>______ m = 1 km</cell>
                   </row>
                   
                 </tabular>
@@ -202,13 +207,13 @@
                 <title>Learning point.</title>
                 <tabular halign="center" top="medium" left="medium" bottom="medium" right="medium">
                   <row>
-                    <cell>  1cm= 10mm</cell>
+                    <cell>  1 cm= 10 mm</cell>
                   </row>
                   <row>
-                    <cell>1m  = 100cm</cell>
+                    <cell>1 m  = 100 cm</cell>
                   </row>
                   <row>
-                    <cell>1km  = 1000 m</cell>
+                    <cell>1 km  = 1000 m</cell>
                   </row>
                   
                 </tabular>
