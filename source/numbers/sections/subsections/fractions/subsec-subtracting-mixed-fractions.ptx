@@ -1,6 +1,36 @@
 <subsection xml:id="subsec-Subtracting-mixed-fractions">
         <title>Subtracting mixed fractions</title>
-        
+        <activity>
+            <introduction>
+                <p>
+                    <alert>Work in groups</alert>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Make the fraction cards like the one shown below.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Pick any fraction card and subtract the fractions.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Share your work with other learners in your class.
+                    </p>
+                    <image source="mixed-fractions-number-card.png">
+                        <shortdescription>Number cards containing operation between twp mixed numbers</shortdescription>
+                    </image>
+                </statement>
+            </task>
+        </activity>
         <example>
             <statement>
                 <p>
