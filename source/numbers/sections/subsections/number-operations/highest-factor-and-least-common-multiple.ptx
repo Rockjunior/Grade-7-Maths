@@ -2,6 +2,9 @@
     <title>Highest Factor (HCF) and Least Common Multiple (LCM)</title>
     
         <p>
+            <m>\textbf{Highest Common Factor}</m>
+        </p>
+        <p>
             HCF is the largest positive integer number that divides evenly into two or more numbers with zero remainder.
             It is also known as the Highest Common Factor (HFC).
         </p>
@@ -197,6 +200,9 @@
         
     <!-- <subsubsection xml:id="subsubsec-least-common-divisor">
         <title>Least Common Divisor</title> -->
+        <p>
+            <m>\textbf{ Least Common Multiple}</m>
+        </p>
         <p>
             The Least Common Multiple of two or more numbers is the smallest number that is divisible by two or more numbers without a reminder.
             The Least Common Multiple (LCM) is also referred to as the Lowest Common Multiple (LCM) and Least Common Divisor (LCD).
