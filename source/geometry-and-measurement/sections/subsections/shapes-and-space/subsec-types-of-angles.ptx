@@ -1,0 +1,88 @@
+<subsection xml:id="subsec-types-of-angles">
+    <title>Types of Angles</title>
+    <p>
+        Angles are classified according to their sizes. 
+    </p>
+    <p>
+        <ol>
+            <li>
+                <p>
+                    <term>Right Angle</term> - A perfect <m>90^\circ</m> angle, just like the corners of a square or the edges of a notebook.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <term>Acute Angle</term> - This angle is less than <m>90^\circ</m>. It looks small and sharp, like the tip of a pencil! 
+                </p>
+            </li>
+            <li>
+                <p>
+                    <term>Obtuse Angle</term> - This angle is greater than <m>90^\circ</m> but less than <m>180^\circ</m>. It looks wide and open, like a door halfway open.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <term>Reflex Angle</term> - This is an angle that is greater than <m>180^\circ</m> but less than <m>360^\circ</m>. 
+                    It appears when two lines extend beyond a straight angle, forming a large outward bend.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <term>Straight Angle</term> - A <m>180^\circ</m> angle, which forms a straight line—like the horizon!
+                </p>
+            </li>
+        </ol>              
+    </p>
+    
+    <activity>
+        <p>
+            Here is an interactive activity for you to explore the different types of angles.
+        </p>
+        <p>
+            Use the spy glass by dragging it over the objects in the given picture.
+             You can click on the 'NEW PICTURE' button to get a new image.
+        </p>
+
+        <figure>
+            <caption>Angles</caption>
+            <interactive xml:id="geogebra-angle-types-a" platform="geogebra" width="100%" aspect="6:5">
+            <slate xml:id="geogebra-Types-of-angles-a" surface="geogebra" material="runwxcek" aspect="6:5">
+            enableShiftDragZoom(true);
+            showResetIcon(true);
+            </slate>
+            </interactive>
+        </figure>
+
+        <p>
+            What angles have you discovered from this activity?
+        </p>
+
+        <p>
+            Now, explore the objects around you and find the different types of angles in your sorrounding. What angles did you find?
+        </p>
+
+        <p>
+            <term>Key Takeaway</term>
+        </p>
+        <p>
+            Did you know one of the real life applications of angles is in <em>Carpentary?</em> 
+        </p>
+
+        <p>
+            For example, when carpenters are making a chair, 
+            they use angles to cut the wood so that the legs of the chair slants at the desired angle thereby creating a stable and beautiful designs.  
+        </p>
+
+        <p>   
+            
+            They typically use a combination of measuring tools, like a protractor and a combination square, to mark the angles on the wood before cutting, often aiming for a slight outward slant on the legs for stability and comfort
+        </p>
+        <!-- <figure>
+            
+            <caption>Explore different angles </caption>
+            <interactive xml:id="geogebra-Types-of-angles" geogebra="hfsstwhb" width="90%" aspect="9:5"  />
+        </figure> -->
+        
+    </activity>
+    
+</subsection>

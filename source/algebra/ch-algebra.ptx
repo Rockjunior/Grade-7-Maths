@@ -111,7 +111,6 @@
       
       <video xml:id="yt-list-vars" youtube="H4g0GZsgq0I" width="60%" margins="5% 35%"/>
   
-    <p> <em>Introduction </em></p>
       <p>
         Algebra is a branch of math where we use letters (like <m>a</m>, <m>b</m>, <m>x</m>, <m>y</m>... ) to stand for numbers that we don't know yet.
       </p>
@@ -126,7 +125,7 @@
       </p>
 
       <figure>
-        <caption>Watch this.</caption>
+        <caption>Introduction to algebra by Khan Academy</caption>
         <video youtube="H4g0GZsgq0I"/>
       </figure>
   </introduction>

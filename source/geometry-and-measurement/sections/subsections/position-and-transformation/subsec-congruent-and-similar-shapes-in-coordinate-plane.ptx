@@ -1,4 +1,315 @@
 <subsection xml:id="subsec-congruent-and-similar-shapes-in-coordinate-plane">
     <title>Congruent and Similar Shapes in Coordinate Plane</title>
+    <p>
+        <term>Congruent Shapes:</term> Two shapes are congruent if they have the same size and shape but may be rotated, reflected, or translated. Their corresponding sides and angles are equal.
+    </p>
+    <p>
+        <term>Similar Shapes:</term> Two shapes are similar if they have the same shape but different sizes. Their corresponding angles are equal, and their sides are proportional.
+    </p>
+    <activity>
+        <p>
+          <term>Work in groups</term>
+        </p>
+        <p>
+          Trace and cut out the following shapes on a graph paper.
+        </p>
+  
+        <image>
+          <shortdescription></shortdescription>
+          <latex-image label="shapes_1">
+            \begin{tikzpicture}
+               % Draw the grid lines
+              \draw[step=1,gray,very thin] (-9,-6) grid (9,6);
+                
+              \fill[purple,opacity=0.3](-7,5) -- (-7,3) -- (-5,3) -- cycle;
+              \draw[purple,thick] (-7,5) -- (-7,3) -- (-5,3) -- cycle;
+              \node[purple] at (-6,3.5) {$A$};
+  
+              \fill[blue,opacity=0.3](-4,5) -- (-2,5) -- (-2,3) -- (-4,3) -- cycle;
+              \draw[blue,thick] (-4,5) -- (-2,5) -- (-2,3) -- (-4,3) -- cycle;
+              \node[blue] at (-3,4) {$B$};
+  
+              \fill[blue,opacity=0.3](-1,5) -- (2,5) -- (2,3) -- (-1,3) -- cycle;
+              \draw[blue,thick] (-1,5) -- (2,5) -- (2,3) -- (-1,3)-- cycle;
+              \node[blue] at (-.5,4) {$C$};
+  
+              \fill[red,opacity=0.3](3,5) -- (6,5) -- (3,3) -- cycle;
+              \draw[red,thick] (3,5) -- (6,5) -- (3,3) -- cycle;
+              \node[red] at (3.5,4.5) {$D$};
+  
+              \fill[orange,opacity=0.3](-7,2) -- (-5,2) -- (-4,0) -- (-8,0) -- cycle;
+              \draw[orange,thick] (-7,2) -- (-5,2) -- (-4,0) -- (-8,0) -- cycle;
+              \node[orange] at (-6.5,1) {$E$};
+  
+              \fill[yellow,opacity=0.3](-3,2) -- (-1,2) -- (-1,0) -- cycle;
+              \draw[yellow,thick] (-3,2) -- (-1,2) -- (-1,0) -- cycle;
+              \node[yellow] at (-1.5,1.5) {$F$};
+  
+              \fill[green,opacity=0.3](1,2) -- (3,2) -- (1,0) -- cycle;
+              \draw[green,thick] (1,2) -- (3,2) -- (1,0) -- cycle;
+              \node[green] at (1.5,1.5) {$G$};
+  
+              \fill[blue,opacity=0.3](4,2) -- (7,2) -- (4,0) -- cycle;
+              \draw[blue,thick] (4,2) -- (7,2) -- (4,0) -- cycle;
+              \node[blue] at (5,1.5) {$H$};
+  
+              \fill[red,opacity=0.3](-8,-1) -- (-6,-1) -- (-6,-3) -- (-8,-3) -- cycle;
+              \draw[red,thick] (-8,-1) -- (-6,-1) -- (-6,-3) -- (-8,-3) -- cycle;
+              \node[red] at (-7,-2) {$I$};
+  
+              \fill[orange,opacity=0.3](-5,-1) -- (-5,-3) -- (-2,-3) -- cycle;
+              \draw[orange,thick] (-5,-1) -- (-5,-3) -- (-2,-3) -- cycle;
+              \node[orange] at (-4,-2.5) {$J$};
+  
+              \fill[orange,opacity=0.3](-1,-1) -- (2,-1) -- (2,-3) -- (-1,-3) -- cycle;
+              \draw[orange,thick] (-1,-1) -- (2,-1) -- (2,-3) -- (-1,-3) -- cycle;
+              \node[orange] at (.5,-2) {$K$};
+  
+              \fill[orange,opacity=0.3](3,-1) -- (7,-1) -- (6,-3) -- (4,-3) -- cycle;
+              \draw[orange,thick] (3,-1) -- (7,-1) -- (6,-3) -- (4,-3) -- cycle;
+              \node[orange] at (5,-2) {$L$};
+  
+  
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+  
+        <p>
+          Match two shapes by aligning them directly on top of each other. Discuss how the sides and angles perfectly overlap.
+        </p>
+        <p>
+          Flip one shape (like turning it over) and try to align it with another shape. Discuss how the shapes still match in size and angles, even though one is flipped.
+        </p>
+  
+        <p>
+          <ul>
+            <li>
+              <p>
+                Identify the figures with the same shape.
+              </p>
+            </li>
+            <li>
+              <p>
+                Identify the figures with the same size.
+              </p>
+            </li>
+            <li>
+              <p>
+                Identify figure with same size and shape.
+              </p>
+            </li>
+          </ul>  
+        </p>
+        <p>
+          <term>Key Takeaway</term>
+        </p>
+        <p>
+          <ul>
+            <li>
+              <p>
+                Figure with the same size and shape are said to be <term>congruent.</term>   
+              </p>
+            </li>
+            <li>
+              <p>
+                The symbol for congruence is <m>\cong.</m>
+                 For example, in your activity, <m>B \cong I.</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                 Also, <m>B</m> fits directly on <m>I</m> without flipping, thus <m>B \text{ and } I</m>
+                  are said to be <term>directly congruent.</term> Identify other figures that are directly congruent.
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>E \text{ and } L</m> do  not fit directly but when you flip <term>(lateral inversion)</term> figure <m>L</m> and fit it on <m>E,</m> they align. 
+                This is called <term>opposite congruence.</term> Identify other figure that have opposite congruence from your activity. 
+              </p>
+            </li>
+            <li>
+              <p>
+                Figures with the same shape but different size are said to be <term>similar.</term>
+              </p>
+            </li>
+            <li>
+              <p>
+                Congruence can also be applied to line segments and angles. 
+              </p>
+            </li>
+          </ul>
+        </p>
+      </activity>
+
+      <example>
+        <statement>
+            <p>
+                Consider a triangle with points <m>A(2,3), B(5,7), and C(7,3).</m> Apply a translation vector <m>(3,-2)</m>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                New triangle coordinates after applying transformation are <m>A'(5,1), B'(8,5), C'(10,1).</m>
+            </p>
+            <image>
+                <latex-image label="translation_similarity_1">
+                    \begin{tikzpicture}
+                    % Draw axes
+                    \draw[-&gt;] (-1,0) -- (12,0) node[right] {\textbf{x-axis}};
+                    \draw[-&gt;] (0,-1) -- (0,10) node[above] {\textbf{y-axis}};
+
+                    % Draw the grid lines
+                    \draw[step=1,gray,very thin] (-1,-1) grid (12,10);
+
+                    % Grid and labels
+                    \foreach \x in {1,2,3,4,5,6,7,8,9,10,11} {
+                        \draw[thick] (\x,-0.1) -- (\x,0.1); % Tick marks on x-axis
+                        \node[anchor=north] at (\x,-0.2) {\textbf{\x}};
+                    }
     
+                    \foreach \y in {1,2,3,4,5,6,7,8,9} {
+                        \draw[thick] (-0.1,\y) -- (0.1,\y); % Tick marks on y-axis
+                        \node[anchor=east] at (-0.2,\y) {\textbf{\y}};
+                    }
+            
+                    % Original triangle (Congruence)
+                    \draw[thick, red] (2,3) -- (5,7) -- (7,3) -- cycle;
+                    \node[red] at (2,3) [left] {\textbf{A}};
+                    \node[red] at (5,7) [above] {\textbf{B}};
+                    \node[red] at (7,3) [right] {\textbf{C}};
+                    
+                    % Translated triangle (Congruence)
+                    \draw[thick, blue, dashed] (5,1) -- (8,5) -- (10,1) -- cycle;
+                    \node[blue] at (5,1) [left] {\textbf{A'}};
+                    \node[blue] at (8,5) [above] {\textbf{B'}};
+                    \node[blue] at (10,1) [right] {\textbf{C'}}; 
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+            <p>
+                Since the shape preserves size, angles, and orientation, the triangle and its transformed image are congruent.
+            </p>
+        </solution>
+      </example>
+      <example>
+        <statement>
+            <p>
+                Consider a rectangle with points <m>P(1,1), Q(1,4), R(5,4), S(5,1)</m>
+                 and another rectangle  with points <m>P'(2,2), Q'(2,8), R'(10,8), S'(10,2).</m>
+            </p>
+            <p>
+                Since the shape maintains proportional sides but grows, the two rectangles are similar. 
+            </p>
+
+            <image>
+                <latex-image label="translation_similarity_2">
+                    \begin{tikzpicture}
+                    % Draw axes
+                    \draw[-&gt;] (-1,0) -- (12,0) node[right] {\textbf{x-axis}};
+                    \draw[-&gt;] (0,-1) -- (0,10) node[above] {\textbf{y-axis}};
+
+                    % Draw the grid lines
+                    \draw[step=1,gray,very thin] (-1,-1) grid (12,10);
+
+                    % Grid and labels
+                    \foreach \x in {1,2,3,4,5,6,7,8,9,10,11} {
+                        \draw[thick] (\x,-0.1) -- (\x,0.1); % Tick marks on x-axis
+                        \node[anchor=north] at (\x,-0.2) {\textbf{\x}};
+                    }
+    
+                    \foreach \y in {1,2,3,4,5,6,7,8,9} {
+                        \draw[thick] (-0.1,\y) -- (0.1,\y); % Tick marks on y-axis
+                        \node[anchor=east] at (-0.2,\y) {\textbf{\y}};
+                    }
+
+                    % Original rectangle (Similarity)
+                    \draw[thick, green] (1,1) -- (1,4) -- (5,4) -- (5,1) -- cycle;
+                    \node[green] at (1,1) [below] {\textbf{P}};
+                    \node[green] at (1,4) [left] {\textbf{Q}};
+                    \node[green] at (5,4) [above] {\textbf{R}};
+                    \node[green] at (5,1) [right] {\textbf{S}};
+                    
+                    % Scaled rectangle (Similarity)
+                    \draw[thick, orange, dashed] (2,2) -- (2,8) -- (10,8) -- (10,2) -- cycle;
+                    \node[orange] at (2,2) [below] {\textbf{P'}};
+                    \node[orange] at (2,8) [left] {\textbf{Q'}};
+                    \node[orange] at (10,8) [above] {\textbf{R'}};
+                    \node[orange] at (10,2) [right] {\textbf{S'}};
+
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+        </statement>
+      </example>
+
+      <exercise>
+        <statement>
+          <p>
+            Identify figures that are:
+          </p>
+          <p>
+            <ul>
+              <li>
+                <p>
+                   Directly congruent.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Oppositely congruent.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Similar.
+                </p>
+              </li>
+            </ul>
+          </p>
+  
+          <image>
+            <latex-image label="shapes_exercise">
+              \begin{tikzpicture}
+                % Draw the grid lines
+                \draw[step=1,gray,very thin] (-9,-6) grid (9,6);
+  
+                \fill[red,opacity=0.3](-9,6) -- (-7,4) -- (-9,2) -- (-3,4) -- cycle;
+                \draw[red,thick] (-9,6) -- (-7,4) -- (-9,2) -- (-3,4) -- cycle;
+  
+                \fill[orange,opacity=0.3](-2,2) -- (-2,5) -- (-1,5) -- (-1,4) --(0,4) -- cycle;
+                \draw[orange,thick] (-2,2) -- (-2,5) -- (-1,5) -- (-1,4) --(0,4) -- cycle;
+  
+                \fill[yellow,opacity=0.3](-7,1) -- (-6,1) -- (-6,2) -- (-5,2) --(-5,-1) -- cycle;
+                \draw[yellow,thick] (-7,1) -- (-6,1) -- (-6,2) -- (-5,2) --(-5,-1) -- cycle;
+  
+                \fill[green,opacity=0.3](2,3) -- (5,3) -- (4,5) -- (1,5) -- cycle;
+                \draw[green,thick] (2,3) -- (5,3) -- (4,5) -- (1,5) -- cycle;
+  
+                \fill[blue,opacity=0.3](-4,1) -- (-2,1) -- (-1,-1) -- (-3,-1) -- cycle;
+                \draw[blue,thick] (-4,1) -- (-2,1) -- (-1,-1) -- (-3,-1) -- cycle;
+  
+                \fill[purple,opacity=0.3](-4,-2) -- (-1,-2) -- (0,-4) -- (-3,-4) -- cycle;
+                \draw[purple,thick] (-4,-2) -- (-1,-2) -- (0,-4) -- (-3,-4) -- cycle;
+  
+                \fill[blue,opacity=0.3](-9,-1) -- (-7,-1) -- (-6,-2) -- (-8,-2) -- cycle;
+                \draw[blue,thick] (-9,-1) -- (-7,-1) -- (-6,-2) -- (-8,-2) -- cycle;
+  
+                \fill[orange,opacity=0.3](-1,2) -- (1,3) -- (3,2) -- (1,1) -- cycle;
+                \draw[orange,thick] (-1,2) -- (1,3) -- (3,2) -- (1,1) -- cycle;
+  
+                \fill[blue,opacity=0.3](3,0) -- (5,0) -- (6,2) -- (4,2) -- cycle;
+                \draw[blue,thick] (3,0) -- (5,0) -- (6,2) -- (4,2) -- cycle;
+  
+                \fill[green,opacity=0.3](0,-1) -- (1,-2) -- (2,-1) -- (1,-4) -- cycle;
+                \draw[green,thick] (0,-1) -- (1,-2) -- (2,-1) -- (1,-4)-- cycle;
+  
+                \fill[purple,opacity=0.3](4,-1) -- (3,-3) -- (4,-5) -- (5,-3) -- cycle;
+                \draw[purple,thick] (4,-1) -- (3,-3) -- (4,-5) -- (5,-3)-- cycle;
+              \end{tikzpicture}
+            </latex-image>
+            
+          </image>
+        </statement>
+      </exercise>
 </subsection>
