@@ -103,7 +103,7 @@
                 <p>
                     Scale 1 cm represents 10 motorcycles.
                 </p>
-                <image>
+                <image width="50%">
                 <latex-image>
                     \begin{tikzpicture}
                         \begin{axis}[
@@ -173,7 +173,7 @@
                 <p>
                     Scale 1 cm represents <m>5^\circ C</m>
                 </p>
-                <image>
+                <image width="50%">
                     <latex-image>
                         \begin{tikzpicture}
                             \begin{axis}[
@@ -233,7 +233,7 @@
                     </row>
                 </tabular>
             </table>
-            <image>
+            <image width="50%">
                 <latex-image>
                     \begin{tikzpicture}
                         % Axes
