@@ -3,17 +3,18 @@
 <chapter xml:id="ch-numbers" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Numbers</title>
 
-  <!-- <introduction>
-    <p> Text before the first section. </p>
-  </introduction> -->
+  <!-- include sections -->
+  <xi:include href="./sections/sec-number-operations.ptx" />
 
   <!-- include sections -->
-  <xi:include href="./sections/sec-whole-numbers.ptx" />
-  <!-- <xi:include href="./sections/sec-factors.ptx" /> -->
-  <xi:include href="./sections/sec-fractions.ptx" />
-  <xi:include href="./sections/sec-decimals.ptx" />
-  <xi:include href="./sections/sec-squares-and-square-roots.ptx" />
-  <xi:include href="./sections/sec-number-operations.ptx" />
   <xi:include href="./sections/sec-fractions-decimals-and-percentages.ptx" />
 
+  <!-- include sections -->
+  <xi:include href="./sections/sec-ratios-and-proportions.ptx" />
+  
+  <!-- include sections -->
+
+  <!-- include sections -->
+
+  <!-- include sections -->
 </chapter>

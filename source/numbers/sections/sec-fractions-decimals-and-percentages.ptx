@@ -10,5 +10,12 @@
 
     <xi:include href="subsections/fractions-decimals-and-percentages/subsec-concept-of-fractions.ptx" />
     <xi:include href="subsections/fractions-decimals-and-percentages/subsec-operations-with-fractions.ptx" />
+
+    <xi:include href="subsections/fractions-decimals-and-percentages/subsec-understanding-and-coverting-benchmark-fractions.ptx" />
+    <xi:include href="subsections/fractions-decimals-and-percentages/subsec-comparing-and-ordering-mixed-fractions.ptx" />
+
+
+
+
     
 </section>
