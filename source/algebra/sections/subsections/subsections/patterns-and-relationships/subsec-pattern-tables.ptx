@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <subsection xml:id="pattern-tables">
+    <title>Pattern Tables</title>
+    <p>
+      Tables can help us organize patterns and identify relationships between input and output numbers.
+    </p>
+
+    <example>
+      <title>Filling a Pattern Table</title>
+      <statement>
+        <p>Complete the table for the rule <m>y = 2x + 1</m>.</p>
+      </statement>
+      <solution>
+        <tabular>
+          <row><cell><m>x</m></cell><cell><m>y = 2x + 1</m></cell></row>
+          <row><cell>1</cell><cell>3</cell></row>
+          <row><cell>2</cell><cell>5</cell></row>
+          <row><cell>3</cell><cell>7</cell></row>
+          <row><cell>4</cell><cell>9</cell></row>
+        </tabular>
+      </solution>
+    </example>
+
+    <exercise>
+      <statement>
+        <p>Use the rule <m>y = 3x - 2</m> to complete the table:</p>
+        <tabular>
+          <row><cell><m>x</m></cell><cell><m>y</m></cell></row>
+          <row><cell>1</cell><cell>?</cell></row>
+          <row><cell>2</cell><cell>?</cell></row>
+          <row><cell>3</cell><cell>?</cell></row>
+        </tabular>
+      </statement>
+    </exercise>
+
+    <figure>
+      <caption>Using a table to represent number patterns.</caption>
+      <image source="images/pattern-table-example.svg" width="60%" />
+    </figure>
+  </subsection>
