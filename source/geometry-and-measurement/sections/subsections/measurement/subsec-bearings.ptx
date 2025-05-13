@@ -3,93 +3,77 @@
     <definition xml:id="def-bearing">
         <statement>
             <p>
-                A <term>bearing</term> is the <em>angle</em> in degrees measured in the <em>clockwise direction</em> from north. 
+                <term>Bearing</term> is the <em>angle</em> in degrees measured in the <em>clockwise direction</em> from north. 
             </p>
             <p>
                 <term>Bearing</term> is also known as <term>true bearing</term>.
             </p>
         </statement>
     </definition>
-    <image source="bearing-image.png" width="50%">
-        <shortdescription>Bearing from Town A to Town B</shortdescription>
-    </image>
     <activity>
         <p>
-            
+            <m>\textbf{Work in groups}</m>
         </p>
         <p>
             <ol marker="1. ">
                 <li>
                     <p>
-                        
+                        Click and drag point <m>A</m> or point <m>B</m> to different positions on the coordinate plane.
                     </p>
                 </li>
                 <li>
                     <p>
-                        
+                        Observe how the <em>Bearing of B from A</em> and <em>Bearing of A from B</em> change dynamically.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Record at least five different sets of bearings shown as you move the points.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Try to determine a pattern or relationship between the two bearings.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What did you notice about the two bearings? Share your observations with a classmate or in a small group.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        How can you find the bearing of A from B if you know the bearing of B from A?
                     </p>
                 </li>
             </ol>
         </p>
     </activity>
-    <activity>
-  <title>Exploring Reciprocal Bearings</title>
-  <introduction>
-    <p>
-      In this interactive activity, you will use the GeoGebra applet to explore the concept of bearings between two points. 
-      As you move the points, observe how the bearings change and what relationship exists between the bearings of A from B and B from A.
-    </p>
-  </introduction>
-
-  <task>
-    <ol>
-      <li>Open the GeoGebra applet provided by your teacher or embedded on the page.</li>
-      <li>Click and drag point <m>A</m> or point <m>B</m> to different positions on the coordinate plane.</li>
-      <li>Observe how the <em>Bearing of B from A</em> and <em>Bearing of A from B</em> change dynamically.</li>
-      <li>Record at least five different sets of bearings shown as you move the points.</li>
-      <li>Try to determine a pattern or relationship between the two bearings.</li>
-    </ol>
-  </task>
-
-  <discussion>
-    <p>
-      What did you notice about the two bearings? Share your observations with a classmate or in a small group.
-    </p>
-    <p>
-      Try to answer the following:
-    </p>
-    <p>  
-        <ul>
-            <li>What is the sum of the two bearings in each case?</li>
-            <li>How can you find the bearing of A from B if you know the bearing of B from A?</li>
-        </ul>
-    </p>
-  </discussion>
-
-  <conclusion>
-    <p>
-      You should have discovered that the two bearings are <b>reciprocals</b>, meaning they differ by <m>180^\circ</m>.
-      That is, if the bearing of B from A is <m>073^\circ</m>, then the bearing of A from B is <m>073^\circ + 180^\circ = 253^\circ</m>.
-      If the sum is more than <m>360^\circ</m>, subtract <m>360^\circ</m> to stay within the standard bearing range.
-    </p>
-    <p>
-      Understanding reciprocal bearings helps in navigation, map reading, and solving bearing problems in trigonometry.
-    </p>
-  </conclusion>
-</activity>
-
     <figure>
         <caption></caption>
         <interactive xml:id="geogebra-bearings-activity" platform="geogebra" width="110%" aspect="1:1">
             <slate xml:id="bearings-activity" surface="geogebra" material="qpmdhdp8" aspect="1:1" />
         </interactive>
     </figure>
-    <!-- <figure>
-        <caption></caption>
-        <interactive xml:id="bearings-activity" 
-        geogebra="qpmdhdp8" width="100%" aspect="4:6" 
-        reset-icon="yes" material-width="1000px" />
-    </figure> -->
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <remark>
+        <p>
+            <ol marker="a)">
+                <li>
+                    <p>
+                        if the bearing of B from A is <m>073^\circ</m>, then the bearing of A from B is <m>073^\circ + 180^\circ = 253^\circ</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If the bearing of B from A is <m>195^\circ</m>, then the bearing of A from B is <m>195^\circ - 180^\circ = 15^\circ</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </remark>
     <!-- <figure xml:id="figure-phet-fourier">
         <caption>Fourier: Making Waves <c>iframe</c></caption>
         <interactive xml:id="interactive-phet-fourier" iframe="https://phet.colorado.edu/sims/html/center-and-variability/latest/center-and-variability_all.html" preview="preview/phet-fourier-preview.png" width="95%" aspect="15:10" />
@@ -104,121 +88,53 @@
         </p>
     </note>
     <p>
-        For example, a bearing of <m>090°</m> indicates due <em>east</em>, <m>180°</m> 
-        indicates due <em>south</em>, and <m>270°</m> indicates due <em>west</em>.
+        For example, a bearing of <m>090^\circ</m> indicates due <em>east</em>, <m>180^\circ</m> 
+        indicates due <em>south</em>, and <m>270^\circ</m> indicates due <em>west</em>.
     </p>
     <example>
         <statement>
             <p>
-                 Kisumu and Nanyuki are situated in such a way that Nanyuki is on a bearing of 
-                <m>075^\circ</m> from Nakuru and Kisumu on a bearing of <m>280^\circ</m> from Nakuru. 
-                If Kisumu is <m>190</m> km and Nanyuki is <m>160</m> km from Nakuru, find the bearing of Kisumu from Nanyuki.
+                The bearing of <alert>Town A</alert> from <alert>Town B</alert> is <m>045^\circ</m>. 
+                Find the bearing of <alert>Town B</alert> from <alert>Town A</alert>.
             </p>
         </statement>
         <solution>
             <p>
-              First, we draw a sketch showing the positions of Nakuru (N), Nanyuki (A), and Kisumu (B).
-              The angle between the bearings from Nakuru to Nanyuki and Kisumu is:
+                To find the bearing of <alert>Town B</alert> from <alert>Town A</alert>, 
+                we need to determine the direction from <alert>Town A</alert> back to <alert>Town B</alert>.
             </p>
+
+            <p>
+                Since the bearing of <alert>Town A</alert> from <alert>Town B</alert> is <alert>less than </alert> 
+                <m>180^\circ</m>, then to find <alert>Town B</alert> from <alert>Town A</alert> we add <m>180^\circ</m> to the original bearing:
+            </p>
+
             <p>
                 <m>
-                    \angle ANB = 280^\circ - 75^\circ = 205^\circ
+                    045^\circ + 180^\circ = 225^\circ
                 </m>
             </p>
+            <image source="bearing-image.png" width="50%">
+                <shortdescription>Bearing from Town A to Town B</shortdescription>
+            </image>
             <p>
-                 Since this angle is greater than 180°, we use the interior angle in triangle ANB:
+                Therefore, the bearing of <alert>Town B</alert> from <alert>Town A</alert> is <m>225^\circ</m>.
             </p>
-            <p>
-                <m>
-                \angle ANB = 360^\circ - 205^\circ = 155^\circ
-                </m>
-            </p>
-            <p>
-              Now, apply the cosine rule to find the distance <m>AB</m> (distance from Nanyuki to Kisumu):
-            </p>
-            <p>
-                <m>
-                    AB^2 = AN^2 + NB^2 - 2 \cdot AN \cdot NB \cdot \cos(\angle ANB)
-                </m>
-            </p> 
-            <p> 
-                <m>
-                    AB^2 = 160^2 + 190^2 - 2 \cdot 160 \cdot 190 \cdot \cos(155^\circ)
-                </m>
-            </p> 
-            <p> 
-                <m>
-                    AB^2 = 25600 + 36100 - 2 \cdot 160 \cdot 190 \cdot \cos(155^\circ)
-                </m>
-            </p>
-            <p> 
-              <m>
-                 AB^2 ≈ 25600 + 36100 - 60800 \cdot (-0.9063)
-              </m>
-            </p>
-            <p>
-                <m>
-                AB^2 ≈ 61700 + 55103.04 = 116803.04
-                </m>
-            </p>
-            <p>
-                <m>
-                    AB ≈ \sqrt{116803.04} ≈ 341.8 \text{ km}
-                </m>
-            </p>
-            <p>
-                 Now, use the sine rule to find the angle at Nanyuki (angle NAB):
-            </p>
-            <p>
-                <m>
-                    \frac{\sin(\angle NAB)}{NB} = \frac{\sin(155^\circ)}{AB}
-                </m>
-            </p>
-            <p>
-                <m>
-                    \sin(\angle NAB) = \frac{190 \cdot \sin(155^\circ)}{341.8}
-                </m>
-            </p>
-            <p>
-                <m>
-                    \sin(\angle NAB) ≈ \frac{190 \cdot 0.4226}{341.8} ≈ 0.235
-                </m>
-            </p>
-            <p>
-                <m>
-                    \angle NAB ≈ \sin^{-1}(0.235) ≈ 13.6^\circ
-                </m>
-            </p>
-            <p>
-              Finally, the bearing of Kisumu from Nanyuki is:
-            </p>
-            <p>
-                <m>
-                    075^\circ + 13.6^\circ = 088.6^\circ
-                </m>
-            </p>
-            <p>
-              <em>Answers:</em>
-            </p>
-           <p>
-            <ol>
-                <li>The bearing of Kisumu from Nanyuki is approximately <m>089^\circ</m>.</li>
-                <li>The distance from Nanyuki to Kisumu is approximately <m>342</m> km.</li>
-              </ol>
-           </p>
-          </solution>
+        </solution>
+
     </example>
-    <example>
+    <!-- <example>
         <statement>
             <p>
                 
             </p>
+            
         </statement>
         <solution>
             <p>
                 
             </p>
         </solution>
-    </example>
+    </example> -->
 
 </subsection>

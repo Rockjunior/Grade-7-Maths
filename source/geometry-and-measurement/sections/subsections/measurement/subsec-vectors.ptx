@@ -1,11 +1,10 @@
 <subsection xml:id="subsec-vectors">
-    <title>Vectors</title>
+    <title>Vector and Scalar Quantities</title>
     <p>
-        In mathematics, <alert>vectors</alert> are a fundamental concept that goes beyond numbers. 
-        Suppose I ask, "How far is your home from school?" One possible response is " <m>2</m> kilometers." 
+        Suppose I ask, "<em>How far is your home from school?</em>" One possible response is " <em><m>2</m> kilometers</em>." 
         However, I can't get to your home with just this information.
-        I would also need to know the direction, whether it is east, west, northeast, or south. 
-        This combination of both distance and direction is what a vector represents.
+        I would also need to know the direction, whether it is <alert>east</alert>, <alert>west</alert>, <alert>northeast</alert>, or <alert>south</alert>. 
+        This combination of both distance and direction is what a <term>vector</term> represents.
     </p>
     
     <!-- <p>
@@ -21,4 +20,74 @@
         they need to take inorder to travel from one location to another. 
         In this section, we will explore how to use vectors and apply different operations on them. 
     </p>
+    <activity>
+        <introduction>
+            <p>
+                <alert>Work in groups</alert>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Identify and list at least five examples of quantities that have both magnitude and direction.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Identify and list at least five examples of quantities that have only magnitude.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Discuss how these quantities are used in real life scenarios.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Discuss and share your findings with the rest of the class.
+                </p>
+            </statement>
+        </task>
+    </activity>
+
+    <p>
+        <m>\textbf{ Key Takeaway } </m>
+    </p>
+    
+    <p>
+        <alert>A vector</alert> is a quantity that has <alert>both</alert> 
+        magnitude and direction, whereas <alert>a scalar</alert> is a quantity
+        which has <alert>only</alert> magnitude.
+    </p>
+    <p>
+        Examples of <alert>vector</alert> quantities include force, 
+        velocity, and displacement, while <alert>scalar</alert> 
+        quantities include mass,temperature, and speed etc.
+    </p>
+    <table>
+        <title>Difference Between Vector and Scalar Quantities</title>
+        <tabular bottom="minor" top="minor" right="minor" left="minor">
+            <row header="yes">
+                <cell>Feature</cell>
+                <cell>Vector Quantity</cell>
+                <cell>Scalar Quantity</cell>
+            </row>
+            <row>
+                <cell>Definition</cell>
+                <cell>Has both magnitude and direction</cell>
+                <cell>Has only magnitude</cell>
+            </row>
+            <row>
+                <cell>Examples</cell>
+                <cell>Force,Acceleration,Displacement</cell>
+                <cell>Distance,Temperature,Mass</cell>
+            </row>
+        </tabular>
+    </table>
 </subsection>
