@@ -50,10 +50,13 @@
     </activity>
 
     <example>
+
         <figure>
             <caption></caption>
-            <interactive xml:id="geogebra-angle-90i" geogebra="a7qgvybf" width="100%" aspect="9:5" reset-icon="yes" />
-        </figure>
+            <interactive xml:id="geogebra-angle-90i" platform="geogebra" width="100%" aspect="1:1">
+            <slate xml:id="angle-90" surface="geogebra" material="a7qgvybf" aspect="1:1" />
+            </interactive>
+       </figure>
     </example>
 
     <p>
@@ -70,15 +73,19 @@
                 <term>What you need: A ruler, A compass and A pencil.</term>
             </p>
 
-                <figure>
-                    <caption></caption>
-                    <interactive xml:id="geogebra-angles-451" geogebra="vjqew3mp" width="100%" aspect="9:7" reset-icon="yes" />
-                </figure>
+            <figure>
+                <caption></caption>
+                <interactive xml:id="geogebra-angle-45i" platform="geogebra" width="100%" aspect="1:1">
+                <slate xml:id="angle-45" surface="geogebra" material="vjqew3mp" aspect="1:1" />
+                </interactive>
+           </figure>
 
                 <figure>
                     <caption></caption>
-                    <interactive xml:id="geogebra-angles-45-22" geogebra="meqbydqc" width="100%" aspect="9:5" reset-icon="yes" />
-                </figure>
+                    <interactive xml:id="geogebra-angle-45-22i" platform="geogebra" width="100%" aspect="1:1">
+                    <slate xml:id="angle-45i" surface="geogebra" material="meqbydqc" aspect="1:1" />
+                    </interactive>
+               </figure>
         </statement>
     </activity>
 </subsection>

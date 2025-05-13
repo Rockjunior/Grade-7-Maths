@@ -43,9 +43,11 @@
 
     <example>
         <figure>
-            <caption></caption>
-            <interactive xml:id="geogebra-angle-601" geogebra="z5mzq6vz" width="100%" aspect="9:5" reset-icon="yes" />
-       </figure>
+            <caption>A Rhombus.</caption>
+            <interactive xml:id="geogebra-angle-601" platform="geogebra" width="100%" aspect="1:1">
+            <slate xml:id="angle" surface="geogebra" material="z5mzq6vz" aspect="1:1" />
+            </interactive>
+        </figure>
      </example>
         <p>
             <m>\textbf{Constructing angle 30°} </m>

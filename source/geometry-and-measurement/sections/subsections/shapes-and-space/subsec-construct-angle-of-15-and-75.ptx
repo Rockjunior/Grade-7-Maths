@@ -97,10 +97,12 @@
         </statement>
     </activity>
 
-        <figure>
-            <caption></caption>
-            <interactive xml:id="geogebra-angles-15i" geogebra="wpvpj9tg" width="100%" aspect="9:5" reset-icon="yes" />
-        </figure>
+    <figure>
+        <caption></caption>
+        <interactive xml:id="geogebra-angles-15i" platform="geogebra" width="100%" aspect="1:1">
+        <slate xml:id="angles-15i" surface="geogebra" material="wpvpj9tg" aspect="1:1" />
+        </interactive>
+   </figure>
 
         <p>
             <m>\textbf{(i)  Constructing angle 75°}</m>

@@ -91,8 +91,10 @@
 
                         <figure>
                             <caption></caption>
-                            <interactive xml:id="geogebra-angle-bisectorv" geogebra="uawgksk9" width="100%" aspect="9:5" reset-icon="yes" />
-                        </figure>
+                            <interactive xml:id="geogebra-angle-bisectorv" platform="geogebra" width="100%" aspect="1:1">
+                            <slate xml:id="angle-bisectorv" surface="geogebra" material="uawgksk9" aspect="1:1" />
+                            </interactive>
+                       </figure>
                     </li>
                 </ul>
             </p>
@@ -104,16 +106,22 @@
             <p>
                 The figure below shows a Perpendicular Bisector of a Line Segment
             </p>
-                <figure>
-                    <caption></caption>
-                    <interactive xml:id="geogebra-perpendicular-bisector-i" geogebra="a49vptkn" width="100%" aspect="9:5" reset-icon="yes" />
-                </figure>
+
+            <figure>
+                <caption></caption>
+                <interactive xml:id="geogebra-perpendicular-bisector-i" platform="geogebra" width="100%" aspect="1:1">
+                <slate xml:id="bisector-i" surface="geogebra" material="a49vptkn" aspect="1:1" />
+                </interactive>
+           </figure>
 
                     <example>
+
                         <figure>
                             <caption></caption>
-                            <interactive xml:id="geogebra-angle-bisector-ii" geogebra="hdn9cw4v" width="100%" aspect="9:5" reset-icon="yes" />
-                        </figure>
+                            <interactive xml:id="geogebra-angle-bisector-ii" platform="geogebra" width="100%" aspect="1:1">
+                            <slate xml:id="bisector-ii" surface="geogebra" material="hdn9cw4v" aspect="1:1" />
+                            </interactive>
+                       </figure>
                     </example>
                      <example>
                             <statement>

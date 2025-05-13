@@ -47,11 +47,15 @@
     <exercises xml:id="exercises-construct-angles">
         <exercise>
             <statement>
-                <p>
                     <figure>
-                        <interactive xml:id="geogebra-constucting-angles-using-protractori" geogebra="hdhq7car" width="100%" aspect="9:5" reset-icon="yes" />
-                  </figure>
-                </p>
+                        <caption></caption>
+                        <interactive xml:id="geogebra-constucting-angles-using-protractori" platform="geogebra" width="100%" aspect="5:4">
+                        <slate xml:id="angles-using-protractori" surface="geogebra" material="hdhq7car" aspect="5:4"  />
+                        </interactive>
+                   </figure>
+                    <!-- <figure>
+                        <interactive xml:id="geogebra-constucting-angles-using-protractorii" geogebra="hdhq7car" width="100%" aspect="9:5" reset-icon="yes" />
+                  </figure> -->
             </statement>
         </exercise>
         

@@ -216,10 +216,13 @@
                     <p>
                         Discuss with your fellow learners on your observation in this activity.
                     </p>
+
                     <figure>
                         <caption></caption>
-                        <interactive xml:id="multiplying-of-a-fraction-by-a-fraction-activity" geogebra="aqxh9hch" width="100%" aspect="12:9" reset-icon="yes" />
-                    </figure>
+                        <interactive xml:id="multiplying-of-a-fraction-by-a-fraction-activity" platform="geogebra" width="100%" aspect="12:9">
+                        <slate xml:id="fraction-by-a-fraction-activity" surface="geogebra" material="aqxh9hch" aspect="12:9" />
+                        </interactive>
+                   </figure>
                 </statement>
             </task>
         </activity>
