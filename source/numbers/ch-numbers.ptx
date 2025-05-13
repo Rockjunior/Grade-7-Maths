@@ -4,4 +4,7 @@
   <title>Numbers</title>
   
   <xi:include href="./sections/sec-ratios-and-proportions.ptx" />
+  <xi:include href="./sections/sec-fractions-decimals-and-percentages.ptx" />
+  <xi:include href="./sections/sec-operations-with-fractions.ptx" />
+
 </chapter>
