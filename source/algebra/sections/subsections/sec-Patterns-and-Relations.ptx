@@ -5,19 +5,9 @@
 
   <introduction>
     <p>
-      Patterns and relations are a part of our everyday life. Whether it's a pattern of shapes, numbers, or events, algebra helps us describe and predict what comes next. In this section, we explore how to find and describe patterns using rules and tables.
+      Patterns and relationships are a part of our everyday life. Whether it's a pattern of shapes, numbers, or events, algebra helps us describe and predict what comes next. In this section, we explore how to find and describe patterns using rules and tables.
     </p>
   </introduction>
-
-    <xi:include href="subsections/patterns-and-relations/subsec-number-patterns.ptx" />
-
-    <xi:include href="subsections/patterns-and-relations/subsec-pattern-tables.ptx" />
-
-    <xi:include href="subsections/patterns-and-relations/subsec-pattern-rules.ptx" />
-
-    <xi:include href="subsections/patterns-and-relations/subsec-real-life-patterns.ptx" />
-
-    <xi:include href="subsections/patterns-and-relations/subsec-pattern-assessment.ptx" />
 
     <xi:include href="subsections/patterns-and-relations/subsec-establishing-relations.ptx" />
 
