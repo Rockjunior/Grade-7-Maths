@@ -1,0 +1,169 @@
+<subsection xml:id="subsec-bisecting-of-angles">
+    <title>Bisecting of Angles</title>
+
+    <activity>
+        <statement>
+            <p>
+               <m>\textbf{ How to construct an angle bisector?}</m>
+            </p>
+
+            <p>
+                <m>\textbf{What you need:}</m>A ruler and A compass. 
+            </p>
+
+            <p>
+                Given a known or unknown <m>\angle PQR</m>, the steps to construct its angle bisector are:
+            </p>
+
+                <image source="/a12.png" width="40%">
+                    <shortdescription></shortdescription>
+                </image>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                                Place the compass pointer at <m>Q</m> and make an arc that cuts the two arms of the angle at two different points.
+                        </p>
+
+                        <image source="/a13.png" width="40%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            From the point where the first arc cut the arm <m>QP</m>, make another arc towards the interior of the angle.
+                        </p>
+
+                        <image source="/a14.png" width="40%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Without changing the radius on the compass, repeat step <m>2</m> from the point where the first arc cut <m>QR</m>.
+                        </p>
+
+                        <image source="/a15.png" width="40%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Using a ruler, draw a line from <m>Q</m> to the point where the arcs intersect.
+                        </p>
+
+                        <image source="/a16.png" width="40%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </activity>
+
+            <p>
+                <m>\textbf{Key Takeaway}</m>
+            </p>
+
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            The line that was drawn through <m>Q</m> represents the angle bisector of the <m>\angle PQR</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            An angle bisector or the bisector of an angle is a line that divides an angle into two equal parts.
+                            For example, In the applet below, the blue line is said to be an angle bisector of angle <m>BAC</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            The gray slider adjusts the entire measure of angle <m>BAC</m> and the black slider dynamically illustrates what it means for a line to bisect an angle. 
+                        </p>
+
+                        <figure>
+                            <caption></caption>
+                            <interactive xml:id="geogebra-angle-bisectorv" geogebra="uawgksk9" width="100%" aspect="9:5" reset-icon="yes" />
+                        </figure>
+                    </li>
+                </ul>
+            </p>
+
+            <p>
+                 If an angle bisector bisects a line segment at <m>90^\circ</m>, it is known as the perpendicular bisector of that line.
+            </p>
+
+            <p>
+                The figure below shows a Perpendicular Bisector of a Line Segment
+            </p>
+                <figure>
+                    <caption></caption>
+                    <interactive xml:id="geogebra-perpendicular-bisector-i" geogebra="a49vptkn" width="100%" aspect="9:5" reset-icon="yes" />
+                </figure>
+
+                    <example>
+                        <figure>
+                            <caption></caption>
+                            <interactive xml:id="geogebra-angle-bisector-ii" geogebra="hdn9cw4v" width="100%" aspect="9:5" reset-icon="yes" />
+                        </figure>
+                    </example>
+                     <example>
+                            <statement>
+                                <p>
+                                    If an angle bisector divides an angle of <m>120</m> degrees, then what is the measure of each angle?
+                                </p>
+
+                            </statement>
+
+                                <solution>
+                                        <p>
+                                            Given, a measure of an angle is <m>120^\circ</m> 
+                                        </p>
+
+                                        <p>
+                                            As we know, the angle bisector divides the angle into equal two parts.
+                                        </p>
+
+                                        <p>
+                                            Therefore, <m>120^\circ</m>  is divided into equal two parts, say <m>x</m>.
+                                        </p>
+
+                                        <p>
+                                            Hence,
+                                        </p>
+
+                                        <p>
+                                            <me>
+                                                x^\circ + x^\circ = 120^\circ
+                                            </me>    
+                                        </p>
+
+                                        <p>
+                                            <me>
+                                                2x = 120^\circ
+                                            </me>  
+                                        </p>
+
+                                        <p>
+                                            <me>
+                                                x = \frac{120^\circ}{2}
+                                            </me>     
+                                        </p>
+
+                                        <p>
+                                            <me>
+                                            x=60^\circ 
+                                            </me>      
+                                        </p>
+                            </solution>
+                    </example>
+    
+</subsection>

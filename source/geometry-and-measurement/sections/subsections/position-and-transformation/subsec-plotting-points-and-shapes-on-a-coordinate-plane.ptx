@@ -1,0 +1,85 @@
+<subsection xml:id="subsec-plotting-points-and-shapes-on-a-coordinate-plane">
+    <title>Plotting Points and Shapes on a Cartesian Plane</title>
+    <p>
+        Coordinates represents a pair of numbers written as <m>(x, y)</m> that represents a point’s location on the Cartesian plane, 
+        where "x" tells you how far to move left or right, and "y" tells you how far to move up or down on the Cartesian plane.
+    </p>
+    <p>
+        If your point is (3,4), move 3 units right (positive x direction) and 4 units up (positive y direction).
+    </p>
+    <p>
+        If the point is (-2, -5), move 2 units left (negative x direction) and 5 units down (negative y direction).
+    </p>
+    <p>
+        Once you've moved to the correct location, mark it on the plane!
+    </p>
+    <activity>
+        <statement>
+        <p>
+            <term>Work in groups</term>
+        </p>
+        <p>
+            Consider the points: <m>A(2,3)</m>, <m>B(2,7)</m>, <m>C(6,7)</m>, <m>D(6,3)</m>
+            <ol marker="(a).">
+                <li>
+                    <p>
+                        Draw a Cartesian plane and plot the given points.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Identify the shape formed by connecting the points.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss as a group and compare your graphs with the rest in class.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+        <p>
+           The plotted points are as shown 
+        </p>
+        <image>
+            <latex-image label="coordinate_points">
+                \begin{tikzpicture}
+                % Draw grid
+                \draw[very thin,gray!50] (0,0) grid (8,8);
+                
+                % Draw x and y axes
+                \draw[thick,-&gt;] (-1,0) -- (8.5,0) node[anchor=north] {\textbf{x}};
+                \draw[thick,-&gt;] (0,-1) -- (0,8.5) node[anchor=east] {\textbf{y}};
+                
+                % Tick marks and labels
+                \foreach \x in {1,2,3,4,5,6,7,8} {
+                    \draw[thick] (\x,-0.1) -- (\x,0.1);
+                    \node[anchor=north] at (\x,-0.2) {\textbf{\x}};
+                }
+
+                \foreach \y in {1,2,3,4,5,6,7,8} {
+                    \draw[thick] (-0.1,\y) -- (0.1,\y);
+                    \node[anchor=east] at (-0.2,\y) {\textbf{\y}};
+                }
+
+                % Origin
+                \node[anchor=north east] at (-0.1,-0.1) {\textbf{0}};
+
+                % Plot points and labels
+                \fill[red] (2,3) circle (3pt) node[anchor=north east] {\textbf{A}};
+                \fill[blue] (2,7) circle (3pt) node[anchor=south east] {\textbf{B}};
+                \fill[green] (6,7) circle (3pt) node[anchor=south west] {\textbf{C}};
+                \fill[orange] (6,3) circle (3pt) node[anchor=north west] {\textbf{D}};
+
+                % Connect the points to form a rectangle
+                \draw[thick] (2,3) -- (2,7) -- (6,7) -- (6,3) -- cycle;
+                \end{tikzpicture}
+            </latex-image>
+        </image>
+    </solution>
+        
+    </activity>
+    
+</subsection>
