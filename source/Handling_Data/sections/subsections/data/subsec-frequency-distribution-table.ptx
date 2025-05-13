@@ -14,73 +14,83 @@
         <m>{\color{black} \textbf{Work in groups}}</m>
     </p>
     <p>
-        (a) Consider the following list showing the favourite fruits for learners.
-    </p>
-   
-    <table>
-    <title>Frequency distribution table</title>
-    <tabular left="medium" right="medium" top="medium" bottom="medium">
-        <row halign="center" header="yes">
-            <cell>Learner</cell>
-            <cell>Fruit</cell>
-        </row>
-        <row>
-            <cell>Kemunto</cell>
-            <cell>Banana</cell>
-        </row>
-        <row>
-            <cell>Otieno</cell>
-            <cell>Apple</cell>
-        </row>
-        <row>
-            <cell>Kamau</cell>
-            <cell>Apple</cell>
-        </row>
-        <row>
-            <cell>Esipisu</cell>
-            <cell>Banana</cell>
-        </row>
-        <row>
-            <cell>Omar</cell>
-            <cell>Guava</cell>
-        </row>
-        <row>
-            <cell>Sidika</cell>
-            <cell>Apple</cell>
-        </row>
-        <row>
-            <cell>Nanjala</cell>
-            <cell>Guava</cell> 
-        </row>
-        <row>
-            <cell>Njoki</cell>
-            <cell>Banana</cell>
-        </row>
-        <row>
-            <cell>Sagar</cell>
-            <cell>Guava</cell>
-        </row>
-        <row>
-            <cell>Baraza</cell>
-            <cell>Banana</cell>
-        </row>
-        <row>
-             <cell>Anyango</cell>
-            <cell>Banana</cell>
-        </row>
-        <row>
-            <cell>Issa</cell>
-            <cell>Banana</cell>
-        </row>
+        <ol marker="(a)">
+            <li>
+                <p>
+                    Consider the following list showing the favourite fruits for learners.
+                </p>
+                <table>
+                    <title>Frequency distribution table</title>
+                    <tabular left="medium" right="medium" top="medium" bottom="medium">
+                        <row halign="center" header="yes">
+                            <cell>Learner</cell>
+                            <cell>Fruit</cell>
+                        </row>
+                        <row>
+                            <cell>Kemunto</cell>
+                            <cell>Banana</cell>
+                        </row>
+                        <row>
+                            <cell>Otieno</cell>
+                            <cell>Apple</cell>
+                        </row>
+                        <row>
+                            <cell>Kamau</cell>
+                            <cell>Apple</cell>
+                        </row>
+                        <row>
+                            <cell>Esipisu</cell>
+                            <cell>Banana</cell>
+                        </row>
+                        <row>
+                            <cell>Omar</cell>
+                            <cell>Guava</cell>
+                        </row>
+                        <row>
+                            <cell>Sidika</cell>
+                            <cell>Apple</cell>
+                        </row>
+                        <row>
+                            <cell>Nanjala</cell>
+                            <cell>Guava</cell> 
+                        </row>
+                        <row>
+                            <cell>Njoki</cell>
+                            <cell>Banana</cell>
+                        </row>
+                        <row>
+                            <cell>Sagar</cell>
+                            <cell>Guava</cell>
+                        </row>
+                        <row>
+                            <cell>Baraza</cell>
+                            <cell>Banana</cell>
+                        </row>
+                        <row>
+                            <cell>Anyango</cell>
+                            <cell>Banana</cell>
+                        </row>
+                        <row>
+                            <cell>Issa</cell>
+                            <cell>Banana</cell>
+                        </row>
 
-    </tabular>
-   </table>
-        <p>
-            (b) Represent the information in a table that has Fruit, Tally and Frequency.
-        </p>
-        <p>
-            (c) Compare and discuss with other groups.
-        </p>
+                    </tabular>
+                </table>
+            </li>
+            <li>
+                <p>
+                     Represent the information in a table that has Fruit, Tally and Frequency.
+                </p>
+            </li>
+            <li>
+                <p>
+                     Compare and discuss with other groups.
+                </p>
+            </li>
+        </ol>
+    </p>
+
    </activity>
    <p>
     <m>{\color{black} \textbf{Key Takeaway}}</m>
@@ -111,9 +121,9 @@
         12 10 16 18 15 16 11 13 16 14 12 17 16 20 19
     </p>
    
-       <p>
-           Draw a frequency distribution table to represent this information.
-       </p>
+    <p>
+        Draw a frequency distribution table to represent this information.
+    </p>
     </statement>
     <solution>
        <table>

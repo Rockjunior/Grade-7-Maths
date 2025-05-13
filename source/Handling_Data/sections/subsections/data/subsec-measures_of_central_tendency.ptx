@@ -1,5 +1,67 @@
 <subsection xml:id="subsec-measures_of_central_tendency">
     <title>measures of central tendency</title>
+    <p>
+        Measures of central tendency are statistical tools used to summarize a set of data by identifying the central or typical value around which the data are distributed. 
+        They help us understand the average or middle point of the data.
+    </p>
+    <p>
+        There are three main meausures of central tendency
+    </p>
+    <p>
+        <ol>
+            <li>
+                <p>
+                    Mean (Arithmetic Average)
+                    <ul>
+                        <li>
+                            <p>
+                                The sum of all values divided by the number of values.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow> \text{Mean = } \frac{\sum_{}^{}x}{n} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Median
+                    <ul>
+                        <li>
+                            <p>
+                                The middle value when data is arranged in order.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If <m>n</m> is odd: median = middle value.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If <m>n</m> is even: median = average of two middle values.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Mode
+                    <ul>
+                        <li>
+                            <p>
+                                The value that appears most frequently.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+        </ol>
+    </p>
 
         
     <activity>

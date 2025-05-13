@@ -11,37 +11,52 @@
                 <m>{\color{black} \textbf{Work in groups}}</m>
             </p>
             <p>
-                (i) Consider the table below showing the number of loaves of bread sold in a school canteen in a week.
-            </p>
-            <table>
-                <title></title>
-                <tabular left="medium" right="medium" top="medium" bottom="medium">
-                    <row halign="left" header="yes">
-                        <cell>Day</cell>
-                        <cell>Monday</cell>
-                        <cell>Tuesday</cell>
-                        <cell>Wednesday</cell>
-                        <cell>Thursday</cell>
-                        <cell>Friday</cell>
-                    </row>
-                    <row>
-                        <cell>Number of leaves sold</cell>
-                        <cell>100</cell>
-                        <cell>250</cell>
-                        <cell>200</cell>
-                        <cell>150</cell>
-                        <cell>300</cell>
-                    </row>
-                </tabular>
-            </table>
-            <p>
-                (ii) Choose a suitable scale to represent the data on a graph.
-            </p>
-            <p>
-                (iii) Using bars, represent the data on a graph.
-            </p>
-            <p>
-                (iii) Compare and discuss with other groups.
+                <ol marker="(a)">
+                    <li>
+                        <p>
+                             Consider the table below showing the number of loaves of bread sold in a school canteen in a week.
+                        </p>
+                        <table>
+                            <title></title>
+                            <tabular left="medium" right="medium" top="medium" bottom="medium">
+                                <row halign="left" header="yes">
+                                    <cell>Day</cell>
+                                    <cell>Monday</cell>
+                                    <cell>Tuesday</cell>
+                                    <cell>Wednesday</cell>
+                                    <cell>Thursday</cell>
+                                    <cell>Friday</cell>
+                                </row>
+                                <row>
+                                    <cell>Number of leaves sold</cell>
+                                    <cell>100</cell>
+                                    <cell>250</cell>
+                                    <cell>200</cell>
+                                    <cell>150</cell>
+                                    <cell>300</cell>
+                                </row>
+                            </tabular>
+                        </table>
+
+
+                    </li>
+                    <li>
+                        <p>
+                            Choose a suitable scale to represent the data on a graph.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                             Using bars, represent the data on a graph.
+                        </p>
+                    </li>
+                    <li>
+
+                        <p>
+                            Compare and discuss with other groups.
+                        </p>
+                    </li>
+                </ol>
             </p>
         </activity>
         <example>
@@ -84,72 +99,83 @@
           </statement>
             <solution>
                 <p>
-                    (i) Choose a suitable scale for the length of bars, for example, let 1cm represent Ksh. 500.
+                    <ol marker="(a)">
+                        <li>
+                            <p>
+                                Choose a suitable scale for the length of bars, for example, let 1cm represent Ksh. 500.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                 Work out the Length of the bars as shown.
+                            </p>
+                            <table>
+                                <title>Frequency table</title>
+                                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                                    <row halign="left" header="yes">
+                                        <cell>Items</cell>
+                                        <cell>Expenditure (Ksh.)</cell>
+                                        <cell>No. of squares making the height</cell>
+                                    </row>
+                                    <row>
+                                        <cell>House rent</cell>
+                                        <cell>3000</cell>
+                                        <cell>6</cell>
+                                    </row>
+                                    <row>
+                                        <cell>Food</cell>
+                                        <cell>3500</cell>
+                                        <cell>7</cell>
+                                    </row>
+                                    <row>
+                                        <cell>Education</cell>
+                                        <cell>2000</cell>
+                                        <cell>4</cell>
+                                    </row>
+                                    <row>
+                                        <cell>Electricity</cell>
+                                        <cell>500</cell>
+                                        <cell>1</cell>
+                                    </row>
+                                    <row>
+                                        <cell>Transport</cell>
+                                        <cell>1500</cell>
+                                        <cell>3</cell>
+                                    </row>
+                                </tabular>
+                            </table>
+                        </li>
+                        <li>
+                            <p>
+                                Draw a bar graph for the data.
+                            </p>
+                            <image width="50%">
+                            <latex-image>
+                                \begin{tikzpicture}
+                                \begin{axis}[
+                                    symbolic x coords={House rent, Food, Education, Electricity, Transport},
+                                    ylabel=Expenditure (Ksh.),
+                                    xlabel=Monthly Expenses,
+                                    xlabel style={yshift=-45pt},
+                                    enlargelimits=0.15,
+                                    enlarge x limits=0.2,
+                                    legend style={at={(5.2,-0.25)},
+                                    anchor=south,legend columns=-1},
+                                    ybar,
+                                    xtick=data,
+                                    xticklabel style={rotate=90, anchor=east, yshift=-10pt},
+                                    ymax=4000,
+                                    bar width=30pt,
+                                    ]
+                                    \addplot coordinates {(House rent,3000) (Food,3500)(Education,2000)(Electricity,500)(Transport,1500)};
+                                    \end{axis}
+                                \end{tikzpicture}
+                            </latex-image>
+                            </image>
+                        </li>
+                    </ol>
                 </p>
-                <p>
-                    (ii) Work out the Length of the bars as shown.
-                </p>
-                <table>
-                    <title>Frequency table</title>
-                    <tabular left="medium" right="medium" top="medium" bottom="medium">
-                        <row halign="left" header="yes">
-                            <cell>Items</cell>
-                            <cell>Expenditure (Ksh.)</cell>
-                            <cell>No. of squares making the height</cell>
-                        </row>
-                        <row>
-                            <cell>House rent</cell>
-                            <cell>3000</cell>
-                            <cell>6</cell>
-                        </row>
-                        <row>
-                            <cell>Food</cell>
-                            <cell>3500</cell>
-                            <cell>7</cell>
-                        </row>
-                        <row>
-                            <cell>Education</cell>
-                            <cell>2000</cell>
-                            <cell>4</cell>
-                        </row>
-                        <row>
-                            <cell>Electricity</cell>
-                            <cell>500</cell>
-                            <cell>1</cell>
-                        </row>
-                        <row>
-                            <cell>Transport</cell>
-                            <cell>1500</cell>
-                            <cell>3</cell>
-                        </row>
-                    </tabular>
-                </table>
-                <p>
-                    (iii) Draw a bar graph for the data.
-                </p>
-                <image width="50%">
-                <latex-image>
-                    \begin{tikzpicture}
-                       \begin{axis}[
-                           symbolic x coords={House rent, Food, Education, Electricity, Transport},
-                           ylabel=Expenditure (Ksh.),
-                           xlabel=Monthly Expenses,
-                           xlabel style={yshift=-45pt},
-                           enlargelimits=0.15,
-                           enlarge x limits=0.2,
-                           legend style={at={(5.2,-0.25)},
-                           anchor=south,legend columns=-1},
-                           ybar,
-                           xtick=data,
-                           xticklabel style={rotate=90, anchor=east, yshift=-10pt},
-                           ymax=4000,
-                           bar width=30pt,
-                        ]
-                        \addplot coordinates {(House rent,3000) (Food,3500)(Education,2000)(Electricity,500)(Transport,1500)};
-                        \end{axis}
-                    \end{tikzpicture}
-                </latex-image>
-                </image>
+                
             </solution>
         </example>
         <example>
@@ -203,15 +229,23 @@
                 <p>
                     <ol>
                         <li>
-                            <p>
-                                (a) 15 learners
-                            </p>
-                            <p>
-                                (b) 10 learners
-                            </p>
-                            <p>
-                                (c) 20 learners
-                            </p>
+                            <ol marker="">
+                                <li>
+                                    <p>
+                                         15 learners
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        10 learners
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                         20 learners
+                                    </p>
+                                </li>
+                            </ol>
                         </li>
                         <li>
                             <p>
