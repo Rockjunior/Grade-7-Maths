@@ -9,36 +9,41 @@
       <term>Introduction to Algebra</term>
     </p>
 
-    <p> 
-      Have you ever tried to solve a puzzle where you have to find a missing piece? 
-      Algebra is like a mathematical puzzle where we use symbols, usually letters, to represent unknown numbers. 
-      It helps us express patterns, solve problems, and understand relationships between numbers.
+    <p>
+      Algebra helps us to represent and solve everyday problems using letters and symbols. It is useful when we need to describe patterns, calculate costs, or solve unknowns. In this chapter, you will learn to form and simplify algebraic expressions, substitute values, and solve simple equations.
     </p>
 
     <p>
-      <term>What is Algebra?</term>
+      Algebra uses letters like <m>x</m> or <m>y</m> to stand for numbers we do not yet know. These letters are called variables.
     </p>
     
     <p>
-      Algebra is a branch of mathematics that uses letters and symbols to represent numbers and operations. 
-      Instead of writing only numbers, we use variables like x, y, or z to stand for unknown values. 
+      
       For example, in the equation:
     </p>
 
     <p>
-      <me>x + 5 = 12</me>        
+      Ama buys <m>5</m> loaves of bread. Each loaf costs ₵<m>x</m>. What is the total cost?
+    </p>
+
+    <figure>
+      <caption>Illustration of Ama buying bread in the market.</caption>
+      <image source="bread.png" width="40%" />
+    </figure>
+
+    <p>
+      Total cost = <m>Number of loaves of bread</m> <m>\times</m> <m>Cost of each loaf</m>
+    </p>
+    <p>
+      Total cost = <m>5x</m>.  
     </p>
 
     <p>
-      The letter x is a variable, meaning it can change. In this case, we can find its value by solving the equation:
+      The letter x is a variable, meaning it can change.
     </p>
 
     <p>
-      <me>x = 12 − 5</me>
-    </p>
-
-    <p>
-      <me>x = 7</me>
+      If <m>x = 3</m>, then total cost = <m>5 × 3 = ₵15</m> 
     </p>
 
     <p>
@@ -51,7 +56,7 @@
       <ul>
         <li>
           <p>
-            <term>Shopping:</term> If a shirt costs $p$ dollars and you buy 3 shirts, the total cost is 3p dollars.
+            <term>Shopping:</term> If a shirt costs <m>p</m> cedi and you buy 3 shirts, the total cost is 3p cedi.
           </p>
         </li>
 
@@ -110,30 +115,29 @@
     </p>
       
       <video xml:id="yt-list-vars" youtube="H4g0GZsgq0I" width="60%" margins="5% 35%"/>
-  
-    <p> <em>Introduction </em></p>
-      <p>
-        Algebra is a branch of math where we use letters (like <m>a</m>, <m>b</m>, <m>x</m>, <m>y</m>... ) to stand for numbers that we don't know yet.
-      </p>
-      <p>
-        These letters are called variables.
-      </p>
-        <p>
-        <term>Why Learn Algebra?</term>
-      </p>
-      <p>
-        The goal in algebra is to find out what number the letter (variable) represents by solving a problem or equation.
-      </p>
+
+    <p>
+      <term>Why Learn Algebra?</term>
+    </p>
+    <p>
+      The goal in algebra is to find out what number the letter (variable) represents by solving a problem or equation.
+    </p>
 
       <figure>
-        <caption>Watch this.</caption>
+        <caption>Introduction to algebra by Khan Academy</caption>
         <video youtube="H4g0GZsgq0I"/>
       </figure>
   </introduction>
 
     <!-- include sections -->
-    <xi:include href="sections/subsections/sec-Algebraic-expressions.ptx" />
+    <xi:include href="sections/subsections/sec-Patterns-and-Relations.ptx" />
 
+  <!-- include sections -->
+    <xi:include href="sections/subsections/sec-algebraic-expressions-and-equations.ptx" />
+
+  <!-- include sections -->
+    <xi:include href="sections/subsections/sec-variables-and-equations.ptx" />
+ 
     <!-- include sections -->
     <xi:include href="sections/subsections/sec-Linear-equations.ptx" />
 

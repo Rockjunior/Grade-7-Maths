@@ -212,7 +212,7 @@
                <m>\textbf{How to find the prime factorization of the given number and express it in exponential form.}</m> 
             </p>
             <p>
-               <m>\textbf{\color{blue}{Step 1:}} \text{ Find the prime factors of the number.}</m>
+               <m>{\color{blue} Step\, 1: \text{ Find the prime factors of the number.}} </m>
             </p>
             <p>
                 Divide the number by the smallest prime number that divides it evenly.
@@ -248,16 +248,16 @@
                 The prime factors of <m>64</m> are <m>2, 2, 2, 2, 2, 2</m>.
             </p>
             <p>
-                <m>\textbf{\color{blue}{Step 2:}} \text{ Write the number as a product of all its prime factors.}</m>
+                <m>{\color{blue} Step\, 2: \text{ Write the number as a product of all its prime factors.}} </m>
             </p>
             <p>
                 Express the prime factors as a product
             </p>
             <p>
-                <m>\(64=2\times 2\times 2\times 2\times 2\times 2\)</m>
+                <m>64 = 2\times 2\times 2\times 2\times 2\times 2</m>
             </p>
             <p>
-                <m>\textbf{\color{blue}{Step 3:}} \text{ Express the product in exponential form.}</m>
+                <m>{\color{blue} Step \, 3: \text{ Express the product in exponential form.}} </m>
             </p>
             <p>
                 Count the number of times each prime factor appears.
@@ -269,10 +269,10 @@
                 The prime factor <m>2</m> appears <m>6</m> times. 
             </p>
             <p>
-               <m>64=2^{6}</m> 
+               <m>64 = 2^{6}</m> 
             </p>
             <p>
-                Hence, <m>64= 2^6</m>
+                Hence, <m>64 = 2^6</m>
             </p>
             <activity>
                 <statement>
@@ -500,10 +500,10 @@
                For any natural number <m>a</m>, if it is raised to the power of zero, the result is always <m>1</m>. 
             </p>
             <p>
-                This means that <m>a^0 = 1</m> for any <m>a \notequal</m>.
+                This means that <m>a^0 = 1</m> for any <m>a \neq 0</m>.
             </p>
             <p>
-                <m>\frac{a}{a} = 1</m>, but from indices,<m>\frac{a}{a} = a^0</m> , <m>x^0 = 1</m> for any natural number <m>a</m>.
+                <m>\frac{a}{a} = 1</m>, but from indices, <m>\frac{a}{a} = a^0</m> , <m>a^0 = 1</m> for any natural number <m>a</m>.
             </p>
             <p>
                 Example:

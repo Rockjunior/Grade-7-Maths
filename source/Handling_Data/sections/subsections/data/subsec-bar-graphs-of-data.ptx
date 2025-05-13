@@ -127,7 +127,7 @@
                 <p>
                     (iii) Draw a bar graph for the data.
                 </p>
-                <image>
+                <image width="50%">
                 <latex-image>
                     \begin{tikzpicture}
                        \begin{axis}[
@@ -157,7 +157,7 @@
             <p>
                 The bar graph shown represents favourite games for a number of learners.
             </p>
-            <image>
+            <image width="50%">
                 <latex-image>
                     \begin{tikzpicture}
                         \begin{axis}[
