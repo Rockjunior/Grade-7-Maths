@@ -55,15 +55,6 @@
             </ol>
         </p>
     </activity>
-    <p>
-        <m>{\color{black} \textbf{Key Takeaway}}</m>
-    </p>
-    <p>
-        If class widths are equal, then frequency can be plotted directly.
-    </p>
-    <p>
-        If class widths are unequal, use frequency density instead of frequency.
-    </p>
     <activity>
         <p>
             Work in groups
@@ -123,7 +114,7 @@
         </p>
     </activity>
     <p>
-        <m>\textbf{Key Takeaway}</m>
+        <m>{\color{black} \textbf{Key Takeaway}}</m>
     </p>
     <p>
         A histogram uses adjacent bars to show frequency distribution, while a frequency polygon connects the midpoints of the bars with a line to show patterns.
@@ -188,6 +179,13 @@
         <md>
             <mrow>\textbf{Midpoint} = \amp \frac{\textbf{Lower bound + Upper bound}}{2}</mrow>
         </md>
+    </p>
+
+        <p>
+        If class widths are equal, then frequency can be plotted directly.
+    </p>
+    <p>
+        If class widths are unequal, use frequency density instead of frequency.
     </p>
     
     <example>
@@ -495,203 +493,5 @@
             </image>
         </solution>
     </example>
-    <exercises xml:id="exercises-drawing-histograms-and-frequency-plogons-of-data">
-        <exercise>
-            <statement>
-                <p>
-                    The following data represents the heights (in cm) of <m>30</m> students in a class:
-                </p>
-                <p>
-                    <m>150, 155, 160, 162, 165, 158, 170, 172, 168, 153, 163, 167, 175, 178, 161,</m>
-                </p>
-                <p>
-                    <m>156, 169, 171, 159, 164, 173, 176, 157, 166, 174, 177, 154, 165, 179, 160</m>
-                </p>
-                <p>
-                    <ol marker="a)">
-                        <li>
-                            <p>
-                                Create a frequency table with class intervals of <m>5 \textbf{ cm}</m> and midpoints of the data.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Using the frequency table you created  Draw a histogram to represent the data.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Draw a frequency polygon on the same axes as your histogram.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Label your axes and give your graphs appropriate titles. 
-                            </p>
-                        </li>
-                    </ol>
-                </p>
-            </statement>
-        </exercise>
-        <exercise>
-            <statement>
-                <p>
-                    The following data represents the ages of <m>25</m> people in a community meeting:
-                </p>
-                <p>
-                    <m>20, 25, 30, 35, 40, 22, 28, 33, 38, 42, 27, 32, 37, 41,</m>
-                </p>
-                <p>
-                    <m>24, 29, 34, 39, 43, 26, 31, 36, 44, 23, 45</m>
-                </p>
-                <p>
-                    <ol>
-                        <li>
-                            <p>
-                                Create a frequency table with class intervals of <m>5</m> years 
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Draw a histogram to represent the data.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Draw a frequency polygon on the same axes.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Label the axes and provide titles for your graphs.
-                            </p>
-                        </li>
-                    </ol>
-                </p>
-            </statement>
-        </exercise>
-        <exercise>
-            <statement>
-                <p>
-                    A school collected data on the number of books read by students in a term. The following frequency table shows the results:
-                </p>
-                <table>
-                        <title></title>
-                        <tabular left="medium" right="medium" top="medium" bottom="medium">
-                            <row halign="left" header="yes">
-                                <cell>Number of Books Read</cell>
-                                <cell>Frequency</cell>
-                            </row>
-                            <row>
-                                <cell><m>0 - 2</m></cell>
-                                <cell><m>15</m></cell>
-                            </row>
-                            <row>
-                                <cell><m>3 - 5</m></cell>
-                                <cell><m>25</m></cell>
-                            </row>
-                            <row>
-                                <cell><m>6 - 8</m></cell>
-                                <cell><m>35</m></cell>
-                            </row>
-                            <row>
-                                <cell><m>9 - 11</m></cell>
-                                <cell><m>15</m></cell>
-                            </row>
-                            <row>
-                                <cell><m>12 - 14</m></cell>
-                                <cell><m>10</m></cell>
-                            </row>
-                        </tabular>
-                </table>
-                    <p>
-                        <ol>
-                            <li>
-                                <p>
-                                    Draw a histogram to represent the data from your frequency table. 
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    On the same axes, draw a frequency polygon.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Estimate the median number of books read. Explain your reasoning.
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-            </statement>
-        </exercise>
-        <exercise>
-            <statement>
-                <p>
-                    A survey was conducted to find out how much time people spend on social media daily. The following data was collected:
-                </p>
-                <table>
-                    <title></title>
-                    <tabular left="medium" right="medium" top="medium" bottom="medium">
-                        <row halign="left" header="yes">
-                                <cell>Time (Minutes)</cell>
-                                <cell>Frequency</cell>
-                                <cell>Class Width</cell>
-                                <cell>Frequency Density</cell>
-                            </row>
-                            <row>
-                                <cell><m>0 - 10</m></cell>
-                                <cell><m>15</m></cell>
-                                <cell><m>10</m></cell>
-                                <cell><m>1.5</m></cell>
-                            </row>
-                            <row>
-                                <cell><m>10 - 20</m></cell>
-                                <cell><m>25</m></cell>
-                                <cell><m>10</m></cell>
-                                <cell><m>2.5</m></cell>
-                            </row>
-                            <row>
-                                <cell><m>20 - 30</m></cell>
-                                <cell><m>30</m></cell>
-                                <cell><m>10</m></cell>
-                                <cell><m>3.0</m></cell>
-                            </row>
-                            <row>
-                                <cell><m>30 - 60</m></cell>
-                                <cell><m>40</m></cell>
-                                <cell><m>30</m></cell>
-                                <cell><m>1.33</m></cell>
-                            </row>
-                            <row>
-                                <cell><m>60 - 120</m></cell>
-                                <cell><m>20</m></cell>
-                                <cell><m>60</m></cell>
-                                <cell><m>0.33</m></cell>
-                            </row>
-                    </tabular>
-                </table>
-                <p>
-                    <ol marker="a)">
-                        <li>
-                            <p>
-                                Draw a histogram to represent the sales data. 
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Draw a frequency polygon to represent the sales data. 
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Label your axes and provide appropriate titles for your graphs. 
-                            </p>
-                        </li>
-                    </ol>
-                </p>
-            </statement>
-        </exercise>
-    </exercises>
 
    </subsection>

@@ -8,36 +8,48 @@
                 <m>{\color{black} \textbf{Work in groups}}</m>
             </p>
             <p>
-                (i) Consider the table below
+                <ol marker="(a)">
+                    <li>
+                        <p>
+                             Consider the table below
+                        </p>
+                        <table>
+                            <title></title>
+                            <tabular left="medium" right="medium" top="medium" bottom="medium">
+                            <row halign="left" header="yes">
+                                    <cell>Mode of Transport</cell>
+                                    <cell>Bus</cell>
+                                    <cell>Bicycle</cell>
+                                    <cell>On foot</cell>
+                                    <cell>Car</cell>
+                            </row>
+                            <row>
+                                    <cell>Number of students</cell>
+                                    <cell>200</cell>
+                                    <cell>100</cell>
+                                    <cell>80</cell>
+                                    <cell>20</cell>
+                                </row>
+                            </tabular>
+                        </table>
+                    </li>
+                    <li>
+                        <p>
+                             Draw a circle of suitable radius.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                             Divide the circle into sectors to represent the information.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Compare and discuss with other groups.
+                        </p>
+                    </li>
+                </ol>
             </p>
-            <table>
-                <title></title>
-                <tabular left="medium" right="medium" top="medium" bottom="medium">
-                  <row halign="left" header="yes">
-                        <cell>Mode of Transport</cell>
-                        <cell>Bus</cell>
-                        <cell>Bicycle</cell>
-                        <cell>On foot</cell>
-                        <cell>Car</cell>
-                   </row>
-                   <row>
-                        <cell>Number of students</cell>
-                        <cell>200</cell>
-                        <cell>100</cell>
-                        <cell>80</cell>
-                        <cell>20</cell>
-                    </row>
-                </tabular>
-            </table>
-            <p>
-               (ii) Draw a circle of suitable radius.
-           </p>
-           <p>
-               (iii) Divide the circle into sectors to represent the information.
-           </p>
-           <p>
-            (iv) Compare and discuss with other groups.
-           </p>
         </activity>
         <p>
             Learning point
@@ -119,7 +131,7 @@
                         </row>
                     </tabular>
                 </table>
-                <image>
+                <image width="50%">
                     <latex-image>
                         \begin{tikzpicture}
                            % Define the radius of the pie chart
@@ -175,7 +187,7 @@
             <p>
                 Draw a pie chart to represent the number of trees.
             </p>
-            <image>
+            <image width="50%">
                 <latex-image>
                     \begin{tikzpicture}
                        % Define the radius of the pie chart
