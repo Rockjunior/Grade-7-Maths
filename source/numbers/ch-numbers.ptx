@@ -13,6 +13,11 @@
   <xi:include href="./sections/sec-decimals.ptx" />
   <xi:include href="./sections/sec-squares-and-square-roots.ptx" />
   <xi:include href="./sections/sec-number-operations.ptx" />
+
+  <!-- STRAND 1: NUMBER: Sub-strand 3: Fractions, Decimals and Percentages -->
   <xi:include href="./sections/sec-fractions-decimals-and-percentages.ptx" />
+
+  <!-- STRAND 1: NUMBER: Sub-strand 4: Ratios and Proportion -->
+  <xi:include href="./sections/sec-ratios-and-proportions.ptx" />
 
 </chapter>

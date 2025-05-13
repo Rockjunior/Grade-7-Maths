@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-ratios-and-proportions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Ratios and Proportions.</title>
+
+    <xi:include href="subsections/ratios-and-proportions/subsec-ratio_and_rates.ptx" />
+    <xi:include href="subsections/ratios-and-proportions/subsec-proportional-reasoning.ptx" />
+    
+</section>
