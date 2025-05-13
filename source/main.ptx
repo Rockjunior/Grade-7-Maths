@@ -18,7 +18,6 @@
     <xi:include href="./geometry/ch-geometry-and-measurement.ptx" />
     <xi:include href="./handling-data/ch-handling-data.ptx" />
     
-
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
 
