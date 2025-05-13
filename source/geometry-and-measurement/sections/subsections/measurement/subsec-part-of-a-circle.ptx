@@ -2,6 +2,16 @@
     <title>Part of a circle</title>
     <subsubsection xml:id="subsubsec-Circumference-of-a-circles">
     <title>Circumference of a circle</title>
+    <definition xml:id="def-cir">
+        <statement>
+            <figure>
+                <caption>Circumference of a circle.</caption>
+                <interactive xml:id="circumferene-of-circle" platform="geogebra" width="110%" aspect="1:1">
+                    <slate xml:id="circle" surface="geogebra" material="rxp2bynj" aspect="1:1" />
+                </interactive>
+            </figure>
+        </statement>
+    </definition>
     
     <activity>
         <p>
@@ -184,7 +194,7 @@
             Work out the circumference.
         </p>
         <image width="50%">
-        <latex-image>
+        <latex-image label="lat">
             \begin{tikzpicture}
             % Draw a colorful circle with gradient
             \shade[ball color=white] (0,0) circle(7cm);
@@ -393,89 +403,94 @@
     </subsubsection>
     <subsubsection xml:id="subsubsec-length-of-an-arc">
     <title>Length of an arc</title>
-    <p>
-        An arc of a circle is a portion of the circumference (the curved edge) of the circle.
-    </p>
-    <p>
-        There are two main types of arcs:
-    </p>
-    <p>
-        <ol>
-        <li>
+    <definition xml:id="def-length-of">
+        <statement>
             <p>
-            Minor Arc – less than half the circle (less than <m>180^\circ</m>).
+                An arc of a circle is a portion of the circumference (the curved edge) of the circle.
             </p>
-        </li>
-        <li>
             <p>
-            Major Arc – more than half the circle (more than <m>180^\circ</m>).
+                There are two main types of arcs:
             </p>
-        </li>
-        </ol>
-    </p>
-    <p>
-        The length of an arc depends on the central angle (the angle subtended at the center 
-        of the circle) and the radius of the circle.
-    </p>
-    <p>
-        See the figure below showing the circle divided in diffrent sections.
-    </p>
-    <image width="50%">
-    <latex-image label="sec">
-        \begin{tikzpicture}[scale=5, every node/.style={font=\huge}]
-        % Circle
-        \draw[very thick,dashed] (0,0) circle (1.1);
-        \draw[very thick, blue] (0,0) circle (1);
-        
-        % Define points
-        \coordinate (O) at (0,0);
-        \coordinate (A) at (1,0);  % Point on x-axis
-        \coordinate (B) at ({cos(60)},{sin(60)}); % 60 degree point on circle
-        
-        % Radii
-        \draw[very thick, red,&lt;-&gt;,below] (O) -- (A);
-        \draw[very thick, red] (O) -- (B);
-        \node[black!60!black, below] at (0.5,0) {Radius};
-        
-        
-        % Arc
-        \draw[thick, red, -&gt;] (A) arc[start angle=0,end angle=60,radius=1cm];
-        \node[red] at (1.3,0.55) {Minor Arc};
-        \node[blue] at (0,1.04) {Major Arc};
-        
-        % Sector
-        \fill[red!20, opacity=0.5] (O) -- (A) arc[start angle=0,end angle=60,radius=1cm] -- cycle;
-        \node[red!80!black] at (0.5,0.15) {Sector};
-        
-        % Theta angle
-        \draw[-&gt;] (0.2,0) arc[start angle=0,end angle=60,radius=0.2];
-        \node at (0.25,0.1) {$\theta$};
-        
-        % Chord
-        \draw[thick, black!60!black] (-1,0.2) -- (0.2,-1);
-        \draw[very thick,&lt;-&lt;, green!60!black, dashed] (-1,0.3) -- (0.3,-1);
-        \node[green!60!black] at (-0.2,-0.3) {Chord};
-        
-        % Segment
-        \fill[red!30, opacity=0.4] (A) arc[start angle=0,end angle=60,radius=1cm] -- (B) -- cycle;
-        \node[red!60!black,rotate=135] at (-0.7,-0.4) {Segment};
-        
-        % Circumference arrow
-        \draw[-&gt;, blue, thick] (-0.87,-0.5) arc[start angle=210, end angle=240, radius=1.1];
-        \node[rotate=135] at (-1,-0.7) {Circumference};
-        \end{tikzpicture}
-    </latex-image>
-        
-    </image>
-    <p>
-        The length of an arrc of a circle is <m>\frac{\theta}{360}</m> of the 
-        circumference of the circle
-    </p>
-    <p>
-        In general. The length <m>l</m> of an arc of a circle which substends 
-        an angle <m>\theta</m> at the centre of the circle is given by 
-        <m>l=\frac{\theta}{360} \times 2 \pi </m>
-    </p>
+            <p>
+                <ol>
+                <li>
+                    <p>
+                    Minor Arc – less than half the circle (less than <m>180^\circ</m>).
+                    </p>
+                </li>
+                <li>
+                    <p>
+                    Major Arc – more than half the circle (more than <m>180^\circ</m>).
+                    </p>
+                </li>
+                </ol>
+            </p>
+            <p>
+                The length of an arc depends on the central angle (the angle subtended at the center 
+                of the circle) and the radius of the circle.
+            </p>
+            <p>
+                See the figure below showing the circle divided in diffrent sections.
+            </p>
+            <image width="50%">
+            <latex-image label="sec">
+                \begin{tikzpicture}[scale=5, every node/.style={font=\huge}]
+                    % Circle
+                    \draw[very thick,dashed] (0,0) circle (1.1);
+                    \draw[very thick, blue] (0,0) circle (1);
+                    
+                    % Define points
+                    \coordinate (O) at (0,0);
+                    \coordinate (A) at (1,0);  % Point on x-axis
+                    \coordinate (B) at ({cos(60)},{sin(60)}); % 60 degree point on circle
+                    
+                    % Radii
+                    \draw[very thick, red,&lt;-&gt;,below] (O) -- (A);
+                    \draw[very thick, red] (O) -- (B);
+                    \node[black!60!black, below] at (0.5,0) {Radius};
+                    
+                    
+                    % Arc
+                    \draw[thick, red, -&gt;] (A) arc[start angle=0,end angle=60,radius=1cm];
+                    \node[red] at (1.3,0.55) {Minor Arc};
+                    \node[blue] at (0,1.04) {Major Arc};
+                    
+                    % Sector
+                    \fill[red!20, opacity=0.5] (O) -- (A) arc[start angle=0,end angle=60,radius=1cm] -- cycle;
+                    \node[red!80!black] at (0.5,0.15) {Sector};
+                    
+                    % Theta angle
+                    \draw[-&gt;] (0.2,0) arc[start angle=0,end angle=60,radius=0.2];
+                    \node at (0.25,0.1) {$\theta$};
+                    
+                    % Chord
+                    \draw[thick, black!60!black] (-1,0.2) -- (0.2,-1);
+                    \draw[very thick,&lt;-&lt;, green!60!black, dashed] (-1,0.3) -- (0.3,-1);
+                    \node[green!60!black] at (-0.2,-0.3) {Chord};
+                    
+                    % Segment
+                    \fill[red!30, opacity=0.4] (A) arc[start angle=0,end angle=60,radius=1cm] -- (B) -- cycle;
+                    \node[red!60!black,rotate=135] at (-0.7,-0.4) {Segment};
+                    
+                    % Circumference arrow
+                    \draw[-&gt;, blue, thick] (-0.87,-0.5) arc[start angle=210, end angle=240, radius=1.1];
+                    \node[rotate=135] at (-1,-0.7) {Circumference};
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+            <p>
+                The length of an arrc of a circle is <m>\frac{\theta}{360}</m> of the 
+                circumference of the circle
+            </p>
+            <p>
+                In general. The length <m>l</m> of an arc of a circle which substends 
+                an angle <m>\theta</m> at the centre of the circle is given by 
+                <m>l=\frac{\theta}{360} \times 2 \pi </m>
+            </p>
+        </statement>
+    </definition>
+    
 
     
     <activity>
