@@ -206,15 +206,23 @@
                     <li>
                         <p>
                             Find the number of learners whose favourite game was:
-                        </p>
-                        <p>
-                            (a) Soccer
-                        </p>
-                        <p>
-                            (b) Netball
-                        </p>
-                        <p>
-                            (c) Volleyball
+                            <ol marker="(a)">
+                                <li>
+                                    <p>
+                                        Soccer
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                         Netball
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                         Volleyball
+                                    </p>
+                                </li>
+                            </ol>
                         </p>
                     </li>
                     <li>
@@ -229,7 +237,7 @@
                 <p>
                     <ol>
                         <li>
-                            <ol marker="">
+                            <ol marker="(a)">
                                 <li>
                                     <p>
                                          15 learners
