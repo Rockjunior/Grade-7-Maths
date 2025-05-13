@@ -1,16 +1,21 @@
 <subsection xml:id="subsec-area-of-a-triangle">
     <title>Area of a triangle</title>
-    <p>
-        Have you ever seen a triangular 
-        field or a slice of bread cut into a triangle?
-    </p>
-    <p>
-        Triangles are shapes with three sides and three corners. we are going to learn how to find the amount of space inside a 
-        triangle — this is called its area.
-    </p>
-    <p>
-        <m>\textbf{Deriving the Formula (with illustration)}</m>
-    </p>
+    <definition xml:id="def-Triangle">
+        <statement>
+            <p>
+                Have you ever seen a triangular 
+                field or a slice of bread cut into a triangle?
+            </p>
+            <p>
+                Triangles are shapes with three sides and three corners. we are going to learn how to find the amount of space inside a 
+                triangle — this is called its area.
+            </p>
+            <p>
+                <m>\textbf{Deriving the Formula (with illustration)}</m>
+            </p>
+        </statement>
+    </definition>
+    
     <activity>
         <p>
             <m>\textbf{Work in groups}</m>
@@ -109,28 +114,29 @@
                 </li>
             </ol>
         </p>
-        <p>
-            <m>\textbf{Key Takeaway}</m>
-        </p>
-        <p>
-            A triangle is half of a rectangle.
-        </p>
-        <p>
-            The area of a triangle is given by;
-        </p>
-        <p>
-            <m>\text{Area of triangle}=\frac{1}{2} \times \text{base} \times \text{height}</m>
-        </p>
-        <p>
-            <m>\textbf{Note;}</m>
-        </p>
-        <p>
-            Always make sure the height is at <m>90^\circ</m> to the base!
-        </p>
+        
 
 
         
     </activity>
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        A triangle is half of a rectangle.
+    </p>
+    <p>
+        The area of a triangle is given by;
+    </p>
+    <p>
+        <m>\text{Area of triangle}=\frac{1}{2} \times \text{base} \times \text{height}</m>
+    </p>
+    <p>
+        <m>\textbf{Note;}</m>
+    </p>
+    <p>
+        Always make sure the height is at <m>90^\circ</m> to the base!
+    </p>
     <example>
         <statement>
             <p>

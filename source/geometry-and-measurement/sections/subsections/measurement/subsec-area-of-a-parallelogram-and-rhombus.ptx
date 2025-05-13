@@ -3,42 +3,69 @@
     <p>
        <m>\textbf{Area of a parallelogram}</m> 
     </p>
-    <p>
-        <ul>
-          <li>
+    <definition xml:id="def-parra">
+        <statement>
+
             <p>
-              Rectangle is a type of parallelogram where all the angles are 90°
+                A parallelogram is a quadrilateral whose opposite sides are equal and parallel. Which other quadrilateral has similar characteristics like these?
             </p>
-          </li>
-          <li>
             <p>
-              All rectangles are parallelograms, but not all parallelograms are rectangles.
+               🔹 The area of a parallelogram is given by: <m>Base \times Height</m>:
             </p>
-          </li>
-        </ul>
-    </p>
-    <p>
-    <md>
-        <mrow>\text{Area of a parallelogram} = \amp \text{base} \times \text{height}</mrow>
-        <mrow>= \amp bh </mrow>
-    </md>
-    </p>
-    <p>
-    The figure below shows a parallelogram with base and height labeled. 
-    </p>
-    <image width="40%">
-    <latex-image label="Parr1">
-    \begin{tikzpicture}
-        \draw [very thick,fill=yellow](2,4) coordinate (D)-- (0,0) coordinate (A)-- (6,0) coordinate (B);
-        \draw [very thick,fill=yellow](6,0) coordinate (B)-- (8,4) coordinate (C)-- (2,4) coordinate (D);
-        \node at (3,2){height(h)};
-        \node at (3,-0.5){base(b)};
-        \draw [dashed] (2,4) --(2,0);
-        \draw(2,0) coordinate (A)-- (2,0.5) coordinate (B)-- (2.5,0.5) coordinate (C)--  (2.5,0) coordinate(D)-- (2,0) coordinate (A);
-    \end{tikzpicture}
-    </latex-image>
+            
+            
+
+
+
+            <p>
+                <ul>
+                  <li>
+                    <p>
+                      Rectangle is a type of parallelogram where all the angles are 90°
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      All rectangles are parallelograms, but not all parallelograms are rectangles.
+                    </p>
+                  </li>
+                </ul>
+            </p>
+            <p>
+            <md>
+                <mrow>\text{Area of a parallelogram} = \amp \text{base} \times \text{height}</mrow>
+                <mrow>= \amp bh </mrow>
+            </md>
+            </p>
+            <p>
+                🔹 The area of a parallelogram given the base is 28cm and the height 8cm is:
+            </p>
+            <p>
+                <md>
+                    <mrow> \text{A} = \amp b \times h </mrow>
+                    <mrow> = \amp 28\text{cm} \times 8\text{cm}</mrow>
+                    <mrow> = \amp 224 \, \text{cm}^2 </mrow>
+                </md>
+             </p>
+            <p>
+            The figure below shows a parallelogram with base and height labeled. 
+            </p>
+            <image width="40%">
+                <latex-image label="Parr1">
+                \begin{tikzpicture}
+                    \draw [very thick,fill=yellow](2,4) coordinate (D)-- (0,0) coordinate (A)-- (6,0) coordinate (B);
+                    \draw [very thick,fill=yellow](6,0) coordinate (B)-- (8,4) coordinate (C)-- (2,4) coordinate (D);
+                    \node at (3,2){height(h)};
+                    \node at (3,-0.5){base(b)};
+                    \draw [dashed] (2,4) --(2,0);
+                    \draw(2,0) coordinate (A)-- (2,0.5) coordinate (B)-- (2.5,0.5) coordinate (C)--  (2.5,0) coordinate(D)-- (2,0) coordinate (A);
+                \end{tikzpicture}
+            </latex-image>
+            
+            </image>
+        </statement>
+    </definition>
     
-    </image>
 
     <activity>
     <p>
@@ -50,7 +77,7 @@
     </p>
     <figure>
     <caption>Perimeter of different plane figures.</caption>
-    <interactive xml:id="geogebra-parallelogram" platform="geogebra" width="150%" aspect="1:1">
+    <interactive xml:id="geogebra-parallelogram" platform="geogebra" width="100%" aspect="1:1">
         <slate xml:id="parallelogram-figures" surface="geogebra" material="rmqbmkqa" aspect="1:1" />
     </interactive>
     </figure>
@@ -72,10 +99,32 @@
     <example>
     <statement>
         <p>
-        Muchemi's piece of land is in the shape below.
+            Adwoa's piece of land is in the shape below.
         </p>
-        <image source="/parallelogram.png" width="40%">
-        <shortdescription>Parallelogram</shortdescription>
+        <image width="50%">
+        <latex-image label="para1">
+            \begin{tikzpicture}[scale=2]
+                % Define the parallelogram vertices
+                \coordinate (A) at (-2,1);
+                \coordinate (B) at (2,1);
+                \coordinate (C) at (3,-1);
+                \coordinate (D) at (-1,-1);
+                    % Draw the parallelogram with thick pink outline
+                \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+                
+                % Draw perpendicular height from B to base C-D
+                \coordinate (H) at (2,-1); % Foot of the perpendicular from B to CD
+                \draw[dotted, very thick] (B) -- (H);
+                
+                % Mark the right angle with a visible square towards the right of H
+                \draw[very thick] (H) ++(0,0) -- ++(0,0.3) -- ++(0.3,0) -- ++(0,-0.3) -- cycle;
+                
+            
+                \node[blue] at (1.5,0.2) {40 m};
+                \node[blue,above] at (0.5,1.1) {120 m};
+            \end{tikzpicture}
+        </latex-image>
+            
         </image>
         <p>
         What is the area of the piece of land?
@@ -99,7 +148,7 @@
     <example>
     <statement>
         <p>
-        Mr Onyango's garden is in the shape of a parallelogram. 
+        Mr Kwesi's garden is in the shape of a parallelogram. 
         The length of the farm is <m>42\,m</m> and its height is <m>21\,m</m>. 
         Find the area of the garden.
         </p>
@@ -176,52 +225,141 @@
     <p>
         <m>\textbf{Area of a rhombus}</m>
     </p>
-    
-    
+    <definition xml:id="def-Rhombus">
+        <statement>
+            <p>
+                A rhombus is a type of quadrilateral that is a special kind of parallelogram. The key characteristics of a rhombus are:
+            </p>
+        
+            <p>
+                <ol>
+                <li>
+                    <p>
+                    Opposite sides are parallel.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                    All sides have equal length.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                    Opposite angles are equa and adjacent angles are supplementary (they add up to <m>180°</m>).
+                    </p>
+                </li>
+                <li>
+                    <p>
+                    The diagonals of a rhombus bisect each other at right angles (90°), meaning they intersect at 
+                    a right angle and divide each other into two equal parts.
+                    </p>
+                </li>
+                </ol>
+            </p>
+            <p>
+                Move the slide slowly as you whatch how the rhombus looks like.
+            </p>
+        
+            <figure>
+            <caption>A Rhombus.</caption>
+            <interactive xml:id="geogebra-rhombus" platform="geogebra" width="100%" aspect="1:1">
+            <slate xml:id="rhombus-figures" surface="geogebra" material="qaw6nhfy" aspect="1:1" />
+            </interactive>
+            </figure>
+        </statement>
+    </definition>
+
     <activity>
-        <p>
-            Move the slide slowly as you whatch how the rhombus looks like.
-        </p>
-    
-        <figure>
-        <caption>A Rhombus.</caption>
-        <interactive xml:id="geogebra-rhombus" platform="geogebra" width="100%" aspect="1:1">
-        <slate xml:id="rhombus-figures" surface="geogebra" material="qaw6nhfy" aspect="1:1" />
-        </interactive>
-        </figure>
+        <statement>
+            <p>
+                <m>\textbf{Work in groups}</m>
+            </p>
+            <p>
+                <m>\textbf{What you need:}</m>
+                
+            </p>
+            <p> Ruler, Protractor, Pencil, Graph paper, Scissors (optional) and String or thread (optional)
+                </p>
+                <sidebyside>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                               Draw a Rhombus Using a ruler, draw a quadrilateral with all sides equal in length. Make sure the opposite angles are equal. Label the vertices as A, B, C, D in order.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Measure the Sides using a ruler to confirm that all four sides are of equal length.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Measure the angles using a protractor to measure each of the interior angles. Observe: Opposite angles should be equal.
+                            </p>
+                        </li>
+                        <li>
+                             <p>
+                                Draw the Diagonals:
+                                </p>
+                                <p>
+                                    Draw diagonal AC and diagonal BD.
+                                </p>
+                                    <p>
+                                    Measure their lengths and angles at the intersection point.
+                                </p>
+                                <p>
+                                    Observe: Diagonals bisect each other at 90°, and they are not equal.
+                                                               
+                                
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Cut and Fold (Optional):
+                            </p>
+                            <p>
+                                Cut out the rhombus and fold it along both diagonals.
+                            </p>
+                            <p>
+                                Observe the symmetry and how the diagonals act as lines of symmetry.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+                <image source="/Rhombus.jpeg">
+                    <shortdescription>Rhombus</shortdescription>
+                </image>
+                </sidebyside>
+                <p>
+                    <m>\textbf{Discussion Questions}</m>
+                    <ol>
+                        <li>
+                            <p>
+                                What do you notice about the sides and angles of the rhombus?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                How do the diagonals interact with each other?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What makes a rhombus different from a square or a general parallelogram?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+        </statement>
     </activity>
+    
+    
+    
     <p>
         <m>\textbf{Key Takeaway}</m>
     </p>
-    <p>
-        A rhombus is a type of quadrilateral that is a special kind of parallelogram. The key characteristics of a rhombus are:
-    </p>
-
-    <p>
-        <ol>
-        <li>
-            <p>
-            Opposite sides are parallel.
-            </p>
-        </li>
-        <li>
-            <p>
-            All sides have equal length.
-            </p>
-        </li>
-        <li>
-            <p>
-            Opposite angles are equa and adjacent angles are supplementary (they add up to <m>180°</m>).
-            </p>
-        </li>
-        <li>
-            <p>
-            The diagonals of a rhombus bisect each other at right angles (90°), meaning they intersect at 
-            a right angle and divide each other into two equal parts.
-            </p>
-        </li>
-        </ol>
-    </p>
+   
     <p>
         The formula for the area <m>A</m> of a rhombus can be given in two common ways:
     </p>
@@ -255,11 +393,37 @@
         <statement>
         <p>
             Calculate the area of the figure given it's 
-            diagonals are <m>6cm</m> and <m>8cm</m>.
+            diagonals are <m>6\,cm</m> and <m>8\,cm</m>.
         </p>
-        <image source="/Rhombus.png" width="50%">
-            <shortdescription>Rhombus</shortdescription>
+        <image width="50%">
+        <latex-image label="Rhombus1">
+            \begin{tikzpicture}
+                % Define the rhombus vertices
+                \coordinate (A) at (0,3);
+                \coordinate (B) at (3,0);
+                \coordinate (C) at (0,-3);
+                \coordinate (D) at (-3,0);
+                % Draw the rhombus with thick pink outline
+                \draw[very thick] (A) -- (B) -- (C) -- (D) -- cycle;
+            
+                % Draw diagonals with dashed lines
+                \draw[very thick,dashed] (A) -- (C);
+                \draw[very thick,dashed] (B) -- (D);
+            
+                % Mark right angles at the intersection of diagonals
+                \coordinate (O) at (0,0);
+                \coordinate (T) at (0,0);
+                \draw[very thick] (O) ++(0.2,0) -- ++(0,0.2) -- ++(-0.2,0);
+            
+                \node[below right] at (O) {O};
+                \node[above] at (1.5,0.1) {6 cm};
+                \node[below right] at (0.2,-1.4) {8 cm};
+            \end{tikzpicture}
+        </latex-image>
+            
+            
         </image>
+        
         </statement>
         <solution>
         <p>
@@ -325,8 +489,8 @@
         <p>
             <md>
             <mrow> A= \amp \text{base} \times \text{height}</mrow>
-            <mrow> =\amp 5m \times 4m </mrow>
-            <mrow>= \amp 20m^2 </mrow>
+            <mrow> =\amp 5\,m \times 4\,m </mrow>
+            <mrow>= \amp 20\,m^2 </mrow>
             </md>
         </p>
         <p>
@@ -335,8 +499,8 @@
         <p>
             <md>
             <mrow> A= \amp \text{base} \times \text{height} </mrow>
-            <mrow> =\amp 9cm \times 7cm  </mrow>
-            <mrow> = \amp 63cm^2 </mrow>
+            <mrow> =\amp 9\,cm \times 7\,cm  </mrow>
+            <mrow> = \amp 63\,cm^2 </mrow>
             </md>
         </p>
         </solution>
@@ -389,10 +553,10 @@
                 i.
             </p>
             <p>
-                One diagonal = 10 cm
+                One diagonal <m>= 10 \,cm</m>
             </p>
             <p>  
-                Another diagonal = 24 cm
+                Another diagonal <m>= 24 \,cm</m>
             </p>
                 <p>
                 <md>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <subsection xml:id="number-patterns">
+        <title>Number Patterns</title>
+        <p>
+        A number pattern is a sequence of numbers that follow a particular rule. Understanding patterns helps us make predictions and solve problems.
+        </p>
+
+        <example>
+        <title>Increasing Pattern</title>
+        <statement>
+            <p></p>
+            <p>
+            Write the next two terms of this pattern and describe the rule: <m>5, 10, 20, 40, ...</m>
+            </p>
+            <p>Find the rule and the next two terms in the sequence: <m>3, 6, 9, 12, ...</m></p>
+        </statement>
+        <solution>
+            <p>Each number increases by 3. This is an arithmetic pattern.</p>
+            <p>Next terms: <m>15, 18</m></p>
+        </solution>
+        </example>
+
+        <exercise>
+        <statement>
+            <p>Describe a real-life pattern you have noticed and write an algebraic expression for it.</p>
+        </statement>
+        </exercise>
+
+        <exercise>
+            <p>Write the next two terms of this pattern and describe the rule: <m>5, 10, 20, 40, ...</m></p>
+            <p>Each term is multiplied by 2. The next terms are <m>80, 160</m>.</p>
+        </exercise>
+
+        <figure>
+            <caption>Number pattern represented with squares increasing in size.</caption>
+            <image source="images/number-sequence-pattern.svg" width="70%" />
+        </figure>
+    </subsection>
