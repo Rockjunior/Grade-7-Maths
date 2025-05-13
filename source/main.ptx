@@ -12,24 +12,6 @@
    <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
-    <xi:include href="numbers/ch-numbers.ptx" />
-
-    <!-- Include chapters-->
-    <xi:include href="algebra/ch-algebra.ptx" />
-
-    <!-- Include chapters -->
-    <xi:include href="geometry-and-measurement/ch-geometry-and-measurement.ptx" />
-
-    <!-- Include chapters -->
-    <xi:include href="measurements/ch-chapter-Measurements.ptx" />
-    
-    <!-- Include chapters -->
-    <xi:include href="geometry/ch-geometry.ptx" />
-
-       <!-- Include chapters -->
-    <xi:include href="Handling_Data/ch-chapter-FIVE.ptx" />
-
-
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
 
