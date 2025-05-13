@@ -1,7 +1,0 @@
-<section xml:id="sec-number-operations" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Number Operations</title>
-    <xi:include href="subsections/number-operations/mental-strategies.ptx" />
-    <xi:include href="subsections/number-operations/operations-on-whole-numbers.ptx" />
-    <xi:include href="subsections/number-operations/power-of-numbers.ptx" />
-    <xi:include href="subsections/number-operations/highest-factor-and-least-common-multiple.ptx" />
-</section>
