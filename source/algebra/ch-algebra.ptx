@@ -28,11 +28,11 @@
 
     <figure>
       <caption>Illustration of Ama buying bread in the market.</caption>
-      <image source="bread.png" width="40%" />
+      <image source="bread.png" width="50%" />
     </figure>
 
     <p>
-      Total cost = <m>Number of loaves of bread</m> <m>\times</m> <m>Cost of each loaf</m>
+      Total cost = Number of loaves of bread <m>\times</m> Cost of each loaf
     </p>
     <p>
       Total cost = <m>5x</m>.  
@@ -43,7 +43,7 @@
     </p>
 
     <p>
-      If <m>x = 3</m>, then total cost = <m>5 × 3 = ₵15</m> 
+      If <m>x = 3</m>, then total cost = <m>5 \times 3 = ₵15</m> 
     </p>
 
     <p>
@@ -114,19 +114,8 @@
         Watch the video below to understand more about <term>algebra</term>. 
     </p>
       
-      <video xml:id="yt-list-vars" youtube="H4g0GZsgq0I" width="60%" margins="5% 35%"/>
+      <video xml:id="yt-list-vars" youtube="H4g0GZsgq0I" width="60%" margins="10% 40%"/>
 
-    <p>
-      <term>Why Learn Algebra?</term>
-    </p>
-    <p>
-      The goal in algebra is to find out what number the letter (variable) represents by solving a problem or equation.
-    </p>
-
-      <figure>
-        <caption>Introduction to algebra by Khan Academy</caption>
-        <video youtube="H4g0GZsgq0I"/>
-      </figure>
   </introduction>
 
     <!-- include sections -->
