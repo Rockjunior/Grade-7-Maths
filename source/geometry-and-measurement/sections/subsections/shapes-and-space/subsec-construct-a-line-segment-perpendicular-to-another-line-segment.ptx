@@ -1,0 +1,149 @@
+<subsection xml:id="subsec-construct-a-line-segment-perpendicular-to-another-line-segment" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Construct a Line Segment Perpendicular to another Line Segment</title>
+    <p>
+         <m>\textbf{(a)  A perpendicular from a given point outside a line segment}</m>
+    </p>
+    <activity>
+        <statement>
+            <p>
+                <m>\textbf{Work in pairs  }</m>
+            </p>
+
+            <p>
+                <m>\textbf{What  you need:}</m> A ruler, A Compass and A pencil.
+            </p>
+            <p>
+                
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Draw a line segment <m>AB</m> as shown below.
+                        </p>
+                        <image source="/lineAB1.png" width="50%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Mark a point <m>P</m> outside the line as shown below.
+                        </p>
+                        <image source="/pointP.png" width="50%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            With the compass point on <m>P</m>, draw an arc that cuts the line <m>AB</m> and label them as <m>C</m> and <m>D</m> as shown below.
+                        </p>
+                        <image source="/arccd.png" width="80%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            (a).Place the compass on point <m>C</m> and draw an arc below and above the line.
+                        </p>
+
+                        <p>
+                            (b). Similarly, Place the compass on point <m>D</m> and draw an arc below and above the line. Mark the intersection points of the arcs as <m>X</m> and <m>Y</m> as shown below.
+                        </p>
+                        <image source="/intersect.png" width="70%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Use a ruler to draw a line from <m>X</m> to <m>Y</m>. What do you notice? 
+                        </p>
+                        <image source="/angle-bisector.png" width="80%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+                    
+                </ol>
+            </p>
+        </statement>
+    </activity>
+
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+
+    <p>
+        Line <m>XY</m> is the perpendicular bisector of segment <m>AB</m>.
+    </p>
+
+    <p>
+        <m>\textbf{(b)  A perpendicular at a point on a line segment}</m>
+    </p>
+
+    <activity>
+        <statement>
+            <p>
+                <m>\textbf{Work in pairs}</m>
+            </p>
+
+            <p>
+                <m>\textbf{What  you need:}</m> A ruler, A Compass and A pencil.
+            </p>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Draw a line segment <m>AB</m>. Mark a point <m>P</m> on the line segment <m>AB</m> as shown below.
+                        </p>
+                        <image source="/line-pointp.png" width="50%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Place the compass point on <m>P</m> and draw an arc that cuts the line <m>AB</m> at points <m>C</m> and <m>D</m> as shown below.
+                        </p>
+
+                        <image source="/arcs1.png" width="50%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Place the compass on point <m>C</m> and draw an arc above the line. Similarly, place the compass on point <m>D</m> and draw an arc above the line. Mark the intersection point of the arcs as <m>Q</m> as shown below.
+                        </p>
+                        <image source="/arcs-abave.png" width="70%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Use a ruler to draw a straight line from point <m>P</m> to point <m>Q</m>. What do you notice?  
+                        </p>
+
+                        <image source="/perpendicular-line.png" width="70%">
+                            <shortdescription></shortdescription>
+                        </image>
+                    </li>
+                </ol>
+            </p>
+
+         </statement>
+      </activity>
+
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+
+    <p>
+        Line <m>PQ</m> is the perpendicular bisector of segment <m>AB</m>.
+    </p>
+    
+</subsection>
