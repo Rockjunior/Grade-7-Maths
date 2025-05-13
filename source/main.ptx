@@ -12,7 +12,7 @@
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
-    <!-- Include Units -->
+    <!-- Included Units -->
     <xi:include href="./numbers/ch-numbers.ptx" />
     <xi:include href="./algebra/ch-algebra.ptx" />
     <xi:include href="./geometry/ch-geometry-and-measurement.ptx" />
